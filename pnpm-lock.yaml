@@ -25,6 +25,9 @@ dependencies:
     version: 18.2.0(react@18.2.0)
 
 devDependencies:
+  '@effective/css-reset':
+    specifier: ^1.0.2
+    version: 1.0.2
   '@remix-run/dev':
     specifier: ^2.8.0
     version: 2.8.0(@remix-run/serve@2.8.0)(typescript@5.3.3)(vite@5.1.4)
@@ -385,6 +388,10 @@ packages:
       '@babel/helper-string-parser': 7.23.4
       '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
+    dev: true
+
+  /@effective/css-reset@1.0.2:
+    resolution: {integrity: sha512-QmnVG1Yv7nkYryVTr9P/OhyFNqf9xbWzDRufti8LxBEaFJqF7LxiZS99mylB1Zc24DmLqH6qpGOAKrlfD0syNg==}
     dev: true
 
   /@emotion/hash@0.9.1:

@@ -7,6 +7,10 @@ import {
 } from "@remix-run/react";
 import { PropsWithChildren } from "react";
 
+import "@effective/css-reset/dist/assets/ResetNative.css";
+import "@effective/css-reset/dist/assets/SensibleEnhancements.css";
+import "@effective/css-reset/dist/assets/ResponsiveType.css";
+
 export function Layout({ children }: PropsWithChildren) {
   return (
     <html lang="de">
