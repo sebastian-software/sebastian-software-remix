@@ -19,6 +19,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@effective/color": "^1.0.0",
     "@effective/css-reset": "^2.0.3",
     "@remix-run/dev": "^2.8.0",
     "@types/react": "^18.2.64",
