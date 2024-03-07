@@ -10,6 +10,7 @@ import { Header } from "./components/header/Header";
 
 import "@effective/css-reset/dist/assets/ResetNative.css";
 import "@effective/css-reset/dist/assets/SensibleEnhancements.css";
+import { Footer } from "./components/footer/Footer";
 
 export function Layout({ children }: PropsWithChildren) {
   return (
@@ -23,6 +24,7 @@ export function Layout({ children }: PropsWithChildren) {
       <body>
         <Header />
         {children}
+        <Footer />
         <ScrollRestoration />
         <Scripts />
       </body>
