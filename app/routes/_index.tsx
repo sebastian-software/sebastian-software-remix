@@ -5,7 +5,11 @@ import { RichText } from "~/components/richtext/RichText";
 export const meta: MetaFunction = () => {
   return [
     { title: "Sebastian Software" },
-    { name: "description", content: "Welcome to Remix!" },
+    {
+      name: "description",
+      content:
+        "Ein Team von Spezialisten für React-Entwicklung mit Fokus auf nachhaltige, innovative Lösungen mit über 20 Jahre Erfahrung.",
+    },
   ];
 };
 
