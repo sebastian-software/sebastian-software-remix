@@ -18,30 +18,49 @@ export default function Index() {
     <RichText>
       <h1>Sebastian Software</h1>
 
+      <h2>Selbstverständnis</h2>
+
       <p>
-        Wir sind ein Team aus passionierten Experten, das sich auf die
-        Entwicklung langlebiger, hochwertiger React-Anwendungen spezialisiert
-        hat. Mit über 7 Jahren Fokussierung auf React bieten wir tiefgreifende
-        Lösungen, die den Kern Ihrer technischen Herausforderungen treffen.
-        Unser Ansatz kombiniert innovative Technologien mit einer klaren Vision
-        für Nutzererfahrung und Architektur, um Produkte zu schaffen, die nicht
-        nur heute, sondern auch in Zukunft begeistern.
+        Wir sind leidenschaftliche Experten, die sich auf die Entwicklung
+        hochwertiger React-Anwendungen spezialisiert haben. Mit mehr als 7
+        Jahren Erfahrung in React bieten wir maßgeschneiderte Lösungen, die Ihre
+        technischen Herausforderungen genau treffen. Unser Ansatz vereint
+        innovative Technologien mit klarer Nutzerorientierung und Architektur,
+        um Produkte zu schaffen, die heute und in Zukunft begeistern.
       </p>
 
       <p>
         <Link to="/ueber">Mehr erfahren</Link>
       </p>
 
+      <h2>Consulting</h2>
+
       <p>
-        Gemeinsam gestalten wir individuelle Lösungen, die auf Ihre spezifischen
-        Anforderungen zugeschnitten sind, unterstützt durch unsere umfangreiche
-        Erfahrung und technische Expertise. Wir bieten Ihnen eine Partnerschaft,
-        die von Entwicklung über Beratung bis hin zu Schulungen reicht, immer
-        mit dem Ziel, Ihr Team zu stärken und Ihre Vision effektiv umzusetzen.
+        Gemeinsam entwickeln wir maßgeschneiderte Lösungen, die genau auf Ihre
+        Anforderungen zugeschnitten sind. Unterstützt von unserer umfangreichen
+        Erfahrung und technischen Expertise bieten wir Ihnen eine Partnerschaft,
+        die von der Entwicklung über Beratung bis hin zu Schulungen reicht.
+        Unser Ziel ist es, Ihr Team zu stärken und Ihre Vision effektiv
+        umzusetzen.
       </p>
 
       <p>
         <Link to="/consulting">Mehr erfahren</Link>
+      </p>
+
+      <h2>Team</h2>
+
+      <p>
+        Unser Team vereint fundiertes Informatikwissen mit jahrzehntelanger
+        Erfahrung in der professionellen Softwareentwicklung. Als Experten für
+        moderne Frontend-Technologien haben wir ein Auge für Details und
+        verpassen keine relevanten Trends. Mit Elan und Ehrgeiz treiben wir
+        Projekte voran und setzen Maßstäbe für herausragende Entwickler- und
+        Benutzererfahrung.
+      </p>
+
+      <p>
+        <Link to="/team">Mehr erfahren</Link>
       </p>
     </RichText>
   );
