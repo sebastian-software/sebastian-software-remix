@@ -13,6 +13,9 @@ export function Header() {
             <a href="/blog">Blog</a>
           </li>
           <li>
+            <a href="/ueber">Über</a>
+          </li>
+          <li>
             <a href="/consulting">Consulting</a>
           </li>
         </ul>

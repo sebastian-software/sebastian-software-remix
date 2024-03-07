@@ -3,13 +3,20 @@ import { globalStyle, style } from "@vanilla-extract/css";
 export const root = style({});
 
 globalStyle(`${root} h1`, {
-  fontWeight: "bold",
+  fontWeight: "normal",
   fontSize: "2.5rem",
 });
 
 globalStyle(`${root} h2`, {
   fontWeight: "bold",
   fontSize: "1.5rem",
+  lineHeight: "1.2",
+  textWrap: "balance",
+  marginTop: "2rem",
+});
+
+globalStyle(`${root} h1+h2`, {
+  marginTop: "0",
 });
 
 globalStyle(`${root} p`, {

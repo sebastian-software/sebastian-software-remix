@@ -1,7 +1,14 @@
 import { style } from "@vanilla-extract/css";
+import { buildShades, buildSpectrum } from "@effective/color";
+
+const vivaMagenta = buildSpectrum("BB2649");
+const darkViolet = buildShades("#000", "#534f60");
+const brightViolet = buildShades("#fff", "#534f60");
+
+console.log(darkViolet);
 
 export const root = style({
-  background: "#888",
+  background: `linear-gradient(to bottom, ${vivaMagenta["0"]}, ${vivaMagenta["-2"]} )`,
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
