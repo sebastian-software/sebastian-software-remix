@@ -5,12 +5,10 @@ import { Spacer } from "../spacer/Spacer";
 export function Footer() {
   return (
     <footer className={root}>
-      <p className={content}>
-        <span>&copy; 2024 Sebastian Software GmbH</span>|
-        <Link to="/imprint">Impressum</Link>
-        <Spacer />
-        <span>Gemacht mit ♥ in Mainz und Heidelberg</span>
-      </p>
+      <span>&copy; 2024 Sebastian Software GmbH</span>|
+      <Link to="/imprint">Impressum</Link>
+      <Spacer />
+      <span>Gemacht mit ♥ in Mainz und Heidelberg</span>
     </footer>
   );
 }

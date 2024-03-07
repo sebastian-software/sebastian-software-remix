@@ -1,11 +1,11 @@
-import { root } from "./Header.css";
+import { navigation, navigationList, root } from "./Header.css";
 
 export function Header() {
   return (
     <header className={root}>
       <h1>Sebastian Software GmbH</h1>
-      <nav>
-        <ul>
+      <nav className={navigation}>
+        <ul className={navigationList}>
           <li>
             <a href="/">Home</a>
           </li>

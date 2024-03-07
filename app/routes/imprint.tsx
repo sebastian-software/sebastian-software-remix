@@ -8,8 +8,11 @@ export default function Index() {
       <h2>Anschrift</h2>
       <p>
         Sebastian Software GmbH
-        <br /> Dalheimer Straße 12
-        <br /> 55128 Mainz Deutschland
+        <br />
+        Dalheimer Straße 12
+        <br />
+        55128 Mainz <br />
+        Deutschland
       </p>
       <h2>Vertreten durch</h2>
       <p>
@@ -25,7 +28,8 @@ export default function Index() {
       <h2>Registereintrag</h2>
       <p>
         Eintragung im Handelsregister
-        <br /> Registergericht: Amtsgericht Mainz
+        <br />
+        Registergericht: Amtsgericht Mainz
         <br />
         Registernummer: HRB 45232
       </p>
