@@ -10,7 +10,6 @@ import { Header } from "./components/header/Header";
 
 import "@effective/css-reset/dist/assets/ResetNative.css";
 import "@effective/css-reset/dist/assets/SensibleEnhancements.css";
-import "@effective/css-reset/dist/assets/ResponsiveType.css";
 
 export function Layout({ children }: PropsWithChildren) {
   return (
