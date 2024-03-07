@@ -15,3 +15,8 @@ globalStyle(`${root} h2`, {
 globalStyle(`${root} p`, {
   marginBlock: "1rem",
 });
+
+globalStyle(`${root} ol`, {
+  marginBlock: "1rem",
+  marginLeft: "2rem",
+});

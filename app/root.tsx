@@ -7,10 +7,10 @@ import {
 } from "@remix-run/react";
 import { PropsWithChildren } from "react";
 import { Header } from "./components/header/Header";
+import { Footer } from "./components/footer/Footer";
 
 import "@effective/css-reset/dist/assets/ResetNative.css";
 import "@effective/css-reset/dist/assets/SensibleEnhancements.css";
-import { Footer } from "./components/footer/Footer";
 
 export function Layout({ children }: PropsWithChildren) {
   return (
@@ -23,7 +23,7 @@ export function Layout({ children }: PropsWithChildren) {
       </head>
       <body>
         <Header />
-        {children}
+        <main>{children}</main>
         <Footer />
         <ScrollRestoration />
         <Scripts />
