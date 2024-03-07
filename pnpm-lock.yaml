@@ -37,6 +37,9 @@ devDependencies:
   '@types/react-dom':
     specifier: ^18.2.7
     version: 18.2.19
+  '@vanilla-extract/css':
+    specifier: ^1.14.1
+    version: 1.14.1
   '@vanilla-extract/vite-plugin':
     specifier: ^4.0.4
     version: 4.0.4(vite@5.1.4)

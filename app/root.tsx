@@ -6,6 +6,7 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import { PropsWithChildren } from "react";
+import { Header } from "./components/header/Header";
 
 import "@effective/css-reset/dist/assets/ResetNative.css";
 import "@effective/css-reset/dist/assets/SensibleEnhancements.css";
@@ -21,6 +22,7 @@ export function Layout({ children }: PropsWithChildren) {
         <Links />
       </head>
       <body>
+        <Header />
         {children}
         <ScrollRestoration />
         <Scripts />
