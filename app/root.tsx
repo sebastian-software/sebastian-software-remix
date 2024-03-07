@@ -7,6 +7,8 @@ import {
 } from "@remix-run/react";
 import { PropsWithChildren } from "react";
 import { Header } from "./components/header/Header";
+import { Body } from "./components/body/Body";
+import { Main } from "./components/main/Main";
 import { Footer } from "./components/footer/Footer";
 
 import "@effective/css-reset/dist/assets/ResetNative.css";
@@ -21,13 +23,13 @@ export function Layout({ children }: PropsWithChildren) {
         <Meta />
         <Links />
       </head>
-      <body>
+      <Body>
         <Header />
-        <main>{children}</main>
+        <Main>{children}</Main>
         <Footer />
         <ScrollRestoration />
         <Scripts />
-      </body>
+      </Body>
     </html>
   );
 }
