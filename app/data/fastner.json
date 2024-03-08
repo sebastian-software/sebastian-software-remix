@@ -1,15 +1,17 @@
 {
   "projects": [
     {
-      "id": "witt-2020",
-      "title": "Development of New E-Shops for Witt Group",
+      "title": "Neuentwicklung E-Shops der Witt-Gruppe",
       "role": "Senior Frontend Developer",
       "customer": {
         "name": "Witt Gruppe",
         "location": "Weiden"
       },
       "contractor": "Computer Futures / SThree GmbH",
-
+      "period": {
+        "start": "2019-04",
+        "end": "2020-09"
+      },
       "links": [
         "https://www.witt-weiden.de",
         "https://www.ambria.de",
@@ -21,64 +23,344 @@
         "https://www.waeschepur.de"
       ],
       "description": [
-        "Replacement of 17 online shops of the Witt Group. New development focused on scalability, multi-brand support in an international environment, and maintenance friendliness.",
-        "The team organized itself using Scrum and Kanban. All developments were rolled out directly into the live system through continuous deployment. Rapid replacement of old systems to avoid duplicate developments."
+        "Ablösung von 17 Online-Shops der Witt-Gruppe. Neuentwicklung mit Fokus auf Skalierbarkeit, Multi-Brand-Unterstützung im internationalen Umfeld und Wartungsfreundlichkeit.",
+        "Das Team hat sich mit Scrum und mit Kanban organisiert. Alle Entwicklungen sind mit Continuous Deployment direkt in das Live-System ausgerollt worden. Schnelle Ablösung der Altsysteme zur Vermeidung von Doppelentwicklungen."
       ],
       "technologies": [
         "Next.js",
         "React",
         "Styled Components",
         "Contentful",
-        "Backbone from ABOUT YOU",
+        "Backbone von ABOUT YOU",
         "Apollo GraphQL",
         "Kubernetes",
-        "Vault on AWS"
+        "Vault auf AWS"
       ]
     },
     {
-      "id": "wise-2019",
       "title": "WISE",
-      "role": "Senior Frontend Architect",
+      "role": "Senior Frontend Architekt",
       "customer": {
         "name": "DWS",
         "location": "Frankfurt am Main"
       },
       "contractor": "Questax GmbH",
-
+      "period": {
+        "start": "2016-04",
+        "end": "2019-03"
+      },
       "links": ["https://www.deutscheinvest.lu/"],
       "description": [
-        "Implementation of a purely digital white-label investment platform, covering both the investment itself and the customer registration as well as the automatic balancing of the portfolio.",
-        "Integration of WISE into over 10 European and Asian investment platforms.",
-        "During the platform development, support in the development of a Deutsche Bank framework for frontend development based on React."
+        "Umsetzung einer rein digitalen White-Label-Investmentplattform. Dies umfasst sowohl das Investment selber als auch die Registrierung des Kunden und das automatische Balancing des Portfolios.",
+        "Integration von WISE in über 10 europäische und asiatische Investmentplattformen.",
+        "Im Zuge der Entwicklung der Plattform Unterstützung bei der Entwicklung eines Deutsche Bank-Frameworks zur Frontendentwicklung auf Basis von React."
       ],
       "technologies": [
-        "React for mobile responsive frontend",
-        "Migration of the prototype based on VueJS",
-        "Integration of a digital passport verification",
-        "Integration of a digital document signature",
-        "Architecture and deployment pipeline construction"
+        "HTML5 mit React",
+        "Migration des Prototypen basierend auf VueJS",
+        "Digitale Passüberprüfung",
+        "Digitale Dokumentensignatur",
+        "Aufbau der Architektur und der Deployment-Pipeline"
       ]
     },
     {
-      "id": "telekom-2016",
-      "title": "OneNumber App for Business Customers",
+      "title": "OneNumber-App für Geschäftskunden",
       "role": "Senior Application Architect",
       "customer": {
         "name": "Deutsche Telekom AG",
         "location": "Darmstadt"
       },
       "contractor": "Proventa, Frankfurt",
-
+      "period": {
+        "start": "2015-03",
+        "end": "2015-07"
+      },
+      "additionalPeriod": {
+        "start": "2016-03",
+        "end": "2016-08"
+      },
       "links": ["http://one-number-app.telekom.de"],
       "description": [
-        "Implementation of a mobile application for configuring the 'OneNumber' feature for business customers of Deutsche Telekom. The application was implemented for iOS, Android, BlackBerry, Amazon FirePhone, and Windows Phone."
+        "Umsetzung einer mobilen Applikation zur Einstellung des Merkmals 'OneNumber' für Geschäftskunden der Deutschen Telekom. Die Applikation wurde für iOS, Android, BlackBerry, Amazon FirePhone sowie Windows Phone umgesetzt."
       ],
       "technologies": [
-        "HTML5 mobile frontend with AngularJS",
-        "Reading the address book of the respective platform",
-        "Integration with the MultiManager of Deutsche Telekom on Android",
-        "Communication via REST with the existing backend",
-        "Authentication over OAUTH2 with the login system of Deutsche Telekom"
+        "HTML5 mit AngularJS",
+        "Auslesen des Addressbuch der jeweiligen Plattform",
+        "Integration mit dem MultiManager der Deutschen Telekom auf Android",
+        "Kommunikation via REST mit dem vorhandenen Backend",
+        "Authentifizierung über OAUTH2 mit dem Login-System der Deutschen Telekom"
+      ]
+    },
+    {
+      "title": "JAKO-O Geschenketisch",
+      "role": "Senior Application Architect",
+      "customer": {
+        "name": "JAKO-O",
+        "location": "Bad Rodach"
+      },
+      "contractor": "Epresia, Frankfurt und München",
+      "period": {
+        "start": "2015-07",
+        "end": "2016-03"
+      },
+      "links": ["https://www.jako-o.de/geschenketisch"],
+      "description": [
+        "Technische Konzeption und Umsetzung eines Geschenketisches (Wunschzettel) für den Online-Shop von JAKO-O."
+      ],
+      "technologies": [
+        "JavaScript für Desktop + Smartphone mit VueJS",
+        "Node.js + Express",
+        "Massenimporter für Produktdaten",
+        "Tiefe Integration in den Shop von JAKO-O"
+      ]
+    },
+    {
+      "title": "JAKO-O Geschenkeberater für Smartphones",
+      "role": "Senior Application Architect",
+      "customer": {
+        "name": "JAKO-O",
+        "location": "Bad Rodach"
+      },
+      "contractor": "Epresia, Frankfurt und München",
+      "period": {
+        "start": "2015-05",
+        "end": "2015-07"
+      },
+      "links": ["https://www.jako-o.de/geschenkeberater"],
+      "description": [
+        "Konzeption und Umsetzung eines Geschenkeberaters für mobile Plattformen auf Grundlage vorhandener Produktscores des JAKO-O Online-Shops."
+      ],
+      "technologies": [
+        "Mobiles Frontend",
+        "Optimierung der Interaktionselemente für Smartphones",
+        "Verbesserung des Deployment-Prozesses",
+        "Erweiterung der Auswertung der KPI für neue Geräteklasse"
+      ]
+    },
+    {
+      "title": "SUZUKI E-Learning-Plattform",
+      "role": "Senior User Interface Architect",
+      "customer": {
+        "name": "SUZUKI",
+        "location": "Bensheim"
+      },
+      "contractor": "DI Unternehmer, Wiesbaden",
+      "period": {
+        "start": "2014-07",
+        "end": "2014-09"
+      },
+      "description": [
+        "Konzeption und Entwicklung einer E-Learning-Plattform zur Vorbereitung auf Zertifizierungen für das deutsche Händlernetz von Suzuki."
+      ],
+      "technologies": [
+        "Web-Frontend und Backend",
+        "Nutzung auf Desktop und Tablets",
+        "Endbenutzerfrontend und Redaktions- und Administrations-Oberfläche"
+      ]
+    },
+    {
+      "title": "UI für virtuelles Rechenzentrum",
+      "role": "Frontend-Entwickler",
+      "customer": {
+        "name": "Großbank",
+        "location": "Frankfurt am Main"
+      },
+      "contractor": "Arago, Frankfurt am Main",
+      "period": {
+        "start": "2014-02",
+        "end": "2014-06"
+      },
+      "description": [
+        "Konzeption und Entwicklung einer Benutzeroberfläche zum einfachen Erstellen und Bearbeiten eines virtuellen Rechenzentrums inklusive Ermittlung des besten Angebots verschiedener Anbieter virtueller Rechenzentrumskomponenten."
+      ],
+      "technologies": [
+        "HTML5-Benutzeroberfläche in Ember.js für Desktop und Tablets",
+        "Komplexer Drag-and-Drop-Editor zum Bearbeiten der einzelnen Komponenten"
+      ]
+    },
+    {
+      "title": "PagePlace und tolino (E-Publishing)",
+      "role": "JavaScript-Entwickler",
+      "customer": {
+        "name": "Deutsche Telekom AG",
+        "location": "Darmstadt"
+      },
+      "contractor": "Axxessio, Bonn",
+      "period": {
+        "start": "2010-06",
+        "end": "2013-09"
+      },
+      "description": [
+        "Softwareberater für die HTML5-Architektur der PagePlace-Reader-Applikation."
+      ],
+      "technologies": [
+        "Entwicklung in JavaScript",
+        "HTML5-Applikation auf Basis von Unify",
+        "Parsen und Darstellen von ePub-Dokumenten",
+        "HTML5-Lösung für die korrekte Darstellung von PDF-Dokumenten",
+        "Integration der HTML5-Applikation in native Android- und iOS-App"
+      ]
+    },
+    {
+      "title": "Unify Project - HTML5-JavaScript-Framework",
+      "role": "JavaScript-Entwickler",
+      "customer": {
+        "name": "Deutsche Telekom AG",
+        "location": "Darmstadt"
+      },
+      "contractor": "Proventa, Frankfurt",
+      "period": {
+        "start": "2010-01",
+        "end": "2013-09"
+      },
+      "description": [
+        "Leitender Architekt und Entwickler des HTML5 OpenSource Framework zur Erstellung von mobilen Applikationen."
+      ],
+      "technologies": ["JavaScript", "HTML5", "iOS", "Android"],
+      "tasks": [
+        "Entwicklung in JavaScript",
+        "Nutzung modernster HTML5-Features",
+        "Anpassung an gängige Mobilplattformen"
+      ]
+    },
+
+    {
+      "title": "DINA Frontend Neu (Analysesoftware)",
+      "role": "PHP-/JavaScript-Entwickler",
+      "customer": {
+        "name": "Deutsche Telekom",
+        "location": "Darmstadt"
+      },
+      "period": {
+        "start": "2008-05",
+        "end": "2009-12"
+      },
+      "description": [
+        "Konzeption und prototypische Entwicklung einer webbasierten Anwendung für das Management zur Darstellung der KPIs der konzernweiten IT-Infrastruktur und deren Langzeitanalyse."
+      ],
+      "technologies": [
+        "RESTful Middleware",
+        "PHP",
+        "CodeIgniter",
+        "ExtJS",
+        "FusionCharts",
+        "Oracle"
+      ]
+    },
+    {
+      "title": "JourFixe (Besprechungsmanagement)",
+      "role": "Java-Entwickler",
+      "customer": {
+        "name": "3ado OHG",
+        "location": "Mainz"
+      },
+      "period": {
+        "start": "2007-05",
+        "end": "2008-04"
+      },
+      "description": [
+        "Konzeption und Entwicklung der Besprechungsmanagementsoftware JourFixe. Diese webbasierte Applikation dient zum einen zum zeitlichen Besprechungsmanagement, also der Einladung und Absage von Besprechungen. Zum anderen kann mit JourFixe ein Besprechungsprotokoll in allen Einzelheiten angelegt werden und zur Einsicht allen Teilnehmern freigegeben werden."
+      ],
+      "tasks": [
+        "Konzeption und Softwarearchitektur",
+        "Datenbankmodell für MySQL"
+      ],
+      "technologies": [
+        "Java",
+        "Spring Framework",
+        "Hibernate",
+        "JPA",
+        "Spring Security"
+      ]
+    },
+    {
+      "title": "soSmart.de (Social Shopping)",
+      "role": "PHP-Entwickler",
+      "customer": {
+        "name": "Netz98 GmbH",
+        "location": "Mainz"
+      },
+      "period": {
+        "start": "2006-10",
+        "end": "2007-03"
+      },
+      "description": [
+        "Entwicklung der Social-Shopping-Plattform soSmart.de. Unter der Verwendung des Zend Framework (PHP) wurden in diesem Projekt einige Affiliate-Netzwerke per Webservice an soSmart.de angebunden. Ein Schwerpunkt dieser Applikation ist die moderne Web 2.0-Oberfläche unter starker Verwendung von AJAX sowie eine intelligente Echtzeitsuche über mehrere Millionen Artikeldaten. Ein weiterer Punkt ist das automatische Parsen beliebiger Artikel-Webseiten von eCommerce-Shops im Internet zur Erkennung von Artikeldaten (Name, Beschreibung, Preis und Versandkosten)."
+      ],
+      "technologies": [
+        "PHP",
+        "SOAP",
+        "REST",
+        "MySQL",
+        "Zend Framework",
+        "PrototypeJS"
+      ],
+      "tasks": [
+        "Web 2.0-Oberfläche mit Prototype und Scriptaculous",
+        "Intelligente Suchefunktion",
+        "Unscharfer Parser in PHP",
+        "Zugriff per SOAP und REST auf Webservices",
+        "Massendatenhaltung in MySQL"
+      ]
+    },
+    {
+      "title": "Value Manager (Kreditsteuerungstool)",
+      "role": "Java- und SAS-Entwickler",
+      "customer": {
+        "name": "Commerzbank AG",
+        "location": "Frankfurt am Main"
+      },
+      "period": {
+        "start": "2006-03",
+        "end": "2006-10"
+      },
+      "description": [
+        "Mitentwicklung des Kreditsteuerungstools Value Manager. Dieses Tool auf Grundlage von Java und SAS dient der Kreditverwaltung der Berater der Commerzbank vor Ort. Im Backend ist die Datenaggregierung auf Grundlage von SAS entwickelt worden."
+      ],
+      "technologies": ["Java", "JSP", "Basic SAS"]
+    },
+    {
+      "title": "Promoterverwaltung",
+      "role": "PHP-Entwickler",
+      "customer": {
+        "name": "Creative Communication",
+        "location": "Bingen"
+      },
+      "period": {
+        "start": "2006-03",
+        "end": "2006-10"
+      },
+      "description": [
+        "Entwicklung einer webbasierten Applikation zur Verwaltung der Promotionaufträge und der Promoter auf Grundlage von PHP, HTML und MySQL unter Einbeziehung einer Schnittstelle zu Short Message Services (SMS). Getrennte Internetapplikation zur Bearbeitung der eigenen Daten durch die Promoter."
+      ],
+      "technologies": ["PHP", "MySQL", "HTML"],
+      "tasks": [
+        "Konzeption",
+        "Softwarearchitektur und Datenbankmodell",
+        "Sowohl Intranet- als auch Internetfrontend in PHP",
+        "Gemeinsame Datenbasis in MySQL",
+        "Anbindung eines SMS-Webservice mit Rückkanal"
+      ]
+    },
+    {
+      "title": "Anforderungsmanagement für BIX@ Supply Chain Management",
+      "role": "Entwickler",
+      "customer": {
+        "name": "Boehringer Ingelheim International GmbH",
+        "location": "Ingelheim am Rhein"
+      },
+      "period": {
+        "start": "2000",
+        "end": "2001"
+      },
+      "description": [
+        "Unterstützung der Umsetzung einer neuen Supply Chain Management-Software durch ein softwarebasierendes Anforderungsmanagement mit automatischen Regressionstests."
+      ],
+      "tasks": [
+        "Entwicklung der Datenhaltung für die Anforderungsdokumente",
+        "Automatische Überprüfungen der Abhängigkeiten auf Korrektheit",
+        "Automatische Dokumentation der Überprüfungen",
+        "Starten der hinter den Abhängigkeitsdokumenten liegenden Test"
       ]
     }
   ]
