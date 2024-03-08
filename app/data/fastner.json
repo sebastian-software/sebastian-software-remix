@@ -1,0 +1,85 @@
+{
+  "projects": [
+    {
+      "id": "witt-2020",
+      "title": "Development of New E-Shops for Witt Group",
+      "role": "Senior Frontend Developer",
+      "customer": {
+        "name": "Witt Gruppe",
+        "location": "Weiden"
+      },
+      "contractor": "Computer Futures / SThree GmbH",
+
+      "links": [
+        "https://www.witt-weiden.de",
+        "https://www.ambria.de",
+        "https://www.creation-l.de",
+        "https://www.heine.de",
+        "https://www.sieh-an.de",
+        "https://www.your-look-for-less.nl",
+        "https://www.witt-international.cz",
+        "https://www.waeschepur.de"
+      ],
+      "description": [
+        "Replacement of 17 online shops of the Witt Group. New development focused on scalability, multi-brand support in an international environment, and maintenance friendliness.",
+        "The team organized itself using Scrum and Kanban. All developments were rolled out directly into the live system through continuous deployment. Rapid replacement of old systems to avoid duplicate developments."
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "Styled Components",
+        "Contentful",
+        "Backbone from ABOUT YOU",
+        "Apollo GraphQL",
+        "Kubernetes",
+        "Vault on AWS"
+      ]
+    },
+    {
+      "id": "wise-2019",
+      "title": "WISE",
+      "role": "Senior Frontend Architect",
+      "customer": {
+        "name": "DWS",
+        "location": "Frankfurt am Main"
+      },
+      "contractor": "Questax GmbH",
+
+      "links": ["https://www.deutscheinvest.lu/"],
+      "description": [
+        "Implementation of a purely digital white-label investment platform, covering both the investment itself and the customer registration as well as the automatic balancing of the portfolio.",
+        "Integration of WISE into over 10 European and Asian investment platforms.",
+        "During the platform development, support in the development of a Deutsche Bank framework for frontend development based on React."
+      ],
+      "technologies": [
+        "React for mobile responsive frontend",
+        "Migration of the prototype based on VueJS",
+        "Integration of a digital passport verification",
+        "Integration of a digital document signature",
+        "Architecture and deployment pipeline construction"
+      ]
+    },
+    {
+      "id": "telekom-2016",
+      "title": "OneNumber App for Business Customers",
+      "role": "Senior Application Architect",
+      "customer": {
+        "name": "Deutsche Telekom AG",
+        "location": "Darmstadt"
+      },
+      "contractor": "Proventa, Frankfurt",
+
+      "links": ["http://one-number-app.telekom.de"],
+      "description": [
+        "Implementation of a mobile application for configuring the 'OneNumber' feature for business customers of Deutsche Telekom. The application was implemented for iOS, Android, BlackBerry, Amazon FirePhone, and Windows Phone."
+      ],
+      "technologies": [
+        "HTML5 mobile frontend with AngularJS",
+        "Reading the address book of the respective platform",
+        "Integration with the MultiManager of Deutsche Telekom on Android",
+        "Communication via REST with the existing backend",
+        "Authentication over OAUTH2 with the login system of Deutsche Telekom"
+      ]
+    }
+  ]
+}
