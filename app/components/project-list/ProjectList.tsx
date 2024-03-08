@@ -56,13 +56,27 @@ export function Project({ data }: ProjectProps) {
         Zeitraum: {data.period.start} - {data.period.end}
       </p>
 
-      <h3>Beschreibung:</h3>
-      {data.description.map((text, index) => (
-        <p key={index}>{text}</p>
-      ))}
+      <div
+        style={{
+          border: "4px solid orange",
+          padding: "10px 20px",
+          marginBlock: "10px",
+        }}
+      >
+        <h3>Beschreibung:</h3>
+        {data.description.map((text, index) => (
+          <p key={index}>{text}</p>
+        ))}
+      </div>
 
       {data.tasks && (
-        <div style={{ border: "4px solid blue", padding: "10px" }}>
+        <div
+          style={{
+            border: "4px solid blue",
+            padding: "10px 20px",
+            marginBlock: "10px",
+          }}
+        >
           <h3>Aufgaben:</h3>
           <ul>
             {data.tasks.map((text, index) => (
@@ -73,7 +87,13 @@ export function Project({ data }: ProjectProps) {
       )}
 
       {data.technologies && (
-        <div style={{ border: "4px solid green", padding: "10px" }}>
+        <div
+          style={{
+            border: "4px solid green",
+            padding: "10px 20px",
+            marginBlock: "10px",
+          }}
+        >
           <h3>Technologien:</h3>
           <ul>
             {data.technologies.map((text, index) => (
