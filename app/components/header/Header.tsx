@@ -11,7 +11,7 @@ export function Header() {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="/ueber">Über</a>
+            <a href="/mission">Mission</a>
           </li>
           <li>
             <a href="/team">Team</a>

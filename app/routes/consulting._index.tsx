@@ -34,6 +34,17 @@ export default function Index() {
         </li>
       </ol>
 
+      <h2>Ihr Partner für die Zukunft</h2>
+
+      <p>
+        Als Ihr Partner verpflichten wir uns, nicht nur den aktuellen
+        technischen Herausforderungen zu begegnen, sondern auch zukunftsweisende
+        Lösungen zu entwickeln. Unser Engagement für Exzellenz, unsere
+        Spezialisierung auf React und unser Fokus auf nachhaltige Entwicklung
+        machen uns zum idealen Begleiter auf Ihrem Weg in eine erfolgreiche
+        digitale Zukunft.
+      </p>
+
       <h2>Unsere Wertschätzung für Empfehlungen</h2>
       <p>
         Seit unseren Anfängen, sei es als Freelancer oder nun innerhalb unseres
