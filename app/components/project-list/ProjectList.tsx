@@ -47,37 +47,40 @@ export function Project({ data }: ProjectProps) {
       <h2>
         {data.role}: {data.title}
       </h2>
+
       <p>
         Kunde: {data.customer.name}, {data.customer.location}
       </p>
+
       <p>
         Zeitraum: {data.period.start} - {data.period.end}
       </p>
+
       <h3>Beschreibung:</h3>
       {data.description.map((text, index) => (
         <p key={index}>{text}</p>
       ))}
 
       {data.tasks && (
-        <>
+        <div style={{ border: "4px solid blue", padding: "10px" }}>
           <h3>Aufgaben:</h3>
           <ul>
             {data.tasks.map((text, index) => (
               <li key={index}>{text}</li>
             ))}
           </ul>
-        </>
+        </div>
       )}
 
       {data.technologies && (
-        <>
+        <div style={{ border: "4px solid green", padding: "10px" }}>
           <h3>Technologien:</h3>
           <ul>
             {data.technologies.map((text, index) => (
               <li key={index}>{text}</li>
             ))}
           </ul>
-        </>
+        </div>
       )}
     </div>
   );

@@ -83,8 +83,8 @@
       "description": [
         "Umsetzung einer mobilen Applikation zur Einstellung des Merkmals 'OneNumber' für Geschäftskunden der Deutschen Telekom. Die Applikation wurde für iOS, Android, BlackBerry, Amazon FirePhone sowie Windows Phone umgesetzt."
       ],
-      "technologies": [
-        "HTML5 mit AngularJS",
+      "technologies": ["HTML5", "AngularJS", "Android", "OAuth2"],
+      "tasks": [
         "Auslesen des Addressbuch der jeweiligen Plattform",
         "Integration mit dem MultiManager der Deutschen Telekom auf Android",
         "Kommunikation via REST mit dem vorhandenen Backend",
@@ -98,7 +98,7 @@
         "name": "JAKO-O",
         "location": "Bad Rodach"
       },
-      "contractor": "Epresia, Frankfurt und München",
+      "contractor": "Epresia GmbH",
       "period": {
         "start": "2015-07",
         "end": "2016-03"
@@ -107,11 +107,10 @@
       "description": [
         "Technische Konzeption und Umsetzung eines Geschenketisches (Wunschzettel) für den Online-Shop von JAKO-O."
       ],
-      "technologies": [
-        "JavaScript für Desktop + Smartphone mit VueJS",
-        "Node.js + Express",
-        "Massenimporter für Produktdaten",
-        "Tiefe Integration in den Shop von JAKO-O"
+      "technologies": ["NodeJS", "ExpressJS", "VueJS", "Mobile Web"],
+      "tasks": [
+        "Umsetzung eines Massenimporters für Produktdaten.",
+        "Tiefe Integration in den Shop von JAKO-O."
       ]
     },
     {
@@ -121,7 +120,7 @@
         "name": "JAKO-O",
         "location": "Bad Rodach"
       },
-      "contractor": "Epresia, Frankfurt und München",
+      "contractor": "Epresia GmbH",
       "period": {
         "start": "2015-05",
         "end": "2015-07"
@@ -130,32 +129,28 @@
       "description": [
         "Konzeption und Umsetzung eines Geschenkeberaters für mobile Plattformen auf Grundlage vorhandener Produktscores des JAKO-O Online-Shops."
       ],
-      "technologies": [
-        "Mobiles Frontend",
-        "Optimierung der Interaktionselemente für Smartphones",
-        "Verbesserung des Deployment-Prozesses",
-        "Erweiterung der Auswertung der KPI für neue Geräteklasse"
+      "tasks": [
+        "Optimierung der Interaktionselemente für Smartphones.",
+        "Verbesserung des Deployment-Prozesses.",
+        "Erweiterung der Auswertung der KPI für neue Geräteklasse."
       ]
     },
     {
       "title": "SUZUKI E-Learning-Plattform",
-      "role": "Senior User Interface Architect",
+      "role": "FullStack Senior User Interface Architect",
       "customer": {
         "name": "SUZUKI",
         "location": "Bensheim"
       },
-      "contractor": "DI Unternehmer, Wiesbaden",
+      "contractor": "DIU MarTech Solutions GmbH",
       "period": {
         "start": "2014-07",
         "end": "2014-09"
       },
       "description": [
-        "Konzeption und Entwicklung einer E-Learning-Plattform zur Vorbereitung auf Zertifizierungen für das deutsche Händlernetz von Suzuki."
-      ],
-      "technologies": [
-        "Web-Frontend und Backend",
-        "Nutzung auf Desktop und Tablets",
-        "Endbenutzerfrontend und Redaktions- und Administrations-Oberfläche"
+        "Konzeption und Entwicklung einer E-Learning-Plattform zur Vorbereitung auf Zertifizierungen für das deutsche Händlernetz von Suzuki.",
+        "Entwicklung von sowohl Web-Frontend als auch Backend.",
+        "Endbenutzerfrontend und Redaktions- und Administrations-Oberfläche."
       ]
     },
     {
@@ -165,7 +160,7 @@
         "name": "Großbank",
         "location": "Frankfurt am Main"
       },
-      "contractor": "Arago, Frankfurt am Main",
+      "contractor": "arago Consulting GmbH",
       "period": {
         "start": "2014-02",
         "end": "2014-06"
@@ -173,19 +168,20 @@
       "description": [
         "Konzeption und Entwicklung einer Benutzeroberfläche zum einfachen Erstellen und Bearbeiten eines virtuellen Rechenzentrums inklusive Ermittlung des besten Angebots verschiedener Anbieter virtueller Rechenzentrumskomponenten."
       ],
-      "technologies": [
+      "technologies": ["HTML5", "EmberJS", "Drag&Drop"],
+      "tasks": [
         "HTML5-Benutzeroberfläche in Ember.js für Desktop und Tablets",
         "Komplexer Drag-and-Drop-Editor zum Bearbeiten der einzelnen Komponenten"
       ]
     },
     {
-      "title": "PagePlace und tolino (E-Publishing)",
+      "title": "PagePlace und Tolino (E-Publishing für Bücher)",
       "role": "JavaScript-Entwickler",
       "customer": {
         "name": "Deutsche Telekom AG",
         "location": "Darmstadt"
       },
-      "contractor": "Axxessio, Bonn",
+      "contractor": "axxessio GmbH",
       "period": {
         "start": "2010-06",
         "end": "2013-09"
@@ -194,8 +190,16 @@
         "Softwareberater für die HTML5-Architektur der PagePlace-Reader-Applikation."
       ],
       "technologies": [
-        "Entwicklung in JavaScript",
-        "HTML5-Applikation auf Basis von Unify",
+        "JavaScript",
+        "HTML5",
+        "iOS",
+        "Android",
+        "Unify",
+        "ePub",
+        "PDF"
+      ],
+      "tasks": [
+        "Entwicklung der Anwendung auf Basis von Unify",
         "Parsen und Darstellen von ePub-Dokumenten",
         "HTML5-Lösung für die korrekte Darstellung von PDF-Dokumenten",
         "Integration der HTML5-Applikation in native Android- und iOS-App"
@@ -208,7 +212,7 @@
         "name": "Deutsche Telekom AG",
         "location": "Darmstadt"
       },
-      "contractor": "Proventa, Frankfurt",
+      "contractor": "Proventa AG",
       "period": {
         "start": "2010-01",
         "end": "2013-09"
