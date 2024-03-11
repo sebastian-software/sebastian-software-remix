@@ -10,7 +10,6 @@ interface Project {
   links: string[];
   description: string[];
   technologies: string[];
-  tasks: string[];
 }
 
 interface PeriodInfo {
@@ -68,23 +67,6 @@ export function Project({ data }: ProjectProps) {
           <p key={index}>{text}</p>
         ))}
       </div>
-
-      {data.tasks && (
-        <div
-          style={{
-            border: "4px solid blue",
-            padding: "10px 20px",
-            marginBlock: "10px",
-          }}
-        >
-          <h3>Aufgaben:</h3>
-          <ul>
-            {data.tasks.map((text, index) => (
-              <li key={index}>{text}</li>
-            ))}
-          </ul>
-        </div>
-      )}
 
       {data.technologies && (
         <div
