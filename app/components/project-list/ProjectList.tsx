@@ -1,3 +1,4 @@
+import { Tag, TagList } from "../tag/Tag";
 import { root } from "./ProjectList.css";
 
 interface Project {
@@ -48,42 +49,23 @@ export function Project({ data }: ProjectProps) {
       </h2>
 
       <p>
-        Kunde: {data.customer.name}, {data.customer.location}
+        Kunde: {data.customer.name}, {data.customer.location} | Zeitraum:{" "}
+        {data.period.start} - {data.period.end}
       </p>
 
-      <p>
-        Zeitraum: {data.period.start} - {data.period.end}
-      </p>
+      {data.technologies && (
+        <TagList>
+          {data.technologies.map((text, index) => (
+            <Tag key={index}>{text}</Tag>
+          ))}
+        </TagList>
+      )}
 
-      <div
-        style={{
-          border: "4px solid orange",
-          padding: "10px 20px",
-          marginBlock: "10px",
-        }}
-      >
-        <h3>Beschreibung:</h3>
+      <div>
         {data.description.map((text, index) => (
           <p key={index}>{text}</p>
         ))}
       </div>
-
-      {data.technologies && (
-        <div
-          style={{
-            border: "4px solid green",
-            padding: "10px 20px",
-            marginBlock: "10px",
-          }}
-        >
-          <h3>Technologien:</h3>
-          <ul>
-            {data.technologies.map((text, index) => (
-              <li key={index}>{text}</li>
-            ))}
-          </ul>
-        </div>
-      )}
     </div>
   );
 }
