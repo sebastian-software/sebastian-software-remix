@@ -20,10 +20,11 @@ export default function Index() {
 
       <h2>Mission</h2>
       <p>
-        Wir prägen die Softwareentwicklung durch Innovation, Nachhaltigkeit und
-        Nutzerfokus. Unsere Expertise ermöglicht langlebige Lösungen. Teamgeist,
-        kontinuierliche Weiterbildung und Kreativität sind unser Fundament für
-        technische Exzellenz und zukunftsweisende Produkte.
+        Unsere Leidenschaft für Qualität und Innovation wird durch eine
+        unstillbare Neugier angetrieben. Tiefes Eintauchen in Technologien und
+        die Verknüpfung verschiedenster Ideen ermöglichen es uns,
+        zukunftsweisende Lösungen zu schaffen. Wir gestalten aktiv die
+        dynamischen Entwicklungen unserer Branche.
       </p>
       <p>
         <Link to="/mission">Mehr erfahren</Link>

@@ -13,10 +13,13 @@ export default function Index() {
         Fokus liegt auf zukunftsorientierten Grundtechnologien und Methoden, die
         auch langfristig wirkungsvoll und relevant bleiben. Wir tauchen tief in
         die Materie ein, um ein umfassendes Verständnis der Technologien zu
-        erlangen. Dieses tiefgehende Wissen, kombiniert mit unserer
-        siebenjährigen Expertise in React-basierten Projekten, ermöglicht es
-        uns, zukunftsweisende Lösungen zu entwickeln, die den dynamischen
-        Entwicklungen in unserer Branche immer einen Schritt voraus sind.
+        erlangen. Diese kontinuierliche Neugier und unser Streben, immer mehr zu
+        lernen, ermöglichen es uns, ein Netzwerk von Wissen aufzubauen. Diese
+        Fähigkeit, verschiedenste Informationen und Ideen zu verknüpfen, ist der
+        Schlüssel zu unserer Fähigkeit, zukunftsweisende Lösungen zu entwickeln.
+        Unsere dauerhafte Wissbegierde treibt uns an, immer den
+        Herausforderungen zu begegnen und die dynamischen Entwicklungen in
+        unserer Branche nicht nur zu begleiten, sondern aktiv zu gestalten.
       </p>
 
       <h2>Technik trifft Nutzererfahrung</h2>
