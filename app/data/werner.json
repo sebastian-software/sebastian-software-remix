@@ -3,7 +3,10 @@
     {
       "title": "Lead Frontend Developer für White Label Produkte",
       "role": "Lead Frontend Developer",
-      "customer": "EnBW AG, Karlsruhe",
+      "customer": {
+        "name": "EnBW AG",
+        "location": "Karlsruhe"
+      },
       "contractor": "Michael Page, Düsseldorf",
       "period": {
         "start": "2022-06",
@@ -27,7 +30,7 @@
     {
       "title": "Senior React Developer für eine IOT-Plattform",
       "role": "Senior React Developer",
-      "customer": "Azeti GmbH, Berlin",
+      "customer": { "name": "Azeti GmbH", "location": "Berlin" },
       "contractor": "Staffgroup GmbH, Berlin",
       "period": {
         "start": "2022-03",
@@ -41,7 +44,7 @@
     {
       "title": "Lead Web Frontend Architekt für Kundenportal und mehrerer Embedded Web Apps",
       "role": "Lead Web Frontend Architekt",
-      "customer": "Netze BW GmbH, Stuttgart",
+      "customer": { "name": "Netze BW GmbH, Stuttgart", "location": "" },
       "contractor": "Hays AG, Mannheim",
       "period": {
         "start": "2021-02",
@@ -62,7 +65,10 @@
     {
       "title": "React- und GraphQL-Spezialist für die Unterstützung architektureller Themen einer Online-Shop-Plattform",
       "role": "React- und GraphQL-Architekt",
-      "customer": "empiriecom GmbH & Co. KG, Burgkunstadt",
+      "customer": {
+        "name": "empiriecom GmbH & Co. KG",
+        "location": "Burgkunstadt"
+      },
       "contractor": "AWESOME! Software GmbH, Montabaur",
       "period": {
         "start": "2020-11",
@@ -84,7 +90,7 @@
     {
       "title": "React-Architekt für einen international aufgestellten Baustoffkonzern",
       "role": "React-Architekt",
-      "customer": "HeidelbergCement AG, Heidelberg",
+      "customer": { "name": "HeidelbergCement AG", "location": "Heidelberg" },
       "contractor": "Hays AG, Mannheim",
       "period": {
         "start": "2019-06",
@@ -112,7 +118,7 @@
     {
       "title": "Mentoring und Consulting für React-Team",
       "role": "React Mentor",
-      "customer": "GE Healthcare, Freiburg",
+      "customer": { "name": "GE Healthcare", "location": "Freiburg" },
       "contractor": "Belcan Technical Recruiting, London",
       "period": {
         "start": "2019-02",
@@ -141,7 +147,10 @@
     {
       "title": "React/GraphQL-Architekt für eine responsive Shop-Neuentwicklung",
       "role": "React/GraphQL-Architekt",
-      "customer": "Witt Gruppe, Weiden",
+      "customer": {
+        "name": "Josef Witt GmbH (Otto Gruppe)",
+        "location": "Weiden"
+      },
       "contractor": "Computer Futures/SThree GmbH, München",
       "period": {
         "start": "2018-09",
@@ -168,7 +177,7 @@
     {
       "title": "React/GraphQL-Architekt und -Entwickler für die neue ARD-Mediathek",
       "role": "React/GraphQL-Architekt",
-      "customer": "SWR, Mainz",
+      "customer": { "name": "SWR", "location": "Mainz" },
       "contractor": "GULP Information Services GmbH, München",
       "period": {
         "start": "2018-07",
@@ -184,7 +193,7 @@
     {
       "title": "React-Architekt für Umsetzung eines Verkehrs-Informationsangebotes",
       "role": "React Architekt",
-      "customer": "Init SE, Karlsruhe",
+      "customer": { "name": "Init SE", "location": "Karlsruhe" },
       "contractor": "Megapart GmbH, Karlsruhe",
       "period": {
         "start": "2018-04",
@@ -202,7 +211,10 @@
     {
       "title": "React-Experte mit Feingefühl für Business-Requirements zur Entwicklung eines Telematik-Angebotes",
       "role": "React Experte",
-      "customer": "RIO - Volkswagen Truck & Bus",
+      "customer": {
+        "name": "RIO - Volkswagen Truck & Bus",
+        "location": "München"
+      },
       "contractor": "Ray Sono AG, München",
       "period": {
         "start": "2018-01",
@@ -228,7 +240,7 @@
     {
       "title": "Senior-Frontend-Entwickler für eine Plattform zum Austausch von Pharma-Branche und Ärzten",
       "role": "Frontend Architekt",
-      "customer": "coliquio GmbH, Konstanz",
+      "customer": { "name": "coliquio GmbH", "location": "Konstanz" },
       "contractor": "Michael Page, München",
       "period": {
         "start": "2017-06",
@@ -261,7 +273,7 @@
     {
       "title": "Leitende Frontend-Architektur und -Entwicklung für ein Online-Banking-Portal",
       "role": "Lead Frontend Architekt",
-      "customer": "Deutsche Bank AG, Eschborn",
+      "customer": { "name": "Deutsche Bank AG", "location": "Eschborn" },
       "contractor": "Hays AG, Mannheim",
       "period": {
         "start": "2017-03",
@@ -292,7 +304,10 @@
     {
       "title": "Frontend-Architektur und -Entwicklung für ein Internet-Lernportal",
       "role": "Senior Frontend Architekt",
-      "customer": "Berlitz Deutschland GmbH",
+      "customer": {
+        "name": "Berlitz Deutschland GmbH",
+        "location": "Frankfurt am Main"
+      },
       "contractor": "Syzygy GmbH, Bad Homburg",
       "period": {
         "start": "2016-10",
@@ -325,7 +340,7 @@
     {
       "title": "Frontend-Architektur und -Entwicklung für Online-Shop",
       "role": "Senior Frontend Architekt",
-      "customer": "Große Baumarkt-Kette",
+      "customer": { "name": "Hornbach Baumarkt AG", "location": "Bornheim" },
       "contractor": "Systeme24, Mainz",
       "period": {
         "start": "2016-05",
@@ -342,7 +357,10 @@
     {
       "title": "Frontend-Architektur für innovative neue Anlage-Plattform der Deutschen Bank Gruppe",
       "role": "Senior Frontend Architekt",
-      "customer": "Deutsche Asset & Wealth Management, Frankfurt am Main",
+      "customer": {
+        "name": "Deutsche Asset & Wealth Management",
+        "location": "Frankfurt am Main"
+      },
       "contractor": "Questax GmbH",
       "period": {
         "start": "2015-11",
@@ -366,8 +384,8 @@
     {
       "title": "Architektur und Entwicklung des Frontends der neuen Entertain-Plattform",
       "role": "Senior User Interface Architekt",
-      "customer": "Huawei Technologies, Darmstadt",
-      "contractor": "Networkers International, UK",
+      "customer": { "name": "Huawei Technologies", "location": "Darmstadt" },
+      "contractor": "Networkers International",
       "period": {
         "start": "2014-06",
         "end": "2015-10"
@@ -414,7 +432,7 @@
     {
       "title": "Architektur und Entwicklung der responsiven Homepage",
       "role": "Senior Frontend Developer",
-      "customer": "Magix, Berlin",
+      "customer": { "name": "MAGIX Software GmbH", "location": "Berlin" },
       "contractor": "Triplesense Reply, Frankfurt am Main",
       "period": {
         "start": "2013-11",
@@ -437,7 +455,7 @@
     {
       "title": "Architektur und Entwicklung der mobilen Homepage und Bestellseite",
       "role": "Senior Frontend Developer",
-      "customer": "Tele Columbus, Berlin",
+      "customer": { "name": "Tele Columbus", "location": "Berlin" },
       "contractor": "Triplesense Reply, Frankfurt am Main",
       "period": {
         "start": "2013-04",
@@ -455,7 +473,7 @@
     {
       "title": "Leitung der Frontend-Architektur des neuen Telefoniecenters",
       "role": "JavaScript Architekt",
-      "customer": "Axxessio, Bonn",
+      "customer": { "name": "axxessio GmbH", "location": "Bonn" },
       "contractor": "Deutsche Telekom, Darmstadt",
       "period": {
         "start": "2012-11",
@@ -485,7 +503,10 @@
     {
       "title": "Umfassende Entwicklungsprojekte bei Zynga Germany GmbH",
       "role": "Senior JavaScript Developer",
-      "employer": "Zynga Germany GmbH, Frankfurt am Main",
+      "customer": {
+        "name": "Zynga Germany GmbH",
+        "location": "Frankfurt am Main"
+      },
       "period": {
         "start": "2011-04",
         "end": "2012-11"
@@ -504,7 +525,7 @@
     {
       "title": "Strategische Beratung, Initiierung und Entwicklung im Web-Technologie-Bereich",
       "role": "Senior Software Developer",
-      "employer": "Deutsche Telekom, Darmstadt",
+      "customer": { "name": "Deutsche Telekom", "location": "Darmstadt" },
       "period": {
         "start": "2009-03",
         "end": "2011-03"
@@ -525,7 +546,7 @@
     {
       "title": "Team-Leitung und Implementierung von Komponenten",
       "role": "Teamlead JavaScript Development",
-      "employer": "studiVZ, Berlin",
+      "customer": { "name": "studiVZ", "location": "Berlin" },
       "period": {
         "start": "2008-10",
         "end": "2009-02"
@@ -539,7 +560,7 @@
     {
       "title": "Initiierung, Architektur und Entwicklung des qooxdoo-Frameworks",
       "role": "Senior Software Developer",
-      "employer": "1&1, Karlsruhe",
+      "customer": { "name": "1&1 Internet AG", "location": "Karlsruhe" },
       "period": {
         "start": "2004-11",
         "end": "2008-09"
@@ -562,7 +583,10 @@
     {
       "title": "Webentwicklung mit XSLT-basiertem Backend",
       "role": "Software Developer",
-      "employer": "Schlund+Partner, Karlsruhe",
+      "customer": {
+        "name": "Schlund+Partner GmbH & Co. KG",
+        "location": "Karlsruhe"
+      },
       "period": {
         "start": "2002-05",
         "end": "2004-10"
@@ -577,7 +601,10 @@
     {
       "title": "IT-Beratung, Programmierung und Support",
       "role": "Software Developer",
-      "employer": "Paritätische Sozialdienste, Minden",
+      "customer": {
+        "name": "Paritätische Sozialdienste",
+        "location": "Minden"
+      },
       "period": {
         "start": "2001-01",
         "end": "2002-04"
