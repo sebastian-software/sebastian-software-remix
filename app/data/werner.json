@@ -1,0 +1,592 @@
+{
+  "projects": [
+    {
+      "title": "Lead Frontend Developer für White Label Produkte",
+      "role": "Lead Frontend Developer",
+      "customer": "EnBW AG, Karlsruhe",
+      "contractor": "Michael Page, Düsseldorf",
+      "period": {
+        "start": "2022-06",
+        "end": "2024-02"
+      },
+      "description": [
+        "Projektübergreifende Beratung und Umsetzung zur Frontend-Architektur unter Einsatz von ReactJS für WhiteLabel-Lösungen. Entwicklung eines modernen Frontend-Stacks für mehrere umfangreiche Webanwendungen zur Schaffung einer nachhaltigen Technologie-Basis für die nächsten Jahre.",
+        "Technologie-Stack: TurboRepo, PNPM, ReactJS, TypeScript, Radix-UI, Downshift, ReactHookForm, VanillaExtract, i18Next, Jotai, FramerMotion, Storybook, Vite/Vitest, ESLint, Playwright, ..."
+      ],
+      "testimonials": [
+        {
+          "text": "Ich empfehle Sebastian mit großem Enthusiasmus für jede Rolle oder jedes Projekt, das tiefgreifende Fachkenntnisse in der Web-Frontend-Entwicklung, außergewöhnliche Führungsqualitäten in der Teamorganisation und strategische Entscheidungsfähigkeiten erfordert. ...",
+          "author": "Patrick Krumm (Software-Entwickler/-Architekt, EnBW AG)"
+        },
+        {
+          "text": "Sebastian ist ein Top-Experte für die Entwicklung von Web-Frontends, mit einem hervorragenden Überblick über aktuelle Technologien, sowie erfolgreiche Team-Organisation. ...",
+          "author": "Jochen Reinelt (Team Lead - Software Engineering Digital Services, EnBW AG)"
+        }
+      ]
+    },
+    {
+      "title": "Senior React Developer für eine IOT-Plattform",
+      "role": "Senior React Developer",
+      "customer": "Azeti GmbH, Berlin",
+      "contractor": "Staffgroup GmbH, Berlin",
+      "period": {
+        "start": "2022-03",
+        "end": "2022-05"
+      },
+      "description": [
+        "Entwicklung einer potenziell umfangreichen Frontend-Applikation für die Überwachung von Maschinen auf Basis von ReactJS.",
+        "Technische Challenges: Mono-Repository-Setup mit NX, Internationalisierung, Theming (White Label), On-Premise Rollouts & Umgang mit massiven Datenmengen."
+      ]
+    },
+    {
+      "title": "Lead Web Frontend Architekt für Kundenportal und mehrerer Embedded Web Apps",
+      "role": "Lead Web Frontend Architekt",
+      "customer": "Netze BW GmbH, Stuttgart",
+      "contractor": "Hays AG, Mannheim",
+      "period": {
+        "start": "2021-02",
+        "end": "2022-02"
+      },
+      "description": [
+        "Architekturelle Verantwortung und Federführung der Frontend-Architektur. Erarbeitung von Verbesserungenvorschlägen der bestehenden Architektur. Weiterhin Skizzierung und Entwicklung der Architektur für neue Entwicklungen.",
+        "Projektabläufe nach SCRUM-Methodik, API-First-Entwicklung, REST-Schnittstellen (Micro Services), Projekt-Management, Git Hosting und DevOps mit Azure, Authorisierung des Users über Auth0, ...",
+        "Einführung von End-to-End Tests mit Cypress (incl. initialem Setup im Projekt) bis zu einer Abdeckung von 70% der Code-Pfade für das bestehende Kundencenter und damit eine Absicherung bzgl. Regressionen der folgenden Releases. ..."
+      ],
+      "testimonials": [
+        {
+          "text": "Sebastian überzeugt mit seinem tiefen Fachwissen in Sachen Frontend-Architektur, Tooling und React im Speziellen. ...",
+          "author": "Florian Matz (Professional Software-Engineer, Netze BW GmbH)"
+        }
+      ]
+    },
+    {
+      "title": "React- und GraphQL-Spezialist für die Unterstützung architektureller Themen einer Online-Shop-Plattform",
+      "role": "React- und GraphQL-Architekt",
+      "customer": "empiriecom GmbH & Co. KG, Burgkunstadt",
+      "contractor": "AWESOME! Software GmbH, Montabaur",
+      "period": {
+        "start": "2020-11",
+        "end": "2021-02"
+      },
+      "description": [
+        "Erweiterung des GraphQL-Services um neue Resolver die Integration einer MySQL-Datenbank und vorhandener REST-Dienste.",
+        "Architekturelle Verbesserungen des GraphQL-Services bzgl. Typisierung, Nutzung Async/Await, Testbarkeit, etc.",
+        "Tooling Verbesserung des GraphQL-Servies bzgl. Bundling, Watcher und Linting.",
+        "Code-Reviews architekturelle Verbesserung für Teile der internen Komponenten-Bibiliothek."
+      ],
+      "testimonials": [
+        {
+          "text": "Es war großartig, mit dir zu arbeiten. Ich werde deine Kompetenz, deinen Weitblick und unsere Gespräche vermissen. ...",
+          "author": "Sascha Metz (Web-Developer, Visuellagentur UG)"
+        }
+      ]
+    },
+    {
+      "title": "React-Architekt für einen international aufgestellten Baustoffkonzern",
+      "role": "React-Architekt",
+      "customer": "HeidelbergCement AG, Heidelberg",
+      "contractor": "Hays AG, Mannheim",
+      "period": {
+        "start": "2019-06",
+        "end": "2020-09"
+      },
+      "description": [
+        "Weiterentwicklung und Erweiterung einer Webanwendung zur interaktiven Verfolgung von LKWs mit Baumaterialien. Entwicklung einer Heuristik zur automatischen visuellen Aufbereitung von LKW-Routen und deren Darstellung in der Google-Maps-basierten Ansicht.",
+        "Einführung eines Mono-Repositorys, um alle Frontend-Anwendungen und Komponenten effizient gemeinsam entwickeln zu können. Einführung von Tools zur Automatisierung des statischen Hostings in Azure zusammen mit dem Azure CDN unter Verwendung der GitLab CI. Dies war auch der Ersatz der früheren viel langsameren Docker-basierten Front-End-Lösung.",
+        "Vereinheitlichung der TypeScript-Konfiguration und ESLint-Regeln für eine einheitliche Tool-Umgebung im Team. Unterstützung bei der Einführung von Cypress-basierten E2E-Tests. Sukzessive Umstellung der Codebasis auf TypeScript.",
+        "Implementierung eines massiv überarbeiteten Axios-basierten API-Clients für die REST-basierte Kommunikation mit dem Backend. Einrichtung des Publish-Prozesses als ESM Module im internen NPM.",
+        "Sparring-Partner für UX-Designer und leitender Entwickler zur Gestaltung und Strukturierung des UI-Frameworks. Unterstützung ein gemeinsames Verständnis guter Komponentenstrukturen zu entwickeln und dieses Verständnis in die Realität umzusetzen.",
+        "Verwendete Technologien: React (Redux, React Router, i18next, Hooks), Lerna, Prettier, ESLint, TypeScript, Azure Cloud, Jest, Cypress."
+      ],
+      "testimonials": [
+        {
+          "author": "Christian Klaucke (Head of Digital Product Engineering, HeidelbergCement AG)",
+          "text": "Vielen Dank für all Deine Leistungen, Sebastian! ... Du hast Dir im Laufe der Zeit einen sehr guten Ruf als React-Experte im Team erworben, ... Ich wünsche Dir alles Gute für Deinen zukünftigen Weg und möge der Code mit Dir sein. Immer."
+        },
+        {
+          "author": "Danny Fürniß (Lead Product Engineer, HeidelbergCement AG)",
+          "text": "Danke Sebastian. Es war mir ein Vergnügen, mit Dir zu arbeiten und mit Dir über die winzigen aber wichtigen Details moderner Web-Technologie-Stacks zu diskutieren. ... Deine tiefgehende Erfahrung mit React und den sinnvollen Praktiken der Webentwicklung wurden von mir immer sehr geschätzt."
+        }
+      ]
+    },
+    {
+      "title": "Mentoring und Consulting für React-Team",
+      "role": "React Mentor",
+      "customer": "GE Healthcare, Freiburg",
+      "contractor": "Belcan Technical Recruiting, London",
+      "period": {
+        "start": "2019-02",
+        "end": "2019-02"
+      },
+      "description": [
+        "Konventionen bzgl. Ordnerstruktur und Struktur der Implementierung im Allgemeinen.",
+        "Umgang mit Assets in Bezug auf React und Platzierung dieser in der Ordnerstruktur.",
+        "Einsatz für Typisierung mit TypeScript und Zusammenspiel mit Server-seitigen Daten.",
+        "Erläuterungen Vor- und Nachteile Funktionale bzw. Klassen-Deklaration in React.",
+        "Empfehlungen für Newsletter, Video-Kurse und Konferenzen als weitere Bausteine der Einarbeitung.",
+        "Reduzierung des Boilerplates bei Redux durch Einsatz des Duck-Patterns.",
+        "Konzeptionelle Überlegungen hinsichtlich eines möglichen Einsatzes von GraphQL."
+      ],
+      "testimonials": [
+        {
+          "author": "Alexander Fechner (Software Engineer, GE Healthcare)",
+          "text": "Ich hatte das Vergnügen, von Sebastian während eines Coachings für den Aufbau einer auf React basierenden Unternehmensanwendung im Gesundheitswesen betreut zu werden. ... Er hat meine höchste Empfehlung."
+        },
+        {
+          "author": "Stefan Huggle (Software Architect, GE Healthcare)",
+          "text": "Vielen Dank für unsere Beratungssitzung über HTML5/React-bezogene Technologien in Freiburg. Ihr breites Wissen im HTML5-Universum ist beeindruckend. ... Sie haben uns viele wertvolle Empfehlungen gegeben, die auf echten praktischen Erfahrungen beruhen."
+        }
+      ]
+    },
+    {
+      "title": "React/GraphQL-Architekt für eine responsive Shop-Neuentwicklung",
+      "role": "React/GraphQL-Architekt",
+      "customer": "Witt Gruppe, Weiden",
+      "contractor": "Computer Futures/SThree GmbH, München",
+      "period": {
+        "start": "2018-09",
+        "end": "2019-06"
+      },
+      "description": [
+        "Neu-Entwicklung eines Online-Shops mit Ziel der Multi-Brand-Unterstützung und der Verwendung im internationalen Umfeld.",
+        "Technologie-Stack: TypeScript, React, Styled Components, Reach Router, GraphQL mit Apollo, Webpack und mehr",
+        "Einführung der GraphQL-Orechestration-Schicht auf Basis von Apollo im Client und Server-Bereich incl. Mentoring des Teams.",
+        "Überarbeitung und Optimierung vom Server-seitigen Rendering (SSR).",
+        "Umsetzung einer modernen Code-Splitting-Lösung auf Basis von Loadable Components",
+        "Einführung einer JWT-basierten SSR-tauglichen Nutzer-Zuordnung.",
+        "Verbesserungen im Bereich Tooling mit der Verwendung von Threading und Caching im Webpack-Bereich.",
+        "Umstellung des TypeScript-Toolings auf Babel zur Optimierung der Laufzeiten (insbesondere im Bereich HMR).",
+        "Verbesserung des Routings auf Client-Seite und Umsetzung von Preloading für diverse Code-Split-Pfade."
+      ],
+      "testimonials": [
+        {
+          "author": "Abraham Schilling (Senior Frontend Developer, Josef Witt GmbH)",
+          "text": "Sebastian ist ein stets involviertes, dynamisches Teammitglied mit unschätzbarer Erfahrung im Bereich Tools und Web-Performance. ... Er hat es uns leicht gemacht, auf GraphQL umzusteigen."
+        }
+      ]
+    },
+    {
+      "title": "React/GraphQL-Architekt und -Entwickler für die neue ARD-Mediathek",
+      "role": "React/GraphQL-Architekt",
+      "customer": "SWR, Mainz",
+      "contractor": "GULP Information Services GmbH, München",
+      "period": {
+        "start": "2018-07",
+        "end": "2018-09"
+      },
+      "description": [
+        "Neu-Entwicklung einer Mediathek für alle Sender der ARD als gemeinsame Plattform.",
+        "Technologie-Stack: React v16 (React Router, Redux), GraphQL mit Apollo, Webpack v4, Sass, Flowtype und mehr",
+        "Unterstützte Geräte der neuen Plattform: Moderne HBBTV-fähige Fernseher, Responsive-Layouts für Web-Browser auf Handys, Tablets und Desktops.",
+        "Entwicklung und Optimierung der GraphQL-Schnittstelle bzgl. Kommunikation mit REST-APIs."
+      ]
+    },
+    {
+      "title": "React-Architekt für Umsetzung eines Verkehrs-Informationsangebotes",
+      "role": "React Architekt",
+      "customer": "Init SE, Karlsruhe",
+      "contractor": "Megapart GmbH, Karlsruhe",
+      "period": {
+        "start": "2018-04",
+        "end": "2018-07"
+      },
+      "description": [
+        "Neuentwicklung eines Web-basierten Dashboards mit z. B. Echtzeit-Abfahrsinformationen für den Einsatz im ÖPNV-Umfeld.",
+        "Eigenverantwortliche Architektur und Entwicklung in Absprache mit Produktmanagern. Auswahl aktueller Technologien und Schulung der Mitarbeiter in Themen React und Web-Entwicklung.",
+        "Technologie-Stack: React v16 (Formik, Popmotion/Pose, React Intl, Reach Router, ...), DotEnv, Webpack v4, Code Splitting, Babel v7, Edge Platform, PostCSS, CSS Modules, CSS Grid, Storybook, Jest, ESlint, Stylelint, Prettier und mehr",
+        "Entwicklung eines GraphQL-Servers mit Apollo unter Nutzung einer Vielzahl unterschiedlicher REST-APIs (Inhouse und Extern)",
+        "Erkennung der Geo-Position und Ermittlung von Routen und Distanzen unter Verwendung von MapBox und OpenStreetMap.",
+        "Seiten-Layout und Umsetzung der ersten Design-Konzepte in wiederverwendbare Komponenten und Views."
+      ]
+    },
+    {
+      "title": "React-Experte mit Feingefühl für Business-Requirements zur Entwicklung eines Telematik-Angebotes",
+      "role": "React Experte",
+      "customer": "RIO - Volkswagen Truck & Bus",
+      "contractor": "Ray Sono AG, München",
+      "period": {
+        "start": "2018-01",
+        "end": "2018-03"
+      },
+      "description": [
+        "Unterstützung bei der Entwicklung in einer bereits durch Kunden genutzten Plattform.",
+        "Verteiltes Team mit Standorten in Leipzig und München.",
+        "Architekturelle Verbesserungsvorschläge und Mentoring von Kollegen.",
+        "Technologie-Stack: React, Redux, Redux-Saga, Webpack, Babel, Less, ESLint, Karma, Mocha, Sinon, AWS, S3"
+      ],
+      "testimonials": [
+        {
+          "author": "Stefan Hammer (Product Manager, Ray Sono AG)",
+          "text": "Sebastian Werner ist in einer späten Projektphase in ein fachlich wie technisch sehr komplexes Projekt eingestiegen und hat dort nach einer sehr kurzen Einarbeitungszeit nicht nur als vollwertiges Teammitglied mitgearbeitet, sondern auch direkt konstruktive Lösungsvorschläge zu Problemen in der Architektur und der Technik gegeben. Wir sind mit der Zusammenarbeit sehr zufrieden und würden uns freuen, auch zukünftige Projekte gemeinsam umzusetzen."
+        },
+        {
+          "author": "Yolanda Cruz-Stempian (Partner Management, Ray Sono AG)",
+          "text": "Herr Werners Hauptaufgaben waren die Umsetzung von Formularen und Interaktionen in den Buchungsmodulen und Performance-Optimierungen im Chat und im Allgemeinen bzgl. der Ladezeit. Die ihm übertragenen Aufgaben wurden von Herrn Werner zu unserer vollsten Zufriedenheit bearbeitet. Mit sehr viel Einsatzbereitschaft und seiner kommunikativen Art hat sich Herr Werner schnell in unser Entwicklungsteam integriert und konnte in hohem Maße zum Projekterfolg beitragen."
+        }
+      ]
+    },
+    {
+      "title": "Senior-Frontend-Entwickler für eine Plattform zum Austausch von Pharma-Branche und Ärzten",
+      "role": "Frontend Architekt",
+      "customer": "coliquio GmbH, Konstanz",
+      "contractor": "Michael Page, München",
+      "period": {
+        "start": "2017-06",
+        "end": "2017-12"
+      },
+      "description": [
+        "Projekt-Setup für eine Green-Field React-Anwendung im Pharma-Bereich.",
+        "Neustrukturierung der existierenden Komponenten-Library.",
+        "Einführung von eigenen NPM Repositories zur Erhöhung der Wiederverwendung von Komponenten, Linting Regeln, etc.",
+        "Responsive Design mit CSS Grid Layout und responsiver Typographie zur Abdeckung der vollständigen Gerätevielfalt.",
+        "Server-seitiges Rendern mit React v16 incl. intelligentem Code-Splitting für JavaScript und CSS.",
+        "Evaluierung und Auswahl von Oberflächen-Komponenten für Animation, Charting, ...",
+        "Technologie-Stack: React, Redux, Webpack, Storybook, Edge-Plattform, ESLint, Stylelint, Prettier"
+      ],
+      "testimonials": [
+        {
+          "author": "Florian Eibeck (Software Entwickler, Mayflower GmbH)",
+          "text": "Sebastian did a great job as a Frontend Engineer and Architect in our team. He happily shared his knowledge and teached us how to write state-of-the-art React applications. Thanks for the good collaboration, it was a pleasure working together!"
+        },
+        {
+          "author": "Florian Geier (Selbständiger Software-Entwickler)",
+          "text": "Sebastians Expertise im Bereich moderner Web-Technologien ist umfassend und tiefgreifend, so dass die Zusammenarbeit für mich eine bereichernde Erfahrung war. Der Kunde profitierte zudem von seinem Engagement in diversen Open-Source Projekten, die uns bei der Umsetzung der Anforderungen zugute kamen."
+        },
+        {
+          "author": "Jens Rusitschka (UX und Product Consulting)",
+          "text": "Ich habe mit Sebastian an einer neuen Plattform für Coliquio gearbeitet. Sein Wissen und seine Erfahrung mit Javascript, React-Technologie und modernen Front-End-Frameworks waren wirklich beeindruckend. Ich freue mich darauf, wieder mit ihm zusammenzuarbeiten!"
+        }
+      ]
+    },
+    {
+      "title": "Leitende Frontend-Architektur und -Entwicklung für ein Online-Banking-Portal",
+      "role": "Lead Frontend Architekt",
+      "customer": "Deutsche Bank AG, Eschborn",
+      "contractor": "Hays AG, Mannheim",
+      "period": {
+        "start": "2017-03",
+        "end": "2017-06"
+      },
+      "description": [
+        "Aufbau einer Frontend-Architektur in Zusammenarbeit mit Systemarchitekten und Produktmanagern.",
+        "Schulung, Mentoring und Code-Abnahme (Git-Flow + Pull Requests) für 2 Offshore-Teams in Indien.",
+        "Technologie-Evaluierung für neuen Technologie-Stack in Kooperation mit unterschiedlichen Stakeholdern im ganzen Konzern.",
+        "Analyse und Konzeption eines neuen Development 2.0 Environments zur Verbesserung der Produktivität von Software-Entwicklern.",
+        "Technologie-Stack: React, Redux, Webpack, ESLint, Stylelint. Datenanbindung via REST an Backend-Layer."
+      ],
+      "testimonials": [
+        {
+          "author": "Makele Ghebreamlak (Consultant Software Architect, Melsicon GmbH)",
+          "text": "Ich habe mit Sebastian in einem agilen Projekt für ein Unternehmen im Banksegment gearbeitet. Er ist ein außergewöhnlich talentierter Frontend-Architekt und ReactJS-Entwickler mit einem sehr tiefen Verständnis von UX/UI. ... Ich würde mich freuen, bei zukünftigen Projekten mit ihm zusammenzuarbeiten!"
+        },
+        {
+          "author": "Michael Rodegast (Interims Management Consultant, Michael Rodegast Consulting)",
+          "text": "Ich hatte das Vergnügen, mit Sebastian durch seine Führung eines Backbone-Teams bei einem Kunden zusammenzuarbeiten, für den wir beide tätig sind. ... Ich würde mich freuen, in Zukunft wieder zusammenarbeiten zu können, wenn sich die Gelegenheit dazu bietet."
+        },
+        {
+          "author": "Adib Istanbouli (Senior Software Developer, Accenture Germany)",
+          "text": "Es war ein großes Privileg für mich, mit einem so talentierten und sachkundigen Entwickler wie Sebastian zusammenzuarbeiten, ... Ich freue mich darauf, in naher Zukunft wieder mit Sebastian zusammenzuarbeiten."
+        }
+      ]
+    },
+    {
+      "title": "Frontend-Architektur und -Entwicklung für ein Internet-Lernportal",
+      "role": "Senior Frontend Architekt",
+      "customer": "Berlitz Deutschland GmbH",
+      "contractor": "Syzygy GmbH, Bad Homburg",
+      "period": {
+        "start": "2016-10",
+        "end": "2017-02"
+      },
+      "description": [
+        "Architektur-Analyse und Optimierung des bestehenden Frontends",
+        "Entwicklung und Architektur im React-Umfeld mit weiteren Technologien wie Gulp, Webpack, ESLint, StyleLint, PostCSS, CSS Modules, etc.",
+        "Einführung von Apollo Client + Server für die Verwendung von GraphQL für effiziente Kommunikation zwischen Frontend und Backend."
+      ],
+      "testimonials": [
+        {
+          "author": "Jürgen Werle (Senior Web Developer, Syzygy Deutschland GmbH)",
+          "text": "Vielleicht kennen Sie das ja auch: es gibt diese Projekte die einfach nicht gut laufen - ... Solch ein Projekt braucht Expertenwissen und die überzeugende Standhaftigkeit, dass ein besserer Ansatz möglich ist, ... Sebastian Werner hat sowohl die Kompetenz als auch die Persönlichkeit und lenkte nach ausführlicher Analyse mit den richtigen Konzepten das Projekt in deutlich bessere Bahnen. ..."
+        },
+        {
+          "author": "Claudia Ceh (Frontend Developer, Syzygy Deutschland GmbH)",
+          "text": "Sebastian konnte mit seiner Expertise viele Probleme lösen und dem Projekt eine gute Struktur geben. ... Mit Hilfe von Sebastian konnten wir in einigen festgefahrenen Situationen wieder einen klaren Blick auf das eigentliche Problem bekommen, ..."
+        },
+        {
+          "author": "Giso Deutschmann (Architekt und Business Analyst, Freelancer)",
+          "text": "Sebastian hat umfassendes, tagaktuelles Wissen über alle Aspekte der Entwicklung hochkomplexer Web-Frontends. ... Ich kann Sebastian als Frontend-Architekten, Big-Picture-Menschen und Teamplayer uneingeschränkt empfehlen."
+        },
+        {
+          "author": "Marc Zollingkoffer (Director Software Engineering, Syzygy Deutschland GmbH)",
+          "text": "Sebastian ist ein erfahrener Berater für Frontend-Technologien. ... Wir haben sehr von seiner Unterstützung und Expertise bei der Umsetzung des Frontends mit React-Redux-GraphQL für eine international ausgerichtete Plattform profitiert. ..."
+        }
+      ]
+    },
+    {
+      "title": "Frontend-Architektur und -Entwicklung für Online-Shop",
+      "role": "Senior Frontend Architekt",
+      "customer": "Große Baumarkt-Kette",
+      "contractor": "Systeme24, Mainz",
+      "period": {
+        "start": "2016-05",
+        "end": "2016-09"
+      },
+      "description": [
+        "Umstellung der Styling-Plattform auf PostCSS.",
+        "Entwicklung der Tooling Lösung mit HMR für React Universal.",
+        "Technologien: Universal React + Redux, React-Intl für Internationalisierung, ES2015+, PostCSS, Webpack v2 (Nutzung von Tree-Shaking, automatischen Chunks, ...).",
+        "Zielplattformen: Desktop-Browser, Tablet-Browser, Smartphone-Browser"
+      ],
+      "testimonials": []
+    },
+    {
+      "title": "Frontend-Architektur für innovative neue Anlage-Plattform der Deutschen Bank Gruppe",
+      "role": "Senior Frontend Architekt",
+      "customer": "Deutsche Asset & Wealth Management, Frankfurt am Main",
+      "contractor": "Questax GmbH",
+      "period": {
+        "start": "2015-11",
+        "end": "2016-04"
+      },
+      "description": [
+        "Beratung Frontend-Architektur für eine neue internationale Investment-Plattform. Die Anforderungen lagen im Bereich: SPA (Single Page Application), live aktualisierte Charts und international formatierte Werte (Währungen, etc.).",
+        "Aufsetzen der Projekt-Struktur mit Gulp als Taskmanager, NPM für die Organisation der Build-Umgebung, JSPM als Paket-Verwaltung für Frontend-Pakete mit EcmaScript 2015 Unterstützung, Sass für Stylesheets und VueJS für die interaktiven Funktionalitäten und die Komponenten-Entwicklung."
+      ],
+      "testimonials": [
+        {
+          "author": "Mark Paluch (CTO / Consultant, Freelancer)",
+          "text": "Sebastian Werner arbeitet sehr gewissenhaft und genau. ... Die in dem Projekt geschaffene Frontend-Architektur schuf einen erheblichen Mehrwert und klare Strukturen die sich im späteren Projektverlauf als sehr solide Basis erwiesen haben."
+        },
+        {
+          "author": "Kai Bald (Project Lead, Deutsche Asset & Wealth Management)",
+          "text": "Sebastian Werner ist ein sehr erfahrener Front-end Entwickler und Architekt, der darüber hinaus den holistischen Blick auf das gesamte Projekt im Auge behält. ..."
+        }
+      ]
+    },
+    {
+      "title": "Architektur und Entwicklung des Frontends der neuen Entertain-Plattform",
+      "role": "Senior User Interface Architekt",
+      "customer": "Huawei Technologies, Darmstadt",
+      "contractor": "Networkers International, UK",
+      "period": {
+        "start": "2014-06",
+        "end": "2015-10"
+      },
+      "description": [
+        "Beratung zu Software-Architektur, Best-Practises, Testbarkeit und Performance.",
+        "Einführung eines MVP-Konzeptes für bessere Modularität und Struktur des Codes.",
+        "Umsetzung eines anspruchsvollen interaktiven Interfaces mit fortschrittlichen UI-Übergängen mittels Velocity.js.",
+        "Intensive Arbeit mit Less zum Styling des Interfaces.",
+        "Verwendung der Huawei-Frameworks zur Kommunikation mit der Set-Top-Box.",
+        "Vermittlung zwischen Offshore-Team und Onsite-Team zur Entwicklung und Merging-Strategien.",
+        "Entwicklung von Tests (Unit-Tests und UI-Tests) unter Verwendung von Jasmine und DalekJS.",
+        "Code-Dokumentation unter Verwendung von JSDuck.",
+        "Tooling für Entwicklung und Deployment mit Grunt."
+      ],
+      "testimonials": [
+        {
+          "author": "Joakim Martensson (Senior UI/UX Designer, Huawei Technologies)",
+          "text": "Sebastian and I have worked in the same project for about 1.5 years now and I've come to know him as a person who has a very good knowledge of his field and is always keen on keeping up-to-date on the latest developments ..."
+        },
+        {
+          "author": "Gerlando La Porta (Management Consulting, Archtexx Consulting)",
+          "text": "Sebastian was part of our agile development team and I worked with him as a product owner. Sebastian is an excellent web application / UI developer. ..."
+        },
+        {
+          "author": "Mario Günzel (Product Manager TV Platforms & User Experience, Deutsche Telekom)",
+          "text": "Sebastian Werner does a great job in our project. He has very good development and consultant skills and brings in solutions idea to make our project successful."
+        },
+        {
+          "author": "Ingo Müller (Senior Product Manager, Deutsche Telekom)",
+          "text": "I can recommend Sebastian as a person with great expertise and deep background of web architecture and Frontend development. ..."
+        },
+        {
+          "author": "Sascha Lee (Visual Designer, Deutsche Telekom)",
+          "text": "In a huge collaboration project I recognized Sebastian as a very skilled and qualified teammate. ..."
+        },
+        {
+          "author": "Patric Schouler (Expert ICT Systemengineering, Deutsche Telekom)",
+          "text": "I enjoyed the time to work together with Sebastian in a challenging project at Deutsche Telekom for our TV Delivery Division. ..."
+        }
+      ]
+    },
+
+    {
+      "title": "Architektur und Entwicklung der responsiven Homepage",
+      "role": "Senior Frontend Developer",
+      "customer": "Magix, Berlin",
+      "contractor": "Triplesense Reply, Frankfurt am Main",
+      "period": {
+        "start": "2013-11",
+        "end": "2014-02"
+      },
+      "description": [
+        "Integration und Anpassung des Bootstrap-Frameworks.",
+        "Enge Zusammenarbeit mit Konzeption und Design zur Realisierung einer Responsive-Seite auf Referenz-Niveau.",
+        "Marketing-wirksames, magazinartiges Design wurde kombiniert mit einer wartungsarmen Lösung zur ganzheitlichen Anpassung an unterschiedlichste Umgebungen (von 300-1440 Pixeln in der horizontalen Auflösung).",
+        "Typografisch hoch anspruchsvolle Realisierung mit Verwendung von Modular Scales, Baseline Grids und adaptiven Spalten-Layouts für kleine und große Elemente.",
+        "Implementierung einer Sticky-JavaScript-Komponente für die Stickyness von Navigations- und Marketing-Bereichen.",
+        "Entwicklung eines interaktiven tabellarischen Produktvergleichs auf Basis einer HTML-Tabelle.",
+        "Tooling zur Auslieferung des Frontends mittels Jasy, Sass und Uglify. Bilder-Optimierung mittels ImageOptim."
+      ],
+      "testimonial": {
+        "author": "Astrid Fischer (Konzept / Information Architekt, Triplesense Reply)",
+        "text": "Sebastian ist ein überaus motivierter, mitdenkender und kreativer Entwickler. Er hat sich im Team gut integriert und die Meetings durch viele Ideen und innovative Lösungsansätze bereichert. Darüber hinaus hat die Arbeit mit ihm Spaß gemacht, weil er auch menschlich gut ins Team gepasst hat."
+      }
+    },
+    {
+      "title": "Architektur und Entwicklung der mobilen Homepage und Bestellseite",
+      "role": "Senior Frontend Developer",
+      "customer": "Tele Columbus, Berlin",
+      "contractor": "Triplesense Reply, Frankfurt am Main",
+      "period": {
+        "start": "2013-04",
+        "end": "2013-12"
+      },
+      "description": [
+        "Umsetzung der Photoshop-Designs mit HTML5-Technologie für iPhones und Android-basierte Geräte.",
+        "Hochperformante RIA mit interaktiven Wechsel von Layern ohne klassischen Seiten-Lade-Effekt.",
+        "MVP-basierte Architektur mit Template-Rendering auf Basis des Core-Framework.",
+        "HTML5-Form-Validierung mit interaktiver Rückmeldung von Fehlerzuständen.",
+        "Anbindung an existierendes PHP-basiertes Backend über RPC.",
+        "Integration von Werbe- und Tracking-Netzwerken über intelligente nachgelagerte Einbindung."
+      ]
+    },
+    {
+      "title": "Leitung der Frontend-Architektur des neuen Telefoniecenters",
+      "role": "JavaScript Architekt",
+      "customer": "Axxessio, Bonn",
+      "contractor": "Deutsche Telekom, Darmstadt",
+      "period": {
+        "start": "2012-11",
+        "end": "2013-04"
+      },
+      "description": [
+        "RIA-Anwendung zur Einstellung von VOIP-Merkmalen für den Festnetzanschluss.",
+        "Fokus bei der Entwicklung auf Möglichkeiten moderner Desktop-Browser (IE9+).",
+        "Anbindung eines bestehenden Backend-Systems mit einem REST-Proxy.",
+        "Live-Feedback und HTML5-Form-Validierung in Kombination mit Hintergrund-Synchronization.",
+        "MVP-basierte Architektur mit Template-Rendering auf Basis des Core-Frameworks.",
+        "Deployment und Tooling auf Basis von Jasy für Windows, Mac und Linux.",
+        "DOM-Manipulation und Event-Handling unter Verwendung von jQuery."
+      ],
+      "testimonials": [
+        {
+          "author": "Matthias Huthmacher (Projekt Manager, Deutsche Telekom)",
+          "text": "Sebastian was the driving force making our SCRUM Team successful. His strong programming skills combined with a keen perception helped us, to release a web application for telephony configuration using state of the art web technologies. Sebastian is a great guy with an enormous knowledge about modern software design and software architecture. I really enjoyed working with him!"
+        },
+        {
+          "author": "Chris Bauer (Creative Consultant, HEADSPACE Hamburg)",
+          "text": "Sebastian Werner beweist erstklassige Qualitäten bei der Entwicklung von RIA-Oberflächen und ist ein exzellenter Sparringspartner in komplexen SCRUM-Projekten."
+        }
+      ]
+    },
+
+    {
+      "title": "Umfassende Entwicklungsprojekte bei Zynga Germany GmbH",
+      "role": "Senior JavaScript Developer",
+      "employer": "Zynga Germany GmbH, Frankfurt am Main",
+      "period": {
+        "start": "2011-04",
+        "end": "2012-11"
+      },
+      "description": [
+        "Architektur und Entwicklung eines hardware-beschleunigten Scrollers für große Spielfelder, inklusive Dropped-Frames Handling und iOS-ähnlichem Verhalten.",
+        "Anpassung und Weiterentwicklung der Tooling-Lösung Jasy mit Features wie einem API-Browser, Scaffolding, lokalem Webserver mit Proxying, Anbindung an die Asset-Management-Infrastruktur von Zynga und Integration eines SpriteSheet-Generators.",
+        "Weiterentwicklung des JavaScript-Frameworks Core, inklusive Polyfills für ES5-Methoden, Multi-Wert-Properties, und Implementierung von Script-, Stylesheet- und Bilder-Ladesystemen."
+      ],
+      "testimonials": [
+        "Sebastian war eine unschätzbarer Teil des Teams unseres Technologie Studios für Zynga in Frankfurt. Er besitzt die Fähigkeit zu analysieren wie ein Feature idealerweise funktionieren sollte, anstatt genau nach Vorgaben zu handeln, und verbessert somit sehr häufig das gesamte Produkt. - Paul Bakaus (CTO, Zynga)",
+        "Working with Sebastian was always a pleasure. He has a vastly-founded knowledge about UI architectures and compiling architectures in JavaScript. He founded the Jasy project, which is the underlying web framework at Zynga allowing to publish everything automagically to S3 et al. Very talented guy, would love to work with him again. - Christoph Martens (JavaScript Engineer, Zynga)",
+        "I have had great experiences collaborating with Sebastian on various projects. I have used his software and tools extensively and found him eager to listen to feedback and make changes accordingly. He never hesitates to answer questions personally. I appreciate his architecture choices because they are forward-thinking, maintainable, and extensible. - Matthew Jaquish (Developer, Zynga)"
+      ]
+    },
+    {
+      "title": "Strategische Beratung, Initiierung und Entwicklung im Web-Technologie-Bereich",
+      "role": "Senior Software Developer",
+      "employer": "Deutsche Telekom, Darmstadt",
+      "period": {
+        "start": "2009-03",
+        "end": "2011-03"
+      },
+      "description": [
+        "Beschäftigung mit der Zukunft des Mobilfunkmarktes und Etablierung von Web-Technologien zur Lösung des Multi-Plattform-Approaches der Deutschen Telekom. Entwicklung der Fussball.de-Fan-App mittels Unify und PhoneGap. Demo-Video bei Youtube.",
+        "Initiierung des OpenSource Frameworks Unify. Entwicklung einer allgemeinen Navigations-Logik für mobile Anwendungen und Ausarbeitung zur Beantragung von Patenten für die geschaffenen Lösungen. Basis-Arbeiten zur Integration von Unify in native Anwendungen mittels PhoneGap, QtWebkit und Adobe AIR. Vorstellung des Frameworks auf internen und externen Events. Kooperation mit den T-Labs, T-Mobile und weiteren Mobilfunk-Anbietern und -Herstellern zur Integration von Unify in die BONDI-Initiative bzw. WAC.",
+        "Entwicklung der PagePlace-Anwendung für den Desktop-Browser. Entwicklung einer RIA-Anwendung auf Basis des qooxdoo-Frameworks zum Lesen von Büchern und Verwalten von Abos. Parsen und Aufbereiten von ePub-basierten Büchern incl. Entschlüsslung und Rendering innerhalb der Anwendung. Implementierung einer komplexen Animations-Mechanik für qooxdoo-basierte Anwendungen und eines eigenen Themes auf Basis des internen Styleguides."
+      ],
+      "testimonials": [
+        "Developer with excellent skills in web technologies, always ahead with technology and market trends. Great guy. - Bernhard Hochstätter (Head of Mobile Solutions, Deutsche Telekom)",
+        "Ich war sehr froh mit Sebastian arbeiten zu dürfen. Er ist ein echter Experte vor allem in Sachen JavaScript und Python. Er kann aber auch in Sachen UI/UX überzeugen. Ich konnte viel von Ihm lernen und ich würde jederzeit gern wieder mit ihm arbeiten. - Rocco Georgi (IT Consultant)",
+        "Sebastian is a smart Web 2.0 guy, I worked together the last year. He is deeply involved in Browser, JavaScript, CSS, HTML technologies and always knows about the latest development and trends. I can recommend working together with him and enjoy common time and work. - Jochen Hiller (Developer Evangelist, Deutsche Telekom)",
+        "Mentor, Teamleiter und ein hervorragender Entwickler. - Alexander Dittner (Softwareentwickler, Deutsche Telekom)",
+        "Working with Sebastian was a big pleasure. He has brilliant ideas all the time based on his experience and huge development knowledge. He put to our work great dose of organization and he has immense influence on code quality in our application. I'm still impressed by his knowledge about frameworks, JavaScript and Python development. - Marek Pawlowski (Consultant, Web Desire)"
+      ]
+    },
+    {
+      "title": "Team-Leitung und Implementierung von Komponenten",
+      "role": "Teamlead JavaScript Development",
+      "employer": "studiVZ, Berlin",
+      "period": {
+        "start": "2008-10",
+        "end": "2009-02"
+      },
+      "description": [
+        "Leitung von vier Frontend-Spezialisten zur Entwicklung neuartiger Oberflächen und Dialoge in einem der größten europäischen sozialen Netzwerke für Schüler, Studenten und Erwachsene.",
+        "Neuentwicklung und Verbesserung existierender Oberflächen Komponenten. Unter anderem ein Foto-Betrachter mit der Möglichkeit Personen zu Markieren."
+      ],
+      "testimonial": "Sebastian has extensive knowledge in his field, and is always able to adapt newest technical developments to the benefit of the product he is working on. Using those skills to the fullest, he helped improve our product significantly. - Wojciech Duda, studiVZ"
+    },
+    {
+      "title": "Initiierung, Architektur und Entwicklung des qooxdoo-Frameworks",
+      "role": "Senior Software Developer",
+      "employer": "1&1, Karlsruhe",
+      "period": {
+        "start": "2004-11",
+        "end": "2008-09"
+      },
+      "description": [
+        "Entwicklung eines Widget-Systems unter Berücksichtigung vieler Ideen nativer UI-Toolkits wie Qt: Layout-Queues, Child-/Shadow-Widgets, Invalidierung und Queing von Änderungen, Styling der neuen Generation mit Schatten, dynamische Dekoratoren, Farbverläufen, etc.",
+        "Python-basierte und systemübergreifend funktionierende Version der Tooling-Lösung wurde entwickelt. Damit ist es nun möglich auch komplexeste Anwendungen sinnvoll für die Auslieferung zusammenzulegen, zu optimieren, zu internationalisieren und mehr.",
+        "Internationalisierung und Übersetzung von Anwendungen auf Basis der CLDR-Datenbank und Gettext-Inspirierten Methoden und Datenformaten (PO-Dateien).",
+        "Umsetzung von Objekt-orientierten Patterns für Klassen und Interfaces wie in Java und Mixins wie in Ruby."
+      ],
+      "testimonials": [
+        "I have been using qooxdoo for external and internal projects for a while. Sebastian has always been extremely helpful and accomodating when answering questions about qooxdoo and accepting contributions. His direct, to-the-point and pragmatic style is an excellent asset. - Chris Ricks (SecurePay Group Pty Ltd)",
+        "I know Sebastian through his work on the qooxdoo library which is the coolest thing I have seen in a long time. - Tobias Oetiker (Oetiker+Partner, Olten, Switzerland)",
+        "I worked with Sebastian during development of an open source software project which relies on the qooxdoo JavaScript GUI toolkit developed at Sebastian's company. His fast, competent and friendly support on every aspect of the toolkit was crucial for the successful development of my application. I can recommend him as collaborator in open source and other projects, and his leading role in the qooxdoo project was clearly visible. - Christian Boulanger (Humboldt Universität, Berlin)",
+        "Sebastian is a visionary who has the unique ability to put his extraordinary vision into practice. Sebastian's work on the qooxdoo toolkit provided capabilities and insight that no other toolkit has matched. His ability to combine performance, power, and ease of use is truly a welcome sight. There is no doubt that he will continue to be a driving force in the industry. - Paul Morel (Tartan Solutions Inc., USA)",
+        "Sebastian ranks among the most influential people in the Web 2.0 space. Sebastian's ingenious work on the architecture of the qooxdoo framework has resulted in a fully functional and easy-to-deploy open source JavaScript UI. The Open Source Ajax community is indebted to Sebastian for his awesome work on qooxdoo. - Michael Rea (Tartan Solutions Inc., USA)"
+      ]
+    },
+
+    {
+      "title": "Webentwicklung mit XSLT-basiertem Backend",
+      "role": "Software Developer",
+      "employer": "Schlund+Partner, Karlsruhe",
+      "period": {
+        "start": "2002-05",
+        "end": "2004-10"
+      },
+      "description": [
+        "Gestaltung des Online-Auftritts, des Bestellvorgangs und von Newsletter-Kampagnen. Umsetzung von HTML-Markup und CSS vorgefertigter Designs.",
+        "Zusammenarbeit mit Backend-Entwicklern für die Dynamisierung der Inhalte. XSLT-Templates zur Anzeige von Produkt-Vergleichen, Produktseiten, etc. unter Verwendung des Pustefix-Framework (Rekursive XSLT-Engine)",
+        "Umsetzung von JavaScript-Komponenten für das Control-Center: Toolbars, Menüs, Umschalter, etc. die via einfacher HTML-Attribute steuerbar sind."
+      ],
+      "testimonial": "Long story short: Sebastian is a highly skilled JavaScript/DOM Scripting Magician with whom it always was/is a pleasure to work. - Jens O. Meiert (GMX GmbH)"
+    },
+    {
+      "title": "IT-Beratung, Programmierung und Support",
+      "role": "Software Developer",
+      "employer": "Paritätische Sozialdienste, Minden",
+      "period": {
+        "start": "2001-01",
+        "end": "2002-04"
+      },
+      "description": [
+        "Umsetzung eines Datenbank-Interface unter Verwendung des Combit Adressmanagers. Entwicklung von passenden VBA-Makros für Word zur Erstellung von Etiketten und Serienbriefen.",
+        "Gestaltung der Selbsthilfe-Zeitung mittels Adobe InDesign 1.5. Abstimmung mit der Druckerei bzgl. der Einbettung von Schriften und der Realisierung der Farbtreue. Einführung einer Mitarbeiterin in die Nutzung der Software und gemeinsame Erstellung einer ersten Ausgabe der Zeitschrift.",
+        "Erstellung der Homepage. Inhalte konnten als XML-Dateien einfach von Mitarbeitern angepasst werden. Umsetzung eines dynamischen Menü-Systems auf Basis von Flash. Schulung des Teams und Erstellung der Dokumentation zur Pflege der Homepage-Inhalte."
+      ]
+    }
+  ]
+}
