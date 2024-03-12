@@ -13,8 +13,25 @@
         "end": "2024-02"
       },
       "description": [
-        "Projektübergreifende Beratung und Umsetzung zur Frontend-Architektur unter Einsatz von ReactJS für WhiteLabel-Lösungen. Entwicklung eines modernen Frontend-Stacks für mehrere umfangreiche Webanwendungen zur Schaffung einer nachhaltigen Technologie-Basis für die nächsten Jahre.",
-        "Technologie-Stack: TurboRepo, PNPM, ReactJS, TypeScript, Radix-UI, Downshift, ReactHookForm, VanillaExtract, i18Next, Jotai, FramerMotion, Storybook, Vite/Vitest, ESLint, Playwright, ..."
+        "In der projektübergreifenden Beratung und Implementierung moderner Frontend-Architekturen mit Schwerpunkt auf ReactJS für WhiteLabel-Lösungen, entwickelte ich einen zukunftsfähigen Frontend-Stack für diverse Webanwendungen. Das Ziel war es, eine nachhaltige Technologiebasis für die kommenden Jahre zu schaffen, die den Grundstein für weiterführende Entwicklungen legt."
+      ],
+      "technologies": [
+        "TurboRepo",
+        "PNPM",
+        "ReactJS",
+        "TypeScript",
+        "Radix-UI",
+        "Downshift",
+        "ReactHookForm",
+        "VanillaExtract",
+        "i18Next",
+        "Jotai",
+        "FramerMotion",
+        "Storybook",
+        "Vite",
+        "Vitest",
+        "ESLint",
+        "Playwright"
       ],
       "testimonials": [
         {
@@ -37,23 +54,20 @@
         "end": "2022-05"
       },
       "description": [
-        "Entwicklung einer potenziell umfangreichen Frontend-Applikation für die Überwachung von Maschinen auf Basis von ReactJS.",
-        "Technische Challenges: Mono-Repository-Setup mit NX, Internationalisierung, Theming (White Label), On-Premise Rollouts & Umgang mit massiven Datenmengen."
+        "Bei der Entwicklung einer umfangreichen Frontend-Applikation für die Überwachung von Maschinen auf Basis von ReactJS, meisterte ich technische Herausforderungen wie das Mono-Repository-Setup mit NX, Internationalisierung, und Theming für White Label-Lösungen. Die Bewältigung dieser Herausforderungen und der Umgang mit großen Datenmengen demonstrierten meine Fähigkeit, komplexe Anforderungen effizient umzusetzen."
       ]
     },
     {
       "title": "Lead Web Frontend Architekt für Kundenportal und mehrerer Embedded Web Apps",
       "role": "Lead Web Frontend Architekt",
-      "customer": { "name": "Netze BW GmbH, Stuttgart", "location": "" },
+      "customer": { "name": "Netze BW GmbH", "location": "Stuttgart" },
       "contractor": "Hays AG, Mannheim",
       "period": {
         "start": "2021-02",
         "end": "2022-02"
       },
       "description": [
-        "Architekturelle Verantwortung und Federführung der Frontend-Architektur. Erarbeitung von Verbesserungenvorschlägen der bestehenden Architektur. Weiterhin Skizzierung und Entwicklung der Architektur für neue Entwicklungen.",
-        "Projektabläufe nach SCRUM-Methodik, API-First-Entwicklung, REST-Schnittstellen (Micro Services), Projekt-Management, Git Hosting und DevOps mit Azure, Authorisierung des Users über Auth0, ...",
-        "Einführung von End-to-End Tests mit Cypress (incl. initialem Setup im Projekt) bis zu einer Abdeckung von 70% der Code-Pfade für das bestehende Kundencenter und damit eine Absicherung bzgl. Regressionen der folgenden Releases. ..."
+        "Ich übernahm die architekturelle Verantwortung für die Frontend-Architektur, entwickelte Verbesserungsvorschläge für bestehende Strukturen und skizzierte Architekturen für neue Entwicklungen. Durch die Anwendung von SCRUM-Methodik, API-First-Entwicklung und die Implementierung von End-to-End Tests mit Cypress, erreichte ich eine Code-Coverage von 70% für das bestehende Kundencenter, was eine solide Basis für die Qualitätssicherung in zukünftigen Releases bildete."
       ],
       "testimonials": [
         {
@@ -75,10 +89,7 @@
         "end": "2021-02"
       },
       "description": [
-        "Erweiterung des GraphQL-Services um neue Resolver die Integration einer MySQL-Datenbank und vorhandener REST-Dienste.",
-        "Architekturelle Verbesserungen des GraphQL-Services bzgl. Typisierung, Nutzung Async/Await, Testbarkeit, etc.",
-        "Tooling Verbesserung des GraphQL-Servies bzgl. Bundling, Watcher und Linting.",
-        "Code-Reviews architekturelle Verbesserung für Teile der internen Komponenten-Bibiliothek."
+        "Die Erweiterung und Optimierung des GraphQL-Services, einschließlich der Integration neuer Resolver und einer MySQL-Datenbank, fielen in meinen Aufgabenbereich. Ich führte Verbesserungen in Typisierung, Async/Await-Nutzung, Testbarkeit und Tooling durch und leistete Beiträge zur architekturellen Verbesserung der internen Komponentenbibliothek. Diese Maßnahmen steigerten signifikant die Qualität und Wartbarkeit des Gesamtsystems."
       ],
       "testimonials": [
         {
@@ -97,12 +108,21 @@
         "end": "2020-09"
       },
       "description": [
-        "Weiterentwicklung und Erweiterung einer Webanwendung zur interaktiven Verfolgung von LKWs mit Baumaterialien. Entwicklung einer Heuristik zur automatischen visuellen Aufbereitung von LKW-Routen und deren Darstellung in der Google-Maps-basierten Ansicht.",
-        "Einführung eines Mono-Repositorys, um alle Frontend-Anwendungen und Komponenten effizient gemeinsam entwickeln zu können. Einführung von Tools zur Automatisierung des statischen Hostings in Azure zusammen mit dem Azure CDN unter Verwendung der GitLab CI. Dies war auch der Ersatz der früheren viel langsameren Docker-basierten Front-End-Lösung.",
-        "Vereinheitlichung der TypeScript-Konfiguration und ESLint-Regeln für eine einheitliche Tool-Umgebung im Team. Unterstützung bei der Einführung von Cypress-basierten E2E-Tests. Sukzessive Umstellung der Codebasis auf TypeScript.",
-        "Implementierung eines massiv überarbeiteten Axios-basierten API-Clients für die REST-basierte Kommunikation mit dem Backend. Einrichtung des Publish-Prozesses als ESM Module im internen NPM.",
-        "Sparring-Partner für UX-Designer und leitender Entwickler zur Gestaltung und Strukturierung des UI-Frameworks. Unterstützung ein gemeinsames Verständnis guter Komponentenstrukturen zu entwickeln und dieses Verständnis in die Realität umzusetzen.",
-        "Verwendete Technologien: React (Redux, React Router, i18next, Hooks), Lerna, Prettier, ESLint, TypeScript, Azure Cloud, Jest, Cypress."
+        "Bei der Weiterentwicklung und Erweiterung einer Webanwendung zur interaktiven Verfolgung von LKWs mit Baumaterialien entwickelte ich eine Heuristik zur automatischen visuellen Aufbereitung von LKW-Routen für eine Google-Maps-basierte Ansicht. Ich führte ein Mono-Repository ein, um die Entwicklung aller Frontend-Anwendungen und -Komponenten zu vereinheitlichen und automatisierte Tools für das statische Hosting in Azure zusammen mit dem Azure CDN unter Verwendung der GitLab CI zu implementieren. Dies ersetzte die frühere, langsamer reagierende Docker-basierte Front-End-Lösung. Ich standardisierte die TypeScript-Konfiguration und ESLint-Regeln und unterstützte die Einführung von Cypress-basierten E2E-Tests. Weiterhin erfolgte die sukzessive Umstellung der Codebasis auf TypeScript und die Implementierung eines überarbeiteten Axios-basierten API-Clients. Als Sparring-Partner für UX-Designer und leitender Entwickler trug ich zur Gestaltung und Strukturierung des UI-Frameworks bei, unterstützte bei der Entwicklung eines gemeinsamen Verständnisses guter Komponentenstrukturen und deren Umsetzung."
+      ],
+      "technologies": [
+        "React",
+        "Redux",
+        "React Router",
+        "i18next",
+        "React Hooks",
+        "Lerna",
+        "Prettier",
+        "ESLint",
+        "TypeScript",
+        "Azure",
+        "Jest",
+        "Cypress"
       ],
       "testimonials": [
         {
@@ -125,13 +145,7 @@
         "end": "2019-02"
       },
       "description": [
-        "Konventionen bzgl. Ordnerstruktur und Struktur der Implementierung im Allgemeinen.",
-        "Umgang mit Assets in Bezug auf React und Platzierung dieser in der Ordnerstruktur.",
-        "Einsatz für Typisierung mit TypeScript und Zusammenspiel mit Server-seitigen Daten.",
-        "Erläuterungen Vor- und Nachteile Funktionale bzw. Klassen-Deklaration in React.",
-        "Empfehlungen für Newsletter, Video-Kurse und Konferenzen als weitere Bausteine der Einarbeitung.",
-        "Reduzierung des Boilerplates bei Redux durch Einsatz des Duck-Patterns.",
-        "Konzeptionelle Überlegungen hinsichtlich eines möglichen Einsatzes von GraphQL."
+        "In einem mehrtägigen Workshop zu Best Practices in der Frontend-Entwicklung mit React vermittelte ich Konventionen bezüglich Ordnerstruktur und Implementierungsstrategien. Der Fokus lag auf dem effektiven Umgang mit Assets, der Einführung in die Typisierung mit TypeScript und dem Zusammenspiel mit serverseitigen Daten. Ich erläuterte die Vor- und Nachteile von funktionalen gegenüber Klassen-Deklarationen in React und gab Empfehlungen für die fortlaufende Bildung durch Newsletter, Video-Kurse und Konferenzen. Weiterhin thematisierte ich die Reduzierung von Boilerplate bei Redux durch das Duck-Pattern und leitete Diskussionen über den potenziellen Einsatz von GraphQL. Das Ziel des Workshops war es, ein tiefgreifendes Verständnis der modernen Frontend-Entwicklung zu fördern und praktische Lösungsansätze für alltägliche Herausforderungen zu bieten."
       ],
       "testimonials": [
         {
@@ -157,15 +171,15 @@
         "end": "2019-06"
       },
       "description": [
-        "Neu-Entwicklung eines Online-Shops mit Ziel der Multi-Brand-Unterstützung und der Verwendung im internationalen Umfeld.",
-        "Technologie-Stack: TypeScript, React, Styled Components, Reach Router, GraphQL mit Apollo, Webpack und mehr",
-        "Einführung der GraphQL-Orechestration-Schicht auf Basis von Apollo im Client und Server-Bereich incl. Mentoring des Teams.",
-        "Überarbeitung und Optimierung vom Server-seitigen Rendering (SSR).",
-        "Umsetzung einer modernen Code-Splitting-Lösung auf Basis von Loadable Components",
-        "Einführung einer JWT-basierten SSR-tauglichen Nutzer-Zuordnung.",
-        "Verbesserungen im Bereich Tooling mit der Verwendung von Threading und Caching im Webpack-Bereich.",
-        "Umstellung des TypeScript-Toolings auf Babel zur Optimierung der Laufzeiten (insbesondere im Bereich HMR).",
-        "Verbesserung des Routings auf Client-Seite und Umsetzung von Preloading für diverse Code-Split-Pfade."
+        "Die Neu-Entwicklung eines Online-Shops mit dem Ziel der Multi-Brand-Unterstützung und der Nutzung im internationalen Umfeld beinhaltete die Einführung einer GraphQL-Orchestration-Schicht basierend auf Apollo im Client- und Server-Bereich, einschließlich des Mentorings des Teams. Ich überarbeitete das serverseitige Rendering (SSR) und setzte eine moderne Code-Splitting-Lösung auf Basis von Loadable Components um. Die Einführung einer JWT-basierten, SSR-tauglichen Nutzerzuordnung, Verbesserungen im Bereich Tooling mit Threading und Caching in Webpack, die Umstellung des TypeScript-Toolings auf Babel zur Optimierung der Laufzeiten, insbesondere im Bereich HMR, sowie die Verbesserung des Routings auf Client-Seite und die Umsetzung von Preloading für diverse Code-Split-Pfade gehörten zu meinen Aufgaben."
+      ],
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Styled Components",
+        "Reach Router",
+        "GraphQL mit Apollo",
+        "Webpack"
       ],
       "testimonials": [
         {
@@ -184,11 +198,9 @@
         "end": "2018-09"
       },
       "description": [
-        "Neu-Entwicklung einer Mediathek für alle Sender der ARD als gemeinsame Plattform.",
-        "Technologie-Stack: React v16 (React Router, Redux), GraphQL mit Apollo, Webpack v4, Sass, Flowtype und mehr",
-        "Unterstützte Geräte der neuen Plattform: Moderne HBBTV-fähige Fernseher, Responsive-Layouts für Web-Browser auf Handys, Tablets und Desktops.",
-        "Entwicklung und Optimierung der GraphQL-Schnittstelle bzgl. Kommunikation mit REST-APIs."
-      ]
+        "Bei der Neu-Entwicklung einer Mediathek für alle Sender der ARD als gemeinsame Plattform lag mein Fokus auf der Unterstützung moderner HBBTV-fähiger Fernseher und der Bereitstellung responsiver Layouts für Web-Browser auf Handys, Tablets und Desktops. Ich war maßgeblich an der Entwicklung und Optimierung der GraphQL-Schnittstelle beteiligt, um eine effiziente Kommunikation mit bestehenden REST-APIs zu gewährleisten. Dieses Projekt zielte darauf ab, eine nahtlose und benutzerfreundliche Medienbibliothek zu schaffen, die den Zugriff auf Inhalte über eine Vielzahl von Geräten ermöglicht und dabei modernste Technologien nutzt."
+      ],
+      "technologies": ["React", "Apollo GraphQL", "Webpack", "Sass", "Flowtype"]
     },
     {
       "title": "React-Architekt für Umsetzung eines Verkehrs-Informationsangebotes",
@@ -200,12 +212,24 @@
         "end": "2018-07"
       },
       "description": [
-        "Neuentwicklung eines Web-basierten Dashboards mit z. B. Echtzeit-Abfahrsinformationen für den Einsatz im ÖPNV-Umfeld.",
-        "Eigenverantwortliche Architektur und Entwicklung in Absprache mit Produktmanagern. Auswahl aktueller Technologien und Schulung der Mitarbeiter in Themen React und Web-Entwicklung.",
-        "Technologie-Stack: React v16 (Formik, Popmotion/Pose, React Intl, Reach Router, ...), DotEnv, Webpack v4, Code Splitting, Babel v7, Edge Platform, PostCSS, CSS Modules, CSS Grid, Storybook, Jest, ESlint, Stylelint, Prettier und mehr",
-        "Entwicklung eines GraphQL-Servers mit Apollo unter Nutzung einer Vielzahl unterschiedlicher REST-APIs (Inhouse und Extern)",
-        "Erkennung der Geo-Position und Ermittlung von Routen und Distanzen unter Verwendung von MapBox und OpenStreetMap.",
-        "Seiten-Layout und Umsetzung der ersten Design-Konzepte in wiederverwendbare Komponenten und Views."
+        "Bei der Neuentwicklung eines webbasierten Dashboards für Echtzeit-Abfahrsinformationen im ÖPNV-Umfeld übernahm ich die eigenverantwortliche Architektur und Entwicklung, in enger Absprache mit Produktmanagern. Ich traf die Auswahl aktueller Technologien und führte Schulungen für Mitarbeiter in den Bereichen React und Web-Entwicklung durch. Ein zentraler Bestandteil meiner Arbeit war die Entwicklung eines GraphQL-Servers mit Apollo, der eine Vielzahl unterschiedlicher REST-APIs, sowohl Inhouse als auch extern, nutzte. Für die Erkennung der Geo-Position und die Ermittlung von Routen und Distanzen setzte ich auf MapBox und OpenStreetMap. Darüber hinaus gestaltete ich das Seiten-Layout und setzte die ersten Design-Konzepte in wiederverwendbare Komponenten und Views um, um eine intuitive und effiziente Benutzeroberfläche zu schaffen."
+      ],
+      "technologies": [
+        "React",
+        "Formik",
+        "Popmotion",
+        "React Intl",
+        "Reach Router",
+        "DotEnv",
+        "Webpack",
+        "Babel",
+        "PostCSS",
+        "CSS Modules",
+        "Storybook",
+        "Jest",
+        "ESLint",
+        "Stylelint",
+        "Prettier"
       ]
     },
     {
@@ -221,10 +245,21 @@
         "end": "2018-03"
       },
       "description": [
-        "Unterstützung bei der Entwicklung in einer bereits durch Kunden genutzten Plattform.",
-        "Verteiltes Team mit Standorten in Leipzig und München.",
-        "Architekturelle Verbesserungsvorschläge und Mentoring von Kollegen.",
-        "Technologie-Stack: React, Redux, Redux-Saga, Webpack, Babel, Less, ESLint, Karma, Mocha, Sinon, AWS, S3"
+        "Bei der Unterstützung der Weiterentwicklung einer bereits von Kunden genutzten Plattform arbeitete ich in einem verteilten Team mit Standorten in Leipzig und München. Meine Rolle umfasste die Einbringung architektureller Verbesserungsvorschläge sowie das Mentoring von Kollegen, um die Qualität und Effizienz der Plattform zu steigern. Durch diese Zusammenarbeit trug ich zur Optimierung bestehender Prozesse und Strukturen bei, förderte den Wissensaustausch innerhalb des Teams und unterstützte die kontinuierliche Weiterentwicklung der Plattform, um den Anforderungen und Bedürfnissen der Nutzer noch besser gerecht zu werden."
+      ],
+      "technologies": [
+        "React",
+        "Redux",
+        "Redux-Saga",
+        "Webpack",
+        "Babel",
+        "Less",
+        "ESLint",
+        "Karma",
+        "Mocha",
+        "Sinon",
+        "AWS",
+        "Amazon S3"
       ],
       "testimonials": [
         {
@@ -247,13 +282,17 @@
         "end": "2017-12"
       },
       "description": [
-        "Projekt-Setup für eine Green-Field React-Anwendung im Pharma-Bereich.",
-        "Neustrukturierung der existierenden Komponenten-Library.",
-        "Einführung von eigenen NPM Repositories zur Erhöhung der Wiederverwendung von Komponenten, Linting Regeln, etc.",
-        "Responsive Design mit CSS Grid Layout und responsiver Typographie zur Abdeckung der vollständigen Gerätevielfalt.",
-        "Server-seitiges Rendern mit React v16 incl. intelligentem Code-Splitting für JavaScript und CSS.",
-        "Evaluierung und Auswahl von Oberflächen-Komponenten für Animation, Charting, ...",
-        "Technologie-Stack: React, Redux, Webpack, Storybook, Edge-Plattform, ESLint, Stylelint, Prettier"
+        "Für das Projekt-Setup einer Green-Field React-Anwendung im Pharma-Bereich übernahm ich die Neustrukturierung der existierenden Komponenten-Library und führte eigene NPM Repositories ein. Diese Maßnahme diente der Erhöhung der Wiederverwendbarkeit von Komponenten und der Implementierung einheitlicher Linting-Regeln. Ich setzte auf responsive Design mit CSS Grid Layout und responsiver Typographie, um eine optimale Darstellung auf einer breiten Gerätevielfalt zu gewährleisten. Des Weiteren realisierte ich serverseitiges Rendering mit React, inklusive intelligentem Code-Splitting für JavaScript und CSS. Die Evaluierung und Auswahl von Oberflächen-Komponenten für Animationen, Charting und weitere Funktionen gehörten ebenfalls zu meinen Aufgaben, um eine benutzerfreundliche und visuell ansprechende Anwendung zu entwickeln."
+      ],
+      "technologies": [
+        "React",
+        "Redux",
+        "Webpack",
+        "Storybook",
+        "Edge-Plattform",
+        "ESLint",
+        "Stylelint",
+        "Prettier"
       ],
       "testimonials": [
         {
