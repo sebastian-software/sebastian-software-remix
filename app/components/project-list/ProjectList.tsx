@@ -11,6 +11,13 @@ interface Project {
   links: string[];
   description: string[];
   technologies: string[];
+  testimonials: Testimonial[];
+}
+
+interface Testimonial {
+  author: string;
+  position: string;
+  text: string;
 }
 
 interface PeriodInfo {
@@ -66,6 +73,19 @@ export function Project({ data }: ProjectProps) {
           <p key={index}>{text}</p>
         ))}
       </div>
+
+      {data.testimonials && (
+        <ul>
+          {data.testimonials.map((entry, index) => (
+            <li key={index}>
+              <blockquote>{entry.text}</blockquote>
+              {/* <small>
+                {entry.author}, {entry.position}
+              </small> */}
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }

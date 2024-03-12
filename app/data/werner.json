@@ -35,12 +35,34 @@
       ],
       "testimonials": [
         {
-          "text": "Ich empfehle Sebastian mit großem Enthusiasmus für jede Rolle oder jedes Projekt, das tiefgreifende Fachkenntnisse in der Web-Frontend-Entwicklung, außergewöhnliche Führungsqualitäten in der Teamorganisation und strategische Entscheidungsfähigkeiten erfordert. ...",
-          "author": "Patrick Krumm (Software-Entwickler/-Architekt, EnBW AG)"
+          "author": "Patrick Krumm",
+          "position": "Software-Entwickler/-Architekt, EnBW AG",
+          "text": "Ich empfehle Sebastian mit großem Enthusiasmus für jede Rolle oder jedes Projekt, das tiefgreifende Fachkenntnisse in der Web-Frontend-Entwicklung, außergewöhnliche Führungsqualitäten in der Teamorganisation und strategische Entscheidungsfähigkeiten erfordert. Da ich das Privileg hatte, mit Sebastian zusammenzuarbeiten, habe ich aus erster Hand erfahren, welchen Einfluss er auf unsere Projekte hat, indem er Innovation und Exzellenz auf Schritt und Tritt vorantreibt. Sebastians Verständnis für aktuelle Technologien in der Webentwicklung ist herausragend. Er hält sich nicht nur über die neuesten Trends und Tools auf dem Laufenden, sondern besitzt auch die seltene Fähigkeit zu erkennen, welche davon am effektivsten eingesetzt werden können, um die Projektergebnisse zu verbessern. Seine Empfehlungen und Entscheidungen beruhen stets auf einer sorgfältigen Analyse und einem vorausschauenden Ansatz, der sicherstellt, dass unsere Projekte nicht nur erfolgreich, sondern auch zukunftssicher sind. Über seinen technischen Scharfsinn hinaus ist Sebastian eine natürliche Führungspersönlichkeit. Seine Herangehensweise an die Organisation und Führung von Teams ist sowohl inspirierend als auch effektiv und fördert ein Umfeld der Zusammenarbeit, des Lernens und der hohen Leistung. Unter seiner Leitung waren unsere Teams in der Lage, ehrgeizige Ziele zu erreichen und die Erwartungen in Bezug auf Qualität und Pünktlichkeit oft zu übertreffen. Sebastians Rollen als Senior Developer, Frontend Architect und Frontend Lead haben seine Vielseitigkeit und sein Durchsetzungsvermögen unter Beweis gestellt und ihn zu einer unschätzbaren Bereicherung in jedem Projektszenario gemacht. Seine Fähigkeit, diese Rollen mit Bravour auszufüllen, spricht Bände über seine Kompetenz, seine strategische Denkweise und sein Engagement für hervorragende Leistungen. Für jedes Unternehmen, das seine Webentwicklungsprojekte zu neuen Höhenflügen führen möchte, ist Sebastian der ideale Kandidat."
         },
         {
-          "text": "Sebastian ist ein Top-Experte für die Entwicklung von Web-Frontends, mit einem hervorragenden Überblick über aktuelle Technologien, sowie erfolgreiche Team-Organisation. ...",
-          "author": "Jochen Reinelt (Team Lead - Software Engineering Digital Services, EnBW AG)"
+          "author": "Jochen Reinelt",
+          "position": "Team Lead - Software Engineering Digital Services, EnBW AG",
+          "text": "Sebastian ist ein Top-Experte für die Entwicklung von Web-Frontends, mit einem hervorragenden Überblick über aktuelle Technologien, sowie erfolgreiche Team-Organisation. Mit seiner großen Erfahrung ist er ein wertvoller Berater in Entscheidungs- und Auswahlprozessen, sowie in der Erarbeitung von Entwicklungsrichtlinien. Seine Empfehlungen oder Entscheidungen trifft er stets wohlüberlegt und kann diese detailliert begründen. Aufgrund seiner hohen Kompetenz und Durchsetzungsstärke kann er in Projekten verschiedene Rollen erfolgreich ausfüllen, vom Senior Developer bis zum Frontend Architect oder Frontend Lead."
+        },
+        {
+          "author": "Emanuele De Monte",
+          "position": "Product Owner, EnBW AG",
+          "text": "Während unserer gemeinsamen Zeit bei EnBW habe ich Sebastian als Dienstleister kennengelernt und ihn als außergewöhnlich kompetenten und engagierten Lead Front End Developer erlebt. Sebastian verfügt über ein umfangreiches Wissen über die neuesten Frontend-Technologien und zeigt eine bemerkenswerte Fähigkeit, komplexe Probleme kreativ und effizient zu lösen. Er hat eine Schlüsselrolle dabei gespielt, das Projekt zur Entwicklung innovativer und benutzerfreundlicher Webanwendungen voranzutreiben. Ich möchte mich für die gemeinsame Zeit bedanken und freue mich auf die Fertigstellung des Projekts."
+        },
+        {
+          "author": "Kai Santanius",
+          "position": "Frontend Consultant",
+          "text": "Sebastian ist ein bemerkenswerter Mentor und Kollege. Sein umfangreiches Wissen und seine Bereitschaft, sein Fachwissen mit anderen zu teilen, sind für unser gesamtes Team von großem Vorteil, und ich möchte ihn nicht mehr missen. Eine von Sebastians hervorragendsten Eigenschaften ist seine Bereitschaft, zuzuhören und Ratschläge zu geben. Wann immer ich auf eine Herausforderung stieß, hatte Sebastian ein geduldiges Ohr und praktische Lösungen parat. Seine Ratschläge und Einsichten waren für mich von unschätzbarem Wert, sowohl beruflich als auch persönlich. Ich kann Sebastian mit gutem Gewissen als engagierten und sachkundigen Fachmann empfehlen, mit dem man rundherum hervorragend zusammenarbeiten kann. Er wird für jede Organisation eine wertvolle Bereicherung sein."
+        },
+        {
+          "author": "Tobias Arweiler",
+          "position": "Freelancer, Senior Software Entwickler",
+          "text": "Sebastian ist ein überaus professioneller, sehr erfahrener Softwarearchitekt, der weiß, wovon er spricht. In unserem gemeinsamen Projekt bei der EnBW war er eine wichtige Stimme für eine vernünftige und technologisch fundierte Software-Architektur, sowie ein großartiger Sparringspartner für jede technologische Frage oder Idee, die man aufwerfen wollte. Jedes Projektteam würde sich freuen, ihn als Teammitglied zu haben, da er sowohl bei der technischen Umsetzung als auch bei komplexen Architekturdiskussionen unterstützen kann. Ich wünsche ihm alles Gute."
+        },
+        {
+          "author": "Rouven Haban",
+          "position": "Scrum Master, scrum asset",
+          "text": "Ich hatte das Privileg, mehr als ein Jahr lang mit Sebastian als Scrum Master zu arbeiten. Sebastian ist ein außergewöhnlicher Lead Developer, dessen tiefgreifende technische Expertise und innovative Denkweise unser Team konsequent zum Erfolg führt. Seine Fähigkeit, komplexe Konzepte in klare, umsetzbare Lösungen zu übersetzen, ist in unserer agilen Umgebung von unschätzbarem Wert. Sebastian leitet mit Leichtigkeit an und inspiriert unser Team zu neuen Höchstleistungen. Unter seiner Leitung haben wir erhebliche Verbesserungen bei der Effizienz und der Produktqualität festgestellt. Ich empfehle Sebastian von ganzem Herzen für jede fortgeschrittene Entwicklungsaufgabe. Er ist nicht nur ein hochqualifizierter Entwickler, sondern auch ein echter Teamplayer, der für jedes Projekt, an dem er beteiligt ist, einen immensen Wert darstellt."
         }
       ]
     },
@@ -73,8 +95,14 @@
       "technologies": ["Cypress", "JavaScript", "React"],
       "testimonials": [
         {
-          "text": "Sebastian überzeugt mit seinem tiefen Fachwissen in Sachen Frontend-Architektur, Tooling und React im Speziellen. ...",
-          "author": "Florian Matz (Professional Software-Engineer, Netze BW GmbH)"
+          "author": "Florian Matz",
+          "position": "Professional Software-Engineer, Netze BW GmbH",
+          "text": "Sebastian überzeugt mit seinem tiefen Fachwissen in Sachen Frontend-Architektur, Tooling und React im Speziellen. Dabei kommuniziert er ehrlich und bringt mit seiner Kompetenz jede Codebasis voran. Vielen Dank, es hat Spaß gemacht!"
+        },
+        {
+          "author": "Yangyang Gao",
+          "position": "Lead Consultant Fullstack, CGI Deutschland",
+          "text": "Sebastian arbeitet selbstständig an allen Aufgaben, die in der täglichen Projektarbeit anfallen. Er ist ein ausgewiesener Experte im Frontend-Bereich und steht jederzeit mit seinem Know-how zur Verfügung. Bei der Analyse der Frontend-Architektur hat er viele sinnvolle Verbesserungsmöglichkeiten gefunden und mit Hilfe von Best Practices pragmatisch umgesetzt. Seine Lösungsvorschläge und Diskussionsbeiträge sind immer ein elementarer Input."
         }
       ]
     },
@@ -104,8 +132,14 @@
       ],
       "testimonials": [
         {
-          "text": "Es war großartig, mit dir zu arbeiten. Ich werde deine Kompetenz, deinen Weitblick und unsere Gespräche vermissen. ...",
-          "author": "Sascha Metz (Web-Developer, Visuellagentur UG)"
+          "text": "Es war großartig, mit dir zu arbeiten. Ich werde deine Kompetenz, deinen Weitblick und unsere Gespräche vermissen. Viel Glück und denk daran: Man sieht sich immer zweimal im Leben. Das war eine Drohung. :)",
+          "position": "Web-Developer, Visuellagentur UG",
+          "author": "Sascha Metz"
+        },
+        {
+          "text": "Vielen Dank für deinen professionellen Einsatz. Du hast das Team mit deiner Unterstützung in vielerlei Hinsicht weitergebracht. Es war ein außerordentliches Vergnügen, mit Dir zu arbeiten.",
+          "position": "Lead User Centered Design & Scrum Master Unit Search, empiriecom GmbH & Co. KG",
+          "author": "Natalie Stoisch"
         }
       ]
     },
