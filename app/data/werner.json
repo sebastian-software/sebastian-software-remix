@@ -20,13 +20,13 @@
         "PNPM",
         "ReactJS",
         "TypeScript",
-        "Radix-UI",
+        "Radix UI",
         "Downshift",
-        "ReactHookForm",
-        "VanillaExtract",
+        "React Hook Form",
+        "Vanilla Extract",
         "i18Next",
         "Jotai",
-        "FramerMotion",
+        "Framer Motion",
         "Storybook",
         "Vite",
         "Vitest",
@@ -178,7 +178,7 @@
         "React",
         "Styled Components",
         "Reach Router",
-        "GraphQL mit Apollo",
+        "Apollo GraphQL",
         "Webpack"
       ],
       "testimonials": [
@@ -289,7 +289,6 @@
         "Redux",
         "Webpack",
         "Storybook",
-        "Edge-Plattform",
         "ESLint",
         "Stylelint",
         "Prettier"
@@ -319,11 +318,15 @@
         "end": "2017-06"
       },
       "description": [
-        "Aufbau einer Frontend-Architektur in Zusammenarbeit mit Systemarchitekten und Produktmanagern.",
-        "Schulung, Mentoring und Code-Abnahme (Git-Flow + Pull Requests) für 2 Offshore-Teams in Indien.",
-        "Technologie-Evaluierung für neuen Technologie-Stack in Kooperation mit unterschiedlichen Stakeholdern im ganzen Konzern.",
-        "Analyse und Konzeption eines neuen Development 2.0 Environments zur Verbesserung der Produktivität von Software-Entwicklern.",
-        "Technologie-Stack: React, Redux, Webpack, ESLint, Stylelint. Datenanbindung via REST an Backend-Layer."
+        "Im Rahmen des Aufbaus einer Frontend-Architektur arbeitete ich eng mit Systemarchitekten und Produktmanagern zusammen. Ich übernahm die Schulung, das Mentoring und die Code-Abnahme für zwei Offshore-Teams in Indien, wobei ich den Git-Flow und Pull Requests als Arbeitsmethode festlegte. Ein wesentlicher Bestandteil meiner Aufgaben war die Technologie-Evaluierung für einen neuen Technologie-Stack, die in Kooperation mit verschiedenen Stakeholdern im Konzern durchgeführt wurde. Zudem führte ich die Analyse und Konzeption eines neuen Development 2.0 Environments durch, um die Produktivität von Software-Entwicklern signifikant zu verbessern. Dieses Projekt zielte darauf ab, eine effiziente und zukunftssichere Entwicklungsumgebung zu schaffen, die den Anforderungen moderner Softwareentwicklung gerecht wird."
+      ],
+      "technologies": [
+        "React",
+        "Redux",
+        "Webpack",
+        "ESLint",
+        "Stylelint",
+        "REST"
       ],
       "testimonials": [
         {
@@ -353,9 +356,16 @@
         "end": "2017-02"
       },
       "description": [
-        "Architektur-Analyse und Optimierung des bestehenden Frontends",
-        "Entwicklung und Architektur im React-Umfeld mit weiteren Technologien wie Gulp, Webpack, ESLint, StyleLint, PostCSS, CSS Modules, etc.",
-        "Einführung von Apollo Client + Server für die Verwendung von GraphQL für effiziente Kommunikation zwischen Frontend und Backend."
+        "Bei der Architektur-Analyse und Optimierung des bestehenden Frontends lag der Schwerpunkt auf der Entwicklung und Architektur im React-Umfeld. Ich führte den Apollo Client und Server für die Nutzung von GraphQL ein, um eine effiziente Kommunikation zwischen Frontend und Backend zu ermöglichen. Dieser Schritt verbesserte die Datenabfrage- und -manipulationsprozesse erheblich, indem er eine präzisere und flexiblere Schnittstelle für den Datenaustausch bot. Die Implementierung dieser Technologien trug maßgeblich zur Steigerung der Leistungsfähigkeit und zur Optimierung der Benutzererfahrung der Anwendung bei."
+      ],
+      "technologies": [
+        "React",
+        "Gulp",
+        "Webpack",
+        "ESLint",
+        "StyleLint",
+        "PostCSS",
+        "CSS Modules"
       ],
       "testimonials": [
         {
@@ -386,11 +396,9 @@
         "end": "2016-09"
       },
       "description": [
-        "Umstellung der Styling-Plattform auf PostCSS.",
-        "Entwicklung der Tooling Lösung mit HMR für React Universal.",
-        "Technologien: Universal React + Redux, React-Intl für Internationalisierung, ES2015+, PostCSS, Webpack v2 (Nutzung von Tree-Shaking, automatischen Chunks, ...).",
-        "Zielplattformen: Desktop-Browser, Tablet-Browser, Smartphone-Browser"
+        "Bei der Umstellung der Styling-Plattform auf PostCSS entwickelte ich eine Tooling-Lösung, die Hot Module Replacement (HMR) für React mit Server-Side Rendering (SSR) unterstützt. Die Implementierung von React-Intl ermöglichte die Internationalisierung der Anwendung, während Techniken wie Tree-Shaking und automatische Chunks die Effizienz und Leistung verbesserten. Ziel war es, eine konsistente und reaktionsfähige Nutzererfahrung über eine Vielzahl von Plattformen hinweg zu gewährleisten, einschließlich Desktop-Browsern, Tablet-Browsern und Smartphone-Browsern. Diese strategische Überarbeitung führte zu einer Optimierung der Ladezeiten und einer signifikanten Verbesserung der allgemeinen Benutzerfreundlichkeit."
       ],
+      "technologies": ["React", "Redux", "React-Intl", "PostCSS", "Webpack"],
       "testimonials": []
     },
     {
@@ -406,8 +414,7 @@
         "end": "2016-04"
       },
       "description": [
-        "Beratung Frontend-Architektur für eine neue internationale Investment-Plattform. Die Anforderungen lagen im Bereich: SPA (Single Page Application), live aktualisierte Charts und international formatierte Werte (Währungen, etc.).",
-        "Aufsetzen der Projekt-Struktur mit Gulp als Taskmanager, NPM für die Organisation der Build-Umgebung, JSPM als Paket-Verwaltung für Frontend-Pakete mit EcmaScript 2015 Unterstützung, Sass für Stylesheets und VueJS für die interaktiven Funktionalitäten und die Komponenten-Entwicklung."
+        "Bei der Beratung zur Frontend-Architektur für eine neue internationale Investment-Plattform lag der Fokus auf der Entwicklung einer Single Page Application (SPA), die live aktualisierte Charts und international formatierte Werte (z.B. Währungen) darstellen kann. Ich setzte die Projektstruktur auf, wobei Gulp als Taskmanager und NPM zur Organisation der Build-Umgebung verwendet wurden. JSPM diente als Paketverwaltung für Frontend-Pakete mit Unterstützung für EcmaScript 2015. Für die Stylesheets kam Sass zum Einsatz, während VueJS für die Erstellung interaktiver Funktionalitäten und die Entwicklung von Komponenten genutzt wurde. Diese Technologieauswahl und Strukturierung trugen maßgeblich dazu bei, die gestellten Anforderungen effizient umzusetzen und eine robuste sowie benutzerfreundliche Plattform zu schaffen."
       ],
       "testimonials": [
         {
@@ -430,15 +437,15 @@
         "end": "2015-10"
       },
       "description": [
-        "Beratung zu Software-Architektur, Best-Practises, Testbarkeit und Performance.",
-        "Einführung eines MVP-Konzeptes für bessere Modularität und Struktur des Codes.",
-        "Umsetzung eines anspruchsvollen interaktiven Interfaces mit fortschrittlichen UI-Übergängen mittels Velocity.js.",
-        "Intensive Arbeit mit Less zum Styling des Interfaces.",
-        "Verwendung der Huawei-Frameworks zur Kommunikation mit der Set-Top-Box.",
-        "Vermittlung zwischen Offshore-Team und Onsite-Team zur Entwicklung und Merging-Strategien.",
-        "Entwicklung von Tests (Unit-Tests und UI-Tests) unter Verwendung von Jasmine und DalekJS.",
-        "Code-Dokumentation unter Verwendung von JSDuck.",
-        "Tooling für Entwicklung und Deployment mit Grunt."
+        "Bei der Beratung zu Software-Architektur, Best Practices, Testbarkeit und Performance lag mein Fokus auf der Einführung eines MVP-Konzeptes, um Modularität und Struktur des Codes zu verbessern. Ich leitete die Umsetzung eines anspruchsvollen interaktiven Interfaces, das fortschrittliche UI-Übergänge bot. Zusätzlich koordinierte ich die Kommunikation und Entwicklungsstrategien zwischen Offshore- und Onsite-Teams, um eine effiziente Zusammenarbeit und Merging-Strategien zu gewährleisten. Ein weiterer Schwerpunkt meiner Arbeit war die Entwicklung von Tests, einschließlich Unit-Tests und UI-Tests, um die Qualität und Zuverlässigkeit der Software zu sichern. Die Dokumentation des Codes und das Tooling für Entwicklung und Deployment wurden ebenfalls von mir betreut, um eine konsistente und effektive Arbeitsumgebung zu schaffen."
+      ],
+      "technologies": [
+        "Velocity.js",
+        "LessJS",
+        "Jasmine",
+        "DalekJS",
+        "JSDuck",
+        "Grunt"
       ],
       "testimonials": [
         {
@@ -478,13 +485,14 @@
         "end": "2014-02"
       },
       "description": [
-        "Integration und Anpassung des Bootstrap-Frameworks.",
-        "Enge Zusammenarbeit mit Konzeption und Design zur Realisierung einer Responsive-Seite auf Referenz-Niveau.",
-        "Marketing-wirksames, magazinartiges Design wurde kombiniert mit einer wartungsarmen Lösung zur ganzheitlichen Anpassung an unterschiedlichste Umgebungen (von 300-1440 Pixeln in der horizontalen Auflösung).",
-        "Typografisch hoch anspruchsvolle Realisierung mit Verwendung von Modular Scales, Baseline Grids und adaptiven Spalten-Layouts für kleine und große Elemente.",
-        "Implementierung einer Sticky-JavaScript-Komponente für die Stickyness von Navigations- und Marketing-Bereichen.",
-        "Entwicklung eines interaktiven tabellarischen Produktvergleichs auf Basis einer HTML-Tabelle.",
-        "Tooling zur Auslieferung des Frontends mittels Jasy, Sass und Uglify. Bilder-Optimierung mittels ImageOptim."
+        "In diesem Projekt integrierten wir ein führendes CSS-Framework, um eine responsive und optisch ansprechende Webseite zu entwickeln, die sich nahtlos an unterschiedliche Bildschirmauflösungen anpasst. In enger Abstimmung mit den Design- und Konzeptteams schufen wir eine wartungsarme und flexibel gestaltete Webseite, die ein magazinartiges Design mit hochwertiger Typografie kombiniert. Zu den Schlüsselelementen gehörten eine Sticky-Funktion für wichtige Webseitenbereiche sowie ein interaktiver, tabellarischer Produktvergleich, der Nutzern detaillierte Vergleiche ermöglicht."
+      ],
+      "technologies": [
+        "Modular Scales",
+        "ImageOptim",
+        "Jasy",
+        "Sass",
+        "Uglify"
       ],
       "testimonial": {
         "author": "Astrid Fischer (Konzept / Information Architekt, Triplesense Reply)",
@@ -500,13 +508,9 @@
         "start": "2013-04",
         "end": "2013-12"
       },
+      "technologies": ["RPC", "HTML5", "Google Ads"],
       "description": [
-        "Umsetzung der Photoshop-Designs mit HTML5-Technologie für iPhones und Android-basierte Geräte.",
-        "Hochperformante RIA mit interaktiven Wechsel von Layern ohne klassischen Seiten-Lade-Effekt.",
-        "MVP-basierte Architektur mit Template-Rendering auf Basis des Core-Framework.",
-        "HTML5-Form-Validierung mit interaktiver Rückmeldung von Fehlerzuständen.",
-        "Anbindung an existierendes PHP-basiertes Backend über RPC.",
-        "Integration von Werbe- und Tracking-Netzwerken über intelligente nachgelagerte Einbindung."
+        "Bei der Umsetzung der Photoshop-Designs in funktionierende Webanwendungen für iPhones und Android-Geräte nutzte ich HTML5-Technologie, um eine hochperformante Rich Internet Application (RIA) zu entwickeln. Diese App zeichnete sich durch interaktive Layer-Wechsel ohne den klassischen Seitennachladeeffekt aus. Die Implementierung einer MVP-basierten Architektur mit Template-Rendering basierte auf einem Core-Framework, wodurch eine strukturierte und wartbare Codebasis sichergestellt wurde. Für die HTML5-Formularvalidierung setzte ich auf interaktive Rückmeldungen zu Fehlerzuständen, um die Benutzererfahrung zu verbessern. Die Anbindung an ein bestehendes, PHP-basiertes Backend erfolgte über RPC, was eine nahtlose Datenintegration ermöglichte. Zudem integrierte ich Werbe- und Tracking-Netzwerke durch intelligente, nachgelagerte Einbindung, um Marketingziele effektiv zu unterstützen, ohne die Nutzererfahrung zu beeinträchtigen."
       ]
     },
     {
