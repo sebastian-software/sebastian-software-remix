@@ -55,7 +55,7 @@ export function Project({ data }: ProjectProps) {
 
       {data.technologies && (
         <TagList>
-          {data.technologies.map((text, index) => (
+          {data.technologies.sort().map((text, index) => (
             <Tag key={index}>{text}</Tag>
           ))}
         </TagList>

@@ -53,6 +53,7 @@
         "start": "2022-03",
         "end": "2022-05"
       },
+      "technologies": ["NX", "React Intl", "Mono Repository"],
       "description": [
         "Bei der Entwicklung einer umfangreichen Frontend-Applikation für die Überwachung von Maschinen auf Basis von ReactJS, meisterte ich technische Herausforderungen wie das Mono-Repository-Setup mit NX, Internationalisierung, und Theming für White Label-Lösungen. Die Bewältigung dieser Herausforderungen und der Umgang mit großen Datenmengen demonstrierten meine Fähigkeit, komplexe Anforderungen effizient umzusetzen."
       ]
@@ -69,6 +70,7 @@
       "description": [
         "Ich übernahm die architekturelle Verantwortung für die Frontend-Architektur, entwickelte Verbesserungsvorschläge für bestehende Strukturen und skizzierte Architekturen für neue Entwicklungen. Durch die Anwendung von SCRUM-Methodik, API-First-Entwicklung und die Implementierung von End-to-End Tests mit Cypress, erreichte ich eine Code-Coverage von 70% für das bestehende Kundencenter, was eine solide Basis für die Qualitätssicherung in zukünftigen Releases bildete."
       ],
+      "technologies": ["Cypress", "JavaScript", "React"],
       "testimonials": [
         {
           "text": "Sebastian überzeugt mit seinem tiefen Fachwissen in Sachen Frontend-Architektur, Tooling und React im Speziellen. ...",
@@ -90,6 +92,15 @@
       },
       "description": [
         "Die Erweiterung und Optimierung des GraphQL-Services, einschließlich der Integration neuer Resolver und einer MySQL-Datenbank, fielen in meinen Aufgabenbereich. Ich führte Verbesserungen in Typisierung, Async/Await-Nutzung, Testbarkeit und Tooling durch und leistete Beiträge zur architekturellen Verbesserung der internen Komponentenbibliothek. Diese Maßnahmen steigerten signifikant die Qualität und Wartbarkeit des Gesamtsystems."
+      ],
+      "technologies": [
+        "MySQL",
+        "React",
+        "GraphQL",
+        "Apollo Client",
+        "Apollo Server",
+        "TypeScript",
+        "Jest"
       ],
       "testimonials": [
         {
@@ -147,6 +158,7 @@
       "description": [
         "In einem mehrtägigen Workshop zu Best Practices in der Frontend-Entwicklung mit React vermittelte ich Konventionen bezüglich Ordnerstruktur und Implementierungsstrategien. Der Fokus lag auf dem effektiven Umgang mit Assets, der Einführung in die Typisierung mit TypeScript und dem Zusammenspiel mit serverseitigen Daten. Ich erläuterte die Vor- und Nachteile von funktionalen gegenüber Klassen-Deklarationen in React und gab Empfehlungen für die fortlaufende Bildung durch Newsletter, Video-Kurse und Konferenzen. Weiterhin thematisierte ich die Reduzierung von Boilerplate bei Redux durch das Duck-Pattern und leitete Diskussionen über den potenziellen Einsatz von GraphQL. Das Ziel des Workshops war es, ein tiefgreifendes Verständnis der modernen Frontend-Entwicklung zu fördern und praktische Lösungsansätze für alltägliche Herausforderungen zu bieten."
       ],
+      "technologies": ["React", "Redux", "TypeScript", "GraphQL"],
       "testimonials": [
         {
           "author": "Alexander Fechner (Software Engineer, GE Healthcare)",
@@ -413,6 +425,7 @@
         "start": "2015-11",
         "end": "2016-04"
       },
+      "technologies": ["VueJS", "JSPM", "Gulp", "Sass"],
       "description": [
         "Bei der Beratung zur Frontend-Architektur für eine neue internationale Investment-Plattform lag der Fokus auf der Entwicklung einer Single Page Application (SPA), die live aktualisierte Charts und international formatierte Werte (z.B. Währungen) darstellen kann. Ich setzte die Projektstruktur auf, wobei Gulp als Taskmanager und NPM zur Organisation der Build-Umgebung verwendet wurden. JSPM diente als Paketverwaltung für Frontend-Pakete mit Unterstützung für EcmaScript 2015. Für die Stylesheets kam Sass zum Einsatz, während VueJS für die Erstellung interaktiver Funktionalitäten und die Entwicklung von Komponenten genutzt wurde. Diese Technologieauswahl und Strukturierung trugen maßgeblich dazu bei, die gestellten Anforderungen effizient umzusetzen und eine robuste sowie benutzerfreundliche Plattform zu schaffen."
       ],
@@ -508,7 +521,7 @@
         "start": "2013-04",
         "end": "2013-12"
       },
-      "technologies": ["RPC", "HTML5", "Google Ads"],
+      "technologies": ["HTML5", "RPC", "Google Ads"],
       "description": [
         "Bei der Umsetzung der Photoshop-Designs in funktionierende Webanwendungen für iPhones und Android-Geräte nutzte ich HTML5-Technologie, um eine hochperformante Rich Internet Application (RIA) zu entwickeln. Diese App zeichnete sich durch interaktive Layer-Wechsel ohne den klassischen Seitennachladeeffekt aus. Die Implementierung einer MVP-basierten Architektur mit Template-Rendering basierte auf einem Core-Framework, wodurch eine strukturierte und wartbare Codebasis sichergestellt wurde. Für die HTML5-Formularvalidierung setzte ich auf interaktive Rückmeldungen zu Fehlerzuständen, um die Benutzererfahrung zu verbessern. Die Anbindung an ein bestehendes, PHP-basiertes Backend erfolgte über RPC, was eine nahtlose Datenintegration ermöglichte. Zudem integrierte ich Werbe- und Tracking-Netzwerke durch intelligente, nachgelagerte Einbindung, um Marketingziele effektiv zu unterstützen, ohne die Nutzererfahrung zu beeinträchtigen."
       ]
@@ -522,14 +535,9 @@
         "start": "2012-11",
         "end": "2013-04"
       },
+      "technologies": ["Jasy", "jQuery", "HTML5", "VOIP", "RIA", "REST", "MVP"],
       "description": [
-        "RIA-Anwendung zur Einstellung von VOIP-Merkmalen für den Festnetzanschluss.",
-        "Fokus bei der Entwicklung auf Möglichkeiten moderner Desktop-Browser (IE9+).",
-        "Anbindung eines bestehenden Backend-Systems mit einem REST-Proxy.",
-        "Live-Feedback und HTML5-Form-Validierung in Kombination mit Hintergrund-Synchronization.",
-        "MVP-basierte Architektur mit Template-Rendering auf Basis des Core-Frameworks.",
-        "Deployment und Tooling auf Basis von Jasy für Windows, Mac und Linux.",
-        "DOM-Manipulation und Event-Handling unter Verwendung von jQuery."
+        "Bei der Entwicklung einer Rich Internet Application (RIA) zur Konfiguration von VOIP-Merkmalen für Festnetzanschlüsse lag der Schwerpunkt auf der Ausnutzung der Fähigkeiten moderner Desktop-Browser ab Internet Explorer 9. Die Anbindung an ein existierendes Backend-System erfolgte über einen REST-Proxy, wodurch eine direkte und effiziente Kommunikation zwischen Frontend und Backend ermöglicht wurde. Durch die Implementierung von Live-Feedback und HTML5-Formularvalidierung in Kombination mit einer Hintergrund-Synchronisation konnte die Benutzerinteraktion deutlich verbessert werden. Die Anwendung basierte auf einer MVP-basierten Architektur mit Template-Rendering. Für Deployment und Tooling kam Jasy zum Einsatz, womit eine Plattformübergreifende Entwicklung und Bereitstellung auf Windows, Mac und Linux sichergestellt war. Weiterhin nutzte ich jQuery für die DOM-Manipulation und das Event-Handling, um eine reibungslose und interaktive Nutzererfahrung zu gewährleisten."
       ],
       "testimonials": [
         {
@@ -555,9 +563,14 @@
         "end": "2012-11"
       },
       "description": [
-        "Architektur und Entwicklung eines hardware-beschleunigten Scrollers für große Spielfelder, inklusive Dropped-Frames Handling und iOS-ähnlichem Verhalten.",
-        "Anpassung und Weiterentwicklung der Tooling-Lösung Jasy mit Features wie einem API-Browser, Scaffolding, lokalem Webserver mit Proxying, Anbindung an die Asset-Management-Infrastruktur von Zynga und Integration eines SpriteSheet-Generators.",
-        "Weiterentwicklung des JavaScript-Frameworks Core, inklusive Polyfills für ES5-Methoden, Multi-Wert-Properties, und Implementierung von Script-, Stylesheet- und Bilder-Ladesystemen."
+        "Die Aufgabe umfasste die Architektur und Entwicklung eines hardware-beschleunigten Scrollers für große Spielfelder, der ein flüssiges Scrollen mit iOS-ähnlichem Verhalten (Bouncing, Deceleration, ...) ermöglichte, einschließlich des Handlings von Dropped Frames. Parallel dazu passte ich die verwendete Tooling-Lösung an, indem ich neue Features wie einen API-Browser, Scaffolding, einen lokalen Webserver mit Proxying, die Anbindung an die Asset-Management-Infrastruktur von Zynga und die Integration eines SpriteSheet-Generators implementierte. Darüber hinaus führte ich die Weiterentwicklung des verwendeten JavaScript-Frameworks durch. Dies beinhaltete die Einführung von Polyfills für ES5-Methoden zur Gewährleistung der Kompatibilität mit älteren Browsern, die Unterstützung von Multi-Wert-Properties in der Klassen-Deklaration und die Implementierung von effizienten Ladesystemen für Scripte, Stylesheets und Bilder, um die Performance und die Benutzererfahrung der Anwendungen zu verbessern."
+      ],
+      "technologies": [
+        "Request Animation Frame (RAF)",
+        "iOS",
+        "Jasy",
+        "Polyfill",
+        "ES5"
       ],
       "testimonials": [
         "Sebastian war eine unschätzbarer Teil des Teams unseres Technologie Studios für Zynga in Frankfurt. Er besitzt die Fähigkeit zu analysieren wie ein Feature idealerweise funktionieren sollte, anstatt genau nach Vorgaben zu handeln, und verbessert somit sehr häufig das gesamte Produkt. - Paul Bakaus (CTO, Zynga)",
@@ -574,9 +587,19 @@
         "end": "2011-03"
       },
       "description": [
-        "Beschäftigung mit der Zukunft des Mobilfunkmarktes und Etablierung von Web-Technologien zur Lösung des Multi-Plattform-Approaches der Deutschen Telekom. Entwicklung der Fussball.de-Fan-App mittels Unify und PhoneGap. Demo-Video bei Youtube.",
-        "Initiierung des OpenSource Frameworks Unify. Entwicklung einer allgemeinen Navigations-Logik für mobile Anwendungen und Ausarbeitung zur Beantragung von Patenten für die geschaffenen Lösungen. Basis-Arbeiten zur Integration von Unify in native Anwendungen mittels PhoneGap, QtWebkit und Adobe AIR. Vorstellung des Frameworks auf internen und externen Events. Kooperation mit den T-Labs, T-Mobile und weiteren Mobilfunk-Anbietern und -Herstellern zur Integration von Unify in die BONDI-Initiative bzw. WAC.",
-        "Entwicklung der PagePlace-Anwendung für den Desktop-Browser. Entwicklung einer RIA-Anwendung auf Basis des qooxdoo-Frameworks zum Lesen von Büchern und Verwalten von Abos. Parsen und Aufbereiten von ePub-basierten Büchern incl. Entschlüsslung und Rendering innerhalb der Anwendung. Implementierung einer komplexen Animations-Mechanik für qooxdoo-basierte Anwendungen und eines eigenen Themes auf Basis des internen Styleguides."
+        "Meine Tätigkeit konzentrierte sich auf die Analyse zukünftiger Entwicklungen im Mobilfunkmarkt und die Etablierung von Web-Technologien, um den Multi-Plattform-Ansatz der Deutschen Telekom zu unterstützen. Im Zuge dessen entwickelte ich die Fußball.de-Fan-App mit Unify und PhoneGap, deren Funktionsweise in einem Demo-Video auf YouTube präsentiert wurde. Zudem initiierte ich das OpenSource Framework Unify, entwickelte eine allgemeine Navigationslogik für mobile Anwendungen und leitete die Ausarbeitung zur Beantragung von Patenten für die geschaffenen Lösungen ein.",
+        "Die Basisarbeiten zur Integration von Unify in native Anwendungen umfassten den Einsatz von PhoneGap, QtWebkit und Adobe AIR. Ich stellte das Framework auf internen und externen Events vor und kooperierte mit den T-Labs, T-Mobile sowie weiteren Mobilfunk-Anbietern und -Herstellern zur Integration von Unify in die BONDI-Initiative bzw. WAC.",
+        "Darüber hinaus war ich für die Entwicklung der PagePlace-Anwendung für Desktop-Browser und einer RIA-Anwendung auf Basis des qooxdoo-Frameworks zuständig, die das Lesen von Büchern und das Verwalten von Abonnements ermöglichte. Diese Arbeit beinhaltete das Parsen und Aufbereiten von ePub-basierten Büchern inklusive Entschlüsselung und Rendering innerhalb der Anwendung sowie die Implementierung einer komplexen Animationsmechanik für qooxdoo-basierte Anwendungen und die Entwicklung eines eigenen Themes, das auf dem internen Styleguide basierte."
+      ],
+      "technologies": [
+        "PhoneGap",
+        "QtWebkit",
+        "Adobe AIR",
+        "Unify",
+        "BONDI",
+        "WAC",
+        "qooxdoo",
+        "ePub"
       ],
       "testimonials": [
         "Developer with excellent skills in web technologies, always ahead with technology and market trends. Great guy. - Bernhard Hochstätter (Head of Mobile Solutions, Deutsche Telekom)",
@@ -594,9 +617,9 @@
         "start": "2008-10",
         "end": "2009-02"
       },
+      "technologies": ["JavaScript", "HTML5", "Ajax"],
       "description": [
-        "Leitung von vier Frontend-Spezialisten zur Entwicklung neuartiger Oberflächen und Dialoge in einem der größten europäischen sozialen Netzwerke für Schüler, Studenten und Erwachsene.",
-        "Neuentwicklung und Verbesserung existierender Oberflächen Komponenten. Unter anderem ein Foto-Betrachter mit der Möglichkeit Personen zu Markieren."
+        "Ich leitete ein Team von vier Frontend-Spezialisten bei der Entwicklung neuartiger Oberflächen und Dialoge für eines der größten europäischen sozialen Netzwerke, das sich an Schüler, Studenten und Erwachsene richtet. Unser Fokus lag auf der Neuentwicklung und Verbesserung bestehender Oberflächenkomponenten. Ein Schlüsselprojekt war die Entwicklung eines Foto-Betrachters, der Nutzern die Möglichkeit bietet, Personen auf Fotos zu markieren. Diese Arbeit trug maßgeblich dazu bei, die Interaktivität und Benutzerfreundlichkeit der Plattform zu erhöhen und den Austausch unter den Nutzern zu fördern."
       ],
       "testimonial": "Sebastian has extensive knowledge in his field, and is always able to adapt newest technical developments to the benefit of the product he is working on. Using those skills to the fullest, he helped improve our product significantly. - Wojciech Duda, studiVZ"
     },
@@ -609,11 +632,9 @@
         "end": "2008-09"
       },
       "description": [
-        "Entwicklung eines Widget-Systems unter Berücksichtigung vieler Ideen nativer UI-Toolkits wie Qt: Layout-Queues, Child-/Shadow-Widgets, Invalidierung und Queing von Änderungen, Styling der neuen Generation mit Schatten, dynamische Dekoratoren, Farbverläufen, etc.",
-        "Python-basierte und systemübergreifend funktionierende Version der Tooling-Lösung wurde entwickelt. Damit ist es nun möglich auch komplexeste Anwendungen sinnvoll für die Auslieferung zusammenzulegen, zu optimieren, zu internationalisieren und mehr.",
-        "Internationalisierung und Übersetzung von Anwendungen auf Basis der CLDR-Datenbank und Gettext-Inspirierten Methoden und Datenformaten (PO-Dateien).",
-        "Umsetzung von Objekt-orientierten Patterns für Klassen und Interfaces wie in Java und Mixins wie in Ruby."
+        "Vor zwei Jahrzehnten setzten wir mit der Entwicklung eines visionären Widget-Systems, das von den ausgeklügelten Eigenschaften nativer UI-Toolkits wie Qt inspiriert war, mutige Akzente. Was dieses Unterfangen so besonders machte, war seine Implementierung im Web – eine Umgebung, die nach heutigem Wissen damals noch nicht ganz bereit für eine solch fortschrittliche Lösung war. Unser System führte Layout-Queues, Child-/Shadow-Widgets und ein avantgardistisches Styling ein, das Schatten, dynamische Dekorateure und Farbverläufe umfasste, um die Interaktionsmöglichkeiten im Web neu zu definieren. Die Herausforderung bestand nicht nur darin, eine Python-basierte, plattformübergreifende Tooling-Lösung zu entwickeln, die die effiziente Zusammenstellung, Optimierung und Internationalisierung der anspruchsvollsten Anwendungen ermöglichte. Es ging vielmehr darum, diese fortschrittlichen Konzepte in Web-Browsern zum Laufen zu bringen, die aus heutiger Sicht für solche Innovationen noch nicht vollständig ausgerüstet waren. Auch wenn das Projekt schließlich eingestellt wurde, liegt der wahre Durchbruch in der Erkenntnis, dass wir die Grenzen des Machbaren im Web deutlich erweitern konnten. Diese Pionierarbeit war wegweisend für die Zeit und lieferte wertvolle Erkenntnisse für die Weiterentwicklung von Webtechnologien."
       ],
+      "technologies": ["qooxdoo", "Python", "JavaScript"],
       "testimonials": [
         "I have been using qooxdoo for external and internal projects for a while. Sebastian has always been extremely helpful and accomodating when answering questions about qooxdoo and accepting contributions. His direct, to-the-point and pragmatic style is an excellent asset. - Chris Ricks (SecurePay Group Pty Ltd)",
         "I know Sebastian through his work on the qooxdoo library which is the coolest thing I have seen in a long time. - Tobias Oetiker (Oetiker+Partner, Olten, Switzerland)",
@@ -634,10 +655,9 @@
         "start": "2002-05",
         "end": "2004-10"
       },
+      "technologies": ["Pustefix", "XSLT", "HTML", "CSS", "JavaScript"],
       "description": [
-        "Gestaltung des Online-Auftritts, des Bestellvorgangs und von Newsletter-Kampagnen. Umsetzung von HTML-Markup und CSS vorgefertigter Designs.",
-        "Zusammenarbeit mit Backend-Entwicklern für die Dynamisierung der Inhalte. XSLT-Templates zur Anzeige von Produkt-Vergleichen, Produktseiten, etc. unter Verwendung des Pustefix-Framework (Rekursive XSLT-Engine)",
-        "Umsetzung von JavaScript-Komponenten für das Control-Center: Toolbars, Menüs, Umschalter, etc. die via einfacher HTML-Attribute steuerbar sind."
+        "Ich übernahm die Gestaltung des Online-Auftritts, des Bestellvorgangs und die Kreation von Newsletter-Kampagnen, wobei mein Fokus auf der Umsetzung von HTML-Markup und CSS basierend auf vorgefertigten Designs lag. In der Zusammenarbeit mit Backend-Entwicklern spielte ich eine Schlüsselrolle bei der Dynamisierung der Inhalte, um eine lebendige und interaktive Nutzererfahrung zu schaffen. Ein wesentlicher Bestandteil meiner Arbeit war die Entwicklung von XSLT-Templates zur Anzeige von Produkt-Vergleichen, Produktseiten und weiteren Elementen unter Einsatz des Pustefix-Frameworks, das für seine rekursive XSLT-Engine bekannt ist. Darüber hinaus setzte ich JavaScript-Komponenten für das Control-Center um, einschließlich Toolbars, Menüs und Umschaltern, die durch einfache HTML-Attribute steuerbar sind. Diese Komponenten trugen maßgeblich dazu bei, die Bedienbarkeit und Funktionalität der Website zu verbessern und ein nahtloses Einkaufserlebnis für die Nutzer zu gewährleisten."
       ],
       "testimonial": "Long story short: Sebastian is a highly skilled JavaScript/DOM Scripting Magician with whom it always was/is a pleasure to work. - Jens O. Meiert (GMX GmbH)"
     },
@@ -652,10 +672,17 @@
         "start": "2001-01",
         "end": "2002-04"
       },
+      "technologies": [
+        "Visual Basic for Applications (VBA)",
+        "Adobe InDesign",
+        "Adobe Flash",
+        "Combit Adressmanager",
+        "XML"
+      ],
       "description": [
-        "Umsetzung eines Datenbank-Interface unter Verwendung des Combit Adressmanagers. Entwicklung von passenden VBA-Makros für Word zur Erstellung von Etiketten und Serienbriefen.",
-        "Gestaltung der Selbsthilfe-Zeitung mittels Adobe InDesign 1.5. Abstimmung mit der Druckerei bzgl. der Einbettung von Schriften und der Realisierung der Farbtreue. Einführung einer Mitarbeiterin in die Nutzung der Software und gemeinsame Erstellung einer ersten Ausgabe der Zeitschrift.",
-        "Erstellung der Homepage. Inhalte konnten als XML-Dateien einfach von Mitarbeitern angepasst werden. Umsetzung eines dynamischen Menü-Systems auf Basis von Flash. Schulung des Teams und Erstellung der Dokumentation zur Pflege der Homepage-Inhalte."
+        "Bei diesem Projekt war ich verantwortlich für die Umsetzung eines Datenbank-Interfaces mit dem Combit Adressmanager. Ich entwickelte VBA-Makros für Word, um die Erstellung von Etiketten und Serienbriefen zu vereinfachen. Parallel dazu gestaltete ich die Selbsthilfe-Zeitung mit Adobe InDesign 1.5 und koordinierte mit der Druckerei, um die Einbettung von Schriften und die Realisierung der Farbtreue zu gewährleisten.",
+        "Ein weiterer wichtiger Aspekt meiner Tätigkeit war die Einarbeitung einer Mitarbeiterin in die Nutzung der Software, mit der wir gemeinsam die erste Ausgabe der Zeitschrift erstellten. Zusätzlich übernahm ich die Erstellung der Homepage, deren Inhalte als XML-Dateien von Mitarbeitern leicht angepasst werden konnten. Für die Webseite implementierte ich ein dynamisches Menü-System auf Basis von Flash, verbesserte die Nutzerführung und interaktive Elemente der Seite.",
+        "Zum Abschluss des Projekts führte ich Schulungen für das Team durch und erstellte eine umfassende Dokumentation zur Pflege der Homepage-Inhalte, um eine nachhaltige und benutzerfreundliche Verwaltung der Webpräsenz zu gewährleisten."
       ]
     }
   ]
