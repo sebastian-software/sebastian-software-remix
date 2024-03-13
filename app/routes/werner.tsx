@@ -3,6 +3,7 @@ import { RichText } from "~/components/richtext/RichText";
 import data from "../data/werner.json";
 import { useLoaderData } from "@remix-run/react";
 import { ProjectList } from "~/components/project-list/ProjectList";
+import { ProfileHead } from "~/components/profile-head/ProfileHead";
 
 export const loader = async () => {
   return data;
@@ -13,7 +14,7 @@ export default function Index() {
 
   return (
     <>
-      <h1>Sebastian Werner</h1>
+      <ProfileHead name="Sebastian Werner" />
       <ProjectList data={data.projects} />
     </>
   );
