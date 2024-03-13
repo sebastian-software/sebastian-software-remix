@@ -8,8 +8,10 @@ export const root = style({
 
 export const project = style({
   display: "grid",
-
+  maxWidth: "max-content",
+  marginInline: "auto",
   gap: "1rem 4rem",
+  gridTemplateColumns: "12rem auto auto",
   gridTemplateAreas: `
     ". title title"
     "meta description testimonials"
@@ -60,10 +62,10 @@ export const testimonials = style({
   gridArea: "testimonials",
   display: "flex",
   flexDirection: "column",
+  color: "#532447",
   gap: "1rem",
   fontSize: "0.875rem",
-  maxWidth: "45ch",
-  lineHeight: "1.25",
+  width: "45ch",
   hyphens: "auto",
   hyphenateLimitChars: "12 5 5",
 });

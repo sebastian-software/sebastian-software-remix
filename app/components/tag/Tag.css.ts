@@ -9,8 +9,9 @@ export const list = style({
 });
 
 export const root = style({
-  border: "1px solid #666",
-  background: "#ddd",
+  border: "1px solid #a58e9d",
+  background: "#f9e0f1",
+  color: "#776270",
   display: "inline-block",
   paddingInline: "0.5rem",
   lineHeight: "2",
