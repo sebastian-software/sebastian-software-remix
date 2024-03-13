@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "title": "Lead Frontend Developer für White Label Produkte",
+      "title": "Multi-Marken Kunden- und Support-Portale für Strom- und Gasanbieter",
       "role": "Lead Frontend Developer",
       "customer": {
         "name": "EnBW AG",
@@ -59,7 +59,7 @@
         },
         {
           "author": "Tobias Arweiler",
-          "position": "Freelancer, Senior Software Entwickler",
+          "position": "Freelancer, Senior Software-Entwickler",
           "text": "Sebastian ist ein überaus professioneller, sehr erfahrener Softwarearchitekt, der weiß, wovon er spricht. In unserem gemeinsamen Projekt bei der EnBW war er eine wichtige Stimme für eine vernünftige und technologisch fundierte Software-Architektur, sowie ein großartiger Sparringspartner für jede technologische Frage oder Idee, die man aufwerfen wollte. Jedes Projektteam würde sich freuen, ihn als Teammitglied zu haben, da er sowohl bei der technischen Umsetzung als auch bei komplexen Architekturdiskussionen unterstützen kann. Ich wünsche ihm alles Gute."
         },
         {
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "title": "Senior React Developer für eine IOT-Plattform",
+      "title": "IOT-Plattform zur Überwachung von Maschinen und Anlagen",
       "role": "Senior React Developer",
       "customer": { "name": "Azeti GmbH", "location": "Berlin" },
       "contractor": "Staffgroup GmbH, Berlin",
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "title": "Lead Web Frontend Architekt für Kundenportal und mehrerer Embedded Web Apps",
+      "title": "Kundenportal zur Pflege von Basisdaten und der Verwaltung von PV-Anlagen",
       "role": "Lead Web Frontend Architekt",
       "customer": { "name": "Netze BW GmbH", "location": "Stuttgart" },
       "contractor": "Hays AG, Mannheim",
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "title": "React- und GraphQL-Spezialist für die Unterstützung architektureller Themen einer Online-Shop-Plattform",
+      "title": "Multi-Marken Online-Shop-Plattform in der Otto-Gruppe",
       "role": "React- und GraphQL-Architekt",
       "customer": {
         "name": "empiriecom GmbH & Co. KG",
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "title": "React-Architekt für einen international aufgestellten Baustoffkonzern",
+      "title": "Neuentwicklung von State-of-the-Art Web-Anwendungen für einen führenden Baustoffkonzern",
       "role": "React-Architekt",
       "customer": { "name": "HeidelbergCement AG", "location": "Heidelberg" },
       "contractor": "Hays AG, Mannheim",
@@ -219,7 +219,7 @@
       ]
     },
     {
-      "title": "Mentoring und Consulting für React-Team",
+      "title": "Mentoring und Consulting für neues React-Team",
       "role": "React Mentor",
       "customer": { "name": "GE Healthcare", "location": "Freiburg" },
       "contractor": "Belcan Technical Recruiting, London",
@@ -246,7 +246,7 @@
       ]
     },
     {
-      "title": "React/GraphQL-Architekt für eine responsive Shop-Neuentwicklung",
+      "title": "Responsive Multi-Marken mehrsprachigen E-Commerce-Neuentwicklung (Produktseiten, Warenkorb, Kundenkonto)",
       "role": "React/GraphQL-Architekt",
       "customer": {
         "name": "Josef Witt GmbH (Otto Gruppe)",
@@ -278,7 +278,7 @@
       ]
     },
     {
-      "title": "React/GraphQL-Architekt und -Entwickler für die neue ARD-Mediathek",
+      "title": "Neue ARD-Mediathek für HBBTV-fähige Fernseher und Web-Browser",
       "role": "React/GraphQL-Architekt",
       "customer": { "name": "SWR", "location": "Mainz" },
       "contractor": "GULP Information Services GmbH, München",
@@ -289,10 +289,17 @@
       "description": [
         "Bei der Neu-Entwicklung einer Mediathek für alle Sender der ARD als gemeinsame Plattform lag mein Fokus auf der Unterstützung moderner HBBTV-fähiger Fernseher und der Bereitstellung responsiver Layouts für Web-Browser auf Handys, Tablets und Desktops. Ich war maßgeblich an der Entwicklung und Optimierung der GraphQL-Schnittstelle beteiligt, um eine effiziente Kommunikation mit bestehenden REST-APIs zu gewährleisten. Dieses Projekt zielte darauf ab, eine nahtlose und benutzerfreundliche Medienbibliothek zu schaffen, die den Zugriff auf Inhalte über eine Vielzahl von Geräten ermöglicht und dabei modernste Technologien nutzt."
       ],
-      "technologies": ["React", "Apollo GraphQL", "Webpack", "Sass", "Flowtype"]
+      "technologies": [
+        "React",
+        "Apollo GraphQL",
+        "Webpack",
+        "Sass",
+        "Flowtype",
+        "HBBTV"
+      ]
     },
     {
-      "title": "React-Architekt für Umsetzung eines Verkehrs-Informationsangebotes",
+      "title": "Real-Time Verkehrs-Informationsangebot für den ÖPNV-Bereich",
       "role": "React Architekt",
       "customer": { "name": "Init SE", "location": "Karlsruhe" },
       "contractor": "Megapart GmbH, Karlsruhe",
@@ -322,7 +329,7 @@
       ]
     },
     {
-      "title": "React-Experte mit Feingefühl für Business-Requirements zur Entwicklung eines Telematik-Angebotes",
+      "title": "Entwicklung eines Telematik-Angebotes für Logistikunternehmen",
       "role": "React Experte",
       "customer": {
         "name": "RIO - Volkswagen Truck & Bus",
@@ -364,7 +371,7 @@
       ]
     },
     {
-      "title": "Senior-Frontend-Entwickler für eine Plattform zum Austausch von Pharma-Branche und Ärzten",
+      "title": "Eine Plattform zum Austausch zwischen Pharma-Branche und Ärzten",
       "role": "Frontend Architekt",
       "customer": { "name": "coliquio GmbH", "location": "Konstanz" },
       "contractor": "Michael Page, München",
@@ -387,7 +394,7 @@
       "testimonials": [
         {
           "author": "Florian Eibeck",
-          "position": "Software Entwickler, Mayflower GmbH",
+          "position": "Software-Entwickler, Mayflower GmbH",
           "text": "Sebastian did a great job as a Frontend Engineer and Architect in our team. He happily shared his knowledge and teached us how to write state-of-the-art React applications. Thanks for the good collaboration, it was a pleasure working together!"
         },
         {
@@ -397,13 +404,13 @@
         },
         {
           "author": "Jens Rusitschka",
-          "position": "UX und Product Consulting (Aus dem Englischen übersetzt)",
+          "position": "UX und Product Consulting",
           "text": "Ich habe mit Sebastian an einer neuen Plattform für Coliquio gearbeitet. Sein Wissen und seine Erfahrung mit Javascript, React-Technologie und modernen Front-End-Frameworks waren wirklich beeindruckend. Ich freue mich darauf, wieder mit ihm zusammenzuarbeiten!"
         }
       ]
     },
     {
-      "title": "Leitende Frontend-Architektur und -Entwicklung für ein Online-Banking-Portal",
+      "title": "Neues Online-Banking für Geschäftskunden mit signifikaten Umsätzen",
       "role": "Lead Frontend Architekt",
       "customer": { "name": "Deutsche Bank AG", "location": "Eschborn" },
       "contractor": "Hays AG, Mannheim",
@@ -426,23 +433,23 @@
       "testimonials": [
         {
           "author": "Makele Ghebreamlak",
-          "position": "Consultant Software Architect, Melsicon GmbH (Aus dem Englischen übersetzt)",
+          "position": "Consultant Software Architect, Melsicon GmbH",
           "text": "Ich habe mit Sebastian in einem agilen Projekt für ein Unternehmen im Banksegment gearbeitet. Er ist ein außergewöhnlich talentierter Frontend-Architekt und ReactJS-Entwickler mit einem sehr tiefen Verständnis von UX/UI. Sebastian hat eine persönliche Leidenschaft für die Entwicklung hochmoderner Web- und Mobilanwendungen. Seine Fähigkeit, neue Technologien aufzugreifen, liegt weit über dem Durchschnitt. Er sucht nie nach dem komfortablen Ansatz, er stellt das Design, die User Experience, die Art und Weise, wie wir arbeiten, wie wir Software produzieren, welche Technologien wir wählen, in Frage und geht damit weit über die Kundenerwartung hinaus, das beste Produkt zu entwickeln. Ich würde mich freuen, bei zukünftigen Projekten mit ihm zusammenzuarbeiten!"
         },
         {
           "author": "Michael Rodegast",
-          "position": "Interims Management Consultant, Michael Rodegast Consulting (Aus dem Englischen übersetzt)",
+          "position": "Interims Management Consultant, Michael Rodegast Consulting",
           "text": "Ich hatte das Vergnügen, mit Sebastian durch seine Führung eines Backbone-Teams bei einem Kunden zusammenzuarbeiten, für den wir beide tätig sind. Sebastians Engagement, eine Innovationsagenda durch seine persönliche Identität und seine tiefgreifenden Software-Kenntnisse in die Unternehmensarchitektur unseres Kunden einzubringen, war von größter Bedeutung und führte zu großartigen Ergebnissen. Sebastian geht in seinem täglichen Arbeitsleben mit gutem Beispiel voran und ermutigte daher nicht nur sein Backbone-Team, sondern auch das Projektteam selbst. Ich würde mich freuen, in Zukunft wieder zusammenarbeiten zu können, wenn sich die Gelegenheit dazu bietet."
         },
         {
           "author": "Adib Istanbouli",
-          "position": "Senior Software Developer, Accenture Germany (Aus dem Englischen übersetzt)",
+          "position": "Senior Software Developer, Accenture Germany",
           "text": "Es war ein großes Privileg für mich, mit einem so talentierten und sachkundigen Entwickler wie Sebastian zusammenzuarbeiten, der sich fließend in der neuesten UI-Tech auskennt. Es ist heutzutage ziemlich schwierig, einen leidenschaftlichen Coder wie ihn zu finden. Wir haben bei unserem letzten Projekt viel aus seinen Erfahrungen mit React, Webpack und seinem EdgeStack gelernt. Ich freue mich darauf, in naher Zukunft wieder mit Sebastian zusammenzuarbeiten."
         }
       ]
     },
     {
-      "title": "Frontend-Architektur und -Entwicklung für ein Internet-Lernportal",
+      "title": "Neuentwicklung eines Portal für die Planung und Durchführung von Sprachkursen",
       "role": "Senior Frontend Architekt",
       "customer": {
         "name": "Berlitz Deutschland GmbH",
@@ -491,7 +498,7 @@
       ]
     },
     {
-      "title": "Frontend-Architektur und -Entwicklung für Online-Shop",
+      "title": "Unterstützung der Entwicklung eines neuen Online-Shops",
       "role": "Senior Frontend Architekt",
       "customer": { "name": "Hornbach Baumarkt AG", "location": "Bornheim" },
       "contractor": "Systeme24, Mainz",
@@ -506,7 +513,7 @@
       "testimonials": []
     },
     {
-      "title": "Frontend-Architektur für innovative neue Anlage-Plattform der Deutschen Bank Gruppe",
+      "title": "Architektur für innovative neue Robo-Advisor Web-Anwendung der Deutschen Bank Gruppe",
       "role": "Senior Frontend Architekt",
       "customer": {
         "name": "Deutsche Asset & Wealth Management",
@@ -536,7 +543,7 @@
       ]
     },
     {
-      "title": "Architektur und Entwicklung des Frontends der neuen Entertain-Plattform",
+      "title": "Aufwendig animiertes Frontend für die neue Telekom-Entertain-Plattform",
       "role": "Senior User Interface Architekt",
       "customer": { "name": "Huawei Technologies", "location": "Darmstadt" },
       "contractor": "Networkers International",
@@ -592,10 +599,12 @@
     },
 
     {
-      "title": "Architektur und Entwicklung der responsiven Homepage",
+      "title": "Responsive Homepage für den Software-Hersteller MAGIX",
       "role": "Senior Frontend Developer",
-      "customer": { "name": "MAGIX Software GmbH", "location": "Berlin" },
-      "contractor": "Triplesense Reply, Frankfurt am Main",
+      "customer": {
+        "name": "Triplesense Reply",
+        "location": "Frankfurt am Main"
+      },
       "period": {
         "start": "2013-11",
         "end": "2014-02"
@@ -619,10 +628,12 @@
       ]
     },
     {
-      "title": "Architektur und Entwicklung der mobilen Homepage und Bestellseite",
+      "title": "Erweiterung der Webseite des Kabelanbieters Tele Columbus",
       "role": "Senior Frontend Developer",
-      "customer": { "name": "Tele Columbus", "location": "Berlin" },
-      "contractor": "Triplesense Reply, Frankfurt am Main",
+      "customer": {
+        "name": "Triplesense Reply",
+        "location": "Frankfurt am Main"
+      },
       "period": {
         "start": "2013-04",
         "end": "2013-12"
@@ -633,7 +644,7 @@
       ]
     },
     {
-      "title": "Leitung der Frontend-Architektur des neuen Telefoniecenters",
+      "title": "Leitung der Architektur des neuen Telefoniecenters Frontends",
       "role": "JavaScript Architekt",
       "customer": { "name": "axxessio GmbH", "location": "Bonn" },
       "contractor": "Deutsche Telekom, Darmstadt",
@@ -643,7 +654,8 @@
       },
       "technologies": ["Jasy", "jQuery", "HTML5", "VOIP", "RIA", "REST", "MVP"],
       "description": [
-        "Bei der Entwicklung einer Rich Internet Application (RIA) zur Konfiguration von VOIP-Merkmalen für Festnetzanschlüsse lag der Schwerpunkt auf der Ausnutzung der Fähigkeiten moderner Desktop-Browser ab Internet Explorer 9. Die Anbindung an ein existierendes Backend-System erfolgte über einen REST-Proxy, wodurch eine direkte und effiziente Kommunikation zwischen Frontend und Backend ermöglicht wurde. Durch die Implementierung von Live-Feedback und HTML5-Formularvalidierung in Kombination mit einer Hintergrund-Synchronisation konnte die Benutzerinteraktion deutlich verbessert werden. Die Anwendung basierte auf einer MVP-basierten Architektur mit Template-Rendering. Für Deployment und Tooling kam Jasy zum Einsatz, womit eine Plattformübergreifende Entwicklung und Bereitstellung auf Windows, Mac und Linux sichergestellt war. Weiterhin nutzte ich jQuery für die DOM-Manipulation und das Event-Handling, um eine reibungslose und interaktive Nutzererfahrung zu gewährleisten."
+        "In der Rolle des leitenden Entwicklers übernahm ich die Herausforderung, eine Rich Internet Application (RIA) für die Konfiguration von VOIP-Merkmalen für Festnetzanschlüsse zu entwickeln. Unser Ziel war es, die fortschrittlichen Möglichkeiten moderner Desktop-Browser ab Internet Explorer 9 voll auszuschöpfen, um den Benutzern eine nahtlose und intuitive Konfigurationserfahrung zu bieten. Die effiziente Anbindung an ein existierendes Backend-System über einen REST-Proxy ermöglichte eine direkte Kommunikation zwischen Frontend und Backend, wodurch die Grundlage für eine dynamische und reaktionsfähige Anwendung gelegt wurde.",
+        "Durch die Implementierung von Live-Feedback und HTML5-Formularvalidierung, kombiniert mit einer intelligenten Hintergrund-Synchronisation, konnte ich die Benutzerinteraktion signifikant verbessern. Dies erhöhte nicht nur die Zufriedenheit der Endnutzer, sondern trug auch dazu bei, Fehlerquellen zu minimieren und die Datenintegrität zu sichern. Die Anwendung basierte auf einer soliden MVP-Architektur, die durch Template-Rendering ergänzt wurde, um eine klare Trennung von Präsentation und Logik zu gewährleisten."
       ],
       "testimonials": [
         {
@@ -660,7 +672,7 @@
     },
 
     {
-      "title": "Umfassende Entwicklungsprojekte bei Zynga Germany GmbH",
+      "title": "Bahnbrechende Grundlagen-Technologie zur HTML5-basierten Umsetzung von Internet-Spielen als Ersatz für Flash",
       "role": "Senior JavaScript Developer",
       "customer": {
         "name": "Zynga Germany GmbH",
@@ -700,7 +712,7 @@
       ]
     },
     {
-      "title": "Strategische Beratung, Initiierung und Entwicklung im Web-Technologie-Bereich",
+      "title": "Innovative Cross-Plattform-Entwicklung für Smartphone-Angebote auf HTML5-Basis",
       "role": "Senior Software Developer",
       "customer": { "name": "Deutsche Telekom", "location": "Darmstadt" },
       "period": {
@@ -751,7 +763,7 @@
       ]
     },
     {
-      "title": "Team-Leitung und Implementierung von Komponenten",
+      "title": "Architekturelle Verbesserung, Performance-Optimierung und Implementierung von Komponenten für Soziales Netzwerk",
       "role": "Teamlead JavaScript Development",
       "customer": { "name": "studiVZ", "location": "Berlin" },
       "period": {
@@ -760,12 +772,12 @@
       },
       "technologies": ["JavaScript", "HTML5", "Ajax"],
       "description": [
-        "Ich leitete ein Team von vier Frontend-Spezialisten bei der Entwicklung neuartiger Oberflächen und Dialoge für eines der größten europäischen sozialen Netzwerke, das sich an Schüler, Studenten und Erwachsene richtet. Unser Fokus lag auf der Neuentwicklung und Verbesserung bestehender Oberflächenkomponenten. Ein Schlüsselprojekt war die Entwicklung eines Foto-Betrachters, der Nutzern die Möglichkeit bietet, Personen auf Fotos zu markieren. Diese Arbeit trug maßgeblich dazu bei, die Interaktivität und Benutzerfreundlichkeit der Plattform zu erhöhen und den Austausch unter den Nutzern zu fördern."
+        "Ich leitete ein Team von vier Frontend-Spezialisten bei der Entwicklung neuartiger Oberflächen für eines der größten europäischen sozialen Netzwerke, das sich an Schüler, Studenten und Erwachsene richtet. Unser Fokus lag auf der Neuentwicklung und Verbesserung bestehender Oberflächenkomponenten. Ein Schlüsselprojekt war die Entwicklung eines Foto-Betrachters, der Nutzern die Möglichkeit bietet, Personen auf Fotos zu markieren. Diese Arbeit trug maßgeblich dazu bei, die Interaktivität und Benutzerfreundlichkeit der Plattform zu erhöhen und den Austausch unter den Nutzern zu fördern."
       ],
       "testimonial": "Sebastian has extensive knowledge in his field, and is always able to adapt newest technical developments to the benefit of the product he is working on. Using those skills to the fullest, he helped improve our product significantly. - Wojciech Duda, studiVZ"
     },
     {
-      "title": "Initiierung, Architektur und Entwicklung des qooxdoo-Frameworks",
+      "title": "Initiierung, Architektur und Entwicklung des qooxdoo JavaScript-Frameworks",
       "role": "Senior Software Developer",
       "customer": { "name": "1&1 Internet AG", "location": "Karlsruhe" },
       "period": {
@@ -808,8 +820,8 @@
     },
 
     {
-      "title": "Webentwicklung mit XSLT-basiertem Backend",
-      "role": "Software Developer",
+      "title": "Online-Shop der DSL-Marke 1&1 und XSLT-basiertem Backend",
+      "role": "Web Developer",
       "customer": {
         "name": "Schlund+Partner GmbH & Co. KG",
         "location": "Karlsruhe"
