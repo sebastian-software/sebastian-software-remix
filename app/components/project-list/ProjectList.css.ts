@@ -10,7 +10,7 @@ export const project = style({
   display: "grid",
   maxWidth: "max-content",
   marginInline: "auto",
-  gap: "1rem 4rem",
+  gap: "1rem 5rem",
   gridTemplateColumns: "12rem auto auto",
   gridTemplateAreas: `
     ". title title"
@@ -18,7 +18,7 @@ export const project = style({
   `,
 
   "@media": {
-    "(max-width: 960px)": {
+    "(max-width: 64rem)": {
       gridTemplateColumns: "auto",
       gridTemplateAreas: `
         "title"
