@@ -7,19 +7,22 @@ export const root = style({
 });
 
 export const project = style({
-  display: "grid",
+  display: "flex",
+  flexDirection: "column",
+  gap: "1rem",
 });
 
 export const role = style({
   fontWeight: "normal",
   display: "block",
-  fontSize: "1.25rem",
+  fontSize: "1rem",
   background: "#cff",
   textTransform: "uppercase",
   width: "fit-content",
   letterSpacing: "0.05em",
   paddingInline: "0.5rem",
   lineHeight: "2",
+  marginBottom: "0.5rem",
 });
 
 export const title = style({
@@ -28,17 +31,19 @@ export const title = style({
   lineHeight: "1.25",
   letterSpacing: "-0.05em",
   textWrap: "balance",
+  color: "#222",
 });
 
 export const description = style({
-  border: "1px solid red",
   maxWidth: "60ch",
   hyphens: "auto",
   hyphenateLimitChars: "12 5 5",
 });
 
 export const testimonials = style({
-  border: "1px solid green",
+  display: "flex",
+  flexDirection: "column",
+  gap: "1rem",
   fontSize: "0.875rem",
   maxWidth: "45ch",
   lineHeight: "1.25",

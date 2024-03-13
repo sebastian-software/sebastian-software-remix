@@ -1,5 +1,3 @@
 import { style } from "@vanilla-extract/css";
 
-export const root = style({
-  border: "1px solid #555",
-});
+export const root = style({});
