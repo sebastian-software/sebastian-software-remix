@@ -15,7 +15,8 @@ export function Testimonial({ author, position, text }: TestimonialProps) {
         <p>{text}</p>
       </blockquote>
       <figcaption className={caption}>
-        — <cite>{author}</cite>, {position}
+        <cite>{author}</cite>, <br />
+        {position}
       </figcaption>
     </article>
   );

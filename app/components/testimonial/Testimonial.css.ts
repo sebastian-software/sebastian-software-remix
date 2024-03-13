@@ -7,11 +7,11 @@ export const quote = style({
 
   selectors: {
     "&::before": {
+      position: "absolute",
       marginTop: "-0.5rem",
       marginLeft: "-1.5rem",
-      lineHeight: 1,
       fontSize: "2rem",
-      float: "left",
+      lineHeight: 1,
       content: "open-quote",
     },
   },
@@ -19,4 +19,16 @@ export const quote = style({
 
 export const caption = style({
   fontWeight: "bold",
+
+  selectors: {
+    "&::before": {
+      position: "absolute",
+      marginTop: "-0.5rem",
+      marginLeft: "-1.5rem",
+      fontSize: "2rem",
+      lineHeight: 1,
+      fontWeight: "normal",
+      content: "– ",
+    },
+  },
 });
