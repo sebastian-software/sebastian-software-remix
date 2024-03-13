@@ -19,8 +19,12 @@ globalStyle(`${root} h1+h2`, {
   marginTop: "0",
 });
 
-globalStyle(`${root} p`, {
-  marginBlock: "1rem",
+globalStyle(`${root} p:not(:first-child)`, {
+  marginTop: "1rem",
+});
+
+globalStyle(`${root} p:not(:last-child)`, {
+  marginBottom: "1rem",
 });
 
 globalStyle(`${root} ol`, {
