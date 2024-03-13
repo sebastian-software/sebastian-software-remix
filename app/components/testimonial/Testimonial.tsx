@@ -1,4 +1,4 @@
-import { root } from "./Testimonial.css";
+import { caption, quote, root } from "./Testimonial.css";
 
 // Define an interface for the testimonial props
 interface TestimonialProps {
@@ -11,10 +11,10 @@ interface TestimonialProps {
 export function Testimonial({ author, position, text }: TestimonialProps) {
   return (
     <article className={root}>
-      <blockquote>
+      <blockquote className={quote}>
         <p>{text}</p>
       </blockquote>
-      <figcaption>
+      <figcaption className={caption}>
         — <cite>{author}</cite>, {position}
       </figcaption>
     </article>
