@@ -1,4 +1,5 @@
 import { Tag, TagList } from "../tag/Tag";
+import { Testimonial } from "../testimonial/Testimonial";
 import { root } from "./ProjectList.css";
 
 interface Project {
@@ -77,12 +78,12 @@ export function Project({ data }: ProjectProps) {
       {data.testimonials && (
         <ul>
           {data.testimonials.map((entry, index) => (
-            <li key={index}>
-              <blockquote>{entry.text}</blockquote>
-              {/* <small>
-                {entry.author}, {entry.position}
-              </small> */}
-            </li>
+            <Testimonial
+              key={index}
+              author={entry.author}
+              position={entry.position}
+              text={entry.text}
+            />
           ))}
         </ul>
       )}
