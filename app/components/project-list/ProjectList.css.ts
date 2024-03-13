@@ -16,6 +16,18 @@ export const project = style({
     ". title title"
     "meta description testimonials"
   `,
+
+  "@media": {
+    "(max-width: 960px)": {
+      gridTemplateColumns: "auto",
+      gridTemplateAreas: `
+        "title"
+        "meta"
+        "description"
+        "testimonials"
+      `,
+    },
+  },
 });
 
 export const title = style({
