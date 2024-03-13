@@ -1,6 +1,22 @@
 {
   "projects": [
     {
+      "title": "Übernahme, Beratung und Weiterentwicklung der Buchungsstrecke für die Schweizer Bundesbahn (SBB)",
+      "role": "Leitender Frontend Architekt",
+      "customer": {
+        "name": "Deutsche Telekom MMS GmbH",
+        "location": "Dresden"
+      },
+      "contractor": "GULP Information Services GmbH, München",
+      "period": {
+        "start": "2024-03",
+        "end": "2024-09"
+      },
+      "description": [],
+      "technologies": [],
+      "testimonials": []
+    },
+    {
       "title": "Multi-Marken Kunden- und Support-Portale für Strom- und Gasanbieter",
       "role": "Lead Frontend Developer",
       "customer": {

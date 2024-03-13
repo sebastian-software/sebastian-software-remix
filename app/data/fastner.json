@@ -1,7 +1,23 @@
 {
   "projects": [
     {
-      "title": "Neuentwicklung E-Shops der Witt-Gruppe",
+      "title": "Weiterentwicklung MorgenFund Portfolio für Web-Browser und Mobile Apps",
+      "role": "Senior Frontend Architekt",
+      "customer": {
+        "name": "MorgenFund GmbH",
+        "location": "Luxemburg"
+      },
+      "contractor": "Hays Sarl",
+      "period": {
+        "start": "2020-10",
+        "end": "2024-06"
+      },
+      "links": ["https://vermoegensmanagement.dws.de/"],
+      "description": [""],
+      "technologies": ["React", "ReactNative", "HTML5"]
+    },
+    {
+      "title": "Neuentwicklung Multi-Marken E-Shops der Witt-Gruppe (Teil der Otto-Gruppe)",
       "role": "Senior Frontend Developer",
       "customer": {
         "name": "Witt Gruppe",
@@ -28,9 +44,8 @@
       "technologies": [
         "Next.js",
         "React",
-        "StyledComponents",
+        "Styled Components",
         "Contentful",
-        "Backbone von ABOUT YOU",
         "Apollo GraphQL",
         "Kubernetes",
         "Vault (AWS)"
@@ -52,7 +67,7 @@
       "description": [
         "Bei der Unterstützung der DWS in der Entwicklung einer digitalen White-Label-Investmentplattform trug ich wesentlich zur Konzeption und Realisierung bei. Mein Einsatz umfasste die Integration der Plattform in über zehn europäische und asiatische Investmentplattformen sowie die Mitwirkung an einem innovativen, auf React basierenden Frontend-Framework. Diese Zusammenarbeit verdeutlichte meine Fähigkeit, führende Finanzinstitute bei der digitalen Transformation zu unterstützen."
       ],
-      "technologies": ["React", "ReactNative", "HTML5"]
+      "technologies": ["React", "HTML5"]
     },
     {
       "title": "OneNumber-App für Geschäftskunden",
