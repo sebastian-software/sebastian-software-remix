@@ -1,5 +1,3 @@
-import { RichText } from "~/components/richtext/RichText";
-
 import data from "../data/fastner.json";
 import { useLoaderData } from "@remix-run/react";
 import { ProjectList } from "~/components/project-list/ProjectList";
