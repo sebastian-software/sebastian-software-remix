@@ -12,9 +12,9 @@ export default function Index() {
   const data = useLoaderData<typeof loader>();
 
   return (
-    <RichText>
+    <>
       <h1>Sebastian Werner</h1>
       <ProjectList data={data.projects} />
-    </RichText>
+    </>
   );
 }
