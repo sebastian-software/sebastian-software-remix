@@ -12,7 +12,9 @@
         "start": "2024-03",
         "end": "2024-09"
       },
-      "description": [],
+      "description": [
+        "Analyse der bestehenden Technologie und Architektur, um Verbesserungsvorschläge zu erarbeiten und umzusetzen."
+      ],
       "technologies": [],
       "testimonials": []
     },
@@ -702,13 +704,7 @@
         "Während meiner Zeit bei Zynga nahm ich die herausfordernde Aufgabe an, die Architektur und Entwicklung eines hardware-beschleunigten Scrollers für umfangreiche Spielfelder zu leiten. Dieses innovative Projekt zielte darauf ab, ein nahtloses Scroll-Erlebnis zu ermöglichen, das dem von iOS ähnelt – einschließlich Bouncing und Deceleration. Parallel dazu führte ich signifikante Verbesserungen in unserem Tooling-System durch, indem ich neue Funktionen wie einen API-Browser, Scaffolding, einen lokalen Webserver mit Proxy-Funktion, die Integration in die Asset-Management-Infrastruktur von Zynga sowie einen SpriteSheet-Generator implementierte.",
         "Ein weiterer wesentlicher Bestandteil meiner Arbeit war die kontinuierliche Weiterentwicklung des verwendeten JavaScript-Frameworks. Dazu gehörte die Einführung von Polyfills für ES5-Methoden zur Sicherstellung der Kompatibilität mit älteren Browsern, die Unterstützung von Multi-Wert-Eigenschaften in Klassen-Deklarationen und die Entwicklung von effizienten Ladesystemen für Skripte, Stylesheets und Bilder. Diese Verbesserungen waren entscheidend, um die Performance und die Benutzererfahrung unserer Anwendungen zu steigern."
       ],
-      "technologies": [
-        "Request Animation Frame (RAF)",
-        "iOS",
-        "Jasy",
-        "Polyfill",
-        "ES5"
-      ],
+      "technologies": ["iOS", "Jasy", "Polyfill", "ES5"],
       "testimonials": [
         {
           "author": "Paul Bakaus",
@@ -836,7 +832,7 @@
     },
 
     {
-      "title": "Online-Shop der DSL-Marke 1&1 und XSLT-basiertem Backend",
+      "title": "Online-Shop der DSL-Marke 1&1 mit XSLT-basiertem Backend-Rendering",
       "role": "Web Developer",
       "customer": {
         "name": "Schlund+Partner GmbH & Co. KG",

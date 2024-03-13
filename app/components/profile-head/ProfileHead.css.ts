@@ -7,7 +7,7 @@ export const rootClass = style({
 });
 
 export const nameClass = style({
-  fontSize: "6rem",
+  fontSize: "2rem",
   letterSpacing: "0.1em",
   whiteSpace: "nowrap",
   textTransform: "uppercase",
