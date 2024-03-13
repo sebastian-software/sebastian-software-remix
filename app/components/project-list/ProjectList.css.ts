@@ -7,9 +7,23 @@ export const root = style({
 });
 
 export const project = style({
-  display: "flex",
-  flexDirection: "column",
-  gap: "1rem",
+  display: "grid",
+
+  gap: "1rem 4rem",
+  gridTemplateAreas: `
+    ". title title"
+    "meta description testimonials"
+  `,
+});
+
+export const title = style({
+  gridArea: "title",
+  fontSize: "2rem",
+  fontWeight: "bold",
+  lineHeight: "1.25",
+  letterSpacing: "-0.05em",
+  textWrap: "balance",
+  color: "#222",
 });
 
 export const role = style({
@@ -25,22 +39,25 @@ export const role = style({
   marginBottom: "0.5rem",
 });
 
-export const title = style({
-  fontSize: "2rem",
-  fontWeight: "bold",
-  lineHeight: "1.25",
-  letterSpacing: "-0.05em",
-  textWrap: "balance",
-  color: "#222",
+export const meta = style({
+  gridArea: "meta",
 });
 
+export const period = style({});
+
+export const customer = style({});
+
+export const technologies = style({});
+
 export const description = style({
+  gridArea: "description",
   maxWidth: "60ch",
   hyphens: "auto",
   hyphenateLimitChars: "12 5 5",
 });
 
 export const testimonials = style({
+  gridArea: "testimonials",
   display: "flex",
   flexDirection: "column",
   gap: "1rem",

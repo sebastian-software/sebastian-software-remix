@@ -2,10 +2,14 @@ import { RichText } from "../richtext/RichText";
 import { Tag, TagList } from "../tag/Tag";
 import { Testimonial } from "../testimonial/Testimonial";
 import {
+  customer,
   description,
+  meta,
+  period,
   project,
   role,
   root,
+  technologies,
   testimonials,
   title,
 } from "./ProjectList.css";
@@ -61,23 +65,26 @@ export function Project({ data }: ProjectProps) {
   return (
     <div className={project}>
       <h2 className={title}>
-        <span className={role}>{data.role}:</span>
+        <span className={role}>{data.role}</span>
         {data.title}
       </h2>
 
-      <p>
-        Kunde: {data.customer.name}, {data.customer.location}
-        {" | "}
-        Zeitraum: {data.period.start} - {data.period.end}
-      </p>
+      <div className={meta}>
+        <p className={customer}>
+          Kunde: {data.customer.name}, {data.customer.location}
+        </p>
+        <p className={period}>
+          Zeitraum: {data.period.start} - {data.period.end}
+        </p>
 
-      {data.technologies && (
-        <TagList>
-          {data.technologies.sort().map((text, index) => (
-            <Tag key={index}>{text}</Tag>
-          ))}
-        </TagList>
-      )}
+        {data.technologies && (
+          <TagList className={technologies}>
+            {data.technologies.sort().map((text, index) => (
+              <Tag key={index}>{text}</Tag>
+            ))}
+          </TagList>
+        )}
+      </div>
 
       <RichText className={description}>
         {data.description.map((text, index) => (
