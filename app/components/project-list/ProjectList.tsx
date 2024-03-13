@@ -1,6 +1,14 @@
+import { RichText } from "../richtext/RichText";
 import { Tag, TagList } from "../tag/Tag";
 import { Testimonial } from "../testimonial/Testimonial";
-import { root } from "./ProjectList.css";
+import {
+  description,
+  project,
+  role,
+  root,
+  testimonials,
+  title,
+} from "./ProjectList.css";
 
 interface Project {
   id: string;
@@ -51,14 +59,16 @@ export interface ProjectProps {
 
 export function Project({ data }: ProjectProps) {
   return (
-    <div>
-      <h2>
-        {data.role}: {data.title}
+    <div className={project}>
+      <h2 className={title}>
+        <span className={role}>{data.role}:</span>
+        {data.title}
       </h2>
 
       <p>
-        Kunde: {data.customer.name}, {data.customer.location} | Zeitraum:{" "}
-        {data.period.start} - {data.period.end}
+        Kunde: {data.customer.name}, {data.customer.location}
+        {" | "}
+        Zeitraum: {data.period.start} - {data.period.end}
       </p>
 
       {data.technologies && (
@@ -69,14 +79,14 @@ export function Project({ data }: ProjectProps) {
         </TagList>
       )}
 
-      <div>
+      <RichText className={description}>
         {data.description.map((text, index) => (
           <p key={index}>{text}</p>
         ))}
-      </div>
+      </RichText>
 
       {data.testimonials && (
-        <ul>
+        <ul className={testimonials}>
           {data.testimonials.map((entry, index) => (
             <Testimonial
               key={index}
