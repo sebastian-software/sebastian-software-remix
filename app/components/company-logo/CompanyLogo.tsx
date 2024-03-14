@@ -3,7 +3,7 @@ import oneAndOne from "./assets/1und1.svg";
 import axxessioBlue from "./assets/axxessio-blue.svg";
 import azeti from "./assets/azeti.svg";
 import berlitz from "./assets/berlitz.svg";
-import coloquio from "./assets/coloquio.svg";
+import coliquio from "./assets/coliquio.svg";
 import commerzbank from "./assets/commerzbank.svg";
 import deutschebank from "./assets/deutschebank.svg";
 import deutschetelekom from "./assets/deutschetelekom.svg";
@@ -37,7 +37,7 @@ export const companies = {
   "axxessio-blue": axxessioBlue,
   azeti: azeti,
   berlitz: berlitz,
-  coloquio: coloquio,
+  coliquio: coliquio,
   commerzbank: commerzbank,
   deutschebank: deutschebank,
   deutschetelekom: deutschetelekom,
