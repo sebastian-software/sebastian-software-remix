@@ -376,7 +376,7 @@
       "customer": {
         "name": "RIO - Volkswagen Truck & Bus",
         "location": "München",
-        "logo": "rio-black"
+        "logo": "rio"
       },
       "contractor": "Ray Sono AG, München",
       "period": {
@@ -574,7 +574,7 @@
       "customer": {
         "name": "Deutsche Asset & Wealth Management",
         "location": "Frankfurt am Main",
-        "logo": "dws-black"
+        "logo": "dws"
       },
       "contractor": "Questax GmbH",
       "period": {
@@ -849,7 +849,11 @@
     {
       "title": "Initiierung, Architektur und Entwicklung des qooxdoo JavaScript-Frameworks",
       "role": "Senior Software Developer",
-      "customer": { "name": "1&1 Internet AG", "location": "Karlsruhe" },
+      "customer": {
+        "name": "1&1 Internet AG",
+        "location": "Karlsruhe",
+        "logo": "1und1"
+      },
       "period": {
         "start": "2004-11",
         "end": "2008-09"

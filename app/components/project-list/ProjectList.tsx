@@ -1,3 +1,4 @@
+import { CompanyLogo } from "../company-logo/CompanyLogo";
 import { Neutral } from "../neutral";
 import { RichText } from "../richtext/RichText";
 import { Tag, TagList } from "../tag/Tag";
@@ -5,6 +6,7 @@ import { Testimonial } from "../testimonial/Testimonial";
 import {
   customer,
   description,
+  logo,
   meta,
   period,
   project,
@@ -42,6 +44,7 @@ interface PeriodInfo {
 interface CustomerInfo {
   name: string;
   location: string;
+  logo: string;
 }
 
 export interface ProjectListProps {
@@ -69,6 +72,8 @@ export function Project({ data }: ProjectProps) {
         <span className={role}>{data.role}</span>
         {data.title}
       </Neutral>
+
+      <CompanyLogo name={data.customer.logo} className={logo} />
 
       <div className={meta}>
         <p className={customer}>

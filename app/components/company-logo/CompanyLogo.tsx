@@ -1,4 +1,5 @@
-import { root } from "./CompanyLogo.css";
+import clsx from "clsx";
+import { image, root } from "./CompanyLogo.css";
 import oneAndOne from "./assets/1und1.svg";
 import axxessioBlue from "./assets/axxessio-blue.svg";
 import azeti from "./assets/azeti.svg";
@@ -41,9 +42,8 @@ export const companies = {
   commerzbank: commerzbank,
   deutschebank: deutschebank,
   deutschetelekom: deutschetelekom,
-  "dws-black": dwsBlack,
-  "dws-inverted": dwsInverted,
-  "empiriecom-black": empiriecomBlack,
+  dws: dwsBlack,
+  empiriecom: empiriecomBlack,
   enbw: enbw,
   "ge-healthcare": geHealthcare,
   "heidelberg-materials": heidelbergMaterials,
@@ -54,8 +54,7 @@ export const companies = {
   morgenfund: morgenfund,
   "netze-bw": netzeBw,
   parisozial: parisozial,
-  "rio-black": rioBlack,
-  "rio-colored": rioColored,
+  rio: rioBlack,
   sbb: sbb,
   "schlund-partner": schlundPartner,
   studivz: studivz,
@@ -68,13 +67,20 @@ export const companies = {
 };
 
 export interface CompanyLogoProps {
-  name: keyof typeof companies;
+  name: keyof typeof companies | string;
+  className?: string;
 }
 
-export function CompanyLogo({ name }: CompanyLogoProps) {
+export function CompanyLogo({ name, className }: CompanyLogoProps) {
   return (
-    <div className={root}>
-      <img src={companies[name]} alt={name} />
+    <div className={clsx(root, className)}>
+      <img
+        className={image}
+        src={
+          name in companies ? companies[name] : "https://placehold.co/250x100"
+        }
+        alt={name}
+      />
     </div>
   );
 }

@@ -62,6 +62,10 @@ export const role = style({
   marginBottom: "0.5rem",
 });
 
+export const logo = style({
+  maxHeight: "5rem",
+});
+
 export const meta = style({
   gridArea: "meta",
 });

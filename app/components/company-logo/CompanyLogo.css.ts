@@ -1,5 +1,11 @@
 import { style } from "@vanilla-extract/css";
 
 export const root = style({
-  border: "4px solid red",
+  textAlign: "center",
+});
+
+export const image = style({
+  display: "inline",
+  maxWidth: "100%",
+  maxHeight: "100%",
 });
