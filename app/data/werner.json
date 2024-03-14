@@ -5,7 +5,8 @@
       "role": "Leitender Frontend Architekt",
       "customer": {
         "name": "Deutsche Telekom MMS GmbH",
-        "location": "Dresden"
+        "location": "Dresden",
+        "logo": "sbb"
       },
       "contractor": "GULP Information Services GmbH, München",
       "period": {
@@ -23,7 +24,8 @@
       "role": "Lead Frontend Developer",
       "customer": {
         "name": "EnBW AG",
-        "location": "Karlsruhe"
+        "location": "Karlsruhe",
+        "logo": "enbw"
       },
       "contractor": "Michael Page, Düsseldorf",
       "period": {
@@ -90,7 +92,11 @@
     {
       "title": "IOT-Plattform zur Überwachung von Maschinen und Anlagen",
       "role": "Senior React Developer",
-      "customer": { "name": "Azeti GmbH", "location": "Berlin" },
+      "customer": {
+        "name": "Azeti GmbH",
+        "location": "Berlin",
+        "logo": "azeti"
+      },
       "contractor": "Staffgroup GmbH, Berlin",
       "period": {
         "start": "2022-03",
@@ -104,7 +110,11 @@
     {
       "title": "Kundenportal zur Pflege von Basisdaten und der Verwaltung von PV-Anlagen",
       "role": "Lead Web Frontend Architekt",
-      "customer": { "name": "Netze BW GmbH", "location": "Stuttgart" },
+      "customer": {
+        "name": "Netze BW GmbH",
+        "location": "Stuttgart",
+        "logo": "netze-bw"
+      },
       "contractor": "Hays AG, Mannheim",
       "period": {
         "start": "2021-02",
@@ -132,7 +142,8 @@
       "role": "React- und GraphQL-Architekt",
       "customer": {
         "name": "empiriecom GmbH & Co. KG",
-        "location": "Burgkunstadt"
+        "location": "Burgkunstadt",
+        "logo": "empiriecom"
       },
       "contractor": "AWESOME! Software GmbH, Montabaur",
       "period": {
@@ -173,7 +184,11 @@
     {
       "title": "Neuentwicklung von State-of-the-Art Web-Anwendungen für einen führenden Baustoffkonzern",
       "role": "React-Architekt",
-      "customer": { "name": "HeidelbergCement AG", "location": "Heidelberg" },
+      "customer": {
+        "name": "HeidelbergCement AG",
+        "location": "Heidelberg",
+        "logo": "heidelberg-materials"
+      },
       "contractor": "Hays AG, Mannheim",
       "period": {
         "start": "2019-06",
@@ -239,7 +254,11 @@
     {
       "title": "Mentoring und Consulting für neues React-Team",
       "role": "React Mentor",
-      "customer": { "name": "GE Healthcare", "location": "Freiburg" },
+      "customer": {
+        "name": "GE Healthcare",
+        "location": "Freiburg",
+        "logo": "ge-healthcare"
+      },
       "contractor": "Belcan Technical Recruiting, London",
       "period": {
         "start": "2019-02",
@@ -268,7 +287,8 @@
       "role": "React/GraphQL-Architekt",
       "customer": {
         "name": "Josef Witt GmbH (Otto Gruppe)",
-        "location": "Weiden"
+        "location": "Weiden",
+        "logo": "witt-gruppe"
       },
       "contractor": "Computer Futures/SThree GmbH, München",
       "period": {
@@ -298,7 +318,7 @@
     {
       "title": "Neue ARD-Mediathek für HBBTV-fähige Fernseher und Web-Browser",
       "role": "React/GraphQL-Architekt",
-      "customer": { "name": "SWR", "location": "Mainz" },
+      "customer": { "name": "SWR", "location": "Mainz", "logo": "swr" },
       "contractor": "GULP Information Services GmbH, München",
       "period": {
         "start": "2018-07",
@@ -319,7 +339,11 @@
     {
       "title": "Real-Time Verkehrs-Informationsangebot für den ÖPNV-Bereich",
       "role": "React Architekt",
-      "customer": { "name": "Init SE", "location": "Karlsruhe" },
+      "customer": {
+        "name": "Init SE",
+        "location": "Karlsruhe",
+        "logo": "init"
+      },
       "contractor": "Megapart GmbH, Karlsruhe",
       "period": {
         "start": "2018-04",
@@ -351,7 +375,8 @@
       "role": "React Experte",
       "customer": {
         "name": "RIO - Volkswagen Truck & Bus",
-        "location": "München"
+        "location": "München",
+        "logo": "rio-black"
       },
       "contractor": "Ray Sono AG, München",
       "period": {
@@ -391,7 +416,11 @@
     {
       "title": "Eine Plattform zum Austausch zwischen Pharma-Branche und Ärzten",
       "role": "Frontend Architekt",
-      "customer": { "name": "coliquio GmbH", "location": "Konstanz" },
+      "customer": {
+        "name": "coliquio GmbH",
+        "location": "Konstanz",
+        "logo": "coliquio"
+      },
       "contractor": "Michael Page, München",
       "period": {
         "start": "2017-06",
@@ -430,7 +459,11 @@
     {
       "title": "Neues Online-Banking für Geschäftskunden mit signifikaten Umsätzen",
       "role": "Lead Frontend Architekt",
-      "customer": { "name": "Deutsche Bank AG", "location": "Eschborn" },
+      "customer": {
+        "name": "Deutsche Bank AG",
+        "location": "Eschborn",
+        "logo": "deutschebank"
+      },
       "contractor": "Hays AG, Mannheim",
       "period": {
         "start": "2017-03",
@@ -471,7 +504,8 @@
       "role": "Senior Frontend Architekt",
       "customer": {
         "name": "Berlitz Deutschland GmbH",
-        "location": "Frankfurt am Main"
+        "location": "Frankfurt am Main",
+        "logo": "berlitz"
       },
       "contractor": "Syzygy GmbH, Bad Homburg",
       "period": {
@@ -518,7 +552,11 @@
     {
       "title": "Unterstützung der Entwicklung eines neuen Online-Shops",
       "role": "Senior Frontend Architekt",
-      "customer": { "name": "Hornbach Baumarkt AG", "location": "Bornheim" },
+      "customer": {
+        "name": "Hornbach Baumarkt AG",
+        "location": "Bornheim",
+        "logo": "hornbach"
+      },
       "contractor": "Systeme24, Mainz",
       "period": {
         "start": "2016-05",
@@ -535,7 +573,8 @@
       "role": "Senior Frontend Architekt",
       "customer": {
         "name": "Deutsche Asset & Wealth Management",
-        "location": "Frankfurt am Main"
+        "location": "Frankfurt am Main",
+        "logo": "dws-black"
       },
       "contractor": "Questax GmbH",
       "period": {
@@ -563,7 +602,11 @@
     {
       "title": "Aufwendig animiertes Frontend für die neue Telekom-Entertain-Plattform",
       "role": "Senior User Interface Architekt",
-      "customer": { "name": "Huawei Technologies", "location": "Darmstadt" },
+      "customer": {
+        "name": "Huawei Technologies",
+        "location": "Darmstadt",
+        "logo": "huawei"
+      },
       "contractor": "Networkers International",
       "period": {
         "start": "2014-06",
@@ -621,7 +664,8 @@
       "role": "Senior Frontend Developer",
       "customer": {
         "name": "Triplesense Reply",
-        "location": "Frankfurt am Main"
+        "location": "Frankfurt am Main",
+        "logo": "triplesense-reply"
       },
       "period": {
         "start": "2013-11",
@@ -650,7 +694,8 @@
       "role": "Senior Frontend Developer",
       "customer": {
         "name": "Triplesense Reply",
-        "location": "Frankfurt am Main"
+        "location": "Frankfurt am Main",
+        "logo": "triplesense-reply"
       },
       "period": {
         "start": "2013-04",
@@ -664,8 +709,12 @@
     {
       "title": "Leitung der Architektur des neuen Telefoniecenters Frontends",
       "role": "JavaScript Architekt",
-      "customer": { "name": "axxessio GmbH", "location": "Bonn" },
-      "contractor": "Deutsche Telekom, Darmstadt",
+      "customer": {
+        "name": "Deutsche Telekom",
+        "location": "Darmstadt",
+        "logo": "deutschetelekom"
+      },
+      "contractor": "axxessio GmbH, Bonn",
       "period": {
         "start": "2012-11",
         "end": "2013-04"
@@ -694,7 +743,8 @@
       "role": "Senior JavaScript Developer",
       "customer": {
         "name": "Zynga Germany GmbH",
-        "location": "Frankfurt am Main"
+        "location": "Frankfurt am Main",
+        "logo": "zynga"
       },
       "period": {
         "start": "2011-04",
@@ -726,7 +776,11 @@
     {
       "title": "Innovative Cross-Plattform-Entwicklung für Smartphone-Angebote auf HTML5-Basis",
       "role": "Senior Software Developer",
-      "customer": { "name": "Deutsche Telekom", "location": "Darmstadt" },
+      "customer": {
+        "name": "Deutsche Telekom",
+        "location": "Darmstadt",
+        "logo": "deutschetelekom"
+      },
       "period": {
         "start": "2009-03",
         "end": "2011-03"
@@ -777,7 +831,11 @@
     {
       "title": "Architekturelle Verbesserung, Performance-Optimierung und Implementierung von Komponenten für Soziales Netzwerk",
       "role": "Teamlead JavaScript Development",
-      "customer": { "name": "studiVZ", "location": "Berlin" },
+      "customer": {
+        "name": "studiVZ",
+        "location": "Berlin",
+        "logo": "studivz"
+      },
       "period": {
         "start": "2008-10",
         "end": "2009-02"
@@ -836,7 +894,8 @@
       "role": "Web Developer",
       "customer": {
         "name": "Schlund+Partner GmbH & Co. KG",
-        "location": "Karlsruhe"
+        "location": "Karlsruhe",
+        "logo": "schlund-partner"
       },
       "period": {
         "start": "2002-05",
@@ -859,7 +918,8 @@
       "role": "Software Developer",
       "customer": {
         "name": "Paritätische Sozialdienste",
-        "location": "Minden"
+        "location": "Minden",
+        "logo": "parisozial"
       },
       "period": {
         "start": "2001-01",

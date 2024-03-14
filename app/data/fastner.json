@@ -5,7 +5,8 @@
       "role": "Senior Frontend Architekt",
       "customer": {
         "name": "MorgenFund GmbH",
-        "location": "Luxemburg"
+        "location": "Luxemburg",
+        "logo": "morgenfund"
       },
       "contractor": "Hays Sarl",
       "period": {
@@ -23,7 +24,8 @@
       "role": "Senior Frontend Developer",
       "customer": {
         "name": "Witt Gruppe",
-        "location": "Weiden"
+        "location": "Weiden",
+        "logo": "witt-gruppe"
       },
       "contractor": "Computer Futures / SThree GmbH",
       "period": {
@@ -58,7 +60,8 @@
       "role": "Senior Frontend Architekt",
       "customer": {
         "name": "DWS",
-        "location": "Frankfurt am Main"
+        "location": "Frankfurt am Main",
+        "logo": "dws-black"
       },
       "contractor": "Questax GmbH",
       "period": {
@@ -76,7 +79,8 @@
       "role": "Senior Application Architect",
       "customer": {
         "name": "Deutsche Telekom AG",
-        "location": "Darmstadt"
+        "location": "Darmstadt",
+        "logo": "deutschetelekom"
       },
       "contractor": "Proventa, Frankfurt",
       "period": {
@@ -98,7 +102,8 @@
       "role": "Senior Application Architect",
       "customer": {
         "name": "JAKO-O",
-        "location": "Bad Rodach"
+        "location": "Bad Rodach",
+        "logo": "jako-o"
       },
       "contractor": "Epresia GmbH",
       "period": {
@@ -116,7 +121,8 @@
       "role": "Senior Application Architect",
       "customer": {
         "name": "JAKO-O",
-        "location": "Bad Rodach"
+        "location": "Bad Rodach",
+        "logo": "jako-o"
       },
       "contractor": "Epresia GmbH",
       "period": {
@@ -133,7 +139,8 @@
       "role": "FullStack Senior User Interface Architect",
       "customer": {
         "name": "SUZUKI",
-        "location": "Bensheim"
+        "location": "Bensheim",
+        "logo": "suzuki"
       },
       "contractor": "DIU MarTech Solutions GmbH",
       "period": {
@@ -166,7 +173,8 @@
       "role": "JavaScript-Entwickler",
       "customer": {
         "name": "Deutsche Telekom AG",
-        "location": "Darmstadt"
+        "location": "Darmstadt",
+        "logo": "deutschetelekom"
       },
       "contractor": "axxessio GmbH",
       "period": {
@@ -191,7 +199,8 @@
       "role": "JavaScript-Entwickler",
       "customer": {
         "name": "Deutsche Telekom AG",
-        "location": "Darmstadt"
+        "location": "Darmstadt",
+        "logo": "deutschetelekom"
       },
       "contractor": "Proventa AG",
       "period": {
@@ -208,8 +217,9 @@
       "title": "DINA Frontend Neu (Analysesoftware)",
       "role": "PHP-/JavaScript-Entwickler",
       "customer": {
-        "name": "Deutsche Telekom",
-        "location": "Darmstadt"
+        "name": "Deutsche Telekom AG",
+        "location": "Darmstadt",
+        "logo": "deutschetelekom"
       },
       "period": {
         "start": "2008-05",
@@ -232,7 +242,8 @@
       "role": "Java-Entwickler",
       "customer": {
         "name": "3ado OHG",
-        "location": "Mainz"
+        "location": "Mainz",
+        "logo": "3ado"
       },
       "period": {
         "start": "2007-05",
@@ -254,7 +265,8 @@
       "role": "PHP-Entwickler",
       "customer": {
         "name": "Netz98 GmbH",
-        "location": "Mainz"
+        "location": "Mainz",
+        "logo": "netz98"
       },
       "period": {
         "start": "2006-10",
@@ -277,7 +289,8 @@
       "role": "Java- und SAS-Entwickler",
       "customer": {
         "name": "Commerzbank AG",
-        "location": "Frankfurt am Main"
+        "location": "Frankfurt am Main",
+        "logo": "commerzbank"
       },
       "period": {
         "start": "2006-03",
@@ -293,7 +306,8 @@
       "role": "PHP-Entwickler",
       "customer": {
         "name": "Creative Communication",
-        "location": "Bingen"
+        "location": "Bingen",
+        "logo": "creative-communication"
       },
       "period": {
         "start": "2006-03",
@@ -309,7 +323,8 @@
       "role": "Entwickler",
       "customer": {
         "name": "Boehringer Ingelheim International GmbH",
-        "location": "Ingelheim am Rhein"
+        "location": "Ingelheim am Rhein",
+        "logo": "boehringer-ingelheim"
       },
       "period": {
         "start": "2000",
