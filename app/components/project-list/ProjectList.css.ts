@@ -11,25 +11,31 @@ export const project = style({
   maxWidth: "max-content",
   marginInline: "auto",
   gap: "1rem 5rem",
+
   gridTemplateColumns: "12rem auto auto",
+  gridTemplateRows: "auto auto 1fr",
+
   gridTemplateAreas: `
     ". title title"
+    "logo description testimonials"
     "meta description testimonials"
   `,
 
   "@media": {
     "(width <= 80rem)": {
-      gridTemplateColumns: "auto auto",
+      gridTemplateColumns: "10rem auto auto",
       gridTemplateAreas: `
-        "title title"
-        "meta meta"
-        "description testimonials"
+        "logo . ."
+        "title title title"
+        "meta meta meta"
+        "description description testimonials"
       `,
     },
 
     "(width <= 64rem)": {
       gridTemplateColumns: "auto",
       gridTemplateAreas: `
+        "logo"
         "title"
         "meta"
         "description"
@@ -63,6 +69,8 @@ export const role = style({
 });
 
 export const logo = style({
+  gridArea: "logo",
+  maxWidth: "12rem",
   maxHeight: "5rem",
 });
 
