@@ -79,11 +79,13 @@ export function Project({ data }: ProjectProps) {
         </p>
 
         {data.technologies && (
-          <TagList className={technologies}>
-            {data.technologies.sort().map((text, index) => (
-              <Tag key={index}>{text}</Tag>
-            ))}
-          </TagList>
+          <Neutral>
+            <TagList className={technologies}>
+              {data.technologies.sort().map((text, index) => (
+                <Tag key={index}>{text}</Tag>
+              ))}
+            </TagList>
+          </Neutral>
         )}
       </div>
 

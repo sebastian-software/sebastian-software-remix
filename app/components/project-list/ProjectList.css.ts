@@ -18,7 +18,16 @@ export const project = style({
   `,
 
   "@media": {
-    "(max-width: 64rem)": {
+    "(width <= 80rem)": {
+      gridTemplateColumns: "auto auto",
+      gridTemplateAreas: `
+        "title title"
+        "meta meta"
+        "description testimonials"
+      `,
+    },
+
+    "(width <= 64rem)": {
       gridTemplateColumns: "auto",
       gridTemplateAreas: `
         "title"
