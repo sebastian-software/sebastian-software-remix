@@ -8,7 +8,8 @@
     "dev": "remix vite:dev",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "start": "remix-serve ./build/server/index.js",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "opt:svg": "svgo --folder app --recursive"
   },
   "dependencies": {
     "@remix-run/node": "^2.8.1",
@@ -29,6 +30,7 @@
     "@vanilla-extract/vite-plugin": "^4.0.4",
     "@vercel/remix": "^2.8.1",
     "npm-check-updates": "^16.14.15",
+    "svgo": "^3.2.0",
     "typescript": "^5.4.2",
     "vite": "^5.1.5",
     "vite-tsconfig-paths": "^4.3.1"
