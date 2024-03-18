@@ -49,7 +49,7 @@ export const title = style({
   gridArea: "title",
   fontSize: "2rem",
   fontWeight: "bold",
-  lineHeight: "1.25",
+  lineHeight: "1.2",
   letterSpacing: "-0.05em",
   textWrap: "balance",
   color: "#222",
@@ -71,6 +71,7 @@ export const role = style({
 export const logo = style({
   gridArea: "logo",
   maxHeight: "4rem",
+  maxWidth: "12rem",
 });
 
 export const meta = style({
