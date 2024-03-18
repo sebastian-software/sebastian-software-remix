@@ -47,7 +47,7 @@ export const project = style({
 
 export const title = style({
   gridArea: "title",
-  fontSize: "2rem",
+  fontSize: "2.5rem",
   fontWeight: "bold",
   lineHeight: "1.2",
   letterSpacing: "-0.05em",

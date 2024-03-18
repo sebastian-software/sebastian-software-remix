@@ -19,16 +19,4 @@ export const quote = style({
 
 export const caption = style({
   fontWeight: "bold",
-
-  selectors: {
-    "&::before": {
-      position: "absolute",
-      marginTop: "-0.5rem",
-      marginLeft: "-1.5rem",
-      fontSize: "2rem",
-      lineHeight: 1,
-      fontWeight: "normal",
-      content: "– ",
-    },
-  },
 });
