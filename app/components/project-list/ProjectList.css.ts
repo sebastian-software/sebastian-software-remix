@@ -70,8 +70,7 @@ export const role = style({
 
 export const logo = style({
   gridArea: "logo",
-  maxWidth: "12rem",
-  maxHeight: "5rem",
+  maxHeight: "4rem",
 });
 
 export const meta = style({

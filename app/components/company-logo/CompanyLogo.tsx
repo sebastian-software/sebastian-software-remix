@@ -73,14 +73,10 @@ export interface CompanyLogoProps {
 
 export function CompanyLogo({ name, className }: CompanyLogoProps) {
   return (
-    <div className={clsx(root, className)}>
-      <img
-        className={image}
-        src={
-          name in companies ? companies[name] : "https://placehold.co/250x100"
-        }
-        alt={name}
-      />
-    </div>
+    <img
+      className={clsx(root, className)}
+      src={name in companies ? companies[name] : "https://placehold.co/250x100"}
+      alt={name}
+    />
   );
 }
