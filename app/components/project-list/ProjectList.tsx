@@ -33,6 +33,7 @@ interface Project {
 interface Testimonial {
   author: string;
   position: string;
+  company: string;
   text: string;
 }
 
@@ -106,6 +107,7 @@ export function Project({ data }: ProjectProps) {
             key={index}
             author={entry.author}
             position={entry.position}
+            company={entry.company}
             text={entry.text}
           />
         ))}

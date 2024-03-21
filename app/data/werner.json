@@ -59,32 +59,36 @@
       "testimonials": [
         {
           "author": "Patrick Krumm",
-          "position": "Software-Entwickler/-Architekt, EnBW AG",
+          "position": "Software-Architekt",
+          "company": "EnBW AG",
           "text": "Ich empfehle Sebastian mit großem Enthusiasmus für jede Rolle oder jedes Projekt, das tiefgreifende Fachkenntnisse in der Web-Frontend-Entwicklung, außergewöhnliche Führungsqualitäten in der Teamorganisation und strategische Entscheidungsfähigkeiten erfordert. Da ich das Privileg hatte, mit Sebastian zusammenzuarbeiten, habe ich aus erster Hand erfahren, welchen Einfluss er auf unsere Projekte hat, indem er Innovation und Exzellenz auf Schritt und Tritt vorantreibt. Sebastians Verständnis für aktuelle Technologien in der Webentwicklung ist herausragend. Er hält sich nicht nur über die neuesten Trends und Tools auf dem Laufenden, sondern besitzt auch die seltene Fähigkeit zu erkennen, welche davon am effektivsten eingesetzt werden können, um die Projektergebnisse zu verbessern. Seine Empfehlungen und Entscheidungen beruhen stets auf einer sorgfältigen Analyse und einem vorausschauenden Ansatz, der sicherstellt, dass unsere Projekte nicht nur erfolgreich, sondern auch zukunftssicher sind. Über seinen technischen Scharfsinn hinaus ist Sebastian eine natürliche Führungspersönlichkeit. Seine Herangehensweise an die Organisation und Führung von Teams ist sowohl inspirierend als auch effektiv und fördert ein Umfeld der Zusammenarbeit, des Lernens und der hohen Leistung. Unter seiner Leitung waren unsere Teams in der Lage, ehrgeizige Ziele zu erreichen und die Erwartungen in Bezug auf Qualität und Pünktlichkeit oft zu übertreffen. Sebastians Rollen als Senior Developer, Frontend Architect und Frontend Lead haben seine Vielseitigkeit und sein Durchsetzungsvermögen unter Beweis gestellt und ihn zu einer unschätzbaren Bereicherung in jedem Projektszenario gemacht. Seine Fähigkeit, diese Rollen mit Bravour auszufüllen, spricht Bände über seine Kompetenz, seine strategische Denkweise und sein Engagement für hervorragende Leistungen. Für jedes Unternehmen, das seine Webentwicklungsprojekte zu neuen Höhenflügen führen möchte, ist Sebastian der ideale Kandidat."
         },
         {
           "author": "Jochen Reinelt",
-          "position": "Team Lead - Software Engineering Digital Services, EnBW AG",
+          "position": "Team Lead",
+          "company": "EnBW AG",
           "text": "Sebastian ist ein Top-Experte für die Entwicklung von Web-Frontends, mit einem hervorragenden Überblick über aktuelle Technologien, sowie erfolgreiche Team-Organisation. Mit seiner großen Erfahrung ist er ein wertvoller Berater in Entscheidungs- und Auswahlprozessen, sowie in der Erarbeitung von Entwicklungsrichtlinien. Seine Empfehlungen oder Entscheidungen trifft er stets wohlüberlegt und kann diese detailliert begründen. Aufgrund seiner hohen Kompetenz und Durchsetzungsstärke kann er in Projekten verschiedene Rollen erfolgreich ausfüllen, vom Senior Developer bis zum Frontend Architect oder Frontend Lead."
         },
         {
           "author": "Emanuele De Monte",
-          "position": "Product Owner, EnBW AG",
+          "position": "Product Owner",
+          "company": "EnBW AG",
           "text": "Während unserer gemeinsamen Zeit bei EnBW habe ich Sebastian als Dienstleister kennengelernt und ihn als außergewöhnlich kompetenten und engagierten Lead Front End Developer erlebt. Sebastian verfügt über ein umfangreiches Wissen über die neuesten Frontend-Technologien und zeigt eine bemerkenswerte Fähigkeit, komplexe Probleme kreativ und effizient zu lösen. Er hat eine Schlüsselrolle dabei gespielt, das Projekt zur Entwicklung innovativer und benutzerfreundlicher Webanwendungen voranzutreiben. Ich möchte mich für die gemeinsame Zeit bedanken und freue mich auf die Fertigstellung des Projekts."
         },
         {
           "author": "Kai Santanius",
-          "position": "Frontend Consultant",
+          "position": "Frontend-Entwickler (Consultant)",
+          "company": "Bold Ventures GmbH",
           "text": "Sebastian ist ein bemerkenswerter Mentor und Kollege. Sein umfangreiches Wissen und seine Bereitschaft, sein Fachwissen mit anderen zu teilen, sind für unser gesamtes Team von großem Vorteil, und ich möchte ihn nicht mehr missen. Eine von Sebastians hervorragendsten Eigenschaften ist seine Bereitschaft, zuzuhören und Ratschläge zu geben. Wann immer ich auf eine Herausforderung stieß, hatte Sebastian ein geduldiges Ohr und praktische Lösungen parat. Seine Ratschläge und Einsichten waren für mich von unschätzbarem Wert, sowohl beruflich als auch persönlich. Ich kann Sebastian mit gutem Gewissen als engagierten und sachkundigen Fachmann empfehlen, mit dem man rundherum hervorragend zusammenarbeiten kann. Er wird für jede Organisation eine wertvolle Bereicherung sein."
         },
         {
           "author": "Tobias Arweiler",
-          "position": "Freelancer, Senior Software-Entwickler",
+          "position": "Senior Software-Entwickler (Freelancer)",
           "text": "Sebastian ist ein überaus professioneller, sehr erfahrener Softwarearchitekt, der weiß, wovon er spricht. In unserem gemeinsamen Projekt bei der EnBW war er eine wichtige Stimme für eine vernünftige und technologisch fundierte Software-Architektur, sowie ein großartiger Sparringspartner für jede technologische Frage oder Idee, die man aufwerfen wollte. Jedes Projektteam würde sich freuen, ihn als Teammitglied zu haben, da er sowohl bei der technischen Umsetzung als auch bei komplexen Architekturdiskussionen unterstützen kann. Ich wünsche ihm alles Gute."
         },
         {
           "author": "Rouven Haban",
-          "position": "Scrum Master, scrum asset",
+          "position": "Scrum Master (Consultant)",
           "text": "Ich hatte das Privileg, mehr als ein Jahr lang mit Sebastian als Scrum Master zu arbeiten. Sebastian ist ein außergewöhnlicher Lead Developer, dessen tiefgreifende technische Expertise und innovative Denkweise unser Team konsequent zum Erfolg führt. Seine Fähigkeit, komplexe Konzepte in klare, umsetzbare Lösungen zu übersetzen, ist in unserer agilen Umgebung von unschätzbarem Wert. Sebastian leitet mit Leichtigkeit an und inspiriert unser Team zu neuen Höchstleistungen. Unter seiner Leitung haben wir erhebliche Verbesserungen bei der Effizienz und der Produktqualität festgestellt. Ich empfehle Sebastian von ganzem Herzen für jede fortgeschrittene Entwicklungsaufgabe. Er ist nicht nur ein hochqualifizierter Entwickler, sondern auch ein echter Teamplayer, der für jedes Projekt, an dem er beteiligt ist, einen immensen Wert darstellt."
         }
       ]
@@ -127,12 +131,13 @@
       "testimonials": [
         {
           "author": "Florian Matz",
-          "position": "Professional Software-Engineer, Netze BW GmbH",
+          "position": "Software-Entwickler (Freelancer)",
           "text": "Sebastian überzeugt mit seinem tiefen Fachwissen in Sachen Frontend-Architektur, Tooling und React im Speziellen. Dabei kommuniziert er ehrlich und bringt mit seiner Kompetenz jede Codebasis voran. Vielen Dank, es hat Spaß gemacht!"
         },
         {
           "author": "Yangyang Gao",
-          "position": "Lead Consultant Fullstack, CGI Deutschland",
+          "position": "Software-Entwickler (Consultant)",
+          "company": "CGI Deutschland",
           "text": "Sebastian arbeitet selbstständig an allen Aufgaben, die in der täglichen Projektarbeit anfallen. Er ist ein ausgewiesener Experte im Frontend-Bereich und steht jederzeit mit seinem Know-how zur Verfügung. Bei der Analyse der Frontend-Architektur hat er viele sinnvolle Verbesserungsmöglichkeiten gefunden und mit Hilfe von Best Practices pragmatisch umgesetzt. Seine Lösungsvorschläge und Diskussionsbeiträge sind immer ein elementarer Input."
         }
       ]
@@ -166,17 +171,20 @@
       "testimonials": [
         {
           "author": "Sascha Metz",
-          "position": "Web-Developer, Visuellagentur UG",
+          "position": "Web-Developer (Consultant)",
+          "company": "Visuellagentur UG",
           "text": "Es war großartig, mit dir zu arbeiten. Ich werde deine Kompetenz, deinen Weitblick und unsere Gespräche vermissen. Viel Glück und denk daran: Man sieht sich immer zweimal im Leben. Das war eine Drohung. :)"
         },
         {
           "author": "Natalie Stoisch",
-          "position": "Lead User Centered Design & Scrum Master Unit Search, empiriecom GmbH & Co. KG",
+          "position": "Lead User Centered Design / Scrum Master",
+          "company": "empiriecom GmbH & Co. KG",
           "text": "Vielen Dank für deinen professionellen Einsatz. Du hast das Team mit deiner Unterstützung in vielerlei Hinsicht weitergebracht. Es war ein außerordentliches Vergnügen, mit Dir zu arbeiten."
         },
         {
           "author": "Alexander Ritz",
-          "position": "Product Owner Business Intelligence, Analytics & Personalization, empiriecom GmbH & Co. KG",
+          "position": "Product Owner Business Intelligence",
+          "company": "empiriecom GmbH & Co. KG",
           "text": "Vielen Dank, dass Du uns bei unseren PACE-Projekten so tatkräftig unterstützt hast. Deine erfrischende und ehrliche Art hat uns an der einen oder anderen Stelle auf Konzeptlücken aufmerksam gemacht."
         }
       ]
@@ -216,37 +224,44 @@
       "testimonials": [
         {
           "author": "Christian Klaucke",
-          "position": "Head of Digital Product Engineering, HeidelbergCement AG",
+          "position": "Head of Digital Product Engineering",
+          "company": "HeidelbergCement AG",
           "text": "Vielen Dank für all Deine Leistungen, Sebastian! Und wow, ich habe gar nicht bemerkt, dass wir fast 1,5 Jahre zusammen gearbeitet haben. Es gibt jetzt wirklich eine sehr große Lücke, die das Team zu füllen hat, da Du etliche wichtige Beiträge zu unserem Stack hinzugefügt hast. Du hast Dir im Laufe der Zeit einen sehr guten Ruf als React-Experte im Team erworben, und ich hatte das Gefühl, dass die Leute Deinem Rat wirklich tiefgehend vertrauen. Ich wünsche Dir alles Gute für Deinen zukünftigen Weg und möge der Code mit Dir sein. Immer."
         },
         {
           "author": "Danny Fürniß",
-          "position": "Lead Product Engineer, HeidelbergCement AG",
+          "position": "Lead Product Engineer",
+          "company": "HeidelbergCement AG",
           "text": "Danke Sebastian. Es war mir ein Vergnügen, mit Dir zu arbeiten und mit Dir über die winzigen aber wichtigen Details moderner Web-Technologie-Stacks zu diskutieren. Zusammen konnten wir die Art und Weise, wie wir unsere Web-Anwendungen entwickeln und veröffentlichen, einen gewaltigen Sprung nach vorn bringen. Deine tiefgehende Erfahrung mit React und den sinnvollen Praktiken der Webentwicklung wurden von mir immer sehr geschätzt."
         },
         {
           "author": "Igor Ilic",
-          "position": "Software Engineer, HeidelbergCement AG",
+          "position": "Software-Entwickler",
+          "company": "HeidelbergCement AG",
           "text": "Während unserer Zusammenarbeit mit Sebastian wurden mein Team und ich Zeuge, wie eine sachkundige und erfahrene Person die Köpfe des gesamten Teams wachrütteln kann. Er zwang uns, mehr zu lernen und generell mehr zu hinterfragen. Auch, in die richtige Richtung zu lernen, damit wir dann selbst Lösungen finden konnten. Dem Team arbeitsfähige Lösungen zu geben, ist sicher wertvoll, aber es ist vorteilhafter, ihnen beizubringen, wie sie selbst denken und das Problem lösen können. Abgesehen davon habe ich die Gesellschaft von Sebastian sehr genossen und schätze es sehr, dass wir den Vorteil hatten, gemeinsam überlegene Lösungen für verschiedene komplexe Probleme zu finden."
         },
         {
           "author": "Dominik Skalnik",
-          "position": "Software Engineer, HeidelbergCement AG",
+          "position": "Software-Entwickler",
+          "company": "HeidelbergCement AG",
           "text": "Es hat mich gefreut, mit Sebastian arbeiten zu können. Unser Projekt hat viel von seinem langjährigen Frontend Know-How profitiert. Er kennt sich nicht nur mit ReactJS gut aus, sondern hat auch das Gesamtsystem immer im Blick. Das kommt nicht oft vor. Er ist kommunikativ, engagiert und offen. Ich selbst würde mit ihm gerne immer wieder zusammenarbeiten und kann ihn für weitere Projekte nur empfehlen."
         },
         {
           "author": "Armin Naimi",
-          "position": "Software Engineer, HeidelbergCement AG",
+          "position": "Software-Entwickler",
+          "company": "HeidelbergCement AG",
           "text": "Sebastian ist ein ausgezeichneter Entwickler und viel mehr ein Kollege und Coach, welcher mit scharfer Präzision hochqualitative Lösungen entwickelt. Sebastian hat Themen wie Backend für Frontend und Frontend Operations vorangebracht und unser Team mit einer Reihe von Tools bereichert. Ich wünsche ihm alles Gute und in seinem neuem Team viel Spaß und Erfolg."
         },
         {
           "author": "Cesare Cesari",
-          "position": "UX Designer, HeidelbergCement AG",
+          "position": "UX Designer",
+          "company": "HeidelbergCement AG",
           "text": "Als UX-Designer ist es großartig, mit Sebastian zu arbeiten. Seine benutzerzentrierte Denkweise unterstützte und forderte das Team und mich heraus. Er ist neugierig und hat nie Angst davor, die Komfortzone zu verlassen, wenn es darum geht, Qualität zu realisieren. Das ist mit Sicherheit ein Wert für jedes Unternehmen, mit dem er zusammenarbeitet."
         },
         {
           "author": "Sebastian Walter",
-          "position": "Team Lead Frontend, HeidelbergCement AG",
+          "position": "Team Leiter Frontend",
+          "company": "HeidelbergCement AG",
           "text": "Sebastian zeichnet eine klare und direkte Kommunikation aus; sowohl in Besprechungen als auch im Quelltext. Für komplexe Probleme und Anforderungen sucht Sebastian einfache und zukunftsfähige Lösungen. Dabei greift er gerne auf seine Erfahrung aus früheren Projekten zurück. Beim Tooling ist er up to date und verfolgt mit Enthusiasmus neue Entwicklungen in der Branche."
         }
       ]
@@ -255,7 +270,7 @@
       "title": "Mentoring und Consulting für neues React-Team",
       "role": "React Mentor",
       "customer": {
-        "name": "GE Healthcare",
+        "name": "GE Healthcare GmbH",
         "location": "Freiburg",
         "logo": "ge-healthcare"
       },
@@ -272,12 +287,14 @@
       "testimonials": [
         {
           "author": "Alexander Fechner",
-          "position": "Software Engineer, GE Healthcare",
+          "position": "Software-Entwickler",
+          "company": "GE Healthcare GmbH",
           "text": "Ich hatte das Vergnügen, von Sebastian während eines Coachings für den Aufbau einer auf React basierenden Unternehmensanwendung im Gesundheitswesen betreut zu werden. Er ist ein leidenschaftlicher Softwareentwickler, klar in seiner Kommunikation und ein produktiver Partner zum Gedankenaustausch. Er hat meine höchste Empfehlung."
         },
         {
           "author": "Stefan Huggle",
-          "position": "Software Architect, GE Healthcare",
+          "position": "Software-Architekt",
+          "company": "GE Healthcare GmbH",
           "text": "Vielen Dank für unsere Beratungssitzung über HTML5/React-bezogene Technologien in Freiburg. Ihr breites Wissen im HTML5-Universum ist beeindruckend. Sie haben uns viele wertvolle Empfehlungen gegeben, die auf - und das ist das Wichtigste - echten praktischen Erfahrungen beruhen."
         }
       ]
@@ -310,7 +327,8 @@
       "testimonials": [
         {
           "author": "Abraham Schilling",
-          "position": "Senior Frontend Developer, Josef Witt GmbH",
+          "position": "Senior Frontend Developer",
+          "company": "Josef Witt GmbH (Otto-Gruppe)",
           "text": "Sebastian ist ein stets involviertes, dynamisches Teammitglied mit unschätzbarer Erfahrung im Bereich Tools und Web-Performance. Mit Sebastian im Team haben wir endlich ein zuverlässiges SSR/HMR-Setup mit einem unterhaltsamen Entwickler-Erlebnis. Er hat es uns leicht gemacht, auf GraphQL umzusteigen. Ich habe vor allem unsere Gespräche und unseren technischen Austausch genossen. Für mich persönlich war Sebastian ein Vorbild dafür, in Konfrontationssituationen ruhig und konstruktiv zu bleiben."
         }
       ]
@@ -403,12 +421,13 @@
       "testimonials": [
         {
           "author": "Stefan Hammer",
-          "position": "Product Manager, Ray Sono AG",
+          "position": "Product Manager",
+          "company": "Ray Sono AG",
           "text": "Sebastian Werner ist in einer späten Projektphase in ein fachlich wie technisch sehr komplexes Projekt eingestiegen und hat dort nach einer sehr kurzen Einarbeitungszeit nicht nur als vollwertiges Teammitglied mitgearbeitet, sondern auch direkt konstruktive Lösungsvorschläge zu Problemen in der Architektur und der Technik gegeben. Wir sind mit der Zusammenarbeit sehr zufrieden und würden uns freuen, auch zukünftige Projekte gemeinsam umzusetzen."
         },
         {
           "author": "Yolanda Cruz-Stempian",
-          "position": "Partner Management, Ray Sono AG",
+          "position": "Partner Management",
           "text": "Herr Werners Hauptaufgaben waren die Umsetzung von Formularen und Interaktionen in den Buchungsmodulen und Performance-Optimierungen im Chat und im Allgemeinen bzgl. der Ladezeit. Die ihm übertragenen Aufgaben wurden von Herrn Werner zu unserer vollsten Zufriedenheit bearbeitet. Mit sehr viel Einsatzbereitschaft und seiner kommunikativen Art hat sich Herr Werner schnell in unser Entwicklungsteam integriert und konnte in hohem Maße zum Projekterfolg beitragen."
         }
       ]
@@ -441,17 +460,18 @@
       "testimonials": [
         {
           "author": "Florian Eibeck",
-          "position": "Software-Entwickler, Mayflower GmbH",
+          "position": "Software-Entwickler (Consultant)",
+          "company": "Mayflower GmbH",
           "text": "Sebastian did a great job as a Frontend Engineer and Architect in our team. He happily shared his knowledge and teached us how to write state-of-the-art React applications. Thanks for the good collaboration, it was a pleasure working together!"
         },
         {
           "author": "Florian Geier",
-          "position": "Selbständiger Software-Entwickler",
+          "position": "Software-Entwickler (Freiberufler)",
           "text": "Sebastians Expertise im Bereich moderner Web-Technologien ist umfassend und tiefgreifend, so dass die Zusammenarbeit für mich eine bereichernde Erfahrung war. Der Kunde profitierte zudem von seinem Engagement in diversen Open-Source Projekten, die uns bei der Umsetzung der Anforderungen zugute kamen."
         },
         {
           "author": "Jens Rusitschka",
-          "position": "UX und Product Consulting",
+          "position": "UX-Designer (Freiberufler)",
           "text": "Ich habe mit Sebastian an einer neuen Plattform für Coliquio gearbeitet. Sein Wissen und seine Erfahrung mit Javascript, React-Technologie und modernen Front-End-Frameworks waren wirklich beeindruckend. Ich freue mich darauf, wieder mit ihm zusammenzuarbeiten!"
         }
       ]
@@ -484,17 +504,19 @@
       "testimonials": [
         {
           "author": "Makele Ghebreamlak",
-          "position": "Consultant Software Architect, Melsicon GmbH",
+          "position": "Software-Architekt (Consultant)",
+          "company": "Melsicon GmbH",
           "text": "Ich habe mit Sebastian in einem agilen Projekt für ein Unternehmen im Banksegment gearbeitet. Er ist ein außergewöhnlich talentierter Frontend-Architekt und ReactJS-Entwickler mit einem sehr tiefen Verständnis von UX/UI. Sebastian hat eine persönliche Leidenschaft für die Entwicklung hochmoderner Web- und Mobilanwendungen. Seine Fähigkeit, neue Technologien aufzugreifen, liegt weit über dem Durchschnitt. Er sucht nie nach dem komfortablen Ansatz, er stellt das Design, die User Experience, die Art und Weise, wie wir arbeiten, wie wir Software produzieren, welche Technologien wir wählen, in Frage und geht damit weit über die Kundenerwartung hinaus, das beste Produkt zu entwickeln. Ich würde mich freuen, bei zukünftigen Projekten mit ihm zusammenzuarbeiten!"
         },
         {
           "author": "Michael Rodegast",
-          "position": "Interims Management Consultant, Michael Rodegast Consulting",
+          "position": "Interims Management (Consultant)",
           "text": "Ich hatte das Vergnügen, mit Sebastian durch seine Führung eines Backbone-Teams bei einem Kunden zusammenzuarbeiten, für den wir beide tätig sind. Sebastians Engagement, eine Innovationsagenda durch seine persönliche Identität und seine tiefgreifenden Software-Kenntnisse in die Unternehmensarchitektur unseres Kunden einzubringen, war von größter Bedeutung und führte zu großartigen Ergebnissen. Sebastian geht in seinem täglichen Arbeitsleben mit gutem Beispiel voran und ermutigte daher nicht nur sein Backbone-Team, sondern auch das Projektteam selbst. Ich würde mich freuen, in Zukunft wieder zusammenarbeiten zu können, wenn sich die Gelegenheit dazu bietet."
         },
         {
           "author": "Adib Istanbouli",
-          "position": "Senior Software Developer, Accenture Germany",
+          "position": "Senior Software-Entwickler (Consultant)",
+          "company": "Accenture Germany",
           "text": "Es war ein großes Privileg für mich, mit einem so talentierten und sachkundigen Entwickler wie Sebastian zusammenzuarbeiten, der sich fließend in der neuesten UI-Tech auskennt. Es ist heutzutage ziemlich schwierig, einen leidenschaftlichen Coder wie ihn zu finden. Wir haben bei unserem letzten Projekt viel aus seinen Erfahrungen mit React, Webpack und seinem EdgeStack gelernt. Ich freue mich darauf, in naher Zukunft wieder mit Sebastian zusammenzuarbeiten."
         }
       ]
@@ -529,22 +551,25 @@
       "testimonials": [
         {
           "author": "Jürgen Werle",
-          "position": "Senior Web Developer, Syzygy Deutschland GmbH",
+          "position": "Senior Web Developer",
+          "company": "Syzygy Deutschland GmbH",
           "text": "Vielleicht kennen Sie das ja auch: es gibt diese Projekte die einfach nicht gut laufen - u.a. deswegen, weil technologisch nicht der beste Ansatz verfolgt wurde, wegen hohem Zeitdruck, mangelnder Erfahrung und nicht zuletzt, weil im React-Umfeld derzeit eine besonders hohe Dynamik konkurrierender Ansätze besteht. Solch ein Projekt braucht Expertenwissen und die überzeugende Standhaftigkeit, dass ein besserer Ansatz möglich ist, auch wenn es die Entwicklung zunächst zurück wirft. Sebastian Werner hat sowohl die Kompetenz als auch die Persönlichkeit und lenkte nach ausführlicher Analyse mit den richtigen Konzepten das Projekt in deutlich bessere Bahnen. Eine deutlich schlankere Architektur, verbessertes Tooling und der Einsatz der passenden Libraries waren Schlüssel zum Erfolg. Wir haben viel gelernt und bedanken uns für die Unterstützung - es hat Spaß gemacht!"
         },
         {
           "author": "Claudia Ceh",
-          "position": "Frontend Developer, Syzygy Deutschland GmbH",
+          "position": "Frontend Developer",
+          "company": "Syzygy Deutschland GmbH",
           "text": "Sebastian konnte mit seiner Expertise viele Probleme lösen und dem Projekt eine gute Struktur geben. Wir waren durch die von ihm vorgestellten Werkzeuge und Architektur effizienter und effektiver. Außerdem konnte er uns viel neues Wissen vermitteln. Er hat sich neben der Rolle des Architekten, auch schnell als Mentor etabliert, der uns half besseren und robusteren JavaScript-Code zu programmieren. Ich konnte einiges lernen und war froh über seine Verbesserungsvorschläge. Mit Hilfe von Sebastian konnten wir in einigen festgefahrenen Situationen wieder einen klaren Blick auf das eigentliche Problem bekommen, dass wir anschließend gemeinsam als Team lösen konnten. Ich hätte mir gewünscht Sebastian von Anfang an im Projekt zu haben, um mit ihm das Projekt robust und stabil aufzubauen."
         },
         {
           "author": "Giso Deutschmann",
-          "position": "Architekt und Business Analyst, Freelancer",
+          "position": "Software-Architekt (Freelancer)",
           "text": "Sebastian hat umfassendes, tagaktuelles Wissen über alle Aspekte der Entwicklung hochkomplexer Web-Frontends. Den anstehenden Umbau des Frontends zu einer Software, die dem derzeit sehr schnelllebigen Stand der Technik entspricht, hat er mit Hilfe dieses Wissens maßgeblich getrieben. Das Ergebnis war eine vom Frontend-Team als hervorragend anerkannte Lösung. Ich kann Sebastian als Frontend-Architekten, Big-Picture-Menschen und Teamplayer uneingeschränkt empfehlen."
         },
         {
           "author": "Marc Zollingkoffer",
-          "position": "Director Software Engineering, Syzygy Deutschland GmbH",
+          "position": "Director Software Engineering",
+          "company": "Syzygy Deutschland GmbH",
           "text": "Sebastian ist ein erfahrener Berater für Frontend-Technologien. Er zeichnet sich durch sein breites, wie auch tiefes und vor allem aktuelles Wissen zu State-Of-The-Art Technologien aus. Wir haben daher sehr von seiner Unterstützung und Expertise bei der Umsetzung des Frontends mit React-Redux-GraphQL für eine international ausgerichtete Plattform profitiert. Wir haben Sebastian als aktiven Berater erlebt, der auch nicht davor zurückscheut, den Finger - wo notwendig - in die sprichwörtliche Wunde zu legen. Dabei ist er stets konstruktiv und seine Vorschläge unterstützen dabei, das Produkt auf ein verbessertes Niveau zu heben."
         }
       ]
@@ -589,12 +614,13 @@
       "testimonials": [
         {
           "author": "Mark Paluch",
-          "position": "CTO / Consultant, Freelancer",
+          "position": "Software-Architekt (Freiberufler)",
           "text": "Sebastian Werner arbeitet sehr gewissenhaft und genau. Er hat einen immensen Überblick über die Technologien im Frontend-Bereich und kennt sowohl die Benefits als auch die Nachteile gängiger Ansätze, Tools und Frameworks. Sebastian analysiert sehr genau die Abläufe und Interaktionen zwischen Frontend und Benutzer. Dadurch können Schwächen in den UI Konzepten frühzeitig adressiert und behoben werden. Die in dem Projekt geschaffene Frontend-Architektur schuf einen erheblichen Mehrwert und klare Strukturen die sich im späteren Projektverlauf als sehr solide Basis erwiesen haben."
         },
         {
           "author": "Kai Bald",
-          "position": "Project Lead, Deutsche Asset & Wealth Management",
+          "position": "Project Lead",
+          "company": "Deutsche Asset & Wealth Management",
           "text": "Sebastian Werner ist ein sehr erfahrener Front-end Entwickler und Architekt, der darüber hinaus den holistischen Blick auf das gesamte Projekt im Auge behält. Seine Kompetenz bringt er vollumfänglich ein und setzt sich sehr mit den Themen auseinander. Er arbeitet fokussiert, gewissenhaft sowie dennoch schnell und konnte sich so erfolgreich in das Projekt einbringen."
         }
       ]
@@ -628,32 +654,38 @@
       "testimonials": [
         {
           "author": "Joakim Martensson",
-          "position": "Senior UI/UX Designer, Huawei Technologies",
+          "position": "Senior UI/UX Designer",
+          "company": "Huawei Germany GmbH",
           "text": "Sebastian and I have worked in the same project for about 1.5 years now and I've come to know him as a person who has a very good knowledge of his field and is always keen on keeping up-to-date on the latest developments - which is not an easy thing when technology advance as fast as it does in this business. Sebastian also show a willingness to think outside the box (to use an old cliché) and tries to figure out new, better and more efficient ways of doing things. He's also proven to have a good feel and consideration for the impact of his work on the end-user experience. As a plus, he's also a nice and amendable person that I think would easily fit in with most teams."
         },
         {
           "author": "Gerlando La Porta",
-          "position": "Management Consulting, Archtexx Consulting",
+          "position": "Management Consulting",
+          "company": "Archtexx Consulting GmbH",
           "text": "Sebastian was part of our agile development team and I worked with him as a product owner. Sebastian is an excellent web application / UI developer. He was one of our technical key UI architects who defined the UI architecture and build major elements of those UI elements. He is innovative, focuses on details and delivers solution."
         },
         {
           "author": "Mario Günzel",
-          "position": "Product Manager TV Platforms & User Experience, Deutsche Telekom",
+          "position": "Product Manager TV Platforms & User Experience",
+          "company": "Deutsche Telekom AG",
           "text": "Sebastian Werner does a great job in our project. He has very good development and consultant skills and brings in solutions idea to make our project successful."
         },
         {
           "author": "Ingo Müller",
-          "position": "Senior Product Manager, Deutsche Telekom",
+          "position": "Senior Product Manager",
+          "company": "Deutsche Telekom AG",
           "text": "I can recommend Sebastian as a person with great expertise and deep background of web architecture and Frontend development. He is a thought leader in his field. As a innovative strategist he understands complex matters even when outside of his direct area of expertise. He shows all the time a lot of analytical capability and willingness for his both personal & professional development. He is ambitious and smart. His open-minded approach could not be overestimated."
         },
         {
           "author": "Sascha Lee",
-          "position": "Visual Designer, Deutsche Telekom",
+          "position": "UI-Designer",
+          "company": "Deutsche Telekom AG",
           "text": "In a huge collaboration project I recognized Sebastian as a very skilled and qualified teammate. From a design perspective he served as a convergent bridge between design and technology and pushed the project to a higher level with his expertise."
         },
         {
           "author": "Patric Schouler",
-          "position": "Expert ICT Systemengieering, Deutsche Telekom",
+          "position": "Experte ICT System-Entwicklung",
+          "company": "Deutsche Telekom AG",
           "text": "I enjoyed the time to work together with Sebastian in a challenging project at Deutsche Telekom for our TV Delivery Devision. Sebastian has worked for us in a international team as UI Architekt and JavaScript/HTML Consultant. In our project we are focusing to build the new user interface for the product Entertain TV. His very high skills in web development was very helpful and Sebastian did a professional job. Especially his work on some reusable user interface components was very impressive and helps our project and other teams at Deutsche Telekom a lot. Thank you for your work, I would like to work with you every time again."
         }
       ]
@@ -663,7 +695,7 @@
       "title": "Responsive Homepage für den Software-Hersteller MAGIX",
       "role": "Senior Frontend Developer",
       "customer": {
-        "name": "Triplesense Reply",
+        "name": "Triplesense Reply GmbH",
         "location": "Frankfurt am Main",
         "logo": "triplesense-reply"
       },
@@ -684,7 +716,8 @@
       "testimonials": [
         {
           "author": "Astrid Fischer",
-          "position": "Konzept / Information Architekt, Triplesense Reply",
+          "position": "Konzept- / Information-Architektin",
+          "company": "Triplesense Reply GmbH",
           "text": "Sebastian ist ein überaus motivierter, mitdenkender und kreativer Entwickler. Er hat sich im Team gut integriert und die Meetings durch viele Ideen und innovative Lösungsansätze bereichert. Darüber hinaus hat die Arbeit mit ihm Spaß gemacht, weil er auch menschlich gut ins Team gepasst hat."
         }
       ]
@@ -708,7 +741,7 @@
     },
     {
       "title": "Leitung der Architektur des neuen Telefoniecenters Frontends",
-      "role": "JavaScript Architekt",
+      "role": "JavaScript-Architekt",
       "customer": {
         "name": "Deutsche Telekom",
         "location": "Darmstadt",
@@ -727,12 +760,13 @@
       "testimonials": [
         {
           "author": "Matthias Huthmacher",
-          "position": "Projekt Manager, Deutsche Telekom",
+          "position": "Projektmanager",
+          "company": "Deutsche Telekom AG",
           "text": "Sebastian was the driving force making our SCRUM Team successful. His strong programming skills combined with a keen perception helped us, to release a web application for telephony configuration using state of the art web technologies. Sebastian is a great guy with an enormous knowledge about modern software design and software architecture. I really enjoyed working with him!"
         },
         {
           "author": "Chris Bauer",
-          "position": "Creative Consultant, HEADSPACE Hamburg",
+          "position": "UI-Designer (Freiberufler)",
           "text": "Sebastian Werner beweist erstklassige Qualitäten bei der Entwicklung von RIA-Oberflächen und ist ein exzellenter Sparringspartner in komplexen SCRUM-Projekten."
         }
       ]
@@ -758,17 +792,20 @@
       "testimonials": [
         {
           "author": "Paul Bakaus",
-          "position": "CTO, Zynga",
+          "position": "CTO",
+          "company": "Zynga Germany GmbH",
           "text": "Sebastian war eine unschätzbarer Teil des Teams unseres Technologie Studios für Zynga in Frankfurt. Er besitzt die Fähigkeit zu analysieren wie ein Feature idealerweise funktionieren sollte, anstatt genau nach Vorgaben zu handeln, und verbessert somit sehr häufig das gesamte Produkt. Er betrachtet Software-Architektur von allen Ecken ganzheitlich und gewinnt so oft souverän die Oberhand in überhitzten Diskussionen, vor allem weil er sich immer für den Kunden des Produkts einsetzt. Eine Eigenschaft, die Sebastian und ich uns teilen, ist das Auge für Details, insbesondere für Design, User Experience und Feinschliff. Man findet äußerst selten einen so guten JavaScript-Entwickler, der gleichzeitig skalierbare Architekturen planen kann und selbstverständlich Wert auf Layout, UI und UX legt."
         },
         {
           "author": "Christoph Martens",
-          "position": "JavaScript Engineer, Zynga",
+          "position": "JavaScript-Entwickler",
+          "company": "Zynga Germany GmbH",
           "text": "Working with Sebastian was always a pleasure. He has a vastly-founded knowledge about UI architectures and compiling architectures in JavaScript. He founded the Jasy project, which is the underlying web framework at Zynga allowing to publish everything automagically to S3 et al. Very talented guy, would love to work with him again."
         },
         {
           "author": "Matthew Jaquish",
-          "position": "Developer, Zynga",
+          "position": "Software-Entwickler",
+          "company": "Zynga Inc.",
           "text": "I have had great experiences collaborating with Sebastian on various projects. I have used his software and tools extensively and found him eager to listen to feedback and make changes accordingly. He never hesitates to answer questions personally. I appreciate his architecture choices because they are forward-thinking, maintainable, and extensible."
         }
       ]
@@ -777,7 +814,7 @@
       "title": "Innovative Cross-Plattform-Entwicklung für Smartphone-Angebote auf HTML5-Basis",
       "role": "Senior Software Developer",
       "customer": {
-        "name": "Deutsche Telekom",
+        "name": "Deutsche Telekom AG",
         "location": "Darmstadt",
         "logo": "deutschetelekom"
       },
@@ -803,27 +840,30 @@
       "testimonials": [
         {
           "author": "Bernhard Hochstätter",
-          "position": "Head of Mobile Solutions, Deutsche Telekom",
+          "position": "Head of Mobile Solutions",
+          "company": "Deutsche Telekom AG",
           "text": "Developer with excellent skills in web technologies, always ahead with technology and market trends. Great guy."
         },
         {
           "author": "Rocco Georgi",
-          "position": "IT Consultant",
+          "position": "Software-Entwickler (Consultant)",
           "text": "Ich war sehr froh mit Sebastian arbeiten zu dürfen. Er ist ein echter Experte vor allem in Sachen JavaScript und Python. Er kann aber auch in Sachen UI/UX überzeugen. Ich konnte viel von Ihm lernen und ich würde jederzeit gern wieder mit ihm arbeiten."
         },
         {
           "author": "Jochen Hiller",
-          "position": "Developer Evangelist, Deutsche Telekom",
+          "position": "Developer Evangelist",
+          "company": "Deutsche Telekom AG",
           "text": "Sebastian is a smart Web 2.0 guy, I worked together the last year. He is deeply involved in Browser, JavaScript, CSS, HTML technologies and always knows about the latest development and trends. I can recommend working together with him and enjoy common time and work."
         },
         {
           "author": "Alexander Dittner",
-          "position": "Softwareentwickler, Deutsche Telekom",
+          "position": "Software-Entwickler",
+          "company": "Deutsche Telekom AG",
           "text": "Mentor, Teamleiter und ein hervorragender Entwickler."
         },
         {
           "author": "Marek Pawlowski",
-          "position": "Consultant, Web Desire",
+          "position": "Software-Entwickler (Consultant)",
           "text": "Working with Sebastian was a big pleasure. He has brilliant ideas all the time based on his experience and huge development knowledge. He put to our work great dose of organization and he has immense influence on code quality in our application. I'm still impressed by his knowledge about frameworks, JavaScript and Python development."
         }
       ]
