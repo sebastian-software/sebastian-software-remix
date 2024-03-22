@@ -66,6 +66,21 @@ export interface ProjectProps {
   data: Project;
 }
 
+const locale = "de-DE";
+
+export function formatPeriod({ start, end }: PeriodInfo) {
+  const startDate = new Date(start).toLocaleDateString(locale, {
+    year: "numeric",
+    month: "numeric",
+  });
+  const endDate = new Date(end).toLocaleDateString(locale, {
+    year: "numeric",
+    month: "numeric",
+  });
+
+  return `${startDate} - ${endDate}`;
+}
+
 export function Project({ data }: ProjectProps) {
   return (
     <div className={project}>
@@ -78,10 +93,15 @@ export function Project({ data }: ProjectProps) {
 
       <div className={meta}>
         <p className={customer}>
-          Kunde: {data.customer.name}, {data.customer.location}
+          Kunde:
+          <br />
+          {data.customer.name}
+          <br />
+          {data.customer.location}
         </p>
         <p className={period}>
-          Zeitraum: {data.period.start} - {data.period.end}
+          Zeitraum:
+          <br /> {formatPeriod(data.period)}
         </p>
 
         {data.technologies && (

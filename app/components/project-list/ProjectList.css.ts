@@ -12,7 +12,7 @@ export const project = style({
   marginInline: "auto",
   gap: "1rem 5rem",
 
-  gridTemplateColumns: "12rem auto auto",
+  gridTemplateColumns: "15rem auto auto",
   gridTemplateRows: "auto auto 1fr",
 
   gridTemplateAreas: `
@@ -76,6 +76,9 @@ export const logo = style({
 
 export const meta = style({
   gridArea: "meta",
+  display: "flex",
+  flexDirection: "column",
+  gap: "1lh",
 });
 
 export const period = style({});

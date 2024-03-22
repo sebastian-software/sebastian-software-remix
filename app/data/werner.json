@@ -336,7 +336,11 @@
     {
       "title": "Neue ARD-Mediathek für HBBTV-fähige Fernseher und Web-Browser",
       "role": "React/GraphQL-Architekt",
-      "customer": { "name": "SWR", "location": "Mainz", "logo": "swr" },
+      "customer": {
+        "name": "Südwestrundfunk",
+        "location": "Mainz",
+        "logo": "swr"
+      },
       "contractor": "GULP Information Services GmbH, München",
       "period": {
         "start": "2018-07",
@@ -392,7 +396,7 @@
       "title": "Entwicklung eines Telematik-Angebotes für Logistikunternehmen",
       "role": "React Experte",
       "customer": {
-        "name": "RIO - Volkswagen Truck & Bus",
+        "name": "RIO (Volkswagen Truck & Bus)",
         "location": "München",
         "logo": "rio"
       },
@@ -907,27 +911,27 @@
       "testimonials": [
         {
           "author": "Chris Ricks",
-          "position": "SecurePay Group Pty Ltd",
+          "company": "SecurePay Group Pty Ltd",
           "text": "I have been using qooxdoo for external and internal projects for a while. Sebastian has always been extremely helpful and accomodating when answering questions about qooxdoo and accepting contributions. His direct, to-the-point and pragmatic style is an excellent asset."
         },
         {
           "author": "Tobias Oetiker",
-          "position": "Oetiker+Partner, Olten, Switzerland",
+          "company": "Oetiker + Partner AG",
           "text": "I know Sebastian through his work on the qooxdoo library which is the coolest thing I have seen in a long time."
         },
         {
           "author": "Christian Boulanger",
-          "position": "Humboldt Universität, Berlin",
+          "company": "Humboldt Universität, Berlin",
           "text": "I worked with Sebastian during development of an open source software project which relies on the qooxdoo JavaScript GUI toolkit developed at Sebastian's company. His fast, competent and friendly support on every aspect of the toolkit was crucial for the successful development of my application. I can recommend him as collaborator in open source and other projects, and his leading role in the qooxdoo project was clearly visible."
         },
         {
           "author": "Paul Morel",
-          "position": "Tartan Solutions Inc., USA",
+          "company": "Tartan Solutions, Inc.",
           "text": "Sebastian is a visionary who has the unique ability to put his extraordinary vision into practice. Sebastian's work on the qooxdoo toolkit provided capabilities and insight that no other toolkit has matched. His ability to combine performance, power, and ease of use is truly a welcome sight. There is no doubt that he will continue to be a driving force in the industry."
         },
         {
           "author": "Michael Rea",
-          "position": "Tartan Solutions Inc., USA",
+          "company": "Tartan Solutions, Inc.",
           "text": "Sebastian ranks among the most influential people in the Web 2.0 space. Sebastian's ingenious work on the architecture of the qooxdoo framework has resulted in a fully functional and easy-to-deploy open source JavaScript UI. The Open Source Ajax community is indebted to Sebastian for his awesome work on qooxdoo."
         }
       ]
@@ -952,7 +956,8 @@
       "testimonials": [
         {
           "author": "Jens O. Meiert",
-          "position": "GMX GmbH",
+          "position": "Web-Entwickler",
+          "company": "GMX GmbH",
           "text": "Long story short: Sebastian is a highly skilled JavaScript/DOM Scripting Magician with whom it always was/is a pleasure to work."
         }
       ]
