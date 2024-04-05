@@ -1,6 +1,7 @@
-import { PropsWithChildren } from "react"
-import { list, root } from "./Tag.css"
 import { clsx } from "clsx"
+import type { PropsWithChildren } from "react"
+
+import { list, root } from "./Tag.css"
 
 export interface TagListProps extends PropsWithChildren {
   readonly className: string

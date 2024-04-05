@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react"
 
-import { Neutral } from "./Neutral"
 import { RichText } from "../richtext/RichText"
+import { Neutral } from "./Neutral"
 
 const meta: Meta<typeof Neutral> = {
   component: Neutral

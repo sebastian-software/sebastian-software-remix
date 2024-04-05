@@ -1,4 +1,5 @@
 import { Link } from "@remix-run/react"
+
 import { RichText } from "~/components/richtext/RichText"
 
 export default function Index() {

@@ -1,3 +1,6 @@
+import "@effective/css-reset/dist/assets/ResetNative.css"
+import "@effective/css-reset/dist/assets/SensibleEnhancements.css"
+
 import {
   Links,
   Meta,
@@ -5,14 +8,12 @@ import {
   Scripts,
   ScrollRestoration
 } from "@remix-run/react"
-import { PropsWithChildren } from "react"
-import { Header } from "./components/header/Header"
-import { Body } from "./components/body/Body"
-import { Main } from "./components/main/Main"
-import { Footer } from "./components/footer/Footer"
+import type { PropsWithChildren } from "react"
 
-import "@effective/css-reset/dist/assets/ResetNative.css"
-import "@effective/css-reset/dist/assets/SensibleEnhancements.css"
+import { Body } from "./components/body/Body"
+import { Footer } from "./components/footer/Footer"
+import { Header } from "./components/header/Header"
+import { Main } from "./components/main/Main"
 
 export function Layout({ children }: PropsWithChildren) {
   return (

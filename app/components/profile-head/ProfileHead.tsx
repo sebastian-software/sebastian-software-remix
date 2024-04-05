@@ -1,4 +1,4 @@
-import { rootClass, nameClass } from "./ProfileHead.css"
+import { nameClass, rootClass } from "./ProfileHead.css"
 
 export interface ProfileHeadProps {
   readonly name: string

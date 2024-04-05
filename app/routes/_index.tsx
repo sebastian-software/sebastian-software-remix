@@ -1,5 +1,6 @@
 import type { MetaFunction } from "@remix-run/node"
 import { Link } from "@remix-run/react"
+
 import { RichText } from "~/components/richtext/RichText"
 
 export const meta: MetaFunction = () => {

@@ -1,5 +1,5 @@
 import clsx from "clsx"
-import { image, root } from "./CompanyLogo.css"
+
 import oneAndOne from "./assets/1und1.svg"
 import axxessioBlue from "./assets/axxessio-blue.svg"
 import azeti from "./assets/azeti.svg"
@@ -32,6 +32,7 @@ import triplesenseReply from "./assets/triplesense-reply.svg"
 import wittGruppe from "./assets/witt-gruppe.svg"
 import wittWeiden from "./assets/witt-weiden.svg"
 import zynga from "./assets/zynga.svg"
+import { image, root } from "./CompanyLogo.css"
 
 export const companies = {
   "1und1": oneAndOne,

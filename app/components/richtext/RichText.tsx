@@ -1,5 +1,6 @@
-import { PropsWithChildren } from "react"
 import { clsx } from "clsx"
+import type { PropsWithChildren } from "react"
+
 import { root } from "./RichText.css"
 
 export interface RichTextProps extends PropsWithChildren {

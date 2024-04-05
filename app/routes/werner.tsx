@@ -1,7 +1,9 @@
-import data from "../data/werner.json"
 import { useLoaderData } from "@remix-run/react"
-import { ProjectList } from "~/components/project-list/ProjectList"
+
 import { ProfileHead } from "~/components/profile-head/ProfileHead"
+import { ProjectList } from "~/components/project-list/ProjectList"
+
+import data from "../data/werner.json"
 
 export const loader = async () => {
   return data

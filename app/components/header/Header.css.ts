@@ -1,5 +1,5 @@
-import { style } from "@vanilla-extract/css"
 import { buildShades, buildSpectrum } from "@effective/color"
+import { style } from "@vanilla-extract/css"
 
 const vivaMagenta = buildSpectrum("BB2649")
 const darkViolet = buildShades("#000", "#534f60")
