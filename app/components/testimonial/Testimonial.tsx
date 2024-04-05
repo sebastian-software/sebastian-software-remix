@@ -1,11 +1,11 @@
-import { caption, quote, root } from "./Testimonial.css";
+import { caption, quote, root } from "./Testimonial.css"
 
 // Define an interface for the testimonial props
 interface TestimonialProps {
-  author: string;
-  position: string;
-  company: string;
-  text: string;
+  author: string
+  position: string
+  company: string
+  text: string
 }
 
 // The Testimonial component using a named function and explicit return type
@@ -13,7 +13,7 @@ export function Testimonial({
   author,
   position,
   company,
-  text,
+  text
 }: TestimonialProps) {
   return (
     <article className={root}>
@@ -36,5 +36,5 @@ export function Testimonial({
         )}
       </figcaption>
     </article>
-  );
+  )
 }

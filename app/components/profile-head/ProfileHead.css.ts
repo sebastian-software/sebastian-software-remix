@@ -1,10 +1,10 @@
-import { style } from "@vanilla-extract/css";
+import { style } from "@vanilla-extract/css"
 
 export const rootClass = style({
   display: "flex",
   flexDirection: "column",
-  gap: "4rem",
-});
+  gap: "4rem"
+})
 
 export const nameClass = style({
   fontSize: "7.5vw",
@@ -13,5 +13,5 @@ export const nameClass = style({
   whiteSpace: "balance",
   textTransform: "uppercase",
   textDecoration: "underline",
-  marginBottom: "2rem",
-});
+  marginBottom: "2rem"
+})

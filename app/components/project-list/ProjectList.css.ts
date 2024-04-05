@@ -1,10 +1,10 @@
-import { style } from "@vanilla-extract/css";
+import { style } from "@vanilla-extract/css"
 
 export const root = style({
   display: "flex",
   flexDirection: "column",
-  gap: "4rem",
-});
+  gap: "4rem"
+})
 
 export const project = style({
   display: "grid",
@@ -29,7 +29,7 @@ export const project = style({
         "title title title"
         "meta meta meta"
         "description description testimonials"
-      `,
+      `
     },
 
     "(width <= 64rem)": {
@@ -40,10 +40,10 @@ export const project = style({
         "meta"
         "description"
         "testimonials"
-      `,
-    },
-  },
-});
+      `
+    }
+  }
+})
 
 export const title = style({
   gridArea: "title",
@@ -52,8 +52,8 @@ export const title = style({
   lineHeight: "1.2",
   letterSpacing: "-0.05em",
   textWrap: "balance",
-  color: "#222",
-});
+  color: "#222"
+})
 
 export const role = style({
   fontWeight: "normal",
@@ -65,34 +65,34 @@ export const role = style({
   letterSpacing: "0.05em",
   paddingInline: "0.5rem",
   lineHeight: "2",
-  marginBottom: "0.5rem",
-});
+  marginBottom: "0.5rem"
+})
 
 export const logo = style({
   gridArea: "logo",
   maxHeight: "4rem",
-  maxWidth: "12rem",
-});
+  maxWidth: "12rem"
+})
 
 export const meta = style({
   gridArea: "meta",
   display: "flex",
   flexDirection: "column",
-  gap: "1lh",
-});
+  gap: "1lh"
+})
 
-export const period = style({});
+export const period = style({})
 
-export const customer = style({});
+export const customer = style({})
 
-export const technologies = style({});
+export const technologies = style({})
 
 export const description = style({
   gridArea: "description",
   maxWidth: "60ch",
   hyphens: "auto",
-  hyphenateLimitChars: "12 5 5",
-});
+  hyphenateLimitChars: "12 5 5"
+})
 
 export const testimonials = style({
   gridArea: "testimonials",
@@ -103,5 +103,5 @@ export const testimonials = style({
   fontSize: "0.875rem",
   width: "45ch",
   hyphens: "auto",
-  hyphenateLimitChars: "12 5 5",
-});
+  hyphenateLimitChars: "12 5 5"
+})

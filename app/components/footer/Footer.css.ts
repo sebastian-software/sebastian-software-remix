@@ -1,4 +1,4 @@
-import { style } from "@vanilla-extract/css";
+import { style } from "@vanilla-extract/css"
 
 export const root = style({
   background: "#333",
@@ -6,5 +6,5 @@ export const root = style({
   paddingInline: "2vw",
   paddingBlock: "1rem",
   display: "flex",
-  gap: "0.5rem",
-});
+  gap: "0.5rem"
+})

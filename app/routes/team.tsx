@@ -1,5 +1,5 @@
-import { Link } from "@remix-run/react";
-import { RichText } from "~/components/richtext/RichText";
+import { Link } from "@remix-run/react"
+import { RichText } from "~/components/richtext/RichText"
 
 export default function Index() {
   return (
@@ -33,5 +33,5 @@ export default function Index() {
         <li>Standort: Heidelberg</li>
       </ul>
     </RichText>
-  );
+  )
 }

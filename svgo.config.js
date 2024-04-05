@@ -10,9 +10,9 @@ export default {
           // Removing the viewBox breaks scaling of SVGs
           // Only required to keep viewBox intact
           // https://github.com/svg/svgo/issues/1128#issuecomment-1367070568
-          removeViewBox: false,
-        },
-      },
+          removeViewBox: false
+        }
+      }
     },
 
     // Enforce uniform scaling for all SVGs
@@ -22,26 +22,26 @@ export default {
       params: {
         attributes: [
           {
-            preserveAspectRatio: "xMinYMin",
-          },
-        ],
-      },
+            preserveAspectRatio: "xMinYMin"
+          }
+        ]
+      }
     },
 
     {
-      name: "removeDimensions",
+      name: "removeDimensions"
     },
 
     {
-      name: "convertStyleToAttrs",
+      name: "convertStyleToAttrs"
     },
 
     {
-      name: "removeRasterImages",
+      name: "removeRasterImages"
     },
 
     {
-      name: "removeScriptElement",
-    },
-  ],
-};
+      name: "removeScriptElement"
+    }
+  ]
+}

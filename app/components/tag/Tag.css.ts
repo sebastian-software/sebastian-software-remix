@@ -1,12 +1,12 @@
-import { style } from "@vanilla-extract/css";
+import { style } from "@vanilla-extract/css"
 
 export const list = style({
   display: "flex",
   flexWrap: "wrap",
   gap: "0.5rem",
   fontSize: "0.75rem",
-  textTransform: "uppercase",
-});
+  textTransform: "uppercase"
+})
 
 export const root = style({
   border: "1px solid #a58e9d",
@@ -15,5 +15,5 @@ export const root = style({
   display: "inline-block",
   paddingInline: "0.5rem",
   lineHeight: "2",
-  borderRadius: "0.5rem",
-});
+  borderRadius: "0.5rem"
+})

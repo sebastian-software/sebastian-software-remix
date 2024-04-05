@@ -1,3 +1,3 @@
-import { recommended } from "@effective/eslint-config";
+import { recommended } from "@effective/eslint-config"
 
-export default [recommended];
+export default [recommended]

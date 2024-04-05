@@ -3,16 +3,16 @@ import {
   Meta,
   Outlet,
   Scripts,
-  ScrollRestoration,
-} from "@remix-run/react";
-import { PropsWithChildren } from "react";
-import { Header } from "./components/header/Header";
-import { Body } from "./components/body/Body";
-import { Main } from "./components/main/Main";
-import { Footer } from "./components/footer/Footer";
+  ScrollRestoration
+} from "@remix-run/react"
+import { PropsWithChildren } from "react"
+import { Header } from "./components/header/Header"
+import { Body } from "./components/body/Body"
+import { Main } from "./components/main/Main"
+import { Footer } from "./components/footer/Footer"
 
-import "@effective/css-reset/dist/assets/ResetNative.css";
-import "@effective/css-reset/dist/assets/SensibleEnhancements.css";
+import "@effective/css-reset/dist/assets/ResetNative.css"
+import "@effective/css-reset/dist/assets/SensibleEnhancements.css"
 
 export function Layout({ children }: PropsWithChildren) {
   return (
@@ -31,9 +31,9 @@ export function Layout({ children }: PropsWithChildren) {
         <Scripts />
       </Body>
     </html>
-  );
+  )
 }
 
 export default function App() {
-  return <Outlet />;
+  return <Outlet />
 }

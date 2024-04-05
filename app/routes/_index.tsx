@@ -1,6 +1,6 @@
-import type { MetaFunction } from "@remix-run/node";
-import { Link } from "@remix-run/react";
-import { RichText } from "~/components/richtext/RichText";
+import type { MetaFunction } from "@remix-run/node"
+import { Link } from "@remix-run/react"
+import { RichText } from "~/components/richtext/RichText"
 
 export const meta: MetaFunction = () => {
   return [
@@ -8,10 +8,10 @@ export const meta: MetaFunction = () => {
     {
       name: "description",
       content:
-        "Ein Team von Spezialisten für React-Entwicklung mit Fokus auf nachhaltige, innovative Lösungen mit über 20 Jahre Erfahrung.",
-    },
-  ];
-};
+        "Ein Team von Spezialisten für React-Entwicklung mit Fokus auf nachhaltige, innovative Lösungen mit über 20 Jahre Erfahrung."
+    }
+  ]
+}
 
 export default function Index() {
   return (
@@ -56,5 +56,5 @@ export default function Index() {
         <Link to="/team">Mehr erfahren</Link>
       </p>
     </RichText>
-  );
+  )
 }

@@ -1,6 +1,6 @@
-import { PropsWithChildren } from "react";
-import { root } from "./Body.css";
+import { PropsWithChildren } from "react"
+import { root } from "./Body.css"
 
 export function Body({ children }: PropsWithChildren) {
-  return <body className={root}>{children}</body>;
+  return <body className={root}>{children}</body>
 }

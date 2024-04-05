@@ -1,6 +1,6 @@
-import { style } from "@vanilla-extract/css";
+import { style } from "@vanilla-extract/css"
 
-export const root = style({});
+export const root = style({})
 
 export const quote = style({
   quotes: '"»" "«"',
@@ -12,11 +12,11 @@ export const quote = style({
       marginLeft: "-1.5rem",
       fontSize: "2rem",
       lineHeight: 1,
-      content: "open-quote",
-    },
-  },
-});
+      content: "open-quote"
+    }
+  }
+})
 
 export const caption = style({
-  fontWeight: "bold",
-});
+  fontWeight: "bold"
+})

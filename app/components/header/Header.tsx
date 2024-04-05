@@ -1,4 +1,4 @@
-import { navigation, navigationList, root } from "./Header.css";
+import { navigation, navigationList, root } from "./Header.css"
 
 export function Header() {
   return (
@@ -22,5 +22,5 @@ export function Header() {
         </ul>
       </nav>
     </header>
-  );
+  )
 }

@@ -1,15 +1,15 @@
-import type { Meta, StoryObj } from "@storybook/react";
+import type { Meta, StoryObj } from "@storybook/react"
 
-import { Neutral } from "./Neutral";
-import { RichText } from "../richtext/RichText";
+import { Neutral } from "./Neutral"
+import { RichText } from "../richtext/RichText"
 
 const meta: Meta<typeof Neutral> = {
-  component: Neutral,
-};
+  component: Neutral
+}
 
-export default meta;
+export default meta
 
-type Story = StoryObj<typeof Neutral>;
+type Story = StoryObj<typeof Neutral>
 
 export const FitContent: Story = {
   render: () => (
@@ -32,8 +32,8 @@ export const FitContent: Story = {
         </Neutral>
       </RichText>
     </div>
-  ),
-};
+  )
+}
 
 export const InlineBlock: Story = {
   render: () => (
@@ -56,8 +56,8 @@ export const InlineBlock: Story = {
         </Neutral>
       </RichText>
     </div>
-  ),
-};
+  )
+}
 
 export const WithoutNeutral: Story = {
   render: () => (
@@ -78,5 +78,5 @@ export const WithoutNeutral: Story = {
         </p>
       </RichText>
     </div>
-  ),
-};
+  )
+}

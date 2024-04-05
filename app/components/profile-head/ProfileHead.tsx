@@ -1,7 +1,7 @@
-import { rootClass, nameClass } from "./ProfileHead.css";
+import { rootClass, nameClass } from "./ProfileHead.css"
 
 export interface ProfileHeadProps {
-  name: string;
+  name: string
 }
 
 export function ProfileHead({ name }: ProfileHeadProps) {
@@ -9,5 +9,5 @@ export function ProfileHead({ name }: ProfileHeadProps) {
     <div className={rootClass}>
       <h1 className={nameClass}>{name}</h1>
     </div>
-  );
+  )
 }

@@ -1,6 +1,6 @@
-import { Link } from "@remix-run/react";
-import { root, content } from "./Footer.css";
-import { Spacer } from "../spacer/Spacer";
+import { Link } from "@remix-run/react"
+import { root, content } from "./Footer.css"
+import { Spacer } from "../spacer/Spacer"
 
 export function Footer() {
   return (
@@ -10,5 +10,5 @@ export function Footer() {
       <Spacer />
       <span>Gemacht mit ♥ in Mainz und Heidelberg</span>
     </footer>
-  );
+  )
 }

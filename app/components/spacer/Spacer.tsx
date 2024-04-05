@@ -1,5 +1,5 @@
-import { root } from "./Spacer.css";
+import { root } from "./Spacer.css"
 
 export function Spacer() {
-  return <div className={root} />;
+  return <div className={root} />
 }

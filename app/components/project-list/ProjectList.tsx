@@ -1,8 +1,8 @@
-import { CompanyLogo } from "../company-logo/CompanyLogo";
-import { Neutral } from "../neutral";
-import { RichText } from "../richtext/RichText";
-import { Tag, TagList } from "../tag/Tag";
-import { Testimonial } from "../testimonial/Testimonial";
+import { CompanyLogo } from "../company-logo/CompanyLogo"
+import { Neutral } from "../neutral"
+import { RichText } from "../richtext/RichText"
+import { Tag, TagList } from "../tag/Tag"
+import { Testimonial } from "../testimonial/Testimonial"
 import {
   customer,
   description,
@@ -14,42 +14,42 @@ import {
   root,
   technologies,
   testimonials,
-  title,
-} from "./ProjectList.css";
+  title
+} from "./ProjectList.css"
 
 interface Project {
-  id: string;
-  title: string;
-  role: string;
-  customer: CustomerInfo;
-  period: PeriodInfo;
-  contractor: string;
-  links: string[];
-  description: string[];
-  technologies: string[];
-  testimonials: Testimonial[];
+  id: string
+  title: string
+  role: string
+  customer: CustomerInfo
+  period: PeriodInfo
+  contractor: string
+  links: string[]
+  description: string[]
+  technologies: string[]
+  testimonials: Testimonial[]
 }
 
 interface Testimonial {
-  author: string;
-  position: string;
-  company: string;
-  text: string;
+  author: string
+  position: string
+  company: string
+  text: string
 }
 
 interface PeriodInfo {
-  start: string;
-  end: string;
+  start: string
+  end: string
 }
 
 interface CustomerInfo {
-  name: string;
-  location: string;
-  logo: string;
+  name: string
+  location: string
+  logo: string
 }
 
 export interface ProjectListProps {
-  data: Project[];
+  data: Project[]
 }
 
 export function ProjectList({ data }: ProjectListProps) {
@@ -59,26 +59,26 @@ export function ProjectList({ data }: ProjectListProps) {
         <Project data={project} key={project.id} />
       ))}
     </div>
-  );
+  )
 }
 
 export interface ProjectProps {
-  data: Project;
+  data: Project
 }
 
-const locale = "de-DE";
+const locale = "de-DE"
 
 export function formatPeriod({ start, end }: PeriodInfo) {
   const startDate = new Date(start).toLocaleDateString(locale, {
     year: "numeric",
-    month: "numeric",
-  });
+    month: "numeric"
+  })
   const endDate = new Date(end).toLocaleDateString(locale, {
     year: "numeric",
-    month: "numeric",
-  });
+    month: "numeric"
+  })
 
-  return `${startDate} - ${endDate}`;
+  return `${startDate} - ${endDate}`
 }
 
 export function Project({ data }: ProjectProps) {
@@ -133,5 +133,5 @@ export function Project({ data }: ProjectProps) {
         ))}
       </ul>
     </div>
-  );
+  )
 }

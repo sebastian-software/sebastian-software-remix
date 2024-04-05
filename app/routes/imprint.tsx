@@ -1,4 +1,4 @@
-import { RichText } from "~/components/richtext/RichText";
+import { RichText } from "~/components/richtext/RichText"
 
 export default function Index() {
   return (
@@ -42,5 +42,5 @@ export default function Index() {
       <h2>Aufsichtsbehörde</h2>
       <p>Landgericht Mainz</p>
     </RichText>
-  );
+  )
 }
