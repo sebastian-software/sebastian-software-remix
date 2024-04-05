@@ -56,7 +56,7 @@ export function ProjectList({ data }: ProjectListProps) {
   return (
     <div className={root}>
       {data.map((project) => (
-        <Project data={project} key={project.id} />
+        <Project key={project.id} data={project} />
       ))}
     </div>
   )
@@ -122,7 +122,7 @@ export function Project({ data }: ProjectProps) {
       </RichText>
 
       <ul className={testimonials}>
-        {data.testimonials?.map((entry, index) => (
+        {data.testimonials.map((entry, index) => (
           <Testimonial
             key={index}
             author={entry.author}

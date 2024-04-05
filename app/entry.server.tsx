@@ -12,9 +12,9 @@ import { RemixServer } from "@remix-run/react"
 import { isbot } from "isbot"
 import { renderToPipeableStream } from "react-dom/server"
 
-const ABORT_DELAY = 5_000
+const ABORT_DELAY = 5000
 
-export default function handleRequest(
+export default async function handleRequest(
   request: Request,
   responseStatusCode: number,
   responseHeaders: Headers,
@@ -39,7 +39,7 @@ export default function handleRequest(
       )
 }
 
-function handleBotRequest(
+async function handleBotRequest(
   request: Request,
   responseStatusCode: number,
   responseHeaders: Headers,
@@ -89,7 +89,7 @@ function handleBotRequest(
   })
 }
 
-function handleBrowserRequest(
+async function handleBrowserRequest(
   request: Request,
   responseStatusCode: number,
   responseHeaders: Headers,

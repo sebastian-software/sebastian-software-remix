@@ -3,16 +3,14 @@ import { Link } from "@remix-run/react"
 
 import { RichText } from "~/components/richtext/RichText"
 
-export const meta: MetaFunction = () => {
-  return [
-    { title: "Sebastian Software" },
-    {
-      name: "description",
-      content:
-        "Ein Team von Spezialisten für React-Entwicklung mit Fokus auf nachhaltige, innovative Lösungen mit über 20 Jahre Erfahrung."
-    }
-  ]
-}
+export const meta: MetaFunction = () => [
+  { title: "Sebastian Software" },
+  {
+    name: "description",
+    content:
+      "Ein Team von Spezialisten für React-Entwicklung mit Fokus auf nachhaltige, innovative Lösungen mit über 20 Jahre Erfahrung."
+  }
+]
 
 export default function Index() {
   return (

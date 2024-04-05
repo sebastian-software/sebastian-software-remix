@@ -5,9 +5,7 @@ import { ProjectList } from "~/components/project-list/ProjectList"
 
 import data from "../data/werner.json"
 
-export const loader = async () => {
-  return data
-}
+export const loader = async () => data
 
 export default function Index() {
   const data = useLoaderData<typeof loader>()
