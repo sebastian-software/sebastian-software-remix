@@ -25,7 +25,7 @@
       "customer": {
         "name": "Witt Gruppe",
         "location": "Weiden",
-        "logo": "witt-gruppe"
+        "logo": "wittGruppe"
       },
       "contractor": "Computer Futures / SThree GmbH",
       "period": {
@@ -80,7 +80,7 @@
       "customer": {
         "name": "Deutsche Telekom AG",
         "location": "Darmstadt",
-        "logo": "deutschetelekom"
+        "logo": "deutscheTelekom"
       },
       "contractor": "Proventa, Frankfurt",
       "period": {
@@ -174,7 +174,7 @@
       "customer": {
         "name": "Deutsche Telekom AG",
         "location": "Darmstadt",
-        "logo": "deutschetelekom"
+        "logo": "deutscheTelekom"
       },
       "contractor": "axxessio GmbH",
       "period": {
@@ -200,7 +200,7 @@
       "customer": {
         "name": "Deutsche Telekom AG",
         "location": "Darmstadt",
-        "logo": "deutschetelekom"
+        "logo": "deutscheTelekom"
       },
       "contractor": "Proventa AG",
       "period": {
@@ -219,7 +219,7 @@
       "customer": {
         "name": "Deutsche Telekom AG",
         "location": "Darmstadt",
-        "logo": "deutschetelekom"
+        "logo": "deutscheTelekom"
       },
       "period": {
         "start": "2008-05",
@@ -306,8 +306,7 @@
       "role": "PHP-Entwickler",
       "customer": {
         "name": "Creative Communication",
-        "location": "Bingen",
-        "logo": "creative-communication"
+        "location": "Bingen"
       },
       "period": {
         "start": "2006-03",
@@ -324,7 +323,7 @@
       "customer": {
         "name": "Boehringer Ingelheim International GmbH",
         "location": "Ingelheim am Rhein",
-        "logo": "boehringer-ingelheim"
+        "logo": "boehringerIngelheim"
       },
       "period": {
         "start": "2000",

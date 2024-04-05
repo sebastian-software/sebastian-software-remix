@@ -117,7 +117,7 @@
       "customer": {
         "name": "Netze BW GmbH",
         "location": "Stuttgart",
-        "logo": "netze-bw"
+        "logo": "netzeBw"
       },
       "contractor": "Hays AG, Mannheim",
       "period": {
@@ -195,7 +195,7 @@
       "customer": {
         "name": "HeidelbergCement AG",
         "location": "Heidelberg",
-        "logo": "heidelberg-materials"
+        "logo": "heidelbergMaterials"
       },
       "contractor": "Hays AG, Mannheim",
       "period": {
@@ -272,7 +272,7 @@
       "customer": {
         "name": "GE Healthcare GmbH",
         "location": "Freiburg",
-        "logo": "ge-healthcare"
+        "logo": "geHealthCare"
       },
       "contractor": "Belcan Technical Recruiting, London",
       "period": {
@@ -305,7 +305,7 @@
       "customer": {
         "name": "Josef Witt GmbH (Otto Gruppe)",
         "location": "Weiden",
-        "logo": "witt-gruppe"
+        "logo": "wittGruppe"
       },
       "contractor": "Computer Futures/SThree GmbH, München",
       "period": {
@@ -701,7 +701,7 @@
       "customer": {
         "name": "Triplesense Reply GmbH",
         "location": "Frankfurt am Main",
-        "logo": "triplesense-reply"
+        "logo": "triplesenseReply"
       },
       "period": {
         "start": "2013-11",
@@ -732,7 +732,7 @@
       "customer": {
         "name": "Triplesense Reply",
         "location": "Frankfurt am Main",
-        "logo": "triplesense-reply"
+        "logo": "triplesenseReply"
       },
       "period": {
         "start": "2013-04",
@@ -749,7 +749,7 @@
       "customer": {
         "name": "Deutsche Telekom",
         "location": "Darmstadt",
-        "logo": "deutschetelekom"
+        "logo": "deutscheTelekom"
       },
       "contractor": "axxessio GmbH, Bonn",
       "period": {
@@ -820,7 +820,7 @@
       "customer": {
         "name": "Deutsche Telekom AG",
         "location": "Darmstadt",
-        "logo": "deutschetelekom"
+        "logo": "deutscheTelekom"
       },
       "period": {
         "start": "2009-03",
@@ -896,7 +896,7 @@
       "customer": {
         "name": "1&1 Internet AG",
         "location": "Karlsruhe",
-        "logo": "1und1"
+        "logo": "oneAndOne"
       },
       "period": {
         "start": "2004-11",
@@ -943,7 +943,7 @@
       "customer": {
         "name": "Schlund+Partner GmbH & Co. KG",
         "location": "Karlsruhe",
-        "logo": "schlund-partner"
+        "logo": "schlundPartner"
       },
       "period": {
         "start": "2002-05",

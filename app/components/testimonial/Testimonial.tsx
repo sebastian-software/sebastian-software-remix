@@ -1,20 +1,20 @@
 import { caption, quote, root } from "./Testimonial.css"
 
 // Define an interface for the testimonial props
-interface TestimonialProps {
+interface TestimonialBlockProps {
   readonly author: string
-  readonly position: string
-  readonly company: string
+  readonly position?: string
+  readonly company?: string
   readonly text: string
 }
 
 // The Testimonial component using a named function and explicit return type
-export function Testimonial({
+export function TestimonialBlock({
   author,
   position,
   company,
   text
-}: TestimonialProps) {
+}: TestimonialBlockProps) {
   return (
     <article className={root}>
       <blockquote className={quote}>

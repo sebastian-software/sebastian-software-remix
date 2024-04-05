@@ -1,17 +1,17 @@
 import clsx from "clsx"
 
 import oneAndOne from "./assets/1und1.svg"
-import axxessioBlue from "./assets/axxessio-blue.svg"
+import axxessio from "./assets/axxessio-blue.svg"
 import azeti from "./assets/azeti.svg"
 import berlitz from "./assets/berlitz.svg"
 import coliquio from "./assets/coliquio.svg"
 import commerzbank from "./assets/commerzbank.svg"
-import deutschebank from "./assets/deutschebank.svg"
-import deutschetelekom from "./assets/deutschetelekom.svg"
-import dwsBlack from "./assets/dws-black.svg"
-import empiriecomBlack from "./assets/empiriecom-black.svg"
+import deutscheBank from "./assets/deutschebank.svg"
+import deutscheTelekom from "./assets/deutschetelekom.svg"
+import dws from "./assets/dws-black.svg"
+import empiriecom from "./assets/empiriecom-black.svg"
 import enbw from "./assets/enbw.svg"
-import geHealthcare from "./assets/ge-healthcare.svg"
+import geHealthCare from "./assets/ge-healthcare.svg"
 import heidelbergMaterials from "./assets/heidelberg-materials.svg"
 import hornbach from "./assets/hornbach.svg"
 import huawei from "./assets/huawei.svg"
@@ -33,40 +33,42 @@ import zynga from "./assets/zynga.svg"
 import { root } from "./CompanyLogo.css"
 
 export const companies = {
-  "1und1": oneAndOne,
-  "axxessio-blue": axxessioBlue,
+  oneAndOne,
+  axxessio,
   azeti,
   berlitz,
   coliquio,
   commerzbank,
-  deutschebank,
-  deutschetelekom,
-  dws: dwsBlack,
-  empiriecom: empiriecomBlack,
+  deutscheBank,
+  deutscheTelekom,
+  dws,
+  empiriecom,
   enbw,
-  "ge-healthcare": geHealthcare,
-  "heidelberg-materials": heidelbergMaterials,
+  geHealthCare,
+  heidelbergMaterials,
   hornbach,
   huawei,
   init,
   magix,
   morgenfund,
-  "netze-bw": netzeBw,
+  netzeBw,
   parisozial,
   rio: rioBlack,
   sbb,
-  "schlund-partner": schlundPartner,
+  schlundPartner,
   studivz,
   suzuki,
   swr,
-  "triplesense-reply": triplesenseReply,
-  "witt-gruppe": wittGruppe,
-  "witt-weiden": wittWeiden,
+  triplesenseReply,
+  wittGruppe,
+  wittWeiden,
   zynga
 }
 
+export type Company = keyof typeof companies
+
 export interface CompanyLogoProps {
-  readonly name: keyof typeof companies | string
+  readonly name: Company
   readonly className?: string
 }
 

@@ -1,8 +1,9 @@
-import { CompanyLogo } from "../company-logo/CompanyLogo"
+import type { Company } from "../company-logo/CompanyLogo"
+import { companies, CompanyLogo } from "../company-logo/CompanyLogo"
 import { Neutral } from "../neutral"
 import { RichText } from "../richtext/RichText"
 import { Tag, TagList } from "../tag/Tag"
-import { Testimonial } from "../testimonial/Testimonial"
+import { TestimonialBlock } from "../testimonial/Testimonial"
 import {
   customer,
   description,
@@ -17,35 +18,35 @@ import {
   title
 } from "./ProjectList.css"
 
-interface Project {
+export interface Project {
   id: string
   title: string
   role: string
   customer: CustomerInfo
   period: PeriodInfo
-  contractor: string
-  links: string[]
   description: string[]
-  technologies: string[]
-  testimonials: Testimonial[]
+  contractor?: string
+  links?: string[]
+  technologies?: string[]
+  testimonials?: Testimonial[]
 }
 
-interface Testimonial {
+export interface Testimonial {
   author: string
-  position: string
-  company: string
+  position?: string
+  company?: string
   text: string
 }
 
-interface PeriodInfo {
+export interface PeriodInfo {
   start: string
   end: string
 }
 
-interface CustomerInfo {
+export interface CustomerInfo {
   name: string
   location: string
-  logo: string
+  logo?: string
 }
 
 export interface ProjectListProps {
@@ -81,6 +82,10 @@ export function formatPeriod({ start, end }: PeriodInfo) {
   return `${startDate} - ${endDate}`
 }
 
+function isCompany(name: string | undefined): name is Company {
+  return name != undefined && name in companies
+}
+
 export function Project({ data }: ProjectProps) {
   return (
     <div className={project}>
@@ -89,7 +94,9 @@ export function Project({ data }: ProjectProps) {
         {data.title}
       </Neutral>
 
-      <CompanyLogo name={data.customer.logo} className={logo} />
+      {isCompany(data.customer.logo) && (
+        <CompanyLogo name={data.customer.logo} className={logo} />
+      )}
 
       <div className={meta}>
         <p className={customer}>
@@ -108,7 +115,7 @@ export function Project({ data }: ProjectProps) {
           <Neutral>
             <TagList className={technologies}>
               {data.technologies.sort().map((text, index) => (
-                <Tag key={index}>{text}</Tag>
+                <Tag key={text}>{text}</Tag>
               ))}
             </TagList>
           </Neutral>
@@ -122,9 +129,9 @@ export function Project({ data }: ProjectProps) {
       </RichText>
 
       <ul className={testimonials}>
-        {data.testimonials.map((entry, index) => (
-          <Testimonial
-            key={index}
+        {data.testimonials?.map((entry, index) => (
+          <TestimonialBlock
+            key={entry.author}
             author={entry.author}
             position={entry.position}
             company={entry.company}
