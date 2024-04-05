@@ -3,7 +3,7 @@ import { list, root } from "./Tag.css"
 import { clsx } from "clsx"
 
 export interface TagListProps extends PropsWithChildren {
-  className: string
+  readonly className: string
 }
 
 export function TagList({ children, className }: TagListProps) {

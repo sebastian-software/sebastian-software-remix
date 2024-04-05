@@ -49,7 +49,7 @@ interface CustomerInfo {
 }
 
 export interface ProjectListProps {
-  data: Project[]
+  readonly data: Project[]
 }
 
 export function ProjectList({ data }: ProjectListProps) {
@@ -63,7 +63,7 @@ export function ProjectList({ data }: ProjectListProps) {
 }
 
 export interface ProjectProps {
-  data: Project
+  readonly data: Project
 }
 
 const locale = "de-DE"

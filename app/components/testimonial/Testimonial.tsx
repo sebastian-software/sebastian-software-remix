@@ -2,10 +2,10 @@ import { caption, quote, root } from "./Testimonial.css"
 
 // Define an interface for the testimonial props
 interface TestimonialProps {
-  author: string
-  position: string
-  company: string
-  text: string
+  readonly author: string
+  readonly position: string
+  readonly company: string
+  readonly text: string
 }
 
 // The Testimonial component using a named function and explicit return type

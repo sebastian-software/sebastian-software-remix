@@ -67,8 +67,8 @@ export const companies = {
 }
 
 export interface CompanyLogoProps {
-  name: keyof typeof companies | string
-  className?: string
+  readonly name: keyof typeof companies | string
+  readonly className?: string
 }
 
 export function CompanyLogo({ name, className }: CompanyLogoProps) {

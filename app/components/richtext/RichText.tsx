@@ -3,7 +3,7 @@ import { clsx } from "clsx"
 import { root } from "./RichText.css"
 
 export interface RichTextProps extends PropsWithChildren {
-  className?: string
+  readonly className?: string
 }
 
 export function RichText({ children, className }: RichTextProps) {

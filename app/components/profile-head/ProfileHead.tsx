@@ -1,7 +1,7 @@
 import { rootClass, nameClass } from "./ProfileHead.css"
 
 export interface ProfileHeadProps {
-  name: string
+  readonly name: string
 }
 
 export function ProfileHead({ name }: ProfileHeadProps) {
