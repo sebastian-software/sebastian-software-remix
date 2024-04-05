@@ -38,14 +38,14 @@ export interface ProjectProps {
   readonly data: ProjectData
 }
 
-const locale = "de-DE"
+const DEFAULT_LOCALE = "de-DE"
 
 export function formatPeriod({ start, end }: PeriodData) {
-  const startDate = new Date(start).toLocaleDateString(locale, {
+  const startDate = new Date(start).toLocaleDateString(DEFAULT_LOCALE, {
     year: "numeric",
     month: "numeric"
   })
-  const endDate = new Date(end).toLocaleDateString(locale, {
+  const endDate = new Date(end).toLocaleDateString(DEFAULT_LOCALE, {
     year: "numeric",
     month: "numeric"
   })
