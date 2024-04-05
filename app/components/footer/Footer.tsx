@@ -1,7 +1,7 @@
 import { Link } from "@remix-run/react"
 
 import { Spacer } from "../spacer/Spacer"
-import { content, root } from "./Footer.css"
+import { root } from "./Footer.css"
 
 export function Footer() {
   return (
