@@ -1,3 +1,5 @@
+import type { PeriodData, ProjectData } from "~/types"
+
 import type { Company } from "../company-logo/CompanyLogo"
 import { companies, CompanyLogo } from "../company-logo/CompanyLogo"
 import { Neutral } from "../neutral"
@@ -18,39 +20,8 @@ import {
   title
 } from "./ProjectList.css"
 
-export interface Project {
-  id: string
-  title: string
-  role: string
-  customer: CustomerInfo
-  period: PeriodInfo
-  description: string[]
-  contractor?: string
-  links?: string[]
-  technologies?: string[]
-  testimonials?: Testimonial[]
-}
-
-export interface Testimonial {
-  author: string
-  position?: string
-  company?: string
-  text: string
-}
-
-export interface PeriodInfo {
-  start: string
-  end: string
-}
-
-export interface CustomerInfo {
-  name: string
-  location: string
-  logo?: string
-}
-
 export interface ProjectListProps {
-  readonly data: Project[]
+  readonly data: ProjectData[]
 }
 
 export function ProjectList({ data }: ProjectListProps) {
@@ -64,12 +35,12 @@ export function ProjectList({ data }: ProjectListProps) {
 }
 
 export interface ProjectProps {
-  readonly data: Project
+  readonly data: ProjectData
 }
 
 const locale = "de-DE"
 
-export function formatPeriod({ start, end }: PeriodInfo) {
+export function formatPeriod({ start, end }: PeriodData) {
   const startDate = new Date(start).toLocaleDateString(locale, {
     year: "numeric",
     month: "numeric"

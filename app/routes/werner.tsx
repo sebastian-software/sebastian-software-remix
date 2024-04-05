@@ -1,13 +1,13 @@
 import { useLoaderData } from "@remix-run/react"
 
 import { ProfileHead } from "~/components/profile-head/ProfileHead"
-import type { Project } from "~/components/project-list/ProjectList"
 import { ProjectList } from "~/components/project-list/ProjectList"
+import type { ProjectData } from "~/types"
 
 import data from "../data/werner.json"
 
 export const loader = () => {
-  const projects: Project[] = []
+  const projects: ProjectData[] = []
   for (const project of data.projects) {
     projects.push({
       ...project,
