@@ -35,8 +35,8 @@ devDependencies:
     specifier: ^2.0.3
     version: 2.0.3
   '@effective/eslint-config':
-    specifier: ^5.2.1
-    version: 5.2.1(eslint@8.57.0)(typescript@5.4.4)
+    specifier: ^5.2.3
+    version: 5.2.3(eslint@8.57.0)(typescript@5.4.4)
   '@remix-run/dev':
     specifier: ^2.8.1
     version: 2.8.1(@remix-run/serve@2.8.1)(typescript@5.4.4)(vite@5.2.8)
@@ -439,8 +439,8 @@ packages:
     resolution: {integrity: sha512-NHqvoSJNEtT52YauaUDNxTnwGJdGZxm+1J/ihFUmeHYlWJg5LT4tBmr1U1GJvl03d+36WLxh9oESkw21Y5FjJA==}
     dev: true
 
-  /@effective/eslint-config@5.2.1(eslint@8.57.0)(typescript@5.4.4):
-    resolution: {integrity: sha512-4Dx4qsg0x6BDOG0JN9cacR4utpTKFvXquQt1IMWQ3FHN4ExFfNKF5jQjKDvrdggnHkLte7jrpjTNZsBaGCJnpw==}
+  /@effective/eslint-config@5.2.3(eslint@8.57.0)(typescript@5.4.4):
+    resolution: {integrity: sha512-gOjCWXB+ZpB0hsbeTZhJ36s4OfuZovNpuRmtAIjycQCpRE5pmuSHLQ08ly+KTgu1Y5dwLzg2Z8jKEHI+goRY1g==}
     peerDependencies:
       eslint: '>= 8'
     dependencies:
@@ -3298,13 +3298,13 @@ packages:
     dependencies:
       get-intrinsic: 1.2.4
       has-tostringtag: 1.0.2
-      hasown: 2.0.1
+      hasown: 2.0.2
     dev: true
 
   /es-shim-unscopables@1.0.2:
     resolution: {integrity: sha512-J3yBRXCzDu4ULnQwxyToo/OjdMx6akgVC7K6few0a7F/0wLtmKKN7I73AH5T2836UuXRqN7Qg+IIUw/+YJksRw==}
     dependencies:
-      hasown: 2.0.1
+      hasown: 2.0.2
     dev: true
 
   /es-to-primitive@1.2.1:
@@ -3502,7 +3502,7 @@ packages:
       emoji-regex: 9.2.2
       es-iterator-helpers: 1.0.18
       eslint: 8.57.0
-      hasown: 2.0.1
+      hasown: 2.0.2
       jsx-ast-utils: 3.3.5
       language-tags: 1.0.9
       minimatch: 3.1.2
@@ -4500,8 +4500,8 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       es-errors: 1.3.0
-      hasown: 2.0.1
-      side-channel: 1.0.5
+      hasown: 2.0.2
+      side-channel: 1.0.6
     dev: true
 
   /ip-address@9.0.5:
@@ -8013,7 +8013,7 @@ packages:
       isarray: 2.0.5
       which-boxed-primitive: 1.0.2
       which-collection: 1.0.2
-      which-typed-array: 1.1.14
+      which-typed-array: 1.1.15
     dev: true
 
   /which-collection@1.0.2:
