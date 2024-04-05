@@ -16,6 +16,7 @@ import heidelbergMaterials from "./assets/heidelberg-materials.svg"
 import hornbach from "./assets/hornbach.svg"
 import huawei from "./assets/huawei.svg"
 import init from "./assets/init.svg"
+import jakoo from "./assets/jakoo.svg"
 import magix from "./assets/magix.svg"
 import morgenfund from "./assets/morgenfund.svg"
 import netzeBw from "./assets/netze-bw.svg"
@@ -49,6 +50,7 @@ export const companies = {
   hornbach,
   huawei,
   init,
+  jakoo,
   magix,
   morgenfund,
   netzeBw,
