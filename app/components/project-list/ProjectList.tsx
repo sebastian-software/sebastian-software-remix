@@ -53,8 +53,8 @@ export function formatPeriod({ start, end }: PeriodData) {
   return `${startDate} - ${endDate}`
 }
 
-function isCompany(name: string | undefined): name is Company {
-  return name != undefined && name in companies
+function isCompany(name = ""): name is Company {
+  return name in companies
 }
 
 export function Project({ data }: ProjectProps) {
@@ -85,7 +85,7 @@ export function Project({ data }: ProjectProps) {
         {data.technologies && (
           <Neutral>
             <TagList className={technologies}>
-              {data.technologies.sort().map((text, index) => (
+              {data.technologies.sort().map((text) => (
                 <Tag key={text}>{text}</Tag>
               ))}
             </TagList>
@@ -95,12 +95,13 @@ export function Project({ data }: ProjectProps) {
 
       <RichText className={description}>
         {data.description.map((text, index) => (
+          // eslint-disable-next-line react/no-array-index-key
           <p key={index}>{text}</p>
         ))}
       </RichText>
 
       <ul className={testimonials}>
-        {data.testimonials?.map((entry, index) => (
+        {data.testimonials?.map((entry) => (
           <TestimonialBlock
             key={entry.author}
             author={entry.author}
