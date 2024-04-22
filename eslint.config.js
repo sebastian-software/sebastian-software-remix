@@ -1,7 +1,7 @@
-import { recommended } from "@effective/eslint-config"
+import { main } from "@effective/eslint-config"
 
 export default [
-  recommended,
+  main,
   {
     files: ["**/*.css.ts"],
     rules: {

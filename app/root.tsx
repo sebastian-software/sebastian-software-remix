@@ -1,5 +1,4 @@
-import "@effective/css-reset/dist/assets/ResetNative.css"
-import "@effective/css-reset/dist/assets/SensibleEnhancements.css"
+import "@effective/css-reset"
 
 import {
   Links,

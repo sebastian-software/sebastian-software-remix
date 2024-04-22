@@ -28,12 +28,12 @@
   },
   "devDependencies": {
     "@effective/color": "^1.0.1",
-    "@effective/css-reset": "^2.0.3",
-    "@effective/eslint-config": "^5.2.7",
+    "@effective/css-reset": "^3.0.0",
+    "@effective/eslint-config": "^5.4.3",
     "@remix-run/dev": "^2.8.1",
-    "@storybook/react": "^8.0.6",
-    "@types/react": "^18.2.74",
-    "@types/react-dom": "^18.2.24",
+    "@storybook/react": "^8.0.8",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
     "@vanilla-extract/css": "^1.14.2",
     "@vanilla-extract/vite-plugin": "^4.0.7",
     "@vercel/remix": "^2.8.1",
@@ -41,11 +41,11 @@
     "npm-check-updates": "^16.14.18",
     "prettier": "^3.2.5",
     "svgo": "^3.2.0",
-    "typescript": "^5.4.4",
-    "vite": "^5.2.8",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10",
     "vite-tsconfig-paths": "^4.3.2"
   },
-  "packageManager": "pnpm@8.15.6+sha256.01c01eeb990e379b31ef19c03e9d06a14afa5250b82e81303f88721c99ff2e6f",
+  "packageManager": "pnpm@8.15.7+sha256.50783dd0fa303852de2dd1557cd4b9f07cb5b018154a6e76d0f40635d6cee019",
   "engines": {
     "node": ">=18.0.0"
   }
