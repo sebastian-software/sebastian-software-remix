@@ -16,6 +16,7 @@ import { isbot } from "isbot"
 import { renderToPipeableStream } from "react-dom/server"
 
 const ABORT_DELAY = 5000
+const INTERNAL_SERVER_ERROR = 500
 
 export default async function handleRequest(
   request: Request,
@@ -77,7 +78,7 @@ async function handleBotRequest(
           reject(error)
         },
         onError(error: unknown) {
-          responseStatusCode = 500
+          responseStatusCode = INTERNAL_SERVER_ERROR
           // Log streaming rendering errors from inside the shell.  Don't log
           // errors encountered during initial shell rendering since they'll
           // reject and get logged in handleDocumentRequest.
@@ -127,7 +128,7 @@ async function handleBrowserRequest(
           reject(error)
         },
         onError(error: unknown) {
-          responseStatusCode = 500
+          responseStatusCode = INTERNAL_SERVER_ERROR
           // Log streaming rendering errors from inside the shell.  Don't log
           // errors encountered during initial shell rendering since they'll
           // reject and get logged in handleDocumentRequest.
