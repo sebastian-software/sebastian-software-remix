@@ -35,8 +35,8 @@ devDependencies:
     specifier: ^3.0.1
     version: 3.0.1
   '@effective/eslint-config':
-    specifier: ^5.4.4
-    version: 5.4.4(eslint@8.57.0)(typescript@5.4.5)
+    specifier: ^5.4.6
+    version: 5.4.6(eslint@8.57.0)(typescript@5.4.5)
   '@remix-run/dev':
     specifier: ^2.9.1
     version: 2.9.1(@remix-run/react@2.9.1)(@remix-run/serve@2.9.1)(typescript@5.4.5)(vite@5.2.10)
@@ -446,8 +446,8 @@ packages:
     resolution: {integrity: sha512-3P+wWKLzj6eg+1llgdUo4Ts4vIp9yrsRjrpThpeQ1sFG3G/omv/bMldYjmQATvbgnVq2hhprhWZgQbkWs3FX4w==}
     dev: true
 
-  /@effective/eslint-config@5.4.4(eslint@8.57.0)(typescript@5.4.5):
-    resolution: {integrity: sha512-R3ykBNQW1/D5K1zbNIfK1GjVztUq5rEV5V2nIAhjBtstkRaf/6Er52rfaOaQgqFTV0+ke/kMr4/1sErhvFZBDQ==}
+  /@effective/eslint-config@5.4.6(eslint@8.57.0)(typescript@5.4.5):
+    resolution: {integrity: sha512-tuZMYZEPFIk+rSExWIpLgQ79HSD3hAOi/X5FzCj9sEz8Zkzc5jZoYL8YH8h4oeP2YjyWbAXNuUhmyj9CITNBDg==}
     peerDependencies:
       eslint: '>= 8'
     dependencies:
