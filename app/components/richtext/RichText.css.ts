@@ -4,7 +4,15 @@ export const root = style({})
 
 globalStyle(`${root} h1`, {
   fontWeight: "normal",
-  fontSize: "2.5rem"
+  fontSize: "2rem",
+  lineHeight: "1.2",
+  textWrap: "balance"
+})
+
+globalStyle(`${root} h1 strong`, {
+  fontSize: "3rem",
+  textTransform: "uppercase",
+  display: "block"
 })
 
 globalStyle(`${root} h2`, {
@@ -13,10 +21,6 @@ globalStyle(`${root} h2`, {
   lineHeight: "1.2",
   textWrap: "balance",
   marginTop: "2rem"
-})
-
-globalStyle(`${root} h1+h2`, {
-  marginTop: "0"
 })
 
 globalStyle(`${root} p:not(:first-child)`, {

@@ -1,7 +1,14 @@
 import type { MetaFunction } from "@remix-run/node"
-import { Link } from "@remix-run/react"
 
-import { RichText } from "~/components/richtext/RichText"
+import { Banner } from "~/components/banner/Banner"
+import { Button } from "~/components/button/Button"
+import {
+  Card,
+  CardContainer,
+  CardContent,
+  CardFooter,
+  CardTitle
+} from "~/components/card/Card"
 
 export const meta: MetaFunction = () => [
   { title: "Sebastian Software" },
@@ -14,44 +21,71 @@ export const meta: MetaFunction = () => [
 
 export default function Index() {
   return (
-    <RichText>
-      <h1>Mission</h1>
-      <p>
-        Unsere Leidenschaft für Qualität und Innovation wird durch eine
-        unstillbare Neugier angetrieben. Tiefes Eintauchen in Technologien und
-        die Verknüpfung verschiedenster Ideen ermöglichen es uns,
-        zukunftsweisende Lösungen zu schaffen. Wir gestalten aktiv die
-        dynamischen Entwicklungen unserer Branche.
-      </p>
-      <p>
-        <Link to="/mission">Mehr erfahren</Link>
-      </p>
+    <>
+      <Banner>
+        <h1>
+          <strong>Sebastian Software:</strong>
+          <br />
+          Fundiertes technisches Know-How trifft auf Leidenschaft für Innovation
+          und herausragende User-Experience.
+        </h1>
+      </Banner>
+      <CardContainer>
+        <Card>
+          <CardTitle>Mission</CardTitle>
+          <CardContent>
+            <p>
+              Unsere Leidenschaft für Qualität und Innovation wird durch eine
+              unstillbare Neugier angetrieben. Tiefes Eintauchen in Technologien
+              und die Verknüpfung verschiedenster Ideen ermöglichen es uns,
+              zukunftsweisende Lösungen zu schaffen. Wir gestalten aktiv die
+              dynamischen Entwicklungen unserer Branche.
+            </p>
+          </CardContent>
+          <CardFooter>
+            <Button to="/mission">Mehr erfahren</Button>
+          </CardFooter>
+        </Card>
+        <Card>
+          <CardTitle>Team</CardTitle>
+          <CardContent>
+            <p>
+              Unser Team vereint fundiertes Informatikwissen mit
+              jahrzehntelanger Erfahrung in der professionellen
+              Softwareentwicklung. Als Experten für moderne
+              Frontend-Technologien haben wir ein Auge für Details und verpassen
+              keine relevanten Trends. Mit Elan und Ehrgeiz treiben wir Projekte
+              voran und setzen Maßstäbe für herausragende Entwickler- und
+              Benutzererfahrung.
+            </p>
+          </CardContent>
 
-      <h1>Team</h1>
-      <p>
-        Unser Team vereint fundiertes Informatikwissen mit jahrzehntelanger
-        Erfahrung in der professionellen Softwareentwicklung. Als Experten für
-        moderne Frontend-Technologien haben wir ein Auge für Details und
-        verpassen keine relevanten Trends. Mit Elan und Ehrgeiz treiben wir
-        Projekte voran und setzen Maßstäbe für herausragende Entwickler- und
-        Benutzererfahrung.
-      </p>
-      <p>
-        <Link to="/team">Mehr erfahren</Link>
-      </p>
+          <CardFooter>
+            <Button to="/team">Mehr erfahren</Button>
+          </CardFooter>
+        </Card>
+        <Card>
+          <CardTitle>Consulting</CardTitle>
+          <CardContent>
+            <p>
+              Gemeinsam entwickeln wir maßgeschneiderte Lösungen, die genau auf
+              Ihre Anforderungen zugeschnitten sind. Unterstützt von unserer
+              umfangreichen Erfahrung und technischen Expertise bieten wir Ihnen
+              eine Partnerschaft, die von der Entwicklung über Beratung bis hin
+              zu Schulungen reicht. Unser Ziel ist es, Ihr Team zu stärken und
+              Ihre Vision effektiv umzusetzen.
+            </p>
+          </CardContent>
 
-      <h1>Consulting</h1>
-      <p>
-        Gemeinsam entwickeln wir maßgeschneiderte Lösungen, die genau auf Ihre
-        Anforderungen zugeschnitten sind. Unterstützt von unserer umfangreichen
-        Erfahrung und technischen Expertise bieten wir Ihnen eine Partnerschaft,
-        die von der Entwicklung über Beratung bis hin zu Schulungen reicht.
-        Unser Ziel ist es, Ihr Team zu stärken und Ihre Vision effektiv
-        umzusetzen.
-      </p>
-      <p>
-        <Link to="/consulting">Mehr erfahren</Link>
-      </p>
-    </RichText>
+          <CardFooter>
+            <Button to="/consulting">Mehr erfahren</Button>
+          </CardFooter>
+        </Card>
+      </CardContainer>
+
+      <br />
+      <br />
+      <br />
+    </>
   )
 }
