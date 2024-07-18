@@ -1,23 +1,36 @@
-import { navigation, navigationList, root } from "./Header.css"
+import {
+  logo,
+  navigation,
+  navigationItem,
+  navigationList,
+  root,
+  spacer
+} from "./Header.css"
+import logoDark from "./logo-dark.svg"
 
 export function Header() {
   return (
     <header className={root}>
-      <h1>Sebastian Software GmbH</h1>
-      <p>Erfahrung | Klarheit | Begeisterung</p>
+      <a href="/">
+        <img className={logo} src={logoDark} alt="Sebastian Software GmbH" />
+      </a>
+      <div className={spacer} />
       <nav className={navigation}>
         <ul className={navigationList}>
           <li>
-            <a href="/">Home</a>
+            <a className={navigationItem} href="/mission">
+              Mission
+            </a>
           </li>
           <li>
-            <a href="/mission">Mission</a>
+            <a className={navigationItem} href="/team">
+              Team
+            </a>
           </li>
           <li>
-            <a href="/team">Team</a>
-          </li>
-          <li>
-            <a href="/consulting">Consulting</a>
+            <a className={navigationItem} href="/consulting">
+              Consulting
+            </a>
           </li>
         </ul>
       </nav>
