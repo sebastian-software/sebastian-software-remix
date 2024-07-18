@@ -23,7 +23,9 @@ export const spacer = style({
   flex: 1
 })
 
-export const navigation = style({})
+export const navigation = style({
+  fontSize: "0.875rem"
+})
 
 export const navigationList = style({
   display: "flex",
@@ -38,5 +40,12 @@ export const navigationItem = style({
   textDecoration: "none",
   borderRadius: "0.5rem",
   textTransform: "uppercase",
-  letterSpacing: "0.1em"
+  letterSpacing: "0.1em",
+
+  selectors: {
+    "&:hover": {
+      borderColor: "white",
+      color: "white"
+    }
+  }
 })

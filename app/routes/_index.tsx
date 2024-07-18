@@ -15,9 +15,7 @@ export const meta: MetaFunction = () => [
 export default function Index() {
   return (
     <RichText>
-      <h1>Sebastian Software</h1>
-
-      <h2>Mission</h2>
+      <h1>Mission</h1>
       <p>
         Unsere Leidenschaft für Qualität und Innovation wird durch eine
         unstillbare Neugier angetrieben. Tiefes Eintauchen in Technologien und
@@ -29,20 +27,7 @@ export default function Index() {
         <Link to="/mission">Mehr erfahren</Link>
       </p>
 
-      <h2>Consulting</h2>
-      <p>
-        Gemeinsam entwickeln wir maßgeschneiderte Lösungen, die genau auf Ihre
-        Anforderungen zugeschnitten sind. Unterstützt von unserer umfangreichen
-        Erfahrung und technischen Expertise bieten wir Ihnen eine Partnerschaft,
-        die von der Entwicklung über Beratung bis hin zu Schulungen reicht.
-        Unser Ziel ist es, Ihr Team zu stärken und Ihre Vision effektiv
-        umzusetzen.
-      </p>
-      <p>
-        <Link to="/consulting">Mehr erfahren</Link>
-      </p>
-
-      <h2>Team</h2>
+      <h1>Team</h1>
       <p>
         Unser Team vereint fundiertes Informatikwissen mit jahrzehntelanger
         Erfahrung in der professionellen Softwareentwicklung. Als Experten für
@@ -53,6 +38,19 @@ export default function Index() {
       </p>
       <p>
         <Link to="/team">Mehr erfahren</Link>
+      </p>
+
+      <h1>Consulting</h1>
+      <p>
+        Gemeinsam entwickeln wir maßgeschneiderte Lösungen, die genau auf Ihre
+        Anforderungen zugeschnitten sind. Unterstützt von unserer umfangreichen
+        Erfahrung und technischen Expertise bieten wir Ihnen eine Partnerschaft,
+        die von der Entwicklung über Beratung bis hin zu Schulungen reicht.
+        Unser Ziel ist es, Ihr Team zu stärken und Ihre Vision effektiv
+        umzusetzen.
+      </p>
+      <p>
+        <Link to="/consulting">Mehr erfahren</Link>
       </p>
     </RichText>
   )
