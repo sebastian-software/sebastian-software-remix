@@ -1,6 +1,8 @@
 import { buildSpectrum } from "@effective/color"
 import { style } from "@vanilla-extract/css"
 
+import { elenaWebfont } from "../fonts/elena/Elena.css"
+
 const gold = buildSpectrum("C89F6B")
 
 export const root = style({
@@ -12,12 +14,13 @@ export const root = style({
 })
 
 export const title = style({
-  fontWeight: "bold",
-  fontSize: "1.5rem"
+  fontFamily: elenaWebfont,
+  fontSize: "2rem"
 })
 
 export const content = style({
-  paddingBlock: "1rem"
+  paddingBlock: "1rem",
+  fontFamily: elenaWebfont
 })
 
 export const footer = style({
