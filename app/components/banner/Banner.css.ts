@@ -1,11 +1,11 @@
-import { buildSpectrum } from "@effective/color"
+import { buildShades, buildSpectrum } from "@effective/color"
 import { style } from "@vanilla-extract/css"
 
 import { elenaWebfont } from "../fonts/elena/Elena.css"
 import bannerImage from "./assets/566ak-gen1.jpg"
 
 const darkViolet = buildSpectrum("3F2B3D")
-console.log("XXX:", darkViolet)
+const goldShades = buildShades("#fff", "C89F6B")
 
 export const rootClass = style({
   backgroundImage: `url(${bannerImage})`,
@@ -19,6 +19,7 @@ export const rootClass = style({
 export const contentClass = style({
   fontFamily: elenaWebfont,
   fontSize: "3vw",
+  color: goldShades[4],
   lineHeight: "1.2",
   textWrap: "balance",
   maxWidth: "50ch",

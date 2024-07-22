@@ -4,6 +4,7 @@ import { style } from "@vanilla-extract/css"
 import { elenaWebfont } from "../fonts/elena/Elena.css"
 
 const gold = buildSpectrum("C89F6B")
+const magenta = buildSpectrum("C50044")
 const goldShades = buildShades("#fff", "C89F6B")
 
 export const root = style({
@@ -18,12 +19,12 @@ export const root = style({
 
 export const title = style({
   fontFamily: elenaWebfont,
-  fontSize: "2rem"
+  fontSize: "2.5rem",
+  color: "#C50044"
 })
 
 export const content = style({
-  paddingBlock: "1rem",
-  fontFamily: elenaWebfont
+  paddingBlock: "1rem"
 })
 
 export const footer = style({
@@ -32,7 +33,7 @@ export const footer = style({
 })
 
 export const container = style({
-  background: `radial-gradient(at left top, ${gold["+5"]}, ${gold["0"]})`,
+  background: goldShades[4],
   display: "flex",
   gap: "2.5rem",
   paddingBlock: "4rem",
