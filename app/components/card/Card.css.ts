@@ -33,7 +33,7 @@ export const footer = style({
 })
 
 export const container = style({
-  background: goldShades[4],
+  background: "#3F2B3D",
   display: "flex",
   gap: "2.5rem",
   paddingBlock: "4rem",
