@@ -22,13 +22,9 @@ export const meta: MetaFunction = () => [
 export default function Index() {
   return (
     <>
-      <Banner>
-        <h1>
-          <strong>Sebastian Software:</strong>
-          <br />
-          Fundiertes technisches Know-How trifft auf Leidenschaft für Innovation
-          und herausragende User-Experience.
-        </h1>
+      <Banner title="Sebastian Software">
+        Fundiertes technisches Know-How trifft auf Leidenschaft für Innovation
+        und herausragende User-Experience.
       </Banner>
       <CardContainer>
         <Card>
