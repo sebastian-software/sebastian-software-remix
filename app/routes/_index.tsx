@@ -23,8 +23,8 @@ export default function Index() {
   return (
     <>
       <Banner title="Sebastian Software">
-        Fundiertes technisches Know-How trifft auf Leidenschaft für Innovation
-        und herausragende User-Experience.
+        Fundiertes technisches <em>Know-How</em> trifft auf Leidenschaft für{" "}
+        <em>Innovation</em> und herausragende <em>User-Experience</em>.
       </Banner>
       <CardContainer>
         <Card>

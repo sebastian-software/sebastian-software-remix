@@ -1,4 +1,4 @@
-import { style } from "@vanilla-extract/css"
+import { globalStyle, style } from "@vanilla-extract/css"
 
 import { elenaWebfont } from "../fonts/elena/Elena.css"
 import bannerImage from "./assets/566ak-gen1.jpg"
@@ -20,4 +20,8 @@ export const contentClass = style({
   maxWidth: "50ch",
   marginInline: "auto",
   paddingTop: "25vw"
+})
+
+globalStyle(`${contentClass} em`, {
+  color: "#C50044"
 })
