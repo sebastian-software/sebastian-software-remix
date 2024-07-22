@@ -15,6 +15,10 @@ export const root = style({
   paddingInline: "2rem"
 })
 
+export const logoLink = style({
+  flexShrink: 0
+})
+
 export const logo = style({
   height: "4rem"
 })

@@ -1,5 +1,6 @@
 import {
   logo,
+  logoLink,
   navigation,
   navigationItem,
   navigationList,
@@ -11,7 +12,7 @@ import logoDark from "./logo-dark.svg"
 export function Header() {
   return (
     <header className={root}>
-      <a href="/">
+      <a href="/" className={logoLink}>
         <img className={logo} src={logoDark} alt="Sebastian Software GmbH" />
       </a>
       <div className={spacer} />
