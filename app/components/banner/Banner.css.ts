@@ -23,5 +23,8 @@ export const contentClass = style({
 })
 
 globalStyle(`${contentClass} em`, {
-  color: "#C50044"
+  color: "#C50044",
+  textDecoration: "underline",
+  textDecorationStyle: "dotted",
+  textUnderlineOffset: "0.2em"
 })
