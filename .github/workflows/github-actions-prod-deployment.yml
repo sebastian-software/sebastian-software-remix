@@ -19,5 +19,20 @@ jobs:
         with:
           node-version: 20
       - run: corepack enable
+      - run: echo "path=$(pnpm store path)" > $GITHUB_OUTPUT
+        id: store-path
+      - name: Cache pnpm modules
+        id: cache-npm
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-pnpm-modules
+        with:
+          # npm cache files are stored in `~/.npm` on Linux/macOS
+          path: ${{ steps.store-path.outputs.path }}
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
       - run: pnpm i
       - run: pnpm deploy:prod
