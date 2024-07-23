@@ -12,5 +12,6 @@ jobs:
           node-version: 20
       - run: corepack enable
       - run: pnpm i
+      - run: pnpm sst install
       - run: pnpm test
       - run: pnpm build
