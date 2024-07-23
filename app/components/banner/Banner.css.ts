@@ -14,6 +14,9 @@ export const rootClass = style({
   backgroundRepeat: "repeat, no-repeat",
   color: "white",
   height: "35vw",
+
+  // TODO: how to remove @typescript-eslint/no-magic-numbers
+  // eslint-disable-next-line @typescript-eslint/no-magic-numbers
   filter: dropShadow[3]
 })
 
