@@ -1,4 +1,5 @@
 import { buildSpectrum } from "@effective/color"
+import { dropShadow } from "@effective/shadow"
 import { style } from "@vanilla-extract/css"
 
 const darkViolet = buildSpectrum("3F2B3D")
@@ -12,7 +13,12 @@ export const root = style({
   gap: "4rem",
   alignItems: "center",
   paddingBlock: "1rem",
-  paddingInline: "2rem"
+  paddingInline: "2rem",
+  borderBottom: "1px solid",
+  borderColor: darkViolet["+5"],
+  filter: dropShadow[5],
+  zIndex: 1000,
+  marginBottom: "0rem"
 })
 
 export const logoLink = style({
@@ -38,13 +44,11 @@ export const navigationList = style({
 })
 
 export const navigationItem = style({
-  border: "1px solid red",
-  borderColor: darkViolet["+5"],
   padding: "0.5rem",
-  textDecoration: "none",
   borderRadius: "0.5rem",
   textTransform: "uppercase",
   letterSpacing: "0.1em",
+  textUnderlineOffset: "0.3em",
 
   selectors: {
     "&:hover": {

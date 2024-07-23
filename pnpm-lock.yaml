@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@effective/shadow':
+        specifier: ^1.0.1
+        version: 1.0.1
       '@remix-run/node':
         specifier: ^2.10.3
         version: 2.10.3(typescript@5.5.3)
@@ -885,6 +888,9 @@ packages:
     resolution: {integrity: sha512-30E5YlUb88L2D0rG+G1OdhBDEWqM4+tmjwgXnaRGJd1sawMK2Tb2nhs7zoE/1W+1B+agS7Dpt9YkWKZQBelxng==}
     peerDependencies:
       eslint: '>= 8'
+
+  '@effective/shadow@1.0.1':
+    resolution: {integrity: sha512-qmUGNMqLyKuDkVWTWITu3v1ASsLrIExcX+lV0pQ+VpmZX2+ek8ppiOdXx/WRKJwH5T90yJiTESWX2e5jthLzYg==}
 
   '@emotion/hash@0.9.1':
     resolution: {integrity: sha512-gJB6HLm5rYwSLI6PQa+X1t5CFGrv1J1TWG+sOyMCeKz2ojaj6Fnl/rZEspogG+cvqbt4AE/2eIyD2QfLKTBNlQ==}
@@ -2215,6 +2221,9 @@ packages:
   basic-auth@2.0.1:
     resolution: {integrity: sha512-NF+epuEdnUYVlGuhaxbbq+dvJttwLnGY+YixlXlME5KpQ5W3CnXA5cVTneY3SPbPDRkcjMbifrwmFYcClgOZeg==}
     engines: {node: '>= 0.8'}
+
+  bezier-easing@2.1.0:
+    resolution: {integrity: sha512-gbIqZ/eslnUFC1tjEvtz0sgx+xTK20wDnYMIA27VA04R7w6xxXQPZDbibjA9DTWZRA2CXtwHykkVzlCaAJAZig==}
 
   binary-extensions@2.2.0:
     resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
@@ -5644,12 +5653,12 @@ snapshots:
 
   '@babel/helper-annotate-as-pure@7.24.7':
     dependencies:
-      '@babel/types': 7.24.7
+      '@babel/types': 7.24.9
 
   '@babel/helper-builder-binary-assignment-operator-visitor@7.24.7':
     dependencies:
-      '@babel/traverse': 7.24.7
-      '@babel/types': 7.24.7
+      '@babel/traverse': 7.24.8
+      '@babel/types': 7.24.9
     transitivePeerDependencies:
       - supports-color
 
@@ -5820,7 +5829,7 @@ snapshots:
 
   '@babel/helper-optimise-call-expression@7.24.7':
     dependencies:
-      '@babel/types': 7.24.7
+      '@babel/types': 7.24.9
 
   '@babel/helper-plugin-utils@7.24.0': {}
 
@@ -5875,8 +5884,8 @@ snapshots:
 
   '@babel/helper-skip-transparent-expression-wrappers@7.24.7':
     dependencies:
-      '@babel/traverse': 7.24.7
-      '@babel/types': 7.24.7
+      '@babel/traverse': 7.24.8
+      '@babel/types': 7.24.9
     transitivePeerDependencies:
       - supports-color
 
@@ -5906,8 +5915,8 @@ snapshots:
     dependencies:
       '@babel/helper-function-name': 7.24.7
       '@babel/template': 7.24.7
-      '@babel/traverse': 7.24.7
-      '@babel/types': 7.24.7
+      '@babel/traverse': 7.24.8
+      '@babel/types': 7.24.9
     transitivePeerDependencies:
       - supports-color
 
@@ -6289,6 +6298,15 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  '@babel/plugin-transform-modules-commonjs@7.24.8(@babel/core@7.24.9)':
+    dependencies:
+      '@babel/core': 7.24.9
+      '@babel/helper-module-transforms': 7.24.9(@babel/core@7.24.0)
+      '@babel/helper-plugin-utils': 7.24.8
+      '@babel/helper-simple-access': 7.24.7
+    transitivePeerDependencies:
+      - supports-color
+
   '@babel/plugin-transform-modules-systemjs@7.24.7(@babel/core@7.24.0)':
     dependencies:
       '@babel/core': 7.24.0
@@ -6588,7 +6606,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.24.0
       '@babel/helper-plugin-utils': 7.24.8
-      '@babel/types': 7.24.7
+      '@babel/types': 7.24.9
       esutils: 2.0.3
 
   '@babel/preset-typescript@7.23.3(@babel/core@7.24.0)':
@@ -6727,6 +6745,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
       - typescript
+
+  '@effective/shadow@1.0.1':
+    dependencies:
+      bezier-easing: 2.1.0
 
   '@emotion/hash@0.9.1': {}
 
@@ -7425,7 +7447,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.24.9
       '@babel/preset-env': 7.24.8(@babel/core@7.24.0)
-      '@babel/types': 7.24.7
+      '@babel/types': 7.24.9
       '@storybook/core': 8.2.4
       '@storybook/csf': 0.1.11
       '@types/cross-spawn': 6.0.6
@@ -8071,6 +8093,8 @@ snapshots:
     dependencies:
       safe-buffer: 5.1.2
 
+  bezier-easing@2.1.0: {}
+
   binary-extensions@2.2.0: {}
 
   bl@4.1.0:
@@ -8389,7 +8413,7 @@ snapshots:
 
   core-js-compat@3.37.1:
     dependencies:
-      browserslist: 4.23.0
+      browserslist: 4.23.2
 
   core-util-is@1.0.3: {}
 
@@ -9793,9 +9817,9 @@ snapshots:
   jscodeshift@0.15.2(@babel/preset-env@7.24.8(@babel/core@7.24.9)):
     dependencies:
       '@babel/core': 7.24.9
-      '@babel/parser': 7.24.7
+      '@babel/parser': 7.24.8
       '@babel/plugin-transform-class-properties': 7.24.7(@babel/core@7.24.9)
-      '@babel/plugin-transform-modules-commonjs': 7.23.3(@babel/core@7.24.9)
+      '@babel/plugin-transform-modules-commonjs': 7.24.8(@babel/core@7.24.9)
       '@babel/plugin-transform-nullish-coalescing-operator': 7.24.7(@babel/core@7.24.9)
       '@babel/plugin-transform-optional-chaining': 7.24.8(@babel/core@7.24.9)
       '@babel/plugin-transform-private-methods': 7.24.7(@babel/core@7.24.9)
@@ -11497,7 +11521,7 @@ snapshots:
   storybook@8.2.4(@babel/preset-env@7.24.8(@babel/core@7.24.9)):
     dependencies:
       '@babel/core': 7.24.9
-      '@babel/types': 7.24.7
+      '@babel/types': 7.24.9
       '@storybook/codemod': 8.2.4
       '@storybook/core': 8.2.4
       '@types/semver': 7.5.8

@@ -1,15 +1,20 @@
+import { buildSpectrum } from "@effective/color"
+import { dropShadow } from "@effective/shadow"
 import { globalStyle, style } from "@vanilla-extract/css"
 
 import { elenaWebfont } from "../fonts/elena/Elena.css"
 import bannerImage from "./assets/566ak-gen1.jpg"
 
+const darkViolet = buildSpectrum("3F2B3D")
+
 export const rootClass = style({
-  backgroundImage: `linear-gradient(to bottom, transparent 40%, #3F2B3D), url(${bannerImage})`,
+  backgroundImage: `linear-gradient(to bottom, transparent, transparent 50%, ${darkViolet["-2"]} 95%), url(${bannerImage})`,
   backgroundPosition: "top, center",
-  backgroundSize: "auto, auto 100%",
+  backgroundSize: "auto, auto 35vw",
   backgroundRepeat: "repeat, no-repeat",
   color: "white",
-  height: "35vw"
+  height: "35vw",
+  filter: dropShadow[3]
 })
 
 export const contentClass = style({
@@ -19,7 +24,7 @@ export const contentClass = style({
   textWrap: "balance",
   maxWidth: "50ch",
   marginInline: "auto",
-  paddingTop: "25vw"
+  paddingTop: "23vw"
 })
 
 globalStyle(`${contentClass} em`, {
