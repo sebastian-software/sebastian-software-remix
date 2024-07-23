@@ -15,7 +15,8 @@
     "opt:svg": "svgo --folder app --recursive",
     "update:latest": "ncu --deep  --upgrade --interactive",
     "update:minor": "ncu --deep  --upgrade --interactive --target minor",
-    "update:pnpm": "corepack up"
+    "update:pnpm": "corepack up",
+    "deploy:prod": "sst deploy --stage prod"
   },
   "dependencies": {
     "@effective/shadow": "^1.0.1",
@@ -38,9 +39,11 @@
     "@vanilla-extract/css": "^1.15.3",
     "@vanilla-extract/vite-plugin": "^4.0.13",
     "@vercel/remix": "^2.10.2",
+    "aws-cdk-lib": "2.142.1",
     "eslint": "^8.57.0",
     "npm-check-updates": "^16.14.20",
     "prettier": "^3.3.3",
+    "sst": "^2.43.4",
     "svgo": "^3.3.2",
     "typescript": "^5.5.3",
     "vite": "^5.3.4",
