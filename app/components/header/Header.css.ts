@@ -6,7 +6,11 @@ const darkViolet = buildSpectrum("3F2B3D")
 
 export const root = style({
   // background: `linear-gradient(to bottom, ${vivaMagenta["0"]}, ${vivaMagenta["-2"]} )`,
+  // TODO: how to remove no-unsafe-assignment
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
   background: darkViolet["-2"],
+  // TODO: how to remove no-unsafe-assignment
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
   color: darkViolet["+5"],
   display: "flex",
   flexDirection: "row",
@@ -15,7 +19,13 @@ export const root = style({
   paddingBlock: "1rem",
   paddingInline: "2rem",
   borderBottom: "1px solid",
+
+  // TODO: how to remove no-unsafe-assignment
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
   borderColor: darkViolet["+5"],
+
+  // TODO: how to remove no-unsafe-assignment
+  // eslint-disable-next-line @typescript-eslint/no-magic-numbers
   filter: dropShadow[5],
   zIndex: 1000,
   marginBottom: "0rem"

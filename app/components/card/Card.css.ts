@@ -1,19 +1,22 @@
-import { buildShades, buildSpectrum } from "@effective/color"
 import { style } from "@vanilla-extract/css"
+
+import { darkViolet, goldShades, violetShades } from "~/styles/colors"
 
 import { elenaWebfont } from "../fonts/elena/Elena.css"
 
-const gold = buildSpectrum("C89F6B")
-const magenta = buildSpectrum("C50044")
-const goldShades = buildShades("#fff", "C89F6B")
-const darkViolet = buildSpectrum("3F2B3D")
-const violetShades = buildShades("#fff", "3F2B3D")
-const tealSpectrum = buildSpectrum("22404B")
-
 export const root = style({
   width: "40ch",
+  border: "1px solid",
+
+  // TODO: how to remove @typescript-eslint/no-magic-numbers, @typescript-eslint/no-unsafe-member-access
+  // eslint-disable-next-line @typescript-eslint/no-magic-numbers, @typescript-eslint/no-unsafe-member-access
+  background: `radial-gradient(at right bottom, ${goldShades[3]}, white)`,
+  borderColor: "white",
+  padding: "2rem",
   borderRadius: "0.5rem",
 
+  // TODO: how to remove @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access
   color: violetShades[4],
   position: "relative",
 
