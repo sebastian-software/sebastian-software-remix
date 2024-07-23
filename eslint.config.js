@@ -1,6 +1,12 @@
 import { main } from "@effective/eslint-config"
 
 export default [
+  {
+    ignores: [
+      ".*/**/*",
+      "build/**/*"
+    ],
+  },
   main,
   {
     files: ["**/*.css.ts"],
