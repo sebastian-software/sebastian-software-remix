@@ -1,4 +1,4 @@
-/* eslint-disable unicorn/no-abusive-eslint-disable */
+/* tslint:disable */
 /* eslint-disable */
 import "sst"
 declare module "sst" {
