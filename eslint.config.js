@@ -2,10 +2,7 @@ import { main } from "@effective/eslint-config"
 
 export default [
   {
-    ignores: [
-      ".*/**/*",
-      "build/**/*"
-    ],
+    ignores: [".*/**/*", "build/**/*"]
   },
   main,
   {
