@@ -15,11 +15,11 @@ export default $config({
           // You need aws_access_key_id and aws_secret_access_key of an account that
           // can write to the stack.
           // We currently ignore stage and always use PROD profile.
-          profile: "sebastiansoftwarede",
+          profile: "sebastiansoftwarede"
         },
-        cloudflare: true,
-      },
-    };
+        cloudflare: true
+      }
+    }
   },
   async run() {
     new sst.aws.Remix("Website", {
@@ -27,9 +27,9 @@ export default $config({
         name: "next.sebastian-software.de",
         // redirects: ["www.domain.com"],
         dns: sst.cloudflare.dns({
-          zone: "1849459b28dd975658208ee4ffdb2257",
+          zone: "1849459b28dd975658208ee4ffdb2257"
         })
-      },
-    });
-  },
-});
+      }
+    })
+  }
+})

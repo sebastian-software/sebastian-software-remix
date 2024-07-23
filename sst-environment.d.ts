@@ -9,4 +9,4 @@ declare module "sst" {
     }
   }
 }
-export { }
+export {}
