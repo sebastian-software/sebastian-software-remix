@@ -1,4 +1,4 @@
-name: GitHub Actions Prod Deployment
+name: GitHub Actions Test
 on:
   - push
 
