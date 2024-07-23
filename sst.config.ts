@@ -15,7 +15,7 @@ export default $config({
           // You need aws_access_key_id and aws_secret_access_key of an account that
           // can write to the stack.
           // We currently ignore stage and always use PROD profile.
-          // profile: "sebastiansoftwarede"
+          profile: process.env.CI ? undefined : "sebastiansoftwarede"
         },
         cloudflare: true
       }
