@@ -20,4 +20,4 @@ jobs:
           node-version: 20
       - run: corepack enable
       - run: pnpm i
-      - run: pnpm deploy:prod
+      - run: pnpm deploy:prod --verbose
