@@ -7,10 +7,9 @@ import tsconfigPaths from "vite-tsconfig-paths"
 
 installGlobals()
 
+// SST is 1 if SST is used for deployment
+const presets = process.env.SST === "1" ? [] : [vercelPreset()]
+
 export default defineConfig({
-  plugins: [
-    remix({ presets: [vercelPreset()] }),
-    tsconfigPaths(),
-    vanillaExtractPlugin()
-  ]
+  plugins: [remix({ presets }), tsconfigPaths(), vanillaExtractPlugin()]
 })

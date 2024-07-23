@@ -1,0 +1,17 @@
+name: GitHub Actions Test
+on:
+  - push
+
+jobs:
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: corepack enable
+      - run: pnpm i
+      - run: pnpm sst install
+      - run: pnpm test
+      - run: pnpm build

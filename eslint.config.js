@@ -1,6 +1,9 @@
 import { main } from "@effective/eslint-config"
 
 export default [
+  {
+    ignores: [".*/**/*", "build/**/*", "sst-env.d.ts"]
+  },
   main,
   {
     files: ["**/*.css.ts"],

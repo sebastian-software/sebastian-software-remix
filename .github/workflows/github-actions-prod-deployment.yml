@@ -1,0 +1,23 @@
+name: GitHub Actions Prod Deployment
+on:
+  push:
+    branches:
+      - main
+      - sst
+
+jobs:
+  DeployToProd:
+    runs-on: ubuntu-latest
+    env: # Defined in the repository settings on github.com
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      CLOUDFLARE_DEFAULT_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_DEFAULT_ACCOUNT_ID }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: corepack enable
+      - run: pnpm i
+      - run: pnpm deploy:prod
