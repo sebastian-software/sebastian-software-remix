@@ -2,7 +2,7 @@ import { main } from "@effective/eslint-config"
 
 export default [
   {
-    ignores: [".*/**/*", "build/**/*"]
+    ignores: [".*/**/*", "build/**/*", "sst-env.d.ts"]
   },
   main,
   {
