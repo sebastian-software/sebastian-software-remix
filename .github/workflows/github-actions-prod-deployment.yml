@@ -2,7 +2,7 @@ name: GitHub Actions Prod Deployment
 on:
   push:
     branches:
-      - sst
+      - main
 
 jobs:
   DeployToProd:
