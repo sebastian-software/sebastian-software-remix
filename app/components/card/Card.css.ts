@@ -8,15 +8,15 @@ export const root = style({
   width: "40ch",
   border: "1px solid",
 
-  // TODO: how to remove @typescript-eslint/no-magic-numbers, @typescript-eslint/no-unsafe-member-access
-  // eslint-disable-next-line @typescript-eslint/no-magic-numbers, @typescript-eslint/no-unsafe-member-access
+  // TODO: how to remove no-unsafe-assignment
+  // eslint-disable-next-line @typescript-eslint/no-magic-numbers
   background: `radial-gradient(at right bottom, ${goldShades[3]}, white)`,
   borderColor: "white",
   padding: "2rem",
   borderRadius: "0.5rem",
 
   // TODO: how to remove @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-magic-numbers
   color: violetShades[4],
   position: "relative",
 

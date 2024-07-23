@@ -3,7 +3,9 @@ import type { PropsWithChildren } from "react"
 import { contentClass, rootClass } from "./Banner.css"
 
 export interface BannerProps extends PropsWithChildren {
-  // readonly title: string
+  // TODO: how to remove react/no-unused-prop-types
+  // eslint-disable-next-line react/no-unused-prop-types
+  readonly title: string
 }
 
 export function Banner({ children }: BannerProps) {
