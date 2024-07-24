@@ -19,6 +19,11 @@ export function Header() {
       <nav className={navigation}>
         <ul className={navigationList}>
           <li>
+            <a className={navigationItem} href="/blog">
+              Blog
+            </a>
+          </li>
+          <li>
             <a className={navigationItem} href="/mission">
               Mission
             </a>

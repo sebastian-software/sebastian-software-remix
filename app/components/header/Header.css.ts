@@ -2,16 +2,14 @@ import { buildSpectrum } from "@effective/color"
 import { dropShadow } from "@effective/shadow"
 import { style } from "@vanilla-extract/css"
 
+import { variables } from "~/theme.css"
+
 const darkViolet = buildSpectrum("3F2B3D")
 
 export const root = style({
   // background: `linear-gradient(to bottom, ${vivaMagenta["0"]}, ${vivaMagenta["-2"]} )`,
-  // TODO: how to remove no-unsafe-assignment
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-  background: darkViolet["-2"],
-  // TODO: how to remove no-unsafe-assignment
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-  color: darkViolet["+5"],
+  background: variables.color.darkViolet,
+  color: variables.color.lightViolet,
   display: "flex",
   flexDirection: "row",
   gap: "4rem",
@@ -19,13 +17,7 @@ export const root = style({
   paddingBlock: "1rem",
   paddingInline: "2rem",
   borderBottom: "1px solid",
-
-  // TODO: how to remove no-unsafe-assignment
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-  borderColor: darkViolet["+5"],
-
-  // TODO: how to remove no-unsafe-assignment
-  // eslint-disable-next-line @typescript-eslint/no-magic-numbers
+  borderColor: variables.color.lightViolet,
   filter: dropShadow[5],
   zIndex: 1000,
   marginBottom: "0rem"
