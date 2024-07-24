@@ -1,33 +1,32 @@
-import { buildSpectrum } from "@effective/color"
 import { dropShadow } from "@effective/shadow"
 import { globalStyle, style } from "@vanilla-extract/css"
 
-import { elenaWebfont } from "../fonts/elena/Elena.css"
-import bannerImage from "./assets/566ak-gen1.jpg"
+import { variables } from "~/theme.css"
 
-const darkViolet = buildSpectrum("3F2B3D")
+import { elenaWebfont } from "../fonts/elena/Elena.css"
 
 export const rootClass = style({
-  backgroundImage: `linear-gradient(to bottom, transparent, transparent 50%, ${darkViolet["-2"]} 95%), url(${bannerImage})`,
-  backgroundPosition: "top, center",
-  backgroundSize: "auto, auto 35vw",
-  backgroundRepeat: "repeat, no-repeat",
-  color: "white",
-  height: "35vw",
-
-  // TODO: how to remove @typescript-eslint/no-magic-numbers
-  // eslint-disable-next-line @typescript-eslint/no-magic-numbers
+  backgroundColor: variables.color.darkViolet,
+  position: "relative",
   filter: dropShadow[3]
 })
 
+export const imageClass = style({
+  width: "100%"
+})
+
 export const contentClass = style({
+  position: "absolute",
+  bottom: 0,
+  paddingBlock: "4vw",
+  paddingInline: "4vw",
+  color: "white",
   fontFamily: elenaWebfont,
-  fontSize: "3vw",
+  fontSize: "max(3vw, 1.25rem)",
+  fontWeight: 200,
   lineHeight: "1.2",
   textWrap: "balance",
-  maxWidth: "50ch",
-  marginInline: "auto",
-  paddingTop: "23vw"
+  backgroundImage: `linear-gradient(to bottom, transparent, ${variables.color.darkViolet} 95%)`
 })
 
 globalStyle(`${contentClass} em`, {
