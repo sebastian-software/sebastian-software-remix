@@ -78,10 +78,6 @@ export default function Index() {
           </CardFooter>
         </Card>
       </CardContainer>
-
-      <br />
-      <br />
-      <br />
     </>
   )
 }
