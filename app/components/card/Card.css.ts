@@ -17,7 +17,7 @@ export const root = style({
   selectors: {
     "&:not(:first-child)::before": {
       content: " ",
-      background: variables.color.gold,
+      background: variables.color.white,
       position: "absolute",
       top: "0",
       left: "-4vw",

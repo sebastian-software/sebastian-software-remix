@@ -15,6 +15,7 @@ const lightGold = goldShades[4]
 
 export const [themeClass, variables] = createTheme({
   color: {
+    white,
     violet,
     darkViolet,
     lightViolet,
