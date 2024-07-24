@@ -7,7 +7,6 @@ import { variables } from "~/theme.css"
 const darkViolet = buildSpectrum("3F2B3D")
 
 export const root = style({
-  // background: `linear-gradient(to bottom, ${vivaMagenta["0"]}, ${vivaMagenta["-2"]} )`,
   background: variables.color.darkViolet,
   color: variables.color.lightViolet,
   display: "flex",
@@ -19,8 +18,7 @@ export const root = style({
   borderBottom: "1px solid",
   borderColor: variables.color.lightViolet,
   filter: dropShadow[5],
-  zIndex: 1000,
-  marginBottom: "0rem"
+  zIndex: 1000
 })
 
 export const logoLink = style({
