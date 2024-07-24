@@ -65,6 +65,10 @@ export const companies = {
   zynga
 }
 
+export function hasLogo(name: string): name is Company {
+  return Object.hasOwn(companies, name)
+}
+
 export type Company = keyof typeof companies
 
 export interface CompanyLogoProps {
