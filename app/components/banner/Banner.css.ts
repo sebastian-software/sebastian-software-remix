@@ -11,9 +11,7 @@ export const rootClass = style({
   filter: dropShadow[3]
 })
 
-export const imageClass = style({
-  width: "100%"
-})
+export const imageClass = style({})
 
 export const contentClass = style({
   position: "absolute",

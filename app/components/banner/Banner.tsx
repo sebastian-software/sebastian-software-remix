@@ -15,10 +15,10 @@ export function Banner({ children }: BannerProps) {
   return (
     <div className={rootClass}>
       <div className={contentClass}>{children}</div>
-      <picture className={imageClass}>
-        <source srcSet={bannerImageOrig} media="(min-width: 1500px)" />
+      <picture>
+        <source srcSet={bannerImageOrig} media="(min-width: 1000px)" />
         <source srcSet={bannerImageNarrow} media="(min-width: 500px)" />
-        <img src={bannerImagePortrait} alt="Banner" />
+        <img src={bannerImagePortrait} alt="Banner" className={imageClass} />
       </picture>
     </div>
   )
