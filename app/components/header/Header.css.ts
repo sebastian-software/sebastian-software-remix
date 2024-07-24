@@ -1,10 +1,7 @@
-import { buildSpectrum } from "@effective/color"
 import { dropShadow } from "@effective/shadow"
 import { style } from "@vanilla-extract/css"
 
 import { variables } from "~/theme.css"
-
-const darkViolet = buildSpectrum("3F2B3D")
 
 export const root = style({
   background: variables.color.darkViolet,
@@ -13,7 +10,7 @@ export const root = style({
   flexDirection: "row",
   gap: "4rem",
   alignItems: "center",
-  paddingBlock: "1rem",
+  paddingBlock: "1.5rem",
   paddingInline: "4vw",
   borderBottom: "1px solid",
   borderColor: variables.color.lightViolet,
@@ -26,7 +23,7 @@ export const logoLink = style({
 })
 
 export const logo = style({
-  height: "4rem"
+  height: "3rem"
 })
 
 export const spacer = style({
