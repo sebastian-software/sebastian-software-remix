@@ -1,5 +1,5 @@
 import { dropShadow } from "@effective/shadow"
-import { globalStyle, style } from "@vanilla-extract/css"
+import { style } from "@vanilla-extract/css"
 
 import { variables } from "~/theme.css"
 
@@ -27,11 +27,4 @@ export const contentClass = style({
   lineHeight: "1.2",
   textWrap: "balance",
   backgroundImage: `linear-gradient(to bottom, transparent, ${variables.color.darkViolet} 95%)`
-})
-
-globalStyle(`${contentClass} em`, {
-  color: "#C50044",
-  textDecoration: "underline",
-  textDecorationStyle: "dotted",
-  textUnderlineOffset: "0.2em"
 })

@@ -14,7 +14,7 @@ export const root = style({
   gap: "4rem",
   alignItems: "center",
   paddingBlock: "1rem",
-  paddingInline: "2rem",
+  paddingInline: "4vw",
   borderBottom: "1px solid",
   borderColor: variables.color.lightViolet,
   filter: dropShadow[5],
