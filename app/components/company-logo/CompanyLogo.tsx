@@ -20,7 +20,6 @@ import jakoo from "./assets/jakoo.svg"
 import magix from "./assets/magix.svg"
 import morgenfund from "./assets/morgenfund.svg"
 import netzeBw from "./assets/netze-bw.svg"
-import parisozial from "./assets/parisozial.svg"
 import rioBlack from "./assets/rio-black.svg"
 import sbb from "./assets/sbb.svg"
 import schlundPartner from "./assets/schlund-partner.svg"
@@ -54,7 +53,6 @@ export const companies = {
   magix,
   morgenfund,
   netzeBw,
-  parisozial,
   rio: rioBlack,
   sbb,
   schlundPartner,
