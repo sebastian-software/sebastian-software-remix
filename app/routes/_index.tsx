@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/node"
+import { useLoaderData } from "@remix-run/react"
 
 import { Banner } from "~/components/banner/Banner"
 import { Button } from "~/components/button/Button"
@@ -9,6 +10,7 @@ import {
   CardFooter,
   CardTitle
 } from "~/components/card/Card"
+import { CustomersList } from "~/components/customers/CustomersList"
 
 export const meta: MetaFunction = () => [
   { title: "Sebastian Software" },
@@ -19,7 +21,31 @@ export const meta: MetaFunction = () => [
   }
 ]
 
+export async function loader() {
+  const customers = []
+
+  const sources = Promise.all([
+    import("../data/fastner.json"),
+    import("../data/werner.json")
+  ])
+
+  const customerNames = new Set()
+  for (const source of await sources) {
+    for (const project of source.projects) {
+      if (!customerNames.has(project.customer.logo)) {
+        customers.push(project.customer)
+      }
+
+      customerNames.add(project.customer.logo)
+    }
+  }
+
+  return { customers }
+}
+
 export default function Index() {
+  const { customers } = useLoaderData()
+
   return (
     <>
       <Banner title="Sebastian Software">
@@ -78,6 +104,8 @@ export default function Index() {
           </CardFooter>
         </Card>
       </CardContainer>
+
+      <CustomersList data={customers} />
     </>
   )
 }
