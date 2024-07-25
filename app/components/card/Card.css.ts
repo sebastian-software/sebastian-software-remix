@@ -9,7 +9,13 @@ export const container = style({
   display: "flex",
   gap: "8vw",
   paddingBlock: "4rem",
-  paddingInline: "4vw"
+  paddingInline: "4vw",
+
+  "@media": {
+    "(max-width: 800px)": {
+      flexDirection: "column"
+    }
+  }
 })
 
 export const root = style({
