@@ -10,22 +10,26 @@ export const rootClass = style({
 
 export const titleClass = style({
   fontFamily: elenaWebfont,
-  fontSize: "2rem"
+  fontSize: "2rem",
+  color: "white"
 })
 
 export const logoClass = style({
-  maxWidth: "10rem",
-  height: "4rem"
+  width: "100%",
+  maxHeight: "4rem"
 })
 
 export const listClass = style({
-  display: "flex",
-  flexWrap: "wrap",
+  display: "grid",
+  gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))",
   gap: "4rem",
   alignItems: "center"
 })
 
 export const itemClass = style({
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
   listStyle: "none",
   flexShrink: 0
 })

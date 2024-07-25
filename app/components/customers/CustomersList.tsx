@@ -11,7 +11,7 @@ import {
 export function CustomersList({ data }) {
   return (
     <div className={rootClass}>
-      <h1 className={titleClass}>Kunden</h1>
+      <h1 className={titleClass}>Unsere Kunden</h1>
       <ul className={listClass}>
         {data.map(
           (customer) =>
