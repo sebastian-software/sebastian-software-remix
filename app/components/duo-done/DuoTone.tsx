@@ -31,9 +31,9 @@ export function DuoTone({
           <feColorMatrix
             type="matrix"
             values="0.3333 0.3333 0.3333 0 0
-                   0.3333 0.3333 0.3333 0 0
-                   0.3333 0.3333 0.3333 0 0
-                   0      0      0      1 0"
+                    0.3333 0.3333 0.3333 0 0
+                    0.3333 0.3333 0.3333 0 0
+                    0      0      0      1 0"
           />
 
           {/* Adjust brightness and contrast */}
