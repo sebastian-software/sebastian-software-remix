@@ -31,7 +31,7 @@ export function ContentEffect({
   return (
     <div className="duotone">
       <svg style={{ display: "none" }}>
-        <filter id={`color-${filterId}`}>
+        <filter id={`color-${filterId}`} colorInterpolationFilters="sRGB">
           {/* Convert to grayscale */}
           <feColorMatrix
             type="matrix"
