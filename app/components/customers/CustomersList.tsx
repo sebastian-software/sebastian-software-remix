@@ -1,3 +1,5 @@
+import { buildShades } from "@effective/color"
+
 import { CompanyLogo, hasLogo } from "../company-logo/CompanyLogo"
 import { DuoTone } from "../duo-done/DuoTone"
 import {
@@ -7,6 +9,10 @@ import {
   rootClass,
   titleClass
 } from "./CustomersList.css"
+
+const violetShades = buildShades("#FFFFFF", "#3F2B3D", {
+  colorSteps: 20
+})
 
 export function CustomersList({ data }) {
   console.log("Customers:", data)
@@ -19,7 +25,7 @@ export function CustomersList({ data }) {
           (customer) =>
             hasLogo(customer.logo) && (
               <li key={customer.name} className={itemClass}>
-                <DuoTone color1="#020102" color2="#675665">
+                <DuoTone useInvert useBoost duoEnd="#ded9dd" duoStart="#857784">
                   <CompanyLogo
                     name={customer.logo}
                     alt={customer.name}
