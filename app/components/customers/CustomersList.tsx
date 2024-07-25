@@ -1,7 +1,7 @@
 import { buildShades } from "@effective/color"
 
 import { CompanyLogo, hasLogo } from "../company-logo/CompanyLogo"
-import { DuoTone } from "../duo-done/DuoTone"
+import { ContentEffect } from "../duo-done/DuoTone"
 import {
   itemClass,
   listClass,
@@ -25,13 +25,13 @@ export function CustomersList({ data }) {
           (customer) =>
             hasLogo(customer.logo) && (
               <li key={customer.name} className={itemClass}>
-                <DuoTone useInvert useBoost duoEnd="#ded9dd" duoStart="#857784">
+                <ContentEffect invert boost end="#ded9dd" start="#857784">
                   <CompanyLogo
                     name={customer.logo}
                     alt={customer.name}
                     className={logoClass}
                   />
-                </DuoTone>
+                </ContentEffect>
               </li>
             )
         )}

@@ -8,25 +8,25 @@ const hexToRgb = (hex: string) => {
   }
 }
 
-export interface DuotoneFilterProps extends PropsWithChildren {
-  readonly duoStart: string
-  readonly duoEnd: string
-  readonly useInvert: boolean
-  readonly useBoost: boolean
+export interface ContentEffectProps extends PropsWithChildren {
+  readonly start?: string
+  readonly end?: string
+  readonly invert?: boolean
+  readonly boost?: boolean
 }
 
-export function DuoTone({
-  duoStart,
-  duoEnd,
-  useInvert,
-  useBoost,
+export function ContentEffect({
+  start,
+  end,
+  invert = false,
+  boost = false,
   children
-}: DuotoneFilterProps) {
+}: ContentEffectProps) {
   const filterId = useId()
-  const duoStartFields = duoStart && hexToRgb(duoStart)
-  const duoEndFields = duoEnd && hexToRgb(duoEnd)
+  const duoStartFields = start && hexToRgb(start)
+  const duoEndFields = end && hexToRgb(end)
 
-  const applyDuotone = duoStart && duoEnd
+  const applyDuotone = start && end
 
   return (
     <div className="duotone">
@@ -42,7 +42,7 @@ export function DuoTone({
           />
 
           {/* Adjust brightness and contrast */}
-          {useBoost && (
+          {boost && (
             <feComponentTransfer>
               <feFuncR type="linear" slope="1.5" intercept="-0.5" />
               <feFuncG type="linear" slope="1.5" intercept="-0.5" />
@@ -51,7 +51,7 @@ export function DuoTone({
           )}
 
           {/* Invert all colors */}
-          {useInvert && (
+          {invert && (
             <feComponentTransfer>
               <feFuncR type="table" tableValues="1 0" />
               <feFuncG type="table" tableValues="1 0" />
@@ -67,7 +67,7 @@ export function DuoTone({
           )}
 
           {/* Map grayscale values to duotone colors */}
-          {applyDuotone && (
+          {duoStartFields && duoEndFields && (
             <feComponentTransfer>
               <feFuncR
                 type="table"
