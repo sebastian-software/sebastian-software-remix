@@ -13,67 +13,6 @@ export interface DuotoneFilterProps extends PropsWithChildren {
   readonly color2: string
 }
 
-const createTransferTable = (startColor, endColor) => {
-  const [sr, sg, sb] = hexToRgb(startColor)
-  const [er, eg, eb] = hexToRgb(endColor)
-
-  // Create a table for feComponentTransfer
-  const createTableValues = (start, end) => {
-    const values = []
-    for (let index = 0; index <= 1; index += 0.1) {
-      const value = start + index * (end - start)
-      values.push(value / 255)
-    }
-
-    return values.join(" ")
-  }
-
-  return {
-    rTable: createTableValues(sr, er),
-    gTable: createTableValues(sg, eg),
-    bTable: createTableValues(sb, eb)
-  }
-}
-
-const createDuotoneMatrix = (color1, color2) => {
-  const [r1, g1, b1] = hexToRgb(color1)
-  const [r2, g2, b2] = hexToRgb(color2)
-
-  // Normalize RGB values to [0, 1] range
-  const nr1 = r1 / 255
-  const ng1 = g1 / 255
-  const nb1 = b1 / 255
-  const nr2 = r2 / 255
-  const ng2 = g2 / 255
-  const nb2 = b2 / 255
-
-  // Create a color matrix to transform the grayscale image to duotone
-  const matrix = [
-    nr1 - nr2,
-    nr1 - nr2,
-    nr1 - nr2,
-    0,
-    nr2,
-    ng1 - ng2,
-    ng1 - ng2,
-    ng1 - ng2,
-    0,
-    ng2,
-    nb1 - nb2,
-    nb1 - nb2,
-    nb1 - nb2,
-    0,
-    nb2,
-    0,
-    0,
-    0,
-    1,
-    0
-  ].join(" ")
-
-  return matrix
-}
-
 export function DuoTone({
   color1 = "#ff0000",
   color2 = "#0000ff",
