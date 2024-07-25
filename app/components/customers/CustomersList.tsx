@@ -1,5 +1,5 @@
 import { CompanyLogo, hasLogo } from "../company-logo/CompanyLogo"
-import { GrayscaleTint } from "../duo-done/DuoTone"
+import { DuoTone } from "../duo-done/DuoTone"
 import {
   itemClass,
   listClass,
@@ -19,13 +19,13 @@ export function CustomersList({ data }) {
           (customer) =>
             hasLogo(customer.logo) && (
               <li key={customer.name} className={itemClass}>
-                <GrayscaleTint tintColor="#ff0000">
+                <DuoTone color1="#020102" color2="#675665">
                   <CompanyLogo
                     name={customer.logo}
                     alt={customer.name}
                     className={logoClass}
                   />
-                </GrayscaleTint>
+                </DuoTone>
               </li>
             )
         )}

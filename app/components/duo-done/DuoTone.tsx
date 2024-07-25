@@ -87,31 +87,43 @@ export function DuoTone({
   return (
     <div className="duotone">
       <svg style={{ display: "none" }}>
-        <filter id={`duotone-${filterId}`}>
+        <filter id={`black-to-white-${filterId}`}>
+          {/* Convert to grayscale */}
           <feColorMatrix
             type="matrix"
-            values="0.3 0.3 0.3 0 0 0.3 0.3 0.3 0 0 0.3 0.3 0.3 0 0 0 0 0 1 0"
+            values="0.3333 0.3333 0.3333 0 0
+                   0.3333 0.3333 0.3333 0 0
+                   0.3333 0.3333 0.3333 0 0
+                   0      0      0      1 0"
           />
-          <feComponentTransfer colorInterpolationFilters="sRGB">
-            <feFuncR
-              type="linear"
-              slope={(r2 - r1) / rgbMax}
-              intercept={r1 / rgbMax}
-            />
-            <feFuncG
-              type="linear"
-              slope={(g2 - g1) / rgbMax}
-              intercept={g1 / rgbMax}
-            />
-            <feFuncB
-              type="linear"
-              slope={(b2 - b1) / rgbMax}
-              intercept={b1 / rgbMax}
-            />
+
+          {/* Adjust brightness and contrast */}
+          <feComponentTransfer>
+            <feFuncR type="linear" slope="1.3" intercept="-0.5" />
+            <feFuncG type="linear" slope="1.3" intercept="-0.5" />
+            <feFuncB type="linear" slope="1.3" intercept="-0.5" />
+          </feComponentTransfer>
+
+          {/* Invert all colors */}
+          <feComponentTransfer>
+            <feFuncR type="table" tableValues="1 0" />
+            <feFuncG type="table" tableValues="1 0" />
+            <feFuncB type="table" tableValues="1 0" />
+          </feComponentTransfer>
+
+          {/* Set the alpha (transparency) value */}
+          <feComponentTransfer>
+            <feFuncA type="linear" slope="0.5" intercept="0" />
           </feComponentTransfer>
         </filter>
       </svg>
-      <div style={{ filter: `url(#duotone-${filterId})` }}>{children}</div>
+      <div
+        style={{
+          filter: ` url(#black-to-white-${filterId})`
+        }}
+      >
+        {children}
+      </div>
     </div>
   )
 }
