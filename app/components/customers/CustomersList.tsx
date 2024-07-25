@@ -1,5 +1,3 @@
-import { buildShades } from "@effective/color"
-
 import { CompanyLogo, hasLogo } from "../company-logo/CompanyLogo"
 import { ContentEffect } from "../duo-done/DuoTone"
 import {
@@ -9,10 +7,6 @@ import {
   rootClass,
   titleClass
 } from "./CustomersList.css"
-
-const violetShades = buildShades("#FFFFFF", "#3F2B3D", {
-  colorSteps: 20
-})
 
 export function CustomersList({ data }) {
   return (
