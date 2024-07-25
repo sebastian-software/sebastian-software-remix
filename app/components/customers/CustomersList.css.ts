@@ -3,7 +3,7 @@ import { style } from "@vanilla-extract/css"
 import { elenaWebfont } from "../fonts/elena/Elena.css"
 
 export const rootClass = style({
-  background: "#3F2B3D",
+  background: "#2A1B28",
   paddingBlock: "6rem",
   paddingInline: "4vw"
 })
