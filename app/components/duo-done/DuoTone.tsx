@@ -1,11 +1,11 @@
 import { type PropsWithChildren, useId } from "react"
 
-const hexToRgb = (hex) => {
-  const bigint = Number.parseInt(hex.slice(1), 16)
-  const r = (bigint >> 16) & 255
-  const g = (bigint >> 8) & 255
-  const b = bigint & 255
-  return [r, g, b]
+const hexToRgb = (hex: string) => {
+  return {
+    r: Number.parseInt(hex.slice(1, 3), 16) / 255,
+    g: Number.parseInt(hex.slice(3, 5), 16) / 255,
+    b: Number.parseInt(hex.slice(5, 7), 16) / 255
+  }
 }
 
 export interface DuotoneFilterProps extends PropsWithChildren {
@@ -19,9 +19,8 @@ export function DuoTone({
   children
 }: DuotoneFilterProps) {
   const filterId = useId()
-  const [r1, g1, b1] = hexToRgb(color1)
-  const [r2, g2, b2] = hexToRgb(color2)
-  const rgbMax = 255
+  const col1 = hexToRgb(color1)
+  const col2 = hexToRgb(color2)
 
   return (
     <div className="duotone">
@@ -53,6 +52,13 @@ export function DuoTone({
           {/* Set the alpha (transparency) value */}
           <feComponentTransfer>
             <feFuncA type="linear" slope="0.5" intercept="0" />
+          </feComponentTransfer>
+
+          {/* Map grayscale values to duotone colors */}
+          <feComponentTransfer>
+            <feFuncR type="table" tableValues={`${col1.r} ${col2.r}`} />
+            <feFuncG type="table" tableValues={`${col1.g} ${col2.g}`} />
+            <feFuncB type="table" tableValues={`${col1.b} ${col2.b}`} />
           </feComponentTransfer>
         </filter>
       </svg>
