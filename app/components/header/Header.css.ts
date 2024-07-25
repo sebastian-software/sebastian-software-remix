@@ -15,7 +15,14 @@ export const root = style({
   borderBottom: "1px solid",
   borderColor: variables.color.lightViolet,
   filter: dropShadow[5],
-  zIndex: 1000
+  zIndex: 1000,
+
+  "@media": {
+    "(max-width: 800px)": {
+      flexDirection: "column",
+      gap: "0.75rem"
+    }
+  }
 })
 
 export const logoLink = style({
@@ -36,12 +43,17 @@ export const navigation = style({
 
 export const navigationList = style({
   display: "flex",
-  gap: "1rem",
-  listStyle: "none"
+  gap: "1.5rem",
+  listStyle: "none",
+
+  "@media": {
+    "(max-width: 800px)": {
+      gap: "0.5rem"
+    }
+  }
 })
 
 export const navigationItem = style({
-  padding: "0.5rem",
   borderRadius: "0.5rem",
   textTransform: "uppercase",
   letterSpacing: "0.1em",
