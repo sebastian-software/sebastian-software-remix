@@ -10,7 +10,11 @@ import {
   titleClass
 } from "./CustomersList.css"
 
-export function CustomersList({ data }: { readonly data: Array<ProjectType["customer"]> }) {
+export function CustomersList({
+  data
+}: {
+  readonly data: Array<ProjectType["customer"]>
+}) {
   return (
     <div className={rootClass}>
       <h1 className={titleClass}>Unsere Kunden</h1>
@@ -24,7 +28,8 @@ export function CustomersList({ data }: { readonly data: Array<ProjectType["cust
       <ul className={listClass} style={{ filter: "url(#company-logo-mono)" }}>
         {data.map(
           (customer) =>
-            customer.logo && hasLogo(customer.logo) && (
+            customer.logo &&
+            hasLogo(customer.logo) && (
               <li key={customer.name} className={itemClass}>
                 <CompanyLogo
                   name={customer.logo}
