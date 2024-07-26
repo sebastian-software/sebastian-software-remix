@@ -49,9 +49,9 @@ export function ColorFilter({
         {/* Adjust brightness and contrast */}
         {boost && (
           <feComponentTransfer>
-            <feFuncR type="linear" slope="1.5" intercept="-0.5" />
-            <feFuncG type="linear" slope="1.5" intercept="-0.5" />
-            <feFuncB type="linear" slope="1.5" intercept="-0.5" />
+            <feFuncR type="linear" slope="1.7" intercept="-0.5" />
+            <feFuncG type="linear" slope="1.7" intercept="-0.5" />
+            <feFuncB type="linear" slope="1.7" intercept="-0.5" />
           </feComponentTransfer>
         )}
 
