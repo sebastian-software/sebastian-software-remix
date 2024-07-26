@@ -1,5 +1,5 @@
+import { ColorFilter } from "../color-filter"
 import { CompanyLogo, hasLogo } from "../company-logo/CompanyLogo"
-import { ContentEffect } from "../duo-done/DuoTone"
 import {
   itemClass,
   listClass,
@@ -12,18 +12,23 @@ export function CustomersList({ data }) {
   return (
     <div className={rootClass}>
       <h1 className={titleClass}>Unsere Kunden</h1>
-      <ul className={listClass}>
+      <ColorFilter
+        invert
+        boost
+        name="company-logo-mono"
+        end="#ded9dd"
+        start="#3F2B3D"
+      />
+      <ul className={listClass} style={{ filter: "url(#company-logo-mono)" }}>
         {data.map(
           (customer) =>
             hasLogo(customer.logo) && (
               <li key={customer.name} className={itemClass}>
-                <ContentEffect invert boost end="#ded9dd" start="#3F2B3D">
-                  <CompanyLogo
-                    name={customer.logo}
-                    alt={customer.name}
-                    className={logoClass}
-                  />
-                </ContentEffect>
+                <CompanyLogo
+                  name={customer.logo}
+                  alt={customer.name}
+                  className={logoClass}
+                />
               </li>
             )
         )}
