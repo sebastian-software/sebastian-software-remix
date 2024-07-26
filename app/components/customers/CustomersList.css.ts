@@ -21,7 +21,13 @@ export const titleClass = style({
   textUnderlineOffset: "0.2em",
   textDecorationThickness: "from-font",
   color: "white",
-  marginBottom: "2rem"
+  marginBottom: "2rem",
+
+  "@media": {
+    "(max-width: 800px)": {
+      fontSize: "2rem"
+    }
+  }
 })
 
 export const listClass = style({
