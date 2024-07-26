@@ -56,11 +56,5 @@ export const logoClass = style({
   maxHeight: "3rem",
   width: "100%",
   objectFit: "contain",
-  objectPosition: "center",
-
-  "@media": {
-    "(max-width: 800px)": {
-      maxHeight: "2rem"
-    }
-  }
+  objectPosition: "center"
 })
