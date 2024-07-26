@@ -7,6 +7,8 @@
     "test": "pnpm run --parallel /test:/",
     "test:check-types": "tsc --noEmit",
     "test:lint": "eslint .",
+    "test:json-schema": "pnpm create:json-schema ; pnpx ajv-cli -s ./.tmp/data.schema.json -d 'app/data/*.json'",
+    "create:json-schema": "mkdir -p ./.tmp && pnpx typescript-json-schema app/data/data.types.ts ProjectsType -o ./.tmp/data.schema.json --skipLibCheck --ignoreErrors",
     "fix": "eslint --fix .; prettier --write .",
     "format": "prettier --write .",
     "test:check-format": "prettier --check .",
