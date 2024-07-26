@@ -20,12 +20,12 @@ import jakoo from "./assets/jakoo.svg"
 import magix from "./assets/magix.svg"
 import morgenfund from "./assets/morgenfund.svg"
 import netzeBw from "./assets/netze-bw.svg"
-import rioBlack from "./assets/rio-black.svg"
 import sbb from "./assets/sbb.svg"
 import schlundPartner from "./assets/schlund-partner.svg"
 import studivz from "./assets/studivz.svg"
 import suzuki from "./assets/suzuki.svg"
 import swr from "./assets/swr.svg"
+import traton from "./assets/traton.svg"
 import triplesenseReply from "./assets/triplesense-reply.svg"
 import wittGruppe from "./assets/witt-gruppe.svg"
 import wittWeiden from "./assets/witt-weiden.svg"
@@ -53,12 +53,12 @@ export const companies = {
   magix,
   morgenfund,
   netzeBw,
-  rio: rioBlack,
   sbb,
   schlundPartner,
   studivz,
   suzuki,
   swr,
+  traton,
   triplesenseReply,
   wittGruppe,
   wittWeiden,
