@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-magic-numbers */
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+// TODO: Remove eslint-disable stuff
 import { buildShades, buildSpectrum } from "@effective/color"
 import { createTheme } from "@vanilla-extract/css"
 
@@ -6,12 +9,12 @@ const gold = "#C89F6B"
 const white = "#FFFFFF"
 
 const violetSpectrum = buildSpectrum(violet)
-const darkViolet = violetSpectrum["-2"]
-const lightViolet = violetSpectrum["+5"]
+const darkViolet = violetSpectrum["-2"] as string
+const lightViolet = violetSpectrum["+5"] as string
 
 const goldShades = buildShades(white, gold)
-const veryLightGold = goldShades[1]
-const lightGold = goldShades[4]
+const veryLightGold = goldShades[1] as string
+const lightGold = goldShades[4] as string
 
 export const [themeClass, variables] = createTheme({
   color: {
