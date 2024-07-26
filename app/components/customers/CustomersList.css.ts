@@ -33,13 +33,13 @@ export const titleClass = style({
 export const listClass = style({
   display: "grid",
   gridTemplateColumns: "repeat(auto-fit, minmax(10rem, 1fr))",
-  gap: "4rem",
+  gap: "4rem 6rem",
   alignItems: "center",
 
   "@media": {
     "(max-width: 800px)": {
       gridTemplateColumns: "repeat(auto-fit, minmax(7rem, 1fr))",
-      gap: "2rem"
+      gap: "2rem 3rem"
     }
   }
 })
