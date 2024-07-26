@@ -16,20 +16,12 @@ export const rootClass = style({
 
 export const titleClass = style({
   fontFamily: elenaWebfont,
-  fontSize: "2rem",
+  fontSize: "4rem",
+  textDecoration: "underline",
+  textUnderlineOffset: "0.2em",
+  textDecorationThickness: "from-font",
   color: "white",
   marginBottom: "2rem"
-})
-
-export const logoClass = style({
-  width: "100%",
-  maxHeight: "4rem",
-
-  "@media": {
-    "(max-width: 800px)": {
-      maxHeight: "2rem"
-    }
-  }
 })
 
 export const listClass = style({
@@ -52,4 +44,17 @@ export const itemClass = style({
   alignItems: "center",
   listStyle: "none",
   flexShrink: 0
+})
+
+export const logoClass = style({
+  maxHeight: "4rem",
+  width: "100%",
+  objectFit: "contain",
+  objectPosition: "center",
+
+  "@media": {
+    "(max-width: 800px)": {
+      maxHeight: "2rem"
+    }
+  }
 })
