@@ -39,7 +39,7 @@ export const listClass = style({
   "@media": {
     "(max-width: 800px)": {
       gridTemplateColumns: "repeat(auto-fit, minmax(7rem, 1fr))",
-      gap: "2rem 3rem"
+      gap: "3rem 4rem"
     }
   }
 })
