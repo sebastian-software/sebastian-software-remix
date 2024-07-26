@@ -74,14 +74,15 @@ export type Company = keyof typeof companies
 export interface CompanyLogoProps {
   readonly name: Company
   readonly className?: string
+  readonly alt?: string
 }
 
-export function CompanyLogo({ name, className }: CompanyLogoProps) {
+export function CompanyLogo({ name, className, alt }: CompanyLogoProps) {
   return (
     <img
       className={clsx(root, className)}
       src={name in companies ? companies[name] : "https://placehold.co/250x100"}
-      alt={name}
+      alt={alt ?? name}
     />
   )
 }

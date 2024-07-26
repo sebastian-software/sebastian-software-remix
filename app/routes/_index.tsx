@@ -11,6 +11,7 @@ import {
   CardTitle
 } from "~/components/card/Card"
 import { CustomersList } from "~/components/customers/CustomersList"
+import type { ProjectType } from "~/data/data.types"
 
 export const meta: MetaFunction = () => [
   { title: "Sebastian Software" },
@@ -21,7 +22,11 @@ export const meta: MetaFunction = () => [
   }
 ]
 
-export async function loader() {
+interface LoaderReturnType {
+  customers: Array<ProjectType["customer"]>
+}
+
+export async function loader(): Promise<LoaderReturnType> {
   const customers = []
 
   const sources = Promise.all([
@@ -44,11 +49,11 @@ export async function loader() {
 }
 
 export default function Index() {
-  const { customers } = useLoaderData()
+  const { customers } = useLoaderData<typeof loader>()
 
   return (
     <>
-      <Banner title="Sebastian Software">
+      <Banner>
         Fundiertes technisches Know-How trifft auf Leidenschaft für Innovation
         und herausragende User-Experience.
       </Banner>

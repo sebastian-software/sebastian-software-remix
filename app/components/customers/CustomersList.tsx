@@ -1,3 +1,5 @@
+import type { ProjectType } from "~/data/data.types"
+
 import { ColorFilter } from "../color-filter"
 import { CompanyLogo, hasLogo } from "../company-logo/CompanyLogo"
 import {
@@ -8,7 +10,7 @@ import {
   titleClass
 } from "./CustomersList.css"
 
-export function CustomersList({ data }) {
+export function CustomersList({ data }: { readonly data: Array<ProjectType["customer"]> }) {
   return (
     <div className={rootClass}>
       <h1 className={titleClass}>Unsere Kunden</h1>
@@ -22,7 +24,7 @@ export function CustomersList({ data }) {
       <ul className={listClass} style={{ filter: "url(#company-logo-mono)" }}>
         {data.map(
           (customer) =>
-            hasLogo(customer.logo) && (
+            customer.logo && hasLogo(customer.logo) && (
               <li key={customer.name} className={itemClass}>
                 <CompanyLogo
                   name={customer.logo}
