@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-magic-numbers */
+// TODO: Remove eslint-disable
 import { dropShadow } from "@effective/shadow"
 import { style } from "@vanilla-extract/css"
 
