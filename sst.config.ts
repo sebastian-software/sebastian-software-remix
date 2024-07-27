@@ -24,8 +24,8 @@ export default $config({
   async run() {
     new sst.aws.Remix("Website", {
       domain: {
-        name: "next.sebastian-software.de",
-        // redirects: ["www.domain.com"],
+        name: "sebastian-software.de",
+        redirects: ["www.sebastian-software.de"],
         dns: sst.cloudflare.dns({
           zone: "1849459b28dd975658208ee4ffdb2257"
         })
