@@ -16,7 +16,37 @@
       "description": [
         "Analyse der bestehenden Technologie und Architektur, um Verbesserungsvorschläge zu erarbeiten und umzusetzen."
       ],
-      "technologies": [],
+      "technologies": [
+        "Apollo Client",
+        "Date-FNS",
+        "DayJS",
+        "Next.js",
+        "Next Intl",
+        "React",
+        "React Query",
+        "SWR",
+        "Tailwind",
+        "Web Components",
+
+        "Lit",
+        "GraphQL",
+        "TypeScript",
+        "Prettier",
+        "ESLint",
+        "Storybook",
+        "Commitlint",
+        "TurboRepo",
+        "PNPM",
+        "Mono Repository",
+        "Vite",
+        "Husky",
+        "Lint Staged",
+        "Sass",
+        "PostCSS",
+        "Jest",
+        "Testing Library",
+        "Sonarcube"
+      ],
       "testimonials": []
     },
     {
@@ -39,22 +69,30 @@
         "Ein wesentlicher Bestandteil meiner Arbeit war auch das Einrichten und Pflegen der Entwicklungsinfrastruktur, wobei ich mich für innovative Lösungen wie ein Mono-Repository und eine umfangreiche Testabdeckung durch Storybook entschied. Diese Initiativen trugen maßgeblich zu einer effizienten, kollaborativen Arbeitsumgebung bei und setzten neue Standards für die Projektentwicklung und -qualität."
       ],
       "technologies": [
-        "TurboRepo",
-        "PNPM",
-        "ReactJS",
-        "TypeScript",
-        "Radix UI",
+        "Apollo Client",
+        "Contentful",
         "Downshift",
-        "React Hook Form",
-        "Vanilla Extract",
+        "ESLint",
+        "Emotion",
+        "Formik",
+        "Framer Motion",
+        "GraphQL",
         "i18next",
         "Jotai",
-        "Framer Motion",
+        "Material UI",
+        "PNPM",
+        "Playwright",
+        "Radix UI",
+        "React",
+        "React Hook Form",
         "Storybook",
+        "SWR",
+        "TurboRepo",
+        "TypeScript",
+        "Vanilla Extract",
         "Vite",
         "Vitest",
-        "ESLint",
-        "Playwright"
+        "Yup"
       ],
       "testimonials": [
         {
@@ -111,7 +149,7 @@
         "start": "2022-03",
         "end": "2022-05"
       },
-      "technologies": ["NX", "React Intl", "Mono Repository"],
+      "technologies": ["NX", "React", "React Intl", "Mono Repository"],
       "description": [
         "Bei der Entwicklung einer umfangreichen Frontend-Applikation für die Überwachung von Maschinen auf Basis von ReactJS, meisterte ich technische Herausforderungen wie das Mono-Repository-Setup mit NX, Internationalisierung, und Theming für White Label-Lösungen. Die Bewältigung dieser Herausforderungen und der Umgang mit großen Datenmengen demonstrierten meine Fähigkeit, komplexe Anforderungen effizient umzusetzen."
       ]
