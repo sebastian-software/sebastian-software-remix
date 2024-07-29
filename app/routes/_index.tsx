@@ -11,6 +11,7 @@ import {
   CardTitle
 } from "~/components/card/Card"
 import { CustomersList } from "~/components/customers/CustomersList"
+import { TechList } from "~/components/tech-list/TechList"
 import type { ProjectType } from "~/data/data.types"
 
 export const meta: MetaFunction = () => [
@@ -24,17 +25,20 @@ export const meta: MetaFunction = () => [
 
 interface LoaderReturnType {
   customers: Array<ProjectType["customer"]>
+  technologies: Record<string, number>
 }
 
 export async function loader(): Promise<LoaderReturnType> {
-  const customers = []
-
   const sources = Promise.all([
     import("../data/fastner.json"),
     import("../data/werner.json")
   ])
 
+  const customers = []
+  const technologies: Record<string, number> = {}
+
   const customerNames = new Set()
+
   for (const source of await sources) {
     for (const project of source.projects) {
       if (!customerNames.has(project.customer.logo)) {
@@ -42,14 +46,38 @@ export async function loader(): Promise<LoaderReturnType> {
       }
 
       customerNames.add(project.customer.logo)
+
+      if (project.technologies) {
+        for (const tech of project.technologies) {
+          const previousValue = technologies[tech]
+          technologies[tech] =
+            previousValue == undefined ? 1 : previousValue + 1
+        }
+      }
     }
   }
 
-  return { customers }
+  // Sort technologies by name
+  const sortedTechnologies = Object.keys(technologies).sort((a, b) =>
+    a.toLowerCase().localeCompare(b.toLowerCase())
+  )
+  const sortedTechnologiesObject: Record<string, number> = {}
+  for (const tech of sortedTechnologies) {
+    sortedTechnologiesObject[tech] = technologies[tech]
+  }
+
+  // Remove all entries with a count of 1
+  // for (const [tech, count] of Object.entries(technologies)) {
+  //   if (count === 1) {
+  //     delete technologies[tech]
+  //   }
+  // }
+
+  return { customers, technologies: sortedTechnologiesObject }
 }
 
 export default function Index() {
-  const { customers } = useLoaderData<typeof loader>()
+  const { customers, technologies } = useLoaderData<typeof loader>()
 
   return (
     <>
@@ -111,6 +139,7 @@ export default function Index() {
       </CardContainer>
 
       <CustomersList data={customers} />
+      <TechList data={technologies} />
     </>
   )
 }
