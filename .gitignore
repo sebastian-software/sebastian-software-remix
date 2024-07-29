@@ -7,3 +7,9 @@ node_modules
 .DS_Store
 .sst
 .tmp
+
+app/components/favicon/apple-touch-icon.png
+app/components/favicon/icon-192.png
+app/components/favicon/icon-512.png
+app/components/favicon/favicon.ico
+public/favicon.ico
