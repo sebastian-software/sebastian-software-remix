@@ -20,7 +20,8 @@
     "update:latest": "ncu --deep  --upgrade --interactive",
     "update:minor": "ncu --deep  --upgrade --interactive --target minor",
     "update:pnpm": "corepack up",
-    "deploy:prod": "sst deploy --stage production"
+    "deploy:prod": "sst deploy --stage production",
+    "prepare": "pnpm create:favicons"
   },
   "dependencies": {
     "@effective/shadow": "^1.0.1",
