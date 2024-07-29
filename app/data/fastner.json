@@ -166,7 +166,7 @@
       "description": [
         "Bei der Entwicklung einer Benutzeroberfläche für das einfache Erstellen und Verwalten virtueller Rechenzentren übernahm ich als Consultant die Führung. Dieses Projekt, das eine HTML5-Benutzeroberfläche in Ember.js für Desktop und Tablets umfasste, zielte darauf ab, Nutzern eine intuitive und effektive Möglichkeit zur Ermittlung des besten Angebots verschiedener Anbieter zu bieten. Meine Rolle beinhaltete die Implementierung eines komplexen Drag-and-Drop-Editors, der die Benutzererfahrung erheblich verbesserte."
       ],
-      "technologies": ["HTML5", "EmberJS", "Drag&Drop"]
+      "technologies": ["HTML5", "EmberJS"]
     },
     {
       "title": "PagePlace und Tolino (E-Publishing für Bücher)",
