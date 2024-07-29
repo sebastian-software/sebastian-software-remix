@@ -4,8 +4,7 @@ export const list = style({
   display: "flex",
   flexDirection: "column",
   gap: "0.5rem",
-  fontSize: "0.75rem",
-  textTransform: "uppercase"
+  fontSize: "0.75rem"
 })
 
 export const root = style({

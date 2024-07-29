@@ -47,7 +47,7 @@
         "Downshift",
         "React Hook Form",
         "Vanilla Extract",
-        "i18Next",
+        "i18next",
         "Jotai",
         "Framer Motion",
         "Storybook",
@@ -325,7 +325,8 @@
         "TypeScript",
         "React",
         "Styled Components",
-        "Reach Router",
+        "React Router",
+        "GraphQL",
         "Apollo GraphQL",
         "Webpack"
       ],
@@ -418,8 +419,8 @@
         "Redux",
         "Redux-Saga",
         "Webpack",
-        "Babel",
-        "Less",
+        "BabelJS",
+        "LessJS",
         "ESLint",
         "Karma",
         "Mocha",
@@ -715,13 +716,7 @@
       "description": [
         "In diesem Projekt integrierten wir ein führendes CSS-Framework, um eine responsive und optisch ansprechende Webseite zu entwickeln, die sich nahtlos an unterschiedliche Bildschirmauflösungen anpasst. In enger Abstimmung mit den Design- und Konzeptteams schufen wir eine wartungsarme und flexibel gestaltete Webseite, die ein magazinartiges Design mit hochwertiger Typografie kombiniert. Zu den Schlüsselelementen gehörten eine Sticky-Funktion für wichtige Webseitenbereiche sowie ein interaktiver, tabellarischer Produktvergleich, der Nutzern detaillierte Vergleiche ermöglicht."
       ],
-      "technologies": [
-        "Modular Scales",
-        "ImageOptim",
-        "Jasy",
-        "Sass",
-        "Uglify"
-      ],
+      "technologies": ["Modular Scales", "Jasy", "Sass", "Uglify"],
       "testimonials": [
         {
           "author": "Astrid Fischer",

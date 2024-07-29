@@ -50,9 +50,10 @@
         "React",
         "Styled Components",
         "Contentful",
-        "Apollo GraphQL",
+        "Apollo Client",
+        "GraphQL",
         "Kubernetes",
-        "Vault (AWS)"
+        "AWS Vault"
       ]
     },
     {

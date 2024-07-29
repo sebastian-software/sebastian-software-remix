@@ -82,12 +82,16 @@ export async function loader(): Promise<LoaderReturnType> {
     sortedTechnologiesObject[tech] = technologies[tech]
   }
 
-  // Remove all entries with a count of 1
-  // for (const [tech, count] of Object.entries(technologies)) {
-  //   if (count === 1) {
-  //     delete technologies[tech]
-  //   }
-  // }
+  // Remove all entries which are older than 5*365 days
+  const currentDate = new Date()
+  const fiveYearsAgo = new Date(currentDate)
+  fiveYearsAgo.setFullYear(fiveYearsAgo.getFullYear() - 5)
+
+  for (const tech in sortedTechnologiesObject) {
+    if (sortedTechnologiesObject[tech].lastUsed < fiveYearsAgo) {
+      delete sortedTechnologiesObject[tech]
+    }
+  }
 
   return { customers, technologies: sortedTechnologiesObject }
 }
