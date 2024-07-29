@@ -25,7 +25,12 @@ export const meta: MetaFunction = () => [
 
 interface LoaderReturnType {
   customers: Array<ProjectType["customer"]>
-  technologies: Record<string, number>
+  technologies: Record<string, TechEntry>
+}
+
+export interface TechEntry {
+  count: number
+  lastUsed: string
 }
 
 export async function loader(): Promise<LoaderReturnType> {
@@ -35,7 +40,7 @@ export async function loader(): Promise<LoaderReturnType> {
   ])
 
   const customers = []
-  const technologies: Record<string, number> = {}
+  const technologies: Record<string, TechEntry> = {}
 
   const customerNames = new Set()
 
@@ -48,10 +53,21 @@ export async function loader(): Promise<LoaderReturnType> {
       customerNames.add(project.customer.logo)
 
       if (project.technologies) {
+        const endDate = new Date(project.period.end)
         for (const tech of project.technologies) {
           const previousValue = technologies[tech]
-          technologies[tech] =
-            previousValue == undefined ? 1 : previousValue + 1
+
+          if (previousValue) {
+            previousValue.count++
+            if (endDate > previousValue.lastUsed) {
+              previousValue.lastUsed = endDate
+            }
+          } else {
+            technologies[tech] = {
+              count: 1,
+              lastUsed: endDate
+            }
+          }
         }
       }
     }
@@ -61,7 +77,7 @@ export async function loader(): Promise<LoaderReturnType> {
   const sortedTechnologies = Object.keys(technologies).sort((a, b) =>
     a.toLowerCase().localeCompare(b.toLowerCase())
   )
-  const sortedTechnologiesObject: Record<string, number> = {}
+  const sortedTechnologiesObject: Record<string, TechEntry> = {}
   for (const tech of sortedTechnologies) {
     sortedTechnologiesObject[tech] = technologies[tech]
   }

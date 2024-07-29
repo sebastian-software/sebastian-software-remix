@@ -2,7 +2,7 @@ import { style } from "@vanilla-extract/css"
 
 export const list = style({
   display: "flex",
-  flexWrap: "wrap",
+  flexDirection: "column",
   gap: "0.5rem",
   fontSize: "0.75rem",
   textTransform: "uppercase"
@@ -13,7 +13,7 @@ export const root = style({
   background: "#f9e0f1",
   color: "#776270",
   display: "inline-block",
-  paddingInline: "0.5rem",
+  paddingInline: "0.75rem",
   lineHeight: "2",
   borderRadius: "0.5rem"
 })

@@ -1,4 +1,4 @@
-import { Tag } from "../tag/Tag"
+import { Tag, TagList } from "../tag/Tag"
 import { rootClass } from "./TechList.css"
 
 export interface TechListProps {
@@ -8,14 +8,14 @@ export interface TechListProps {
 export function TechList({ data }: TechListProps) {
   return (
     <div className={rootClass}>
-      <ul>
+      <TagList>
         {data &&
-          Object.entries(data).map(([tech, count]) => (
+          Object.entries(data).map(([tech, value]) => (
             <Tag key={tech}>
-              {tech} ({count})
+              {tech} ({value.count}) ({value.lastUsed})
             </Tag>
           ))}
-      </ul>
+      </TagList>
     </div>
   )
 }
