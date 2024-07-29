@@ -1,4 +1,4 @@
-declare module 'ico-endec' {
+declare module "ico-endec" {
   export interface IconEntry {
     width: number
     height: number
@@ -13,6 +13,6 @@ declare module 'ico-endec' {
     imageData: Uint8Array
   }
 
-  export function encode(images: Uint8Array[]): Uint8Array;
-  export function decode(buffer: Uint8Array): IconEntry[];
-};
+  export function encode(images: Uint8Array[]): Uint8Array
+  export function decode(buffer: Uint8Array): IconEntry[]
+}

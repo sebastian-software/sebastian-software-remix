@@ -7,12 +7,13 @@ import icon192 from "./icon-192.png"
 import icon512 from "./icon-512.png"
 
 export function FavIcon() {
-  return (<>
-    <link rel="icon" href={favIcon} sizes="32x32" />
-    <link rel="icon" href={icon} type="image/svg+xml" />
-    <link rel="apple-touch-icon" href={appleTouchIcon} />
-    <link rel="manifest" href="/manifest.webmanifest" />
-  </>
+  return (
+    <>
+      <link rel="icon" href={favIcon} sizes="32x32" />
+      <link rel="icon" href={icon} type="image/svg+xml" />
+      <link rel="apple-touch-icon" href={appleTouchIcon} />
+      <link rel="manifest" href="/manifest.webmanifest" />
+    </>
   )
 }
 
