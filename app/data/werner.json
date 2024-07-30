@@ -18,7 +18,7 @@
         "Implementierung eines Proof of Concept für eine Mono-Repository-Lösung für die nationale Ticket-Buchungsstrecke der SBB.",
         "Beratung zur Internationalisierung des Frontends unter Verwendung von CrowdIn und Next Intl.",
         "Aufstellen eines Linting-Regelwerks unter Beachtung der Team-Dynamiken und aktueller Best Practises. Umsetzung in Form von CI-Tasks als auch im Rahmen der Workspace-Integration der Entwickler.",
-        "Etliche Austauschterme und Involvierung in der Tiefe der Organisation um im Rahmen der Frontends eine einheitliche Technologie zu fördern aber die Eigentständigkeiten der Teams weiterhin zu gewährleisten."
+        "Etliche Austauschtermine und Involvierung in der Tiefe der Organisation um im Rahmen der Frontends eine einheitliche Technologie zu fördern aber die Eigentständigkeiten der Teams weiterhin zu gewährleisten."
       ],
       "technologies": [
         "Apollo Client",
