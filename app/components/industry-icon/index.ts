@@ -1,1 +1,1 @@
-export * from "./Industry"
+export * from "./IndustryIcon"

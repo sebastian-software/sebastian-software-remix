@@ -1,3 +1,5 @@
+import type { CSSProperties } from "react"
+
 import bankIcon from "./assets/bank.svg"
 import brickIcon from "./assets/brick.svg"
 import carIcon from "./assets/car.svg"
@@ -18,7 +20,7 @@ import socialIcon from "./assets/social.svg"
 import trainIcon from "./assets/train.svg"
 import truckIcon from "./assets/truck.svg"
 // Other imports
-import { rootClass } from "./Industry.css"
+import { rootClass } from "./IndustryIcon.css"
 
 const industryMap: Record<string, string> = {
   Automobil: carIcon,
@@ -42,15 +44,21 @@ const industryMap: Record<string, string> = {
   Telekommunikation: mobileIcon
 }
 
-export interface IndustryProps {
+export interface IndustryIconProps {
   readonly name: string
+  readonly filter?: string
 }
 
-export function Industry({ name }: IndustryProps) {
+export function IndustryIcon({ name, filter }: IndustryIconProps) {
   const imageSource = industryMap[name]
   if (imageSource) {
-    return <img className={rootClass} src={imageSource} alt={name} />
-  }
+    const style: CSSProperties = {}
+    if (filter) {
+      style.filter = `url(#${filter})`
+    }
 
-  return null
+    return (
+      <img className={rootClass} src={imageSource} alt={name} style={style} />
+    )
+  }
 }
