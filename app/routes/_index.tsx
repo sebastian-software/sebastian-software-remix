@@ -30,49 +30,41 @@ interface LoaderReturnType {
 
 export interface TechEntry {
   count: number
-  lastUsed: string
+  lastUsed: number
 }
 
-export async function loader(): Promise<LoaderReturnType> {
-  const sources = Promise.all([
-    import("../data/fastner.json"),
-    import("../data/werner.json")
-  ])
+function addProject(
+  project: ProjectType,
+  customers: Array<ProjectType["customer"]>,
+  technologies: Record<string, TechEntry | undefined>
+) {
+  if (!customers.some((c) => c.logo === project.customer.logo)) {
+    customers.push(project.customer)
+  }
 
-  const customers = []
-  const technologies: Record<string, TechEntry> = {}
+  const endDate = new Date(project.period.end).valueOf()
+  for (const tech of project.technologies) {
+    const previousValue = technologies[tech]
 
-  const customerNames = new Set()
-
-  for (const source of await sources) {
-    for (const project of source.projects) {
-      if (!customerNames.has(project.customer.logo)) {
-        customers.push(project.customer)
+    if (previousValue) {
+      previousValue.count++
+      if (endDate > previousValue.lastUsed) {
+        previousValue.lastUsed = endDate
       }
-
-      customerNames.add(project.customer.logo)
-
-      if (project.technologies) {
-        const endDate = new Date(project.period.end)
-        for (const tech of project.technologies) {
-          const previousValue = technologies[tech]
-
-          if (previousValue) {
-            previousValue.count++
-            if (endDate > previousValue.lastUsed) {
-              previousValue.lastUsed = endDate
-            }
-          } else {
-            technologies[tech] = {
-              count: 1,
-              lastUsed: endDate
-            }
-          }
-        }
+    } else {
+      technologies[tech] = {
+        count: 1,
+        lastUsed: endDate
       }
     }
   }
+}
 
+// eslint-disable-next-line @typescript-eslint/no-magic-numbers
+const YEARS_IN_MS = 365 * 24 * 60 * 60 * 1000
+const TECH_YEARS = 3
+
+function postProcessTechnologies(technologies: Record<string, TechEntry>) {
   // Sort technologies by name
   const sortedTechnologies = Object.keys(technologies).sort((a, b) =>
     a.toLowerCase().localeCompare(b.toLowerCase())
@@ -83,17 +75,35 @@ export async function loader(): Promise<LoaderReturnType> {
   }
 
   // Remove all entries which are older than 5*365 days
-  const currentDate = new Date()
-  const fiveYearsAgo = new Date(currentDate)
-  fiveYearsAgo.setFullYear(fiveYearsAgo.getFullYear() - 3)
+  const currentDate = Date.now()
+  const techYearsMin = currentDate - TECH_YEARS * YEARS_IN_MS
 
   for (const tech in sortedTechnologiesObject) {
-    if (sortedTechnologiesObject[tech].lastUsed < fiveYearsAgo) {
+    if (sortedTechnologiesObject[tech].lastUsed < techYearsMin) {
+      // eslint-disable-next-line @typescript-eslint/no-dynamic-delete
       delete sortedTechnologiesObject[tech]
     }
   }
 
-  return { customers, technologies: sortedTechnologiesObject }
+  return sortedTechnologiesObject
+}
+
+export async function loader(): Promise<LoaderReturnType> {
+  const sources = Promise.all([
+    import("../data/fastner.json"),
+    import("../data/werner.json")
+  ])
+
+  const customers: Array<ProjectType["customer"]> = []
+  const technologies: Record<string, TechEntry> = {}
+
+  for (const source of await sources) {
+    for (const project of source.projects) {
+      addProject(project, customers, technologies)
+    }
+  }
+
+  return { customers, technologies: postProcessTechnologies(technologies) }
 }
 
 export default function Index() {
