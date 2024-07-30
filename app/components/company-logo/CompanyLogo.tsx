@@ -27,6 +27,7 @@ import schlundPartner from "./assets/schlund-partner.svg"
 import studivz from "./assets/studivz.svg"
 import suzuki from "./assets/suzuki.svg"
 import swr from "./assets/swr.svg"
+import telecolumbus from "./assets/telecolumbus.svg"
 import traton from "./assets/traton.svg"
 import triplesenseReply from "./assets/triplesense-reply.svg"
 import wittGruppe from "./assets/witt-gruppe.svg"
@@ -62,6 +63,7 @@ export const companies = {
   studivz,
   suzuki,
   swr,
+  telecolumbus,
   traton,
   triplesenseReply,
   wittGruppe,

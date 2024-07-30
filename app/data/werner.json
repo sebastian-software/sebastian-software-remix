@@ -793,10 +793,11 @@
       "title": "Responsive Homepage für den Software-Hersteller MAGIX",
       "role": "Senior Frontend Developer",
       "customer": {
-        "name": "Triplesense Reply GmbH",
+        "name": "",
         "location": "Frankfurt am Main",
-        "logo": "triplesenseReply"
+        "logo": "magix"
       },
+      "contractor": "Triplesense Reply GmbH",
       "period": {
         "start": "2013-11",
         "end": "2014-02"
@@ -820,8 +821,9 @@
       "customer": {
         "name": "Triplesense Reply GmbH",
         "location": "Frankfurt am Main",
-        "logo": "triplesenseReply"
+        "logo": "telecolumbus"
       },
+      "contractor": "Triplesense Reply GmbH",
       "period": {
         "start": "2013-04",
         "end": "2013-12"
@@ -844,7 +846,7 @@
         "start": "2012-11",
         "end": "2013-04"
       },
-      "technologies": ["Jasy", "jQuery", "HTML5", "VOIP", "RIA", "REST", "MVP"],
+      "technologies": ["Jasy", "jQuery", "HTML5", "REST"],
       "description": [
         "In der Rolle des leitenden Entwicklers übernahm ich die Herausforderung, eine Rich Internet Application (RIA) für die Konfiguration von VOIP-Merkmalen für Festnetzanschlüsse zu entwickeln. Unser Ziel war es, die fortschrittlichen Möglichkeiten moderner Desktop-Browser ab Internet Explorer 9 voll auszuschöpfen, um den Benutzern eine nahtlose und intuitive Konfigurationserfahrung zu bieten. Die effiziente Anbindung an ein existierendes Backend-System über einen REST-Proxy ermöglichte eine direkte Kommunikation zwischen Frontend und Backend, wodurch die Grundlage für eine dynamische und reaktionsfähige Anwendung gelegt wurde.",
         "Durch die Implementierung von Live-Feedback und HTML5-Formularvalidierung, kombiniert mit einer intelligenten Hintergrund-Synchronisation, konnte ich die Benutzerinteraktion signifikant verbessern. Dies erhöhte nicht nur die Zufriedenheit der Endnutzer, sondern trug auch dazu bei, Fehlerquellen zu minimieren und die Datenintegrität zu sichern. Die Anwendung basierte auf einer soliden MVP-Architektur, die durch Template-Rendering ergänzt wurde, um eine klare Trennung von Präsentation und Logik zu gewährleisten."
@@ -1048,34 +1050,6 @@
           "company": "GMX GmbH",
           "text": "Long story short: Sebastian is a highly skilled JavaScript/DOM Scripting Magician with whom it always was/is a pleasure to work."
         }
-      ]
-    },
-    {
-      "title": "IT-Beratung, Programmierung und Support",
-      "role": "Software Developer",
-      "customer": {
-        "name": "Paritätische Sozialdienste",
-        "location": "Minden",
-        "logo": "parisozial"
-      },
-      "period": {
-        "start": "2001-01",
-        "end": "2002-04"
-      },
-      "technologies": [
-        "VBA",
-        "Adobe InDesign",
-        "Adobe Flash",
-        "Combit Adressmanager",
-        "HTML",
-        "JavaScript",
-        "ActionScript",
-        "XML"
-      ],
-      "description": [
-        "Bei diesem Projekt war ich verantwortlich für die Umsetzung eines Datenbank-Interfaces mit dem Combit Adressmanager. Ich entwickelte VBA-Makros für Word, um die Erstellung von Etiketten und Serienbriefen zu vereinfachen. Parallel dazu gestaltete ich die Selbsthilfe-Zeitung mit Adobe InDesign 1.5 und koordinierte mit der Druckerei, um die Einbettung von Schriften und die Realisierung der Farbtreue zu gewährleisten.",
-        "Ein weiterer wichtiger Aspekt meiner Tätigkeit war die Einarbeitung einer Mitarbeiterin in die Nutzung der Software, mit der wir gemeinsam die erste Ausgabe der Zeitschrift erstellten. Zusätzlich übernahm ich die Erstellung der Homepage, deren Inhalte als XML-Dateien von Mitarbeitern leicht angepasst werden konnten. Für die Webseite implementierte ich ein dynamisches Menü-System auf Basis von Flash, verbesserte die Nutzerführung und interaktive Elemente der Seite.",
-        "Zum Abschluss des Projekts führte ich Schulungen für das Team durch und erstellte eine umfassende Dokumentation zur Pflege der Homepage-Inhalte, um eine nachhaltige und benutzerfreundliche Verwaltung der Webpräsenz zu gewährleisten."
       ]
     }
   ]
