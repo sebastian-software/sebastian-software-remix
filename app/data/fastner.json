@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "title": "Weiterentwicklung MorgenFund Portfolio für Web-Browser und Mobile Apps",
+      "title": "Weiterentwicklung MorgenFund Portfolio für Web-Browser und Mobile Apps und WISE",
       "role": "Senior Frontend Architekt",
       "customer": {
         "name": "MorgenFund GmbH",
@@ -12,13 +12,28 @@
       "contractor": "Hays Sarl",
       "period": {
         "start": "2020-10",
-        "end": "2024-06"
+        "end": "2024-07"
       },
-      "links": ["https://vermoegensmanagement.dws.de/"],
-      "description": [
-        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
+      "links": [
+        "https://portfolio.morgenfund.com/",
+        "https://portfolio-online.morgenfund.com/",
+        "https://apps.apple.com/de/app/morgenfund/id1325610513",
+        "https://apps.apple.com/de/app/dws-altersvorsorge/id6444192420",
+        "https://play.google.com/store/apps/details?id=com.db.am.digital.edison"
       ],
-      "technologies": ["React", "ReactNative", "HTML5"]
+      "description": [
+        "In meiner Rolle als Senior Frontend Architekt unterstützte ich die MorgenFund GmbH nach der Ausgründung aus der DWS bei der Weiterentwicklung ihrer Webapps und nativen Apps. Als Consultant war ich verantwortlich für die Zusammenführung verschiedener Frontend-Technologien und die Integration neuer Features auf Basis von React und React Native. Durch die Migration auf eine cloud-basierte Infrastruktur und die Implementierung von Continuous Deployment Strategien gelang es uns, die Effizienz zu steigern und die Time-to-Market signifikant zu verkürzen."
+      ],
+      "technologies": [
+        "React",
+        "ReactNative",
+        "HTML5",
+        "Azure",
+        "SWR",
+        "Video Ident",
+        "DocuSign",
+        "ID Scan"
+      ]
     },
     {
       "title": "Neuentwicklung Multi-Marken E-Shops der Witt-Gruppe (Teil der Otto-Gruppe)",
@@ -55,7 +70,8 @@
         "Apollo Client",
         "GraphQL",
         "Kubernetes",
-        "AWS Vault"
+        "AWS Vault",
+        "AWS"
       ]
     },
     {
@@ -72,11 +88,16 @@
         "start": "2016-04",
         "end": "2019-03"
       },
-      "links": ["https://www.deutscheinvest.lu/"],
+      "links": [
+        "https://www.deutscheinvest.lu/"
+      ],
       "description": [
         "Bei der Unterstützung der DWS in der Entwicklung einer digitalen White-Label-Investmentplattform trug ich wesentlich zur Konzeption und Realisierung bei. Mein Einsatz umfasste die Integration der Plattform in über zehn europäische und asiatische Investmentplattformen sowie die Mitwirkung an einem innovativen, auf React basierenden Frontend-Framework. Diese Zusammenarbeit verdeutlichte meine Fähigkeit, führende Finanzinstitute bei der digitalen Transformation zu unterstützen."
       ],
-      "technologies": ["React", "HTML5"]
+      "technologies": [
+        "React",
+        "HTML5"
+      ]
     },
     {
       "title": "OneNumber-App für Geschäftskunden",
@@ -96,11 +117,18 @@
         "start": "2016-03",
         "end": "2016-08"
       },
-      "links": ["http://one-number-app.telekom.de"],
+      "links": [
+        "http://one-number-app.telekom.de"
+      ],
       "description": [
         "In einem Projekt für die Deutsche Telekom entwickelte ich als Consultant eine mobile Applikation, die es Geschäftskunden ermöglicht, das 'OneNumber'-Merkmal einfach einzustellen. Meine Verantwortung erstreckte sich über die plattformübergreifende Entwicklung für iOS, Android, BlackBerry, Amazon FirePhone und Windows Phone, um eine umfassende Nutzerbasis zu bedienen und die Effizienz in der Geschäftskommunikation zu steigern."
       ],
-      "technologies": ["HTML5", "AngularJS", "Android", "OAuth2"]
+      "technologies": [
+        "HTML5",
+        "AngularJS",
+        "Android",
+        "OAuth2"
+      ]
     },
     {
       "title": "JAKO-O Geschenketisch",
@@ -116,11 +144,18 @@
         "start": "2015-07",
         "end": "2016-03"
       },
-      "links": ["https://www.jako-o.de/geschenketisch"],
+      "links": [
+        "https://www.jako-o.de/geschenketisch"
+      ],
       "description": [
         "Für JAKO-O leitete ich die technische Konzeption und Implementierung eines digitalen Geschenketisches (Wunschzettel) im Online-Shop. Als Consultant arbeitete ich eng mit dem Kundenteam zusammen, um eine Lösung zu entwickeln, die das Einkaufserlebnis verbessert und eine nachhaltige Kundenbindung fördert."
       ],
-      "technologies": ["NodeJS", "ExpressJS", "VueJS", "Mobile Web"]
+      "technologies": [
+        "NodeJS",
+        "ExpressJS",
+        "VueJS",
+        "Mobile Web"
+      ]
     },
     {
       "title": "JAKO-O Geschenkeberater für Smartphones",
@@ -136,7 +171,9 @@
         "start": "2015-05",
         "end": "2015-07"
       },
-      "links": ["https://www.jako-o.de/geschenkeberater"],
+      "links": [
+        "https://www.jako-o.de/geschenkeberater"
+      ],
       "description": [
         "Bei der Entwicklung eines Geschenkeberaters für mobile Plattformen auf Basis der Produktscores des JAKO-O Online-Shops spielte ich eine Schlüsselrolle als Consultant. Die Realisierung dieses Projekts demonstriert meine Expertise in der Schaffung personalisierter und benutzerorientierter Shopping-Lösungen, die auf detaillierten Datenanalysen basieren und die Servicequalität signifikant erhöhen."
       ],
@@ -177,7 +214,10 @@
       "description": [
         "Bei der Entwicklung einer Benutzeroberfläche für das einfache Erstellen und Verwalten virtueller Rechenzentren übernahm ich als Consultant die Führung. Dieses Projekt, das eine HTML5-Benutzeroberfläche in Ember.js für Desktop und Tablets umfasste, zielte darauf ab, Nutzern eine intuitive und effektive Möglichkeit zur Ermittlung des besten Angebots verschiedener Anbieter zu bieten. Meine Rolle beinhaltete die Implementierung eines komplexen Drag-and-Drop-Editors, der die Benutzererfahrung erheblich verbesserte."
       ],
-      "technologies": ["HTML5", "EmberJS"]
+      "technologies": [
+        "HTML5",
+        "EmberJS"
+      ]
     },
     {
       "title": "PagePlace und Tolino (E-Publishing für Bücher)",
@@ -223,9 +263,13 @@
       "description": [
         "In meiner Funktion als leitender Architekt und Entwickler eines HTML5 OpenSource Frameworks für mobile Applikationen nutzte ich modernste HTML5-Features zur Entwicklung in JavaScript. Dabei lag mein Fokus auf der Anpassung an gängige Mobilplattformen, um eine breite Kompatibilität und eine hohe Qualität der mobilen Anwendungen sicherzustellen."
       ],
-      "technologies": ["JavaScript", "HTML5", "iOS", "Android"]
+      "technologies": [
+        "JavaScript",
+        "HTML5",
+        "iOS",
+        "Android"
+      ]
     },
-
     {
       "title": "DINA Frontend Neu (Analysesoftware)",
       "role": "PHP-/JavaScript-Entwickler",
@@ -315,7 +359,11 @@
       "description": [
         "Im Rahmen meiner Mitentwicklung am Kreditsteuerungstool Value Manager für die Commerzbank fokussierte ich mich auf die Verwendung von Java und SAS zur Datenaggregierung im Backend. Diese technologische Lösung unterstützte die Kreditverwaltung der Berater vor Ort durch präzise Datenanalysen und verbesserte Entscheidungsfindungsprozesse."
       ],
-      "technologies": ["Java", "JSP", "Basic SAS"]
+      "technologies": [
+        "Java",
+        "JSP",
+        "Basic SAS"
+      ]
     },
     {
       "title": "Promoterverwaltung",
@@ -332,7 +380,11 @@
       "description": [
         "Bei der Entwicklung einer webbasierten Applikation zur Verwaltung von Promotionaufträgen und Promotern nutzte ich meine Fähigkeiten in PHP, HTML und MySQL, um eine Lösung zu schaffen, die eine effiziente Kommunikation über SMS ermöglicht. Diese Applikation vereinfachte das Management von Promoter-Daten erheblich und steigerte die Effektivität von Marketingaktionen."
       ],
-      "technologies": ["PHP", "MySQL", "HTML"]
+      "technologies": [
+        "PHP",
+        "MySQL",
+        "HTML"
+      ]
     },
     {
       "title": "Anforderungsmanagement für BIX@ Supply Chain Management",
