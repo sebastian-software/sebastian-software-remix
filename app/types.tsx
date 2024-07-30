@@ -27,4 +27,5 @@ export interface CustomerData {
   name: string
   location: string
   logo?: string
+  industry: string
 }

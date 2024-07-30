@@ -8,10 +8,12 @@ export async function loader() {
 
   const projects: ProjectData[] = []
   for (const project of data.projects) {
-    projects.push({
-      ...project,
-      id: `${project.customer.name}-${project.period.start}`
-    })
+    if (project.hidden !== true) {
+      projects.push({
+        ...project,
+        id: `${project.customer.name}-${project.period.start}`
+      })
+    }
   }
 
   return projects

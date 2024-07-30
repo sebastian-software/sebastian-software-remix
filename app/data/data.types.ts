@@ -9,9 +9,9 @@ export interface ProjectType {
     logo?: string
   }
 
-  contractor: string
+  contractor?: string
   period: Record<"start" | "end", string>
-  links: string[]
+  links?: string[]
   description: string[]
   technologies: string[]
 }
