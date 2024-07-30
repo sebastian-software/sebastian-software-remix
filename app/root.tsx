@@ -9,11 +9,8 @@ import {
 } from "@remix-run/react"
 import type { PropsWithChildren } from "react"
 
-import { Body } from "./components/body/Body"
 import { FavIcon } from "./components/favicon/FavIcon"
-import { Footer } from "./components/footer/Footer"
-import { Header } from "./components/header/Header"
-import { Main } from "./components/main/Main"
+import { Body, Footer, Header, Main } from "./components/page"
 
 export function Layout({ children }: PropsWithChildren) {
   return (
