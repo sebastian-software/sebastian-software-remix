@@ -4,6 +4,7 @@ import oneAndOne from "./assets/1und1.svg"
 import axxessio from "./assets/axxessio-blue.svg"
 import azeti from "./assets/azeti.svg"
 import berlitz from "./assets/berlitz.svg"
+import boehringerIngelheim from "./assets/boehringer-ingelheim.svg"
 import coliquio from "./assets/coliquio.svg"
 import commerzbank from "./assets/commerzbank.svg"
 import deutscheBank from "./assets/deutschebank.svg"
@@ -19,6 +20,7 @@ import init from "./assets/init.svg"
 import jakoo from "./assets/jakoo.svg"
 import magix from "./assets/magix.svg"
 import morgenfund from "./assets/morgenfund.svg"
+import netz98 from "./assets/netz98.svg"
 import netzeBw from "./assets/netze-bw.svg"
 import sbb from "./assets/sbb.svg"
 import schlundPartner from "./assets/schlund-partner.svg"
@@ -37,6 +39,7 @@ export const companies = {
   axxessio,
   azeti,
   berlitz,
+  boehringerIngelheim,
   coliquio,
   commerzbank,
   deutscheBank,
@@ -53,6 +56,7 @@ export const companies = {
   magix,
   morgenfund,
   netzeBw,
+  netz98,
   sbb,
   schlundPartner,
   studivz,
