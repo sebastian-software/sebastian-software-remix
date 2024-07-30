@@ -245,8 +245,7 @@
       "role": "Java-Entwickler",
       "customer": {
         "name": "3ado OHG",
-        "location": "Mainz",
-        "logo": "3ado"
+        "location": "Mainz"
       },
       "period": {
         "start": "2007-05",
@@ -308,7 +307,7 @@
       "title": "Promoterverwaltung",
       "role": "PHP-Entwickler",
       "customer": {
-        "name": "Creative Communication",
+        "name": "Creative Communication Gbr",
         "location": "Bingen"
       },
       "period": {
