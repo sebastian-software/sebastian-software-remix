@@ -18,34 +18,34 @@
       ],
       "technologies": [
         "Apollo Client",
-        "Date-FNS",
-        "DayJS",
+        "Commitlint",
+        "ESLint",
+        "GraphQL",
+        "Husky",
+        "Jest",
+        "Lint Staged",
+        "Lit",
+        "Mono Repository",
         "Next.js",
         "Next Intl",
+        "Playwright",
+        "PNPM",
+        "PostCSS",
+        "Prettier",
         "React",
         "React Query",
+        "React Hook Form",
+        "REST",
+        "Sass",
+        "Sonarcube",
+        "Storybook",
         "SWR",
         "Tailwind",
-        "Web Components",
-
-        "Lit",
-        "GraphQL",
-        "TypeScript",
-        "Prettier",
-        "ESLint",
-        "Storybook",
-        "Commitlint",
-        "TurboRepo",
-        "PNPM",
-        "Mono Repository",
-        "Vite",
-        "Husky",
-        "Lint Staged",
-        "Sass",
-        "PostCSS",
-        "Jest",
         "Testing Library",
-        "Sonarcube"
+        "TurboRepo",
+        "TypeScript",
+        "Vite",
+        "Web Components"
       ],
       "testimonials": []
     },
@@ -77,6 +77,7 @@
         "Formik",
         "Framer Motion",
         "GraphQL",
+        "gRPC",
         "i18next",
         "Jotai",
         "Material UI",
@@ -85,6 +86,7 @@
         "Radix UI",
         "React",
         "React Hook Form",
+        "REST",
         "Storybook",
         "SWR",
         "TurboRepo",
@@ -149,7 +151,22 @@
         "start": "2022-03",
         "end": "2022-05"
       },
-      "technologies": ["NX", "React", "React Intl", "Mono Repository"],
+      "technologies": [
+        "NX",
+        "React",
+        "BabelJS",
+        "Emotion",
+        "ESLint",
+        "Formik",
+        "React Intl",
+        "React Router",
+        "Material UI",
+        "Mono Repository",
+        "REST",
+        "Jest",
+        "TypeScript",
+        "Yarn"
+      ],
       "description": [
         "Bei der Entwicklung einer umfangreichen Frontend-Applikation für die Überwachung von Maschinen auf Basis von ReactJS, meisterte ich technische Herausforderungen wie das Mono-Repository-Setup mit NX, Internationalisierung, und Theming für White Label-Lösungen. Die Bewältigung dieser Herausforderungen und der Umgang mit großen Datenmengen demonstrierten meine Fähigkeit, komplexe Anforderungen effizient umzusetzen."
       ]
@@ -170,7 +187,15 @@
       "description": [
         "Ich übernahm die architekturelle Verantwortung für die Frontend-Architektur, entwickelte Verbesserungsvorschläge für bestehende Strukturen und skizzierte Architekturen für neue Entwicklungen. Durch die Anwendung von API-First-Entwicklung und die Implementierung von End-to-End Tests mit Cypress, erreichte ich eine Code-Coverage von 70% für das bestehende Kundencenter, was eine solide Basis für die Qualitätssicherung in zukünftigen Releases bildete."
       ],
-      "technologies": ["Cypress", "JavaScript", "React"],
+      "technologies": [
+        "Cypress",
+        "Formik",
+        "JavaScript",
+        "React",
+        "React Router",
+        "React Intl",
+        "REST"
+      ],
       "testimonials": [
         {
           "author": "Florian Matz",
@@ -203,13 +228,13 @@
         "Zusätzlich nahm ich maßgeblich Einfluss auf die architektonische Weiterentwicklung unserer internen Komponentenbibliothek. Diese Arbeit ermöglichte es, die Modularität und Wiederverwendbarkeit unserer Softwarekomponenten zu verbessern, was wiederum die Entwicklungseffizienz und Systempflege erleichterte. Mein Einsatz führte zu einer spürbaren Verbesserung der Systemqualität und trug dazu bei, das Fundament für zukünftige Innovationen zu legen."
       ],
       "technologies": [
-        "MySQL",
-        "React",
-        "GraphQL",
         "Apollo Client",
         "Apollo Server",
-        "TypeScript",
-        "Jest"
+        "GraphQL",
+        "Jest",
+        "React",
+        "React Router",
+        "TypeScript"
       ],
       "testimonials": [
         {
@@ -251,18 +276,19 @@
         "Als Sparringspartner für UX-Designer und in meiner Funktion als leitender Entwickler unterstützte ich die Gestaltung eines benutzerzentrierten UI-Frameworks. Meine Rolle beinhaltete die Entwicklung eines gemeinsamen Verständnisses für effektive Komponentenstrukturen und deren Umsetzung, wodurch wir innovative und benutzerfreundliche Lösungen realisieren konnten. Meine Beiträge wurden als wegweisend für die Art und Weise, wie wir Webanwendungen entwickeln und veröffentlichen, angesehen und haben maßgeblich dazu beigetragen, unseren technologischen Stack zu verbessern und das Team zu inspirieren, bestehende Grenzen zu überwinden und kontinuierlich dazuzulernen."
       ],
       "technologies": [
-        "React",
-        "Redux",
-        "React Router",
-        "i18next",
-        "React Hooks",
-        "Lerna",
-        "Prettier",
-        "ESLint",
-        "TypeScript",
         "Azure",
+        "Cypress",
+        "ESLint",
+        "i18next",
         "Jest",
-        "Cypress"
+        "Lerna",
+        "Material UI",
+        "Prettier",
+        "REST",
+        "React",
+        "React Router",
+        "Redux",
+        "TypeScript"
       ],
       "testimonials": [
         {
@@ -326,7 +352,16 @@
         "In einem intensiven, mehrtägigen Workshop zu Best Practices in der Frontend-Entwicklung mit einem Schwerpunkt auf React teilte ich mein Wissen über bewährte Konventionen, von der Ordnerstruktur bis hin zu Implementierungsstrategien. Der Workshop deckte ein breites Spektrum ab, einschließlich des effektiven Managements von Assets, der Einführung in TypeScript für eine verbesserte Typisierung und Strategien für die Interaktion mit serverseitigen Daten. Ein besonderer Fokus lag auf der Erörterung der Vorzüge und Herausforderungen funktionaler versus Klassen-Deklarationen in React sowie der Bedeutung von kontinuierlicher Weiterbildung durch Ressourcen wie Newsletter, Video-Kurse und Konferenzen.",
         "Darüber hinaus untersuchten wir Möglichkeiten zur Reduzierung von Boilerplate-Code bei der Verwendung von Redux durch das Duck-Pattern und initiierten Diskussionen über die Einsatzmöglichkeiten von GraphQL in Projekten. Das primäre Ziel dieses Workshops war, Teilnehmenden ein tiefgehendes Verständnis für die Nuancen moderner Frontend-Entwicklung zu vermitteln und ihnen handfeste Lösungsansätze für alltägliche Entwicklungsherausforderungen an die Hand zu geben."
       ],
-      "technologies": ["React", "Redux", "TypeScript", "GraphQL"],
+      "technologies": [
+        "Apollo Client",
+        "GraphQL",
+        "Jest",
+        "React",
+        "Redux",
+        "REST",
+        "TypeScript",
+        "Webpack"
+      ],
       "testimonials": [
         {
           "author": "Alexander Fechner",
@@ -360,12 +395,14 @@
         "Ein weiterer wichtiger Meilenstein war die Implementierung einer JWT-basierten, SSR-kompatiblen Nutzerzuordnung, die eine nahtlose Nutzererfahrung über verschiedene Sessions und Geräte hinweg ermöglichte. Durch Optimierungen im Bereich des Toolings, einschließlich Threading und Caching in Webpack, sowie der Umstellung des TypeScript-Toolings auf Babel, konnte ich die Entwicklungszeiten und die Hot Module Replacement (HMR)-Effizienz deutlich verbessern. Darüber hinaus trug die Optimierung des clientseitigen Routings und die Implementierung von Preloading für diverse Code-Split-Pfade zu einer reibungslosen und schnellen Navigation bei."
       ],
       "technologies": [
-        "TypeScript",
-        "React",
-        "Styled Components",
-        "React Router",
+        "Apollo Client",
+        "Apollo Server",
         "GraphQL",
-        "Apollo GraphQL",
+        "React",
+        "React Router",
+        "Styled Components",
+        "TypeScript",
+        "PostCSS",
         "Webpack"
       ],
       "testimonials": [
@@ -394,12 +431,15 @@
         "Bei der Neu-Entwicklung einer Mediathek für alle Sender der ARD als gemeinsame Plattform lag mein Fokus auf der Unterstützung moderner HBBTV-fähiger Fernseher und der Bereitstellung responsiver Layouts für Web-Browser auf Handys, Tablets und Desktops. Ich war maßgeblich an der Entwicklung und Optimierung der GraphQL-Schnittstelle beteiligt, um eine effiziente Kommunikation mit bestehenden REST-APIs zu gewährleisten. Dieses Projekt zielte darauf ab, eine nahtlose und benutzerfreundliche Medienbibliothek zu schaffen, die den Zugriff auf Inhalte über eine Vielzahl von Geräten ermöglicht und dabei modernste Technologien nutzt."
       ],
       "technologies": [
-        "React",
-        "Apollo GraphQL",
-        "Webpack",
-        "Sass",
+        "Apollo Client",
+        "Apollo Server",
         "Flowtype",
-        "HBBTV"
+        "GraphQL",
+        "REST",
+        "React",
+        "React Router",
+        "Sass",
+        "Webpack"
       ]
     },
     {
@@ -423,7 +463,7 @@
         "Formik",
         "Popmotion",
         "React Intl",
-        "Reach Router",
+        "React Router",
         "DotEnv",
         "Webpack",
         "Babel",
@@ -453,18 +493,18 @@
         "Bei der Unterstützung der Weiterentwicklung einer bereits von Kunden genutzten Plattform arbeitete ich in einem verteilten Team mit Standorten in Leipzig und München. Meine Rolle umfasste die Einbringung architektureller Verbesserungsvorschläge sowie das Mentoring von Kollegen, um die Qualität und Effizienz der Plattform zu steigern. Durch diese Zusammenarbeit trug ich zur Optimierung bestehender Prozesse und Strukturen bei, förderte den Wissensaustausch innerhalb des Teams und unterstützte die kontinuierliche Weiterentwicklung der Plattform, um den Anforderungen und Bedürfnissen der Nutzer noch besser gerecht zu werden."
       ],
       "technologies": [
-        "React",
-        "Redux",
-        "Redux-Saga",
-        "Webpack",
+        "Amazon S3",
+        "AWS",
         "BabelJS",
-        "LessJS",
         "ESLint",
         "Karma",
+        "LessJS",
         "Mocha",
+        "React",
+        "Redux",
+        "Redux Saga",
         "Sinon",
-        "AWS",
-        "Amazon S3"
+        "Webpack"
       ],
       "testimonials": [
         {
@@ -503,7 +543,8 @@
         "Storybook",
         "ESLint",
         "Stylelint",
-        "Prettier"
+        "Prettier",
+        "Jest"
       ],
       "testimonials": [
         {
@@ -547,7 +588,11 @@
         "Webpack",
         "ESLint",
         "Stylelint",
-        "REST"
+        "REST",
+        "Jest",
+        "BabelJS",
+        "PostCSS",
+        "CSS Modules"
       ],
       "testimonials": [
         {
@@ -636,9 +681,17 @@
         "end": "2016-09"
       },
       "description": [
-        "Bei der Umstellung der Styling-Plattform auf PostCSS entwickelte ich eine Tooling-Lösung, die Hot Module Replacement (HMR) für React mit Server-Side Rendering (SSR) unterstützt. Die Implementierung von React-Intl ermöglichte die Internationalisierung der Anwendung, während Techniken wie Tree-Shaking und automatische Chunks die Effizienz und Leistung verbesserten. Ziel war es, eine konsistente und reaktionsfähige Nutzererfahrung über eine Vielzahl von Plattformen hinweg zu gewährleisten, einschließlich Desktop-Browsern, Tablet-Browsern und Smartphone-Browsern. Diese strategische Überarbeitung führte zu einer Optimierung der Ladezeiten und einer signifikanten Verbesserung der allgemeinen Benutzerfreundlichkeit."
+        "Bei der Umstellung der Styling-Plattform auf PostCSS entwickelte ich eine Tooling-Lösung, die Hot Module Replacement (HMR) für React mit Server-Side Rendering (SSR) unterstützt. Die Implementierung von React Intl ermöglichte die Internationalisierung der Anwendung, während Techniken wie Tree-Shaking und automatische Chunks die Effizienz und Leistung verbesserten. Ziel war es, eine konsistente und reaktionsfähige Nutzererfahrung über eine Vielzahl von Plattformen hinweg zu gewährleisten, einschließlich Desktop-Browsern, Tablet-Browsern und Smartphone-Browsern. Diese strategische Überarbeitung führte zu einer Optimierung der Ladezeiten und einer signifikanten Verbesserung der allgemeinen Benutzerfreundlichkeit."
       ],
-      "technologies": ["React", "Redux", "React-Intl", "PostCSS", "Webpack"],
+      "technologies": [
+        "React",
+        "Redux",
+        "React Intl",
+        "React Router",
+        "Emotion",
+        "PostCSS",
+        "Webpack"
+      ],
       "testimonials": []
     },
     {

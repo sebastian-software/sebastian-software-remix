@@ -85,7 +85,7 @@ export async function loader(): Promise<LoaderReturnType> {
   // Remove all entries which are older than 5*365 days
   const currentDate = new Date()
   const fiveYearsAgo = new Date(currentDate)
-  fiveYearsAgo.setFullYear(fiveYearsAgo.getFullYear() - 5)
+  fiveYearsAgo.setFullYear(fiveYearsAgo.getFullYear() - 3)
 
   for (const tech in sortedTechnologiesObject) {
     if (sortedTechnologiesObject[tech].lastUsed < fiveYearsAgo) {
