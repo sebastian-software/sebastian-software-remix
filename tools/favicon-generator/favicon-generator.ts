@@ -14,12 +14,12 @@ const pngSettings: sharp.PngOptions = {
   quality: 100
 }
 
-const INPUT_SVG = "app/components/favicon/icon.svg"
-const OUTPUT_ICO = "app/components/favicon/favicon.ico"
+const INPUT_SVG = "app/components/page/favicon/icon.svg"
+const OUTPUT_ICO = "app/components/page/favicon/favicon.ico"
 const OUTPUT_DEFAULT_ICO = "public/favicon.ico"
-const APPLE_TOUCH_ICON = "app/components/favicon/apple-touch-icon.png"
-const WEB_MANIFEST_192 = "app/components/favicon/icon-192.png"
-const WEB_MANIFEST_512 = "app/components/favicon/icon-512.png"
+const APPLE_TOUCH_ICON = "app/components/page/favicon/apple-touch-icon.png"
+const WEB_MANIFEST_192 = "app/components/page/favicon/icon-192.png"
+const WEB_MANIFEST_512 = "app/components/page/favicon/icon-512.png"
 
 async function faviconIcoGenerator(svgImage: sharp.Sharp) {
   const pngBuffer = await svgImage
