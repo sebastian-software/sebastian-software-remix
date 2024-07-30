@@ -1,7 +1,6 @@
 import type { MetaFunction } from "@remix-run/node"
 import { useLoaderData } from "@remix-run/react"
 
-import { Banner } from "~/components/banner/Banner"
 import { Button } from "~/components/button/Button"
 import {
   Card,
@@ -10,8 +9,7 @@ import {
   CardFooter,
   CardTitle
 } from "~/components/card/Card"
-import { CustomersList } from "~/components/customers/CustomersList"
-import { TechList } from "~/components/tech-list/TechList"
+import { Banner, CustomersList, TechList } from "~/components/home"
 import type { ProjectType } from "~/data/data.types"
 
 export const meta: MetaFunction = () => [

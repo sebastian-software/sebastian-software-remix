@@ -1,9 +1,11 @@
 import { style } from "@vanilla-extract/css"
 
-import { elenaWebfont } from "../fonts/elena/Elena.css"
+import { variables } from "~/theme.css"
+
+import { elenaWebfont } from "../../fonts/elena/Elena.css"
 
 export const rootClass = style({
-  background: "#2A1B28",
+  background: variables.color.darkViolet,
   paddingBlock: "6rem",
   paddingInline: "4vw",
 
@@ -16,7 +18,7 @@ export const rootClass = style({
 
 export const titleClass = style({
   fontFamily: elenaWebfont,
-  fontSize: "4rem",
+  fontSize: "3rem",
   textDecoration: "underline",
   textUnderlineOffset: "0.2em",
   textDecorationThickness: "from-font",

@@ -5,6 +5,7 @@ import { buildShades, buildSpectrum } from "@effective/color"
 import { createTheme } from "@vanilla-extract/css"
 
 const violet = "#3F2B3D"
+const teal = "#22404B"
 const gold = "#C89F6B"
 const white = "#FFFFFF"
 
@@ -24,7 +25,8 @@ export const [themeClass, variables] = createTheme({
     lightViolet,
     veryLightGold,
     lightGold,
-    gold
+    gold,
+    teal
   },
   font: {
     body: "arial"

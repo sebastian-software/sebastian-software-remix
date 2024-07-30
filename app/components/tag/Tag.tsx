@@ -4,7 +4,7 @@ import type { PropsWithChildren } from "react"
 import { list, root } from "./Tag.css"
 
 export interface TagListProps extends PropsWithChildren {
-  readonly className: string
+  readonly className?: string
 }
 
 export function TagList({ children, className }: TagListProps) {

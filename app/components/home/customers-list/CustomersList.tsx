@@ -1,7 +1,7 @@
 import type { ProjectType } from "~/data/data.types"
 
-import { ColorFilter } from "../color-filter"
-import { CompanyLogo, hasLogo } from "../company-logo/CompanyLogo"
+import { ColorFilter } from "../../color-filter"
+import { CompanyLogo, hasLogo } from "../../company-logo/CompanyLogo"
 import {
   itemClass,
   listClass,

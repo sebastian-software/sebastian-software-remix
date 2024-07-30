@@ -2,7 +2,7 @@ import { style } from "@vanilla-extract/css"
 
 export const list = style({
   display: "flex",
-  flexDirection: "column",
+  flexWrap: "wrap",
   gap: "0.5rem",
   fontSize: "0.75rem"
 })

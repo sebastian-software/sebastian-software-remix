@@ -5,7 +5,7 @@ import { style } from "@vanilla-extract/css"
 
 import { variables } from "~/theme.css"
 
-import { elenaWebfont } from "../fonts/elena/Elena.css"
+import { elenaWebfont } from "../../fonts/elena/Elena.css"
 
 export const rootClass = style({
   backgroundColor: variables.color.darkViolet,
