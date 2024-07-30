@@ -17,6 +17,9 @@ const goldShades = buildShades(white, gold)
 const veryLightGold = goldShades[1] as string
 const lightGold = goldShades[4] as string
 
+const goldSpectrum = buildSpectrum(gold)
+const darkGold = goldSpectrum["-4"] as string
+
 export const [themeClass, variables] = createTheme({
   color: {
     white,
@@ -25,6 +28,7 @@ export const [themeClass, variables] = createTheme({
     lightViolet,
     veryLightGold,
     lightGold,
+    darkGold,
     gold,
     teal
   },

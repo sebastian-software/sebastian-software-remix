@@ -4,7 +4,7 @@ import { elenaWebfont } from "~/components/fonts/elena/Elena.css"
 import { variables } from "~/theme.css"
 
 export const rootClass = style({
-  background: variables.color.teal,
+  background: variables.color.lightGold,
   paddingBlock: "6rem",
   paddingInline: "4vw",
 
@@ -21,7 +21,7 @@ export const titleClass = style({
   textDecoration: "underline",
   textUnderlineOffset: "0.2em",
   textDecorationThickness: "from-font",
-  color: "white",
+  color: variables.color.violet,
   marginBottom: "2rem",
 
   "@media": {
