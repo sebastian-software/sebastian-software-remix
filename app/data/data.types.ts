@@ -5,6 +5,7 @@ export interface ProjectType {
   customer: {
     name: string
     location: string
+    industry: string
     logo?: string
   }
 

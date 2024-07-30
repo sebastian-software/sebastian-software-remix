@@ -4,11 +4,12 @@
       "title": "Übernahme, Beratung und Weiterentwicklung der Buchungsstrecke für die Schweizer Bundesbahn (SBB)",
       "role": "Leitender Frontend Architekt",
       "customer": {
-        "name": "Deutsche Telekom MMS GmbH",
-        "location": "Dresden",
-        "logo": "sbb"
+        "name": "Schweizerische Bundesbahnen AG",
+        "location": "Bern, Schweiz",
+        "logo": "sbb",
+        "industry": "Transport"
       },
-      "contractor": "GULP Information Services GmbH, München",
+      "contractor": "Telekom MMS über GULP Information Services GmbH, München",
       "period": {
         "start": "2024-03",
         "end": "2024-06"
@@ -55,7 +56,8 @@
       "customer": {
         "name": "EnBW AG",
         "location": "Karlsruhe",
-        "logo": "enbw"
+        "logo": "enbw",
+        "industry": "Energieversorgung"
       },
       "contractor": "Michael Page, Düsseldorf",
       "period": {
@@ -144,7 +146,8 @@
       "customer": {
         "name": "Azeti GmbH",
         "location": "Berlin",
-        "logo": "azeti"
+        "logo": "azeti",
+        "industry": "Industrie 4.0"
       },
       "contractor": "Staffgroup GmbH, Berlin",
       "period": {
@@ -177,7 +180,8 @@
       "customer": {
         "name": "Netze BW GmbH",
         "location": "Stuttgart",
-        "logo": "netzeBw"
+        "logo": "netzeBw",
+        "industry": "Energieversorgung"
       },
       "contractor": "Hays AG, Mannheim",
       "period": {
@@ -216,7 +220,8 @@
       "customer": {
         "name": "empiriecom GmbH & Co. KG",
         "location": "Burgkunstadt",
-        "logo": "empiriecom"
+        "logo": "empiriecom",
+        "industry": "E-Commerce"
       },
       "contractor": "AWESOME! Software GmbH, Montabaur",
       "period": {
@@ -263,7 +268,8 @@
       "customer": {
         "name": "HeidelbergCement AG",
         "location": "Heidelberg",
-        "logo": "heidelbergMaterials"
+        "logo": "heidelbergMaterials",
+        "industry": "Baustoffe"
       },
       "contractor": "Hays AG, Mannheim",
       "period": {
@@ -340,7 +346,8 @@
       "customer": {
         "name": "GE Healthcare GmbH",
         "location": "Freiburg",
-        "logo": "geHealthCare"
+        "logo": "geHealthCare",
+        "industry": "Gesundheitswesen"
       },
       "contractor": "Belcan Technical Recruiting, London",
       "period": {
@@ -382,7 +389,8 @@
       "customer": {
         "name": "Josef Witt GmbH (Otto Gruppe)",
         "location": "Weiden",
-        "logo": "wittGruppe"
+        "logo": "wittGruppe",
+        "industry": "E-Commerce"
       },
       "contractor": "Computer Futures/SThree GmbH, München",
       "period": {
@@ -419,7 +427,8 @@
       "customer": {
         "name": "Südwestrundfunk",
         "location": "Mainz",
-        "logo": "swr"
+        "logo": "swr",
+        "industry": "Medien"
       },
       "contractor": "GULP Information Services GmbH, München",
       "period": {
@@ -447,7 +456,8 @@
       "customer": {
         "name": "Init SE",
         "location": "Karlsruhe",
-        "logo": "init"
+        "logo": "init",
+        "industry": "Öffentlicher Verkehr"
       },
       "contractor": "Megapart GmbH, Karlsruhe",
       "period": {
@@ -480,7 +490,8 @@
       "customer": {
         "name": "Traton: RIO",
         "location": "München",
-        "logo": "traton"
+        "logo": "traton",
+        "industry": "Logistik"
       },
       "contractor": "Ray Sono AG, München",
       "period": {
@@ -524,7 +535,8 @@
       "customer": {
         "name": "coliquio GmbH",
         "location": "Konstanz",
-        "logo": "coliquio"
+        "logo": "coliquio",
+        "industry": "Gesundheitswesen"
       },
       "contractor": "Michael Page, München",
       "period": {
@@ -568,7 +580,8 @@
       "customer": {
         "name": "Deutsche Bank AG",
         "location": "Eschborn",
-        "logo": "deutscheBank"
+        "logo": "deutscheBank",
+        "industry": "Banken"
       },
       "contractor": "Hays AG, Mannheim",
       "period": {
@@ -617,7 +630,8 @@
       "customer": {
         "name": "Berlitz Deutschland GmbH",
         "location": "Frankfurt am Main",
-        "logo": "berlitz"
+        "logo": "berlitz",
+        "industry": "Bildung"
       },
       "contractor": "Syzygy GmbH, Bad Homburg",
       "period": {
@@ -670,7 +684,8 @@
       "customer": {
         "name": "Hornbach Baumarkt AG",
         "location": "Bornheim",
-        "logo": "hornbach"
+        "logo": "hornbach",
+        "industry": "Handel"
       },
       "contractor": "Systeme24, Mainz",
       "period": {
@@ -697,7 +712,8 @@
       "customer": {
         "name": "Deutsche Asset & Wealth Management",
         "location": "Frankfurt am Main",
-        "logo": "dws"
+        "logo": "dws",
+        "industry": "Banken"
       },
       "contractor": "Questax GmbH",
       "period": {
@@ -729,7 +745,8 @@
       "customer": {
         "name": "Huawei Technologies",
         "location": "Darmstadt",
-        "logo": "huawei"
+        "logo": "huawei",
+        "industry": "Informationstechnologie"
       },
       "contractor": "Networkers International",
       "period": {
@@ -793,9 +810,10 @@
       "title": "Responsive Homepage für den Software-Hersteller MAGIX",
       "role": "Senior Frontend Developer",
       "customer": {
-        "name": "",
-        "location": "Frankfurt am Main",
-        "logo": "magix"
+        "name": "MAGIX Software GmbH",
+        "location": "Berlin",
+        "logo": "magix",
+        "industry": "Software"
       },
       "contractor": "Triplesense Reply GmbH",
       "period": {
@@ -819,9 +837,10 @@
       "title": "Erweiterung der Webseite des Kabelanbieters Tele Columbus",
       "role": "Senior Frontend Developer",
       "customer": {
-        "name": "Triplesense Reply GmbH",
-        "location": "Frankfurt am Main",
-        "logo": "telecolumbus"
+        "name": "Tele Columbus AG",
+        "location": "Berlin",
+        "logo": "telecolumbus",
+        "industry": "Telekommunikation"
       },
       "contractor": "Triplesense Reply GmbH",
       "period": {
@@ -839,7 +858,8 @@
       "customer": {
         "name": "Deutsche Telekom",
         "location": "Darmstadt",
-        "logo": "deutscheTelekom"
+        "logo": "deutscheTelekom",
+        "industry": "Telekommunikation"
       },
       "contractor": "axxessio GmbH, Bonn",
       "period": {
@@ -872,7 +892,8 @@
       "customer": {
         "name": "Zynga Germany GmbH",
         "location": "Frankfurt am Main",
-        "logo": "zynga"
+        "logo": "zynga",
+        "industry": "Spiele"
       },
       "period": {
         "start": "2011-04",
@@ -910,7 +931,8 @@
       "customer": {
         "name": "Deutsche Telekom AG",
         "location": "Darmstadt",
-        "logo": "deutscheTelekom"
+        "logo": "deutscheTelekom",
+        "industry": "Telekommunikation"
       },
       "period": {
         "start": "2009-03",
@@ -968,7 +990,8 @@
       "customer": {
         "name": "studiVZ",
         "location": "Berlin",
-        "logo": "studivz"
+        "logo": "studivz",
+        "industry": "Soziale Netzwerke"
       },
       "period": {
         "start": "2008-10",
@@ -986,7 +1009,8 @@
       "customer": {
         "name": "1&1 Internet AG",
         "location": "Karlsruhe",
-        "logo": "oneAndOne"
+        "logo": "oneAndOne",
+        "industry": "Internetdienstleistungen"
       },
       "period": {
         "start": "2004-11",
@@ -1033,7 +1057,8 @@
       "customer": {
         "name": "Schlund+Partner GmbH & Co. KG",
         "location": "Karlsruhe",
-        "logo": "schlundPartner"
+        "logo": "schlundPartner",
+        "industry": "Internetdienstleistungen"
       },
       "period": {
         "start": "2002-05",

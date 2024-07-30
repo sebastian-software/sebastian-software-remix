@@ -76,10 +76,16 @@ export function Project({ data }: ProjectProps) {
           {data.customer.name}
           <br />
           {data.customer.location}
+          <br />
+          {data.customer.industry}
         </p>
         <p className={period}>
           Zeitraum:
           <br /> {formatPeriod(data.period)}
+        </p>
+        <p className={period}>
+          Auftraggeber:
+          <br /> {data.contractor}
         </p>
 
         {data.technologies && (

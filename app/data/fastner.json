@@ -6,7 +6,8 @@
       "customer": {
         "name": "MorgenFund GmbH",
         "location": "Luxemburg",
-        "logo": "morgenfund"
+        "logo": "morgenfund",
+        "industry": "Fintech"
       },
       "contractor": "Hays Sarl",
       "period": {
@@ -25,7 +26,8 @@
       "customer": {
         "name": "Witt Gruppe",
         "location": "Weiden",
-        "logo": "wittGruppe"
+        "logo": "wittGruppe",
+        "industry": "E-Commerce"
       },
       "contractor": "Computer Futures / SThree GmbH",
       "period": {
@@ -62,7 +64,8 @@
       "customer": {
         "name": "DWS",
         "location": "Frankfurt am Main",
-        "logo": "dws"
+        "logo": "dws",
+        "industry": "Banking"
       },
       "contractor": "Questax GmbH",
       "period": {
@@ -81,7 +84,8 @@
       "customer": {
         "name": "Deutsche Telekom AG",
         "location": "Darmstadt",
-        "logo": "deutscheTelekom"
+        "logo": "deutscheTelekom",
+        "industry": "Telekommunikation"
       },
       "contractor": "Proventa, Frankfurt",
       "period": {
@@ -104,7 +108,8 @@
       "customer": {
         "name": "JAKO-O",
         "location": "Bad Rodach",
-        "logo": "jakoo"
+        "logo": "jakoo",
+        "industry": "Einzelhandel"
       },
       "contractor": "Epresia GmbH",
       "period": {
@@ -123,7 +128,8 @@
       "customer": {
         "name": "JAKO-O",
         "location": "Bad Rodach",
-        "logo": "jakoo"
+        "logo": "jakoo",
+        "industry": "Einzelhandel"
       },
       "contractor": "Epresia GmbH",
       "period": {
@@ -142,7 +148,8 @@
       "customer": {
         "name": "SUZUKI",
         "location": "Bensheim",
-        "logo": "suzuki"
+        "logo": "suzuki",
+        "industry": "Automobil"
       },
       "contractor": "DIU MarTech Solutions GmbH",
       "period": {
@@ -159,7 +166,8 @@
       "role": "Frontend-Entwickler",
       "customer": {
         "name": "Großbank",
-        "location": "Frankfurt am Main"
+        "location": "Frankfurt am Main",
+        "industry": "Banking"
       },
       "contractor": "arago Consulting GmbH",
       "period": {
@@ -177,7 +185,8 @@
       "customer": {
         "name": "Deutsche Telekom AG",
         "location": "Darmstadt",
-        "logo": "deutscheTelekom"
+        "logo": "deutscheTelekom",
+        "industry": "Telekommunikation"
       },
       "contractor": "axxessio GmbH",
       "period": {
@@ -203,7 +212,8 @@
       "customer": {
         "name": "Deutsche Telekom AG",
         "location": "Darmstadt",
-        "logo": "deutscheTelekom"
+        "logo": "deutscheTelekom",
+        "industry": "Telekommunikation"
       },
       "contractor": "Proventa AG",
       "period": {
@@ -222,7 +232,8 @@
       "customer": {
         "name": "Deutsche Telekom AG",
         "location": "Darmstadt",
-        "logo": "deutscheTelekom"
+        "logo": "deutscheTelekom",
+        "industry": "Telekommunikation"
       },
       "period": {
         "start": "2008-05",
@@ -245,7 +256,8 @@
       "role": "Java-Entwickler",
       "customer": {
         "name": "3ado OHG",
-        "location": "Mainz"
+        "location": "Mainz",
+        "industry": "IT-Dienstleistungen"
       },
       "period": {
         "start": "2007-05",
@@ -268,7 +280,8 @@
       "customer": {
         "name": "Netz98 GmbH",
         "location": "Mainz",
-        "logo": "netz98"
+        "logo": "netz98",
+        "industry": "E-Commerce"
       },
       "period": {
         "start": "2006-10",
@@ -292,7 +305,8 @@
       "customer": {
         "name": "Commerzbank AG",
         "location": "Frankfurt am Main",
-        "logo": "commerzbank"
+        "logo": "commerzbank",
+        "industry": "Banking"
       },
       "period": {
         "start": "2006-03",
@@ -308,7 +322,8 @@
       "role": "PHP-Entwickler",
       "customer": {
         "name": "Creative Communication Gbr",
-        "location": "Bingen"
+        "location": "Bingen",
+        "industry": "Marketing"
       },
       "period": {
         "start": "2006-03",
@@ -325,7 +340,8 @@
       "customer": {
         "name": "Boehringer Ingelheim International GmbH",
         "location": "Ingelheim am Rhein",
-        "logo": "boehringerIngelheim"
+        "logo": "boehringerIngelheim",
+        "industry": "Pharma"
       },
       "period": {
         "start": "2000",
