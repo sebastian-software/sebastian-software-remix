@@ -1,4 +1,7 @@
+import { boxShadow } from "@effective/shadow"
 import { style } from "@vanilla-extract/css"
+
+import { variables } from "~/theme.css"
 
 export const list = style({
   display: "flex",
@@ -8,11 +11,11 @@ export const list = style({
 })
 
 export const root = style({
-  border: "1px solid #a58e9d",
-  background: "#f9e0f1",
-  color: "#776270",
+  background: `linear-gradient(to bottom, ${variables.color.gold}, ${variables.color.darkGold})`,
+  color: variables.color.white,
+  boxShadow: boxShadow[1],
   display: "inline-block",
   paddingInline: "0.75rem",
-  lineHeight: "2",
+  lineHeight: "2.5",
   borderRadius: "0.5rem"
 })
