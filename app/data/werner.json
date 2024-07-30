@@ -7,7 +7,7 @@
         "name": "Schweizerische Bundesbahnen AG",
         "location": "Bern, Schweiz",
         "logo": "sbb",
-        "industry": "Transport"
+        "industry": "Öffentlicher Verkehr"
       },
       "contractor": "Telekom MMS über GULP Information Services GmbH, München",
       "period": {
@@ -269,7 +269,7 @@
         "name": "HeidelbergCement AG",
         "location": "Heidelberg",
         "logo": "heidelbergMaterials",
-        "industry": "Baustoffe"
+        "industry": "Baustoffindustrie"
       },
       "contractor": "Hays AG, Mannheim",
       "period": {
@@ -428,7 +428,7 @@
         "name": "Südwestrundfunk",
         "location": "Mainz",
         "logo": "swr",
-        "industry": "Medien"
+        "industry": "Rundfunk"
       },
       "contractor": "GULP Information Services GmbH, München",
       "period": {
@@ -491,7 +491,7 @@
         "name": "Traton: RIO",
         "location": "München",
         "logo": "traton",
-        "industry": "Logistik"
+        "industry": "Nutzfahrzeugindustrie"
       },
       "contractor": "Ray Sono AG, München",
       "period": {
@@ -581,7 +581,7 @@
         "name": "Deutsche Bank AG",
         "location": "Eschborn",
         "logo": "deutscheBank",
-        "industry": "Banken"
+        "industry": "Finanzen"
       },
       "contractor": "Hays AG, Mannheim",
       "period": {
@@ -713,7 +713,7 @@
         "name": "Deutsche Asset & Wealth Management",
         "location": "Frankfurt am Main",
         "logo": "dws",
-        "industry": "Banken"
+        "industry": "Finanzen"
       },
       "contractor": "Questax GmbH",
       "period": {
@@ -813,7 +813,7 @@
         "name": "MAGIX Software GmbH",
         "location": "Berlin",
         "logo": "magix",
-        "industry": "Software"
+        "industry": "Software (Privatanwender)"
       },
       "contractor": "Triplesense Reply GmbH",
       "period": {
@@ -991,7 +991,7 @@
         "name": "studiVZ",
         "location": "Berlin",
         "logo": "studivz",
-        "industry": "Soziale Netzwerke"
+        "industry": "Soziale Medien"
       },
       "period": {
         "start": "2008-10",
@@ -1010,7 +1010,7 @@
         "name": "1&1 Internet AG",
         "location": "Karlsruhe",
         "logo": "oneAndOne",
-        "industry": "Internetdienstleistungen"
+        "industry": "Informationstechnologie"
       },
       "period": {
         "start": "2004-11",
@@ -1058,7 +1058,7 @@
         "name": "Schlund+Partner GmbH & Co. KG",
         "location": "Karlsruhe",
         "logo": "schlundPartner",
-        "industry": "Internetdienstleistungen"
+        "industry": "Informationstechnologie"
       },
       "period": {
         "start": "2002-05",

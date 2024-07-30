@@ -7,7 +7,7 @@
         "name": "MorgenFund GmbH",
         "location": "Luxemburg",
         "logo": "morgenfund",
-        "industry": "Fintech"
+        "industry": "Finanzen"
       },
       "contractor": "Hays Sarl",
       "period": {
@@ -65,7 +65,7 @@
         "name": "DWS",
         "location": "Frankfurt am Main",
         "logo": "dws",
-        "industry": "Banking"
+        "industry": "Finanzen"
       },
       "contractor": "Questax GmbH",
       "period": {
@@ -109,7 +109,7 @@
         "name": "JAKO-O",
         "location": "Bad Rodach",
         "logo": "jakoo",
-        "industry": "Einzelhandel"
+        "industry": "Handel"
       },
       "contractor": "Epresia GmbH",
       "period": {
@@ -129,7 +129,7 @@
         "name": "JAKO-O",
         "location": "Bad Rodach",
         "logo": "jakoo",
-        "industry": "Einzelhandel"
+        "industry": "Handel"
       },
       "contractor": "Epresia GmbH",
       "period": {
@@ -167,7 +167,7 @@
       "customer": {
         "name": "Großbank",
         "location": "Frankfurt am Main",
-        "industry": "Banking"
+        "industry": "Finanzen"
       },
       "contractor": "arago Consulting GmbH",
       "period": {
@@ -306,7 +306,7 @@
         "name": "Commerzbank AG",
         "location": "Frankfurt am Main",
         "logo": "commerzbank",
-        "industry": "Banking"
+        "industry": "Finanzen"
       },
       "period": {
         "start": "2006-03",

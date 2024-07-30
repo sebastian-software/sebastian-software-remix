@@ -10,6 +10,7 @@ import {
   CardTitle
 } from "~/components/card/Card"
 import { Banner, CustomersList, TechList } from "~/components/home"
+import { IndustryList } from "~/components/home/industry-list"
 import type { ProjectType } from "~/data/data.types"
 
 export const meta: MetaFunction = () => [
@@ -24,6 +25,7 @@ export const meta: MetaFunction = () => [
 interface LoaderReturnType {
   customers: Array<ProjectType["customer"]>
   technologies: Record<string, TechEntry>
+  industries: string[]
 }
 
 export interface TechEntry {
@@ -34,7 +36,8 @@ export interface TechEntry {
 function addProject(
   project: ProjectType,
   customers: Array<ProjectType["customer"]>,
-  technologies: Record<string, TechEntry | undefined>
+  technologies: Record<string, TechEntry | undefined>,
+  industries: string[]
 ) {
   if (!customers.some((c) => c.logo === project.customer.logo)) {
     customers.push(project.customer)
@@ -55,6 +58,10 @@ function addProject(
         lastUsed: endDate
       }
     }
+  }
+
+  if (!industries.includes(project.customer.industry)) {
+    industries.push(project.customer.industry)
   }
 }
 
@@ -94,18 +101,26 @@ export async function loader(): Promise<LoaderReturnType> {
 
   const customers: Array<ProjectType["customer"]> = []
   const technologies: Record<string, TechEntry> = {}
+  const industries: string[] = []
 
   for (const source of await sources) {
     for (const project of source.projects) {
-      addProject(project, customers, technologies)
+      addProject(project, customers, technologies, industries)
     }
   }
 
-  return { customers, technologies: postProcessTechnologies(technologies) }
+  // Sort industries
+  industries.sort((a, b) => a.localeCompare(b))
+
+  return {
+    customers,
+    technologies: postProcessTechnologies(technologies),
+    industries
+  }
 }
 
 export default function Index() {
-  const { customers, technologies } = useLoaderData<typeof loader>()
+  const { customers, technologies, industries } = useLoaderData<typeof loader>()
 
   return (
     <>
@@ -168,6 +183,7 @@ export default function Index() {
 
       <CustomersList data={customers} />
       <TechList data={technologies} />
+      <IndustryList data={industries} />
     </>
   )
 }
