@@ -1,12 +1,11 @@
 import { useLoaderData } from "@remix-run/react"
 
-import { ProfileHead } from "~/components/profile-head/ProfileHead"
-import { ProjectList } from "~/components/project-list/ProjectList"
+import { ProfileHead, ProjectList } from "~/components/profile"
 import type { ProjectData } from "~/types"
 
-import data from "../data/fastner.json"
+export async function loader() {
+  const data = await import("../data/fastner.json")
 
-export const loader = () => {
   const projects: ProjectData[] = []
   for (const project of data.projects) {
     projects.push({
