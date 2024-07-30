@@ -133,7 +133,8 @@
       "links": ["https://www.jako-o.de/geschenkeberater"],
       "description": [
         "Bei der Entwicklung eines Geschenkeberaters für mobile Plattformen auf Basis der Produktscores des JAKO-O Online-Shops spielte ich eine Schlüsselrolle als Consultant. Die Realisierung dieses Projekts demonstriert meine Expertise in der Schaffung personalisierter und benutzerorientierter Shopping-Lösungen, die auf detaillierten Datenanalysen basieren und die Servicequalität signifikant erhöhen."
-      ]
+      ],
+      "technologies": []
     },
     {
       "title": "SUZUKI E-Learning-Plattform",
@@ -150,7 +151,8 @@
       },
       "description": [
         "Als Consultant für Suzuki Deutschland konzipierte und entwickelte ich eine E-Learning-Plattform, die speziell auf die Vorbereitung von Zertifizierungen für das deutsche Händlernetz zugeschnitten war. Meine Aufgabe umfasste die gesamte Bandbreite von der Gestaltung des Endbenutzerfrontends bis zur Entwicklung der Redaktions- und Administrations-Oberflächen. Durch diese umfassende Lösung konnte ich maßgeblich zur Professionalisierung und Effizienzsteigerung im Schulungsprozess beitragen."
-      ]
+      ],
+      "technologies": []
     },
     {
       "title": "UI für virtuelles Rechenzentrum",
@@ -332,7 +334,8 @@
       },
       "description": [
         "Ich unterstützte die Implementierung einer neuen Supply Chain Management-Software durch die Entwicklung eines softwarebasierten Anforderungsmanagements mit automatischen Regressionstests. Meine Arbeit trug dazu bei, die Zuverlässigkeit und Effizienz der Softwarelösung durch automatische Überprüfungen und Dokumentationen zu erhöhen, was die Qualität der Supply Chain Prozesse maßgeblich verbesserte."
-      ]
+      ],
+      "technologies": []
     }
   ]
 }
