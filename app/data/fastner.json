@@ -14,7 +14,7 @@
         "end": "2099-12"
       },
       "description": [],
-      "technologies": ["Remix", "SST", "AWS", "Cloudflare"]
+      "technologies": ["Remix", "SST", "AWS", "Cloudflare", "IaC"]
     },
     {
       "title": "Weiterentwicklung MorgenFund Portfolio für Web-Browser und Mobile Apps und WISE",
