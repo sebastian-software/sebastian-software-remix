@@ -1,11 +1,11 @@
 import type { PeriodData, ProjectData } from "~/types"
 
-import type { Company } from "../company-logo/CompanyLogo"
-import { companies, CompanyLogo } from "../company-logo/CompanyLogo"
-import { Neutral } from "../neutral"
-import { RichText } from "../richtext/RichText"
-import { Tag, TagList } from "../tag/Tag"
-import { TestimonialBlock } from "../testimonial/Testimonial"
+import type { Company } from "../../company-logo/CompanyLogo"
+import { companies, CompanyLogo } from "../../company-logo/CompanyLogo"
+import { Neutral } from "../../neutral"
+import { RichText } from "../../richtext/RichText"
+import { Tag, TagList } from "../../tag/Tag"
+import { TestimonialBlock } from "../testimonial"
 import {
   customer,
   description,

@@ -1,5 +1,5 @@
 // Create webmanifest file with processed icons
-import { webmanifestIcons } from "~/components/favicon/FavIcon"
+import { webmanifestIcons } from "~/components/page/favicon/FavIcon"
 
 export const loader = () => {
   const icons = webmanifestIcons()
