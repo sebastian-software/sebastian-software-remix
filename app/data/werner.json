@@ -27,20 +27,16 @@
         "GraphQL",
         "Husky",
         "Jest",
-        "Lint Staged",
         "Lit",
         "Mono Repository",
         "Next.js",
         "Next Intl",
         "Playwright",
         "PNPM",
-        "PostCSS",
-        "Prettier",
         "React",
         "React Query",
         "React Hook Form",
         "REST",
-        "Sass",
         "Sonarcube",
         "Storybook",
         "SWR",
@@ -287,7 +283,6 @@
         "Jest",
         "Lerna",
         "Material UI",
-        "Prettier",
         "REST",
         "React",
         "React Router",
@@ -476,8 +471,7 @@
         "Storybook",
         "Jest",
         "ESLint",
-        "Stylelint",
-        "Prettier"
+        "Stylelint"
       ]
     },
     {
@@ -547,7 +541,6 @@
         "Storybook",
         "ESLint",
         "Stylelint",
-        "Prettier",
         "Jest"
       ],
       "testimonials": [
