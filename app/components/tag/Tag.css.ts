@@ -7,15 +7,22 @@ export const list = style({
   display: "flex",
   flexWrap: "wrap",
   gap: "0.5rem",
-  fontSize: "0.75rem"
+  fontSize: "0.875rem"
 })
 
 export const root = style({
   background: `linear-gradient(to bottom, ${variables.color.gold}, ${variables.color.darkGold})`,
   color: variables.color.white,
   boxShadow: boxShadow[1],
-  display: "inline-block",
+  textAlign: "center",
+  display: "flex",
+  cursor: "default",
+  userSelect: "none",
+
+  gap: "0.5rem",
+  alignItems: "center",
+  paddingBlock: "0.25rem",
   paddingInline: "0.75rem",
-  lineHeight: "2.5",
+
   borderRadius: "0.5rem"
 })
