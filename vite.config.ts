@@ -6,6 +6,7 @@ import { vercelPreset } from "@vercel/remix/vite"
 import remarkFrontmatter from 'remark-frontmatter'
 import remarkMdxFrontmatter from 'remark-mdx-frontmatter'
 import { defineConfig } from "vite"
+import { envOnlyMacros } from "vite-env-only"
 import tsconfigPaths from "vite-tsconfig-paths"
 
 installGlobals()
@@ -17,6 +18,7 @@ export default defineConfig({
   plugins: [
     mdx({ remarkPlugins: [remarkFrontmatter, remarkMdxFrontmatter] }),
     remix({ presets }),
+    envOnlyMacros(),
     tsconfigPaths(),
     vanillaExtractPlugin()
   ]

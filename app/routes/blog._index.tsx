@@ -13,8 +13,6 @@ export function loader() {
     eager: true,
   });
 
-  console.log(">>>", posts)
-
   const data = Object.entries(posts).map(([path, { frontmatter, summary }]) => {
     const filename = path.replace(".mdx", "").split("/").pop()
 
