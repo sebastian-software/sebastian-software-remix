@@ -10,7 +10,7 @@
     "test:json-schema": "pnpm create:json-schema ; ajv -s ./.tmp/data.schema.json -d 'app/data/*.json'",
     "create:json-schema": "mkdir -p ./.tmp && typescript-json-schema app/data/data.types.ts ProjectsType -o ./.tmp/data.schema.json --skipLibCheck --ignoreErrors --required",
     "create:favicons": "tsx tools/favicon-generator/favicon-generator.ts",
-    "create:favicons2": "effective-favicons app/components/page/favicon2",
+    "create:favicons2": "effective-favicon app/components/page/favicon2",
     "fix": "eslint --fix .; prettier --write .",
     "format": "prettier --write .",
     "test:format": "prettier --check .",
