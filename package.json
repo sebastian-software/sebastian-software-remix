@@ -31,7 +31,10 @@
     "clsx": "^2.1.1",
     "isbot": "^5.1.13",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "remark-frontmatter": "^5.0.0",
+    "remark-mdx-frontmatter": "^5.0.0",
+    "vite-env-only": "^3.0.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
@@ -39,6 +42,7 @@
     "@effective/color": "^1.0.1",
     "@effective/css-reset": "^3.1.0",
     "@effective/eslint-config": "^5.4.7",
+    "@mdx-js/rollup": "^3.0.1",
     "@remix-run/dev": "^2.10.3",
     "@storybook/react": "^8.2.6",
     "@tsconfig/node20": "^20.1.4",
