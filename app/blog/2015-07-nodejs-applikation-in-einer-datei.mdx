@@ -7,11 +7,13 @@ author: fastner
 signup: true
 ---
 
+import { Image } from "../components/blog/Image"
+
+import chainImage from "./images/jslinker/chain-257492.jpg"
+
 export const summary = `Unsere Kunden sind immer wieder ein Quell guter Inspirationen. In diesem Fall wollte unser Kunde seine Webseiten aus der Git-Quelle auf dem Server fertig zusammenbauen. Das ist an sich noch nichts besonderes. Doch die Optimierung der HTML-Dateigrößen durch einen HTML-Kompressor gehört heute zum guten Ton der Entwicklung.`
 
-<figure>
-  {/* % image "posts/jslinker/chain-257492.jpg" alt:"Chain" % */}
-</figure>
+<Image src={chainImage} alt="Chain" />
 
 {summary}
 

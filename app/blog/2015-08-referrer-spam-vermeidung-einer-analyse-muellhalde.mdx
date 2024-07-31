@@ -7,12 +7,23 @@ author: werner
 signup: true
 ---
 
+import { Image } from "../components/blog/Image"
+
+import reportOriginalImage from "./images/referrer/reporting-original.png"
+import reportingFilteredImage from "./images/referrer/reporting-filtered.png"
+import homeWithTwoViewsImage from "./images/referrer/home-with-two-views.png"
+import adminOverviewImage from "./images/referrer/admin-overview.png"
+import viewSettingsImage from "./images/referrer/view-settings.png"
+import viewSettingsBotImage from "./images/referrer/view-settings-botfilter.png"
+import viewFiltersImage from "./images/referrer/view-filters.png"
+import segmentUeberblickImage from "./images/referrer/segment-ueberblick.png"
+import bereinigteSegmenteEinrichtenImage from "./images/referrer/bereinigte-segmente-einrichten.png"
+import reportingOriginalSegmentHinzufuegenImage from "./images/referrer/reporting-original-segment-hinzufuegen.png"
+import reportingOriginalMitSegmentImage from "./images/referrer/reporting-original-mit-segment.png"
+
 export const summary = `Mit dem Aufsetzen einer Homepage gibt es recht überraschend immer wieder neue Tätigkeitsfelder. So kam es auch für uns. Wir wurden recht spontan auf ein Phänomen aufmerksam welches Wikipedia unter dem Begriff [Referrer-Spam](https://de.wikipedia.org/wiki/Referrer-Spam) beschreibt: In *[Google Analytics](http://www.google.com/analytics/)* gibt es jede Menge Traffic, aber vieles, wenn nicht sogar der größte Teil, davon scheint nicht von Menschen sondern von sogenannten Spam-Bots zu kommen.`
 
-<figure>
-  {/* % image "posts/referrer/reporting-original.png" alt:"Original-Report in Google Analytics ohne Filter" % */}
-  <figcaption>Das Original-Reporting sieht erst mal nicht direkt verdächtig aus. Normale Schwankungen könnte man denken.</figcaption>
-</figure>
+<Image src={reportOriginalImage} alt="Original-Report in Google Analytics ohne Filter" caption="Das Original-Reporting sieht erst mal nicht direkt verdächtig aus. Normale Schwankungen könnte man denken." />
 
 {summary}
 
@@ -231,24 +242,15 @@ Auch Tom Capper hat schon festgestellt, das selbst Profile Log-Inhalte erhalten,
 
 Man muss daher -- um klare Ergebnisse zu erhalten -- direkt in *Google Analytics* einen Filter einbauen.
 
-<figure>
-  {/* % image "posts/referrer/home-with-two-views.png" alt:"Startseite Google Analytics" % */}
-  <figcaption>Die Startseite von Google Analytics mit den angelegten Views im Überblick.</figcaption>
-</figure>
+<Image src={homeWithTwoViewsImage} alt="Startseite Google Analytics" caption="Die Startseite von Google Analytics mit den angelegten Views im Überblick." />
 {/* : .sidecaption */}
 
 Und das macht man am besten über einen neuen View. So bewahrt man immer die Originaldaten und kann im Zweifelsfall immer nochmal ein Blick dort hinein werfen.
 
-<figure>
-  {/* % image "posts/referrer/admin-overview.png" alt:"Überblick Admin-Bereich" % */}
-  <figcaption>Überblick des Admin-Bereichs in Google Analytics. Markiert sehen Sie direkt unseren jetzigen Arbeitsbereich: *View Settings*</figcaption>
-</figure>
+<Image src={adminOverviewImage} alt="Überblick Admin-Bereich" caption="Überblick des Admin-Bereichs in Google Analytics. Markiert sehen Sie direkt unseren jetzigen Arbeitsbereich: *View Settings*" />
 {/* : .sidecaption */}
 
-<figure>
-  {/* % image "posts/referrer/view-settings.png" alt:"Einstellungen des Standard-Views" % */}
-  <figcaption>Hier sieht man die Einstellungen von unserem Standard-View "Alle Websitedaten". Hier sollten alle Filter deaktiviert bleiben, damit die Original-Daten erhalten bleiben.</figcaption>
-</figure>
+<Image src={viewSettingsImage} alt="Einstellungen des Standard-Views" caption="Hier sieht man die Einstellungen von unserem Standard-View 'Alle Websitedaten'. Hier sollten alle Filter deaktiviert bleiben, damit die Original-Daten erhalten bleiben." />
 {/* : .sidecaption */}
 
 
@@ -258,10 +260,7 @@ Und das macht man am besten über einen neuen View. So bewahrt man immer die Ori
 
 Ein erster logischer und einfacher Schritt sollte sein, die Option in den Einstellungen der Datenansicht zu ändern. Das Ganze ist etwas versteckt, aber mittels den Screenshots hier dürfte es auffindbar werden:
 
-<figure>
-  {/* % image "posts/referrer/view-settings-botfilter.png" alt:"View Einstellung mit Option zum Filtern von Bots" % */}
-  <figcaption>Das Leben kann so einfach sein. Einfach die Checkbox anhaken und schon sind Sie zumindest einiges vom Spam los.</figcaption>
-</figure>
+<Image src={viewSettingsBotImage} alt="View Einstellung mit Option zum Filtern von Bots" caption="Das Leben kann so einfach sein. Einfach die Checkbox anhaken und schon sind Sie zumindest einiges vom Spam los." />
 {/* : .sidecaption */}
 
 <blockquote lang="en">
@@ -291,10 +290,7 @@ Leider reicht der oben eingerichtete Filter von *Google Analytics* für Bots nic
 2. Bildschirm-Auflösung
 3. Referral Quelle
 
-<figure>
-  {/* % image "posts/referrer/view-filters.png" alt:"Filterliste des bereinigten Views" % */}
-  <figcaption>Unsere 3 Filter für den bereinigten/gefilterten View im Überblick.</figcaption>
-</figure>
+<Image src={viewFiltersImage} alt="Filterliste des bereinigten Views" caption="Unsere 3 Filter für den bereinigten/gefilterten View im Überblick." />
 {/* : .sidecaption */}
 
 ### 1. Hostname validieren
@@ -324,10 +320,7 @@ Es gibt aber auch hier wieder öffentliche und gepflegte Listen wie z.B. [diese 
 
 ### Wirkt leider nur für neue Daten
 
-<figure>
-  {/* % image "posts/referrer/reporting-filtered.png" alt:"Die Ansicht des Reports vom neuem gefiltertem View" % */}
-  <figcaption>Der neue gefilterte View im Einsatz. Da dieser erst in Zukunft Daten erhält ist er bisher noch völlig leer.</figcaption>
-</figure>
+<Image src={reportingFilteredImage} alt="Die Ansicht des Reports vom neuem gefiltertem View" caption="Der neue gefilterte View im Einsatz. Da dieser erst in Zukunft Daten erhält ist er bisher noch völlig leer." />
 {/* : .sidecaption */}
 
 Bitte bedenken Sie noch:
@@ -346,34 +339,22 @@ Man kann übrigens die Statistik in *Google Analytics* leider nicht resetten: St
 
 Gehen Sie zurück in den Admin-Bereich. Dort klicken Sie innerhalb des linken Bereichs auf "Segments". Sie bekommen eine noch leere Liste von Segmenten... wir wollen aber das hier sehen:
 
-<figure>
-  {/* % image "posts/referrer/segment-ueberblick.png" alt:"Segment-Überblick mit neu angelegtem Segment" % */}
-  <figcaption>Das Segment "Bereinigt" hilft dabei auch in den historischen Daten einen reinen Überblick zu gewinnen.</figcaption>
-</figure>
+<Image src={segmentUeberblickImage} alt="Segment-Überblick mit neu angelegtem Segment" caption="Das Segment 'Bereinigt' hilft dabei auch in den historischen Daten einen reinen Überblick zu gewinnen." />
 {/* : .sidecaption */}
 
 Klicken Sie auf "New Segment" und legen Sie das Segment "Bereinigt" mit folgenden Daten an:
 
-<figure>
-  {/* % image "posts/referrer/bereinigte-segmente-einrichten.png" alt:"Einstellungen des bereinigten Segments" % */}
-  <figcaption>Die Einstellungen unseres gefilterten Segments beschränken sich auf die Überprüfung des Hostnames und der Bildschirmauflösung. Wir wollten die Liste von problematischen Referrern nicht doppelt und dreifach pflegen. Das Segment dient ja auch nur dazu historische Daten vom schlimmsten Ballast zu befreien.</figcaption>
-</figure>
+<Image src={bereinigteSegmenteEinrichtenImage} alt="Einstellungen des bereinigten Segments" caption="Die Einstellungen unseres gefilterten Segments beschränken sich auf die Überprüfung des Hostnames und der Bildschirmauflösung. Wir wollten die Liste von problematischen Referrern nicht doppelt und dreifach pflegen. Das Segment dient ja auch nur dazu historische Daten vom schlimmsten Ballast zu befreien." />
 {/* : .sidecaption */}
 
 Zurück in dem Reporting des Original-Views können Sie nun einfach das Segment "Bereinigt" hinzufügen...
 
-<figure>
-  {/* % image "posts/referrer/reporting-original-segment-hinzufuegen.png" alt:"Segment-Auswähler für Original-View" % */}
-  <figcaption>Hier fügen wir das neu angelegte Segment unserem bestehenden View hinzu um historische Webseitendaten gefiltert zu betrachten.</figcaption>
-</figure>
+<Image src={reportingOriginalSegmentHinzufuegenImage} alt="Segment-Auswähler für Original-View" caption="Hier fügen wir das neu angelegte Segment unserem bestehenden View hinzu um historische Webseitendaten gefiltert zu betrachten." />
 {/* : .sidecaption */}
 
 Und hier sehen Sie das Ergebnis der Mühe - eine schöne bereinigte Statistik. Sehr eindrucksvoll im Vergleich zum Original in blau:
 
-<figure>
-  {/* % image "posts/referrer/reporting-original-mit-segment.png" alt:"Original-Report mit filternden Segment im Vergleich" % */}
-  <figcaption>Historische Daten im Überblick mit aktivierten gefilterten Segment im Vergleich zu den Originaldaten. Was auffällt: Die Kurven fallen weit gleichmäßiger und weniger spitz aus.</figcaption>
-</figure>
+<Image src={reportingOriginalMitSegmentImage} alt="Original-Report mit filternden Segment im Vergleich" caption="Historische Daten im Überblick mit aktivierten gefilterten Segment im Vergleich zu den Originaldaten. Was auffällt: Die Kurven fallen weit gleichmäßiger und weniger spitz aus." />
 {/* : .sidecaption */}
 
 Wenn Sie es bis hierher geschafft haben, gibt es nun vermutlich eine Webseite mehr, die über brauchbarere Statistiken verfügt.

@@ -40,7 +40,7 @@ export default function BlogIndex() {
 
   return (
     <div>
-      <h1>Blog Index</h1>
+      <h1>Blog</h1>
       <ul>
         {
           data.map((entry) => {

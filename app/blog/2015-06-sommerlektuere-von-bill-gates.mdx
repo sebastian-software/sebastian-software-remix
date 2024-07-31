@@ -6,12 +6,14 @@ tags: Lesen Bücher
 author: werner
 ---
 
+import { Image } from "../components/blog/Image"
+import { Book } from "../components/blog/Book"
+
+import summerBooksImage from "./images/buecher/summer-books_2015_1200px_v1.jpg"
+
 export const summary = `Bill Gates ist ein bemerkenswerter Mensch. Seit er bei Microsoft nicht mehr aktiv ist und sich ganz anderen Themen widmet, kommen von Ihm immer wieder interessante Berichterstattungen und Empfehlungen.`
 
-<figure>
-  {/* % image "posts/buecher/summer-books_2015_1200px_v1.jpg" alt:"Bill Gates und seine Leseempfehlungen für den Sommer" % */}
-  <figcaption>Bill Gates und seine Leseempfehlungen für den Sommer.</figcaption>
-</figure>
+<Image src={summerBooksImage} alt="Bill Gates und seine Leseempfehlungen für den Sommer" caption="Bill Gates und seine Leseempfehlungen für den Sommer." />
 
 {summary}
 
@@ -21,28 +23,19 @@ Besonders spannend fanden wir diese hier:
 
 <ol class="amazon-list">
   <li>
-    {/* % amazonimg 3813506525 % */}
-    <p>
-      {/* % amazonlink 3813506525 % */}
-        What if? Was wäre wenn?: Wirklich wissenschaftliche Antworten auf absurde hypothetische Fragen
-      {/* % endamazonlink % */}
-    </p>
+    <Book amazonId="3813506525">
+      What if? Was wäre wenn?: Wirklich wissenschaftliche Antworten auf absurde hypothetische Fragen
+    </Book>
   </li>
   <li>
-    {/* % amazonimg 3550088507 % */}
-    <p>
-      {/* % amazonlink 3550088507 % */}
-        Der Zauber der Wirklichkeit: Die faszinierende Wahrheit hinter den Rätseln der Natur
-      {/* % endamazonlink % */}
-    </p>
+    <Book amazonId="3550088507">
+      Der Zauber der Wirklichkeit: Die faszinierende Wahrheit hinter den Rätseln der Natur
+    </Book>
   </li>
   <li>
-    {/* % amazonimg 0393310728 % */}
-    <p>
-      {/* % amazonlink 0393310728 % */}
-        How to Lie with Statistics
-      {/* % endamazonlink % */}
-    </p>
+    <Book amazonId="0393310728">
+      How to Lie with Statistics
+    </Book>
   </li>
 </ol>
 

@@ -7,13 +7,19 @@ author: werner
 signup: true
 ---
 
+import { Image } from "../components/blog/Image"
+
+import shutterstockImage from "./images/i18n/shutterstock_228803698.png"
+import icuMessageFormatImage from "./images/i18n/icu-message-format.png"
+import unicodeImage from "./images/i18n/unicode.png"
+import globalizeMarkDarkImage from "./images/i18n/globalize-mark-dark.png"
+import formatJsImage from "./images/i18n/formatjs-logo.png"
+
 export const summary = `Die Internationalisierung ist immer wieder ein großes Thema in Software-Projekten. Heutzutage wandern verstärkt Teile des Backends ins Frontend. Für moderne Single Page Applications (SPA) muss hier seitens der Framework-Technologie überlegt werden, wie man am Besten mit der Übersetzung bzw. dem größeren Thema der Internationalisierung — von der die reine Übersetzung nur ein Teilaspekt ist — umgeht. Es gab hier in Vergangenheit vielfältige Entwicklungen, die aber oft nicht ausgereift sind. Ich möchte versuchen einen Überblick zu geben.`
 
 {summary}
 
-<figure>
-  {/* % image "posts/i18n/shutterstock_228803698.png" alt:"Internationalisierung Globus" % */}
-</figure>
+<Image src={shutterstockImage} alt="Internationalisierung Globus" />
 
 ## Bereiche der Internationalisierung
 
@@ -31,10 +37,7 @@ Es gibt auch [ein paar gute, englischsprachige Slides von Google](https://docs.g
 
 - **ICU**: Das aktuell leistungsstärkste Format. Hier verpackt man die Logik zur Übersetzung mit in den Überset­zungs­text. Dies reduziert die Menge an Doppeldefinitionen in der Übersetzung. Gleichzeitig läuft ICU in Gefahr, dass die Erstellung der Übersetzung nicht so trivial ist wie bei einfachen Key-Value-Paaren. [MacOS und iOS nutzen das XLIFF-Format](https://developer.apple.com/library/ios/documentation/MacOSX/Conceptual/BPInternational/LocalizingYourApp/LocalizingYourApp.html) für die Übersetzung mittels ICU. Gibt's zum Beispiel auch [von IBM für Java-Entwickler](http://icu-project.org/apiref/icu4j/com/ibm/icu/text/MessageFormat.html).
 
-<figure>
-  {/* % image "posts/i18n/icu-message-format.png" alt:"Textauszeichnung mit ICU" % */}
-  <figcaption>Das ICU-Format nutzt speziell formatierte Ausdrücke innerhalb der Übersetzung für die Logikteile.</figcaption>
-</figure>
+<Image src={icuMessageFormatImage} alt="Textauszeichnung mit ICU" caption="Das ICU-Format nutzt speziell formatierte Ausdrücke innerhalb der Übersetzung für die Logikteile." />
 {/*: .sidecaption */}
 
 - **Gettext**: Älteres Format, welches noch oft im OpenSource-Bereich verwendet wird. Es handelt sich um [eine Entwicklung der Free Software Foundation](https://www.gnu.org/software/gettext/). Leider verfügt Gettext über keine Gender-Unterstützung und nur reduzierte Plural-Unterstützung (im Vergleich zu ICU nur eine Plural-Logik pro Text) lassen es aktuell als weniger sinnvoll einsetzbaren Kandidaten erscheinen.
@@ -52,10 +55,7 @@ Enthalten ist in diesem Repository z.B. folgendes:
 - **Informationen zur Sprache**: Plural-Formen, Geschlechter, Regeln für Sortierung und Suche, Laufrichtung der Schrift, etc.
 - **Länderinformationen**: Telefonnummern, Währungen, Kalender-Formate, Tastaturlayouts, etc.
 
-<figure>
-  {/* % image "posts/i18n/unicode.png" alt:"Unicode Projekt" % */}
-  <figcaption>Das Unicode Projekt beherbergt auch das Archiv Common Locale Data Repository (CLDR).</figcaption>
-</figure>
+<Image src={unicodeImage} alt="Unicode Projekt" caption="Das Unicode Projekt beherbergt auch das Archiv Common Locale Data Repository (CLDR)." />
 {/*: .sidecaption */}
 
 Wie man sieht ist dies eine ganze Menge. Es macht also unbedingt Sinn diese mühevoll gesammelten und gepflegten Daten für eigene Anwendungen zu nutzen.
@@ -83,10 +83,7 @@ Für die Nutzung wird das Paket [cldr-core](https://github.com/unicode-cldr/cldr
 
 [jQuery-Projekt für die Globalisierung](https://github.com/jquery/globalize) (vermutlich benutzt man hier Globalisierung um den Projektnamen wiederaufzugreifen). Unterstützt die Formatierung und das Parsen von sowohl Datums als auch Zahlenwerten. Bei Währungen wird nur die Formatierung unterstützt. Soweit man keinen Wert auf die Erkennung der Währung liegt kann man natürlich den Zahlenparser auch als Währungsparser zweckentfremden. Es gibt auch eine Funktionalität zur Formatierung von relativen Datumsinformationen wie z.B. "vor einem Monat". *Globalize* kann als eines der Urgesteine gelten, da es schon seit rund 5 Jahren auf dem Markt ist.
 
-<figure>
-  {/* % image "posts/i18n/globalize-mark-dark.png" alt:"Logo des Globalize Projektes" % */}
-  <figcaption>Das Globalize-Projekt ist Teil der jQuery-Community.</figcaption>
-</figure>
+<Image src={globalizeMarkDarkImage} alt="Logo des Globalize Projektes" caption="Das Globalize-Projekt ist Teil der jQuery-Community." />
 {/*: .sidecaption */}
 
 Im Rahmen der Entwicklung von *Globalize* sind einige weitere Tools zum Umgang (Download + Prozessierung) mit *CLDR*-Daten entstanden (nachdem man von eigenen Daten gewechselt ist). *Globalize* liefert die *CLDR*-Daten nicht mit, aber kommt mit einer Armee von Abhängigkeiten z.B. dem [*CLDR*-Daten-Downloader](https://github.com/rxaviers/cldr-data-downloader). Hier muss jeder Entwickler neben der Installation des Paketes im Anschluss auch die notwendigen *CLDR*-Daten via Kommandozeile downloaden. Man kann so natürlich gewährleisten dort immer den aktuellen Stand zu besitzen - soweit die Entwickler daran denken auch immer alles fleissig zu updaten.
@@ -98,10 +95,7 @@ Die Daten, die im Paket mit *Globalize* geladen werden, sind noch größer, als 
 
 [FormatJS](http://formatjs.io/) ist eine auf *Intl* aufsetzende Schicht mit zusätzlichen Funktionen zur Formatierung von relativen Zeiten und ein *ICU*-kompatibles Message-Format. Hauptaugenmerk liegt auf der Integration der verschiedenen Features mit Frameworks wie React, Amber und Templating-Libraries wie Handlebars oder Dust. Weiterhin kommt eine recht interessante Funktionalität eines sogenannten Format-Caches, welches die Neuverarbeitung von Ausdrücken reduziert und somit für die Ausführungsgeschwindigkeit zuträglich ist. FormatJS nutzt eine Weiterentwicklung von [Messageformat.js](https://github.com/SlexAxton/messageformat.js/) des *ICU* Messageformats in JavaScript.
 
-<figure>
-  {/* % image "posts/i18n/formatjs-logo.png" alt:"Logo des FormatJS Projektes" % */}
-  <figcaption>Das FormatJS-Projekt wurde von Yahoo als OpenSource veröffentlicht.</figcaption>
-</figure>
+<Image src={formatJsImage} alt="Logo des FormatJS Projektes" caption="Das FormatJS-Projekt wurde von Yahoo als OpenSource veröffentlicht." />
 {/*: .sidecaption */}
 
 Während Globalize für sich allein stehend, unabhängig von *Intl* funktioniert, erfordert [FormatJS](http://formatjs.io/) die Existenz der API bzw. des [Polyfills](https://github.com/andyearnshaw/Intl.js/). [FormatJS](http://formatjs.io/) ist eine Entwicklung von Yahoo. Was im Prinzip erstmal gut klingt ist bei genauerer Betrachtung leider nicht ganz so positiv, da der Footer der Webseite suggeriert, dass diese Library seit 2014 keine größeren Updates mehr erhalten hat.
