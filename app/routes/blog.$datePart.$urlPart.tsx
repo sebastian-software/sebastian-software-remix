@@ -1,6 +1,6 @@
-import { useParams } from "@remix-run/react";
+import { useParams } from "@remix-run/react"
 
-import type { Post } from "./blog._index";
+import type { Post } from "./blog._index"
 
 /*
 const usePost = serverOnly$((id: string) => {
@@ -41,8 +41,8 @@ const usePost = serverOnly$((id: string) => {
 
 const usePost = (id: string) => {
   const posts = import.meta.glob<Post>("../blog/*.mdx", {
-    eager: true,
-  });
+    eager: true
+  })
 
   return {
     Component: posts[id].default,
@@ -51,10 +51,14 @@ const usePost = (id: string) => {
 }
 
 export default function BlogEntry() {
-  const { datePart, urlPart } = useParams();
-  const id = `../blog/${datePart}-${urlPart}.mdx`;
+  const { datePart, urlPart } = useParams()
+  const id = `../blog/${datePart}-${urlPart}.mdx`
 
-  const post = usePost(id);
+  const post = usePost(id)
 
-  return (<div><post.Component /></div>)
+  return (
+    <div>
+      <post.Component />
+    </div>
+  )
 }

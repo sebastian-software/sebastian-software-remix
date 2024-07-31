@@ -6,7 +6,5 @@ export interface BookProps extends PropsWithChildren {
 }
 
 export function Book({ children }: BookProps) {
-  return (
-    <p>{children}</p>
-  )
+  return <p>{children}</p>
 }

@@ -13,8 +13,6 @@ export const summary = `Wer es mit Jekyll ernst meint wird wohl früher oder sp�
 
 Und ja es geht. Innerhalb der typischen Unix-Kommandozeilen-Tools gab es schon lange eine Rechtschreibkontrolle mit dem Namen [Ispell](http://www.gnu.org/software/ispell/) von 2006. Dann kam [Aspell](http://aspell.net/) - welches seit 2011 nicht mehr weiterentwickelt wird. Aktuell ist wohl [Hunspell](http://hunspell.sourceforge.net/) die Wahl unter den Rechtschreibtools. Auch in der Unix-Welt gibt es also stetige Weiterentwicklung. Hunspell steckt wohl beinahe überall drin. In der OpenOffice-Suite, dem Chrome-Browser und sogar in Mac OS.
 
-
-
 ## Hunspell installieren
 
 Die aktuelle Version von Hunspell kann man am einfachsten via [Homebrew](http://brew.sh) auf dem Mac installieren.
@@ -31,7 +29,6 @@ Es ist empfehlenswert auch noch Python 3 zu installieren, da wir dieses im folge
 brew install python3
 ```
 
-
 ## Wörterbücher beziehen
 
 Aktuelle Wörterbücher gibt es z.B. bei:
@@ -47,7 +44,6 @@ Beide Dateien sind im Prinzip ZIP-Dateien und lassen sich über normale Archivpr
 Das Wörterbuch von OpenOffice ist weit größer und enthält zusätzlich auch die Datenbanken für Thesaurus und Silbentrennung. Beides ist für Hunspell jetzt nicht direkt sinnvoll nutzbar und somit eher in der Office-Suite relevant.
 
 Das heruntergeladene Wörterbuch muss dann in das entsprechende Spelling-Verzeichnis als `~/Library/Spelling/de_DE.dic` und `~/Library/Spelling/de_DE.aff` oder alternativ in das entsprechende systemweite Verzeichnis kopiert werden.
-
 
 ## Rechtschreibung mit Jekyll verbinden
 
@@ -66,14 +62,11 @@ Das `plaintext.py`-Skript findet man bei Github:
 
 <script src="https://gist.github.com/swernerx/4eca15dc6012044c848b.js"></script>
 
-
-
 ## Installation
 
 - Die Ordner `tools` und `tools/dict` anlegen.
 - Unterhalb des Ordners `tools/dict` eine Datei `custom.txt` mit eigenen Wörtern pflegen. Ein Wort pro Zeile.
 - Die Skripte `check-spelling.sh` und `plaintext.py` im `tools`-Ordner ablegen und ausführbar machen.
-
 
 ## Benutzung
 

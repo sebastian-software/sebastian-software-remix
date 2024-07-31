@@ -10,7 +10,7 @@ export function Image({ src, alt, caption }: ImageProps) {
   return (
     <figure>
       <img src={src} alt={alt} />
-      {caption && (<figcaption>{caption}</figcaption>)}
+      {caption && <figcaption>{caption}</figcaption>}
     </figure>
   )
 }

@@ -10,8 +10,8 @@ export interface Post {
 
 export function loader() {
   const posts = import.meta.glob<Post>("../blog/*.mdx", {
-    eager: true,
-  });
+    eager: true
+  })
 
   const data = Object.entries(posts).map(([path, { frontmatter, summary }]) => {
     const filename = path.replace(".mdx", "").split("/").pop()
@@ -24,12 +24,12 @@ export function loader() {
     const datePart = parts.slice(0, SPLIT_DATE_PART).join("-")
     const urlPart = parts.slice(SPLIT_DATE_PART).join("-")
 
-    return ({
+    return {
       datePart,
       urlPart,
       frontmatter,
       summary
-    })
+    }
   })
 
   return data.filter((entry) => entry !== undefined)
@@ -42,15 +42,15 @@ export default function BlogIndex() {
     <div>
       <h1>Blog</h1>
       <ul>
-        {
-          data.map((entry) => {
-            return (
-              <li key={entry.frontmatter.title}>
-                <Link to={`/blog/${entry.datePart}/${entry.urlPart}`}>{entry.frontmatter.title}</Link>
-              </li>
-            )
-          })
-        }
+        {data.map((entry) => {
+          return (
+            <li key={entry.frontmatter.title}>
+              <Link to={`/blog/${entry.datePart}/${entry.urlPart}`}>
+                {entry.frontmatter.title}
+              </Link>
+            </li>
+          )
+        })}
       </ul>
     </div>
   )
