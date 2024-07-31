@@ -1,6 +1,6 @@
 import { useParams } from "@remix-run/react"
 
-import type { Post } from "./blog._index"
+import type { Post } from "./blog_._index"
 
 /*
 const usePost = serverOnly$((id: string) => {
