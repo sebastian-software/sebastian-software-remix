@@ -9,7 +9,7 @@ import {
 } from "@remix-run/react"
 import type { PropsWithChildren } from "react"
 
-import { Body, FavIcon, Footer, Header, Main } from "./components/page"
+import { Body, Favicon, Footer, Header, Main } from "./components/page"
 
 export function Layout({ children }: PropsWithChildren) {
   return (
@@ -19,7 +19,7 @@ export function Layout({ children }: PropsWithChildren) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
-        <FavIcon />
+        <Favicon />
       </head>
       <Body>
         <Header />
