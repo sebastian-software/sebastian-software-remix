@@ -58,8 +58,8 @@ importers:
         specifier: ^5.4.7
         version: 5.4.7(eslint@8.57.0)(typescript@5.5.4)
       '@effective/favicon':
-        specifier: ^2.2.0
-        version: 2.2.0
+        specifier: ^2.3.0
+        version: 2.3.0
       '@mdx-js/rollup':
         specifier: ^3.0.1
         version: 3.0.1(rollup@4.13.0)
@@ -1068,8 +1068,8 @@ packages:
     peerDependencies:
       eslint: '>= 8'
 
-  '@effective/favicon@2.2.0':
-    resolution: {integrity: sha512-GwENB/RkJXYHriGg96L/D0DT2GCAkmTAUoTttPH/zsLaZoGt3u6dQ1d/5BmDuVvHvHjdaaBPrqZ0q1BeXM1jmA==}
+  '@effective/favicon@2.3.0':
+    resolution: {integrity: sha512-mEnKV2FsxkBWVwVJBncNPa/uNIQg5gD7xeQIWuUKvP9NRnV4lcFAvhhu+x8jbqC5NJ0MDWUJHPenYoPxgION9w==}
     hasBin: true
 
   '@effective/shadow@1.1.0':
@@ -7741,7 +7741,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@effective/favicon@2.2.0':
+  '@effective/favicon@2.3.0':
     dependencies:
       commander: 12.1.0
       prettier: 3.3.3
