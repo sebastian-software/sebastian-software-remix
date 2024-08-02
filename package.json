@@ -24,7 +24,7 @@
     "deploy:prod": "sst deploy --stage production"
   },
   "dependencies": {
-    "@effective/shadow": "^1.0.2",
+    "@effective/shadow": "^1.1.0",
     "@remix-run/node": "^2.11.0",
     "@remix-run/react": "^2.11.0",
     "@remix-run/serve": "^2.11.0",
