@@ -42,7 +42,7 @@
     "@effective/color": "^1.0.1",
     "@effective/css-reset": "^3.1.0",
     "@effective/eslint-config": "^5.4.7",
-    "@effective/favicon": "^2.1.1",
+    "@effective/favicon": "^2.1.2",
     "@mdx-js/rollup": "^3.0.1",
     "@remix-run/dev": "^2.11.0",
     "@storybook/react": "^8.2.7",

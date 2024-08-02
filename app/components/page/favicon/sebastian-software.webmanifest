@@ -1,7 +1,5 @@
 {
-  "name": "sebastian-software-homepage",
-  "short_name": "sebastian-software-homepage",
-  "description": "Sebastian Software Homepage",
+  "name": "Sebastian Software Homepage",
   "start_url": ".",
   "scope": "/",
   "display": "browser",
