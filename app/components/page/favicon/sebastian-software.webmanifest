@@ -1,6 +1,6 @@
 {
   "name": "Sebastian Software Homepage",
-  "start_url": ".",
+  "start_url": "/",
   "scope": "/",
   "display": "browser",
   "icons": [
