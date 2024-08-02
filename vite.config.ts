@@ -15,6 +15,15 @@ installGlobals()
 const presets = process.env.SST === "1" ? [] : [vercelPreset()]
 
 export default defineConfig({
+  build: {
+    assetsInlineLimit(filePath, content) {
+      if (filePath.includes("/favicon/")) {
+        return false
+      }
+
+      // return nothing => default behavior
+    }
+  },
   plugins: [
     mdx({ remarkPlugins: [remarkFrontmatter, remarkMdxFrontmatter] }),
     remix({ presets }),
