@@ -6,7 +6,6 @@ import { vercelPreset } from "@vercel/remix/vite"
 import remarkFrontmatter from "remark-frontmatter"
 import remarkMdxFrontmatter from "remark-mdx-frontmatter"
 import { defineConfig } from "vite"
-import { envOnlyMacros } from "vite-env-only"
 import tsconfigPaths from "vite-tsconfig-paths"
 
 installGlobals()
@@ -16,7 +15,7 @@ const presets = process.env.SST === "1" ? [] : [vercelPreset()]
 
 export default defineConfig({
   build: {
-    assetsInlineLimit(filePath, content) {
+    assetsInlineLimit(filePath) {
       if (filePath.includes("/favicon/")) {
         return false
       }
@@ -27,7 +26,6 @@ export default defineConfig({
   plugins: [
     mdx({ remarkPlugins: [remarkFrontmatter, remarkMdxFrontmatter] }),
     remix({ presets }),
-    envOnlyMacros(),
     tsconfigPaths(),
     vanillaExtractPlugin()
   ]

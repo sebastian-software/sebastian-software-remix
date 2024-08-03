@@ -1,8 +1,15 @@
 import { useParams } from "@remix-run/react"
 
-import type { Post } from "./blog_._index"
+import { BlogLayout } from "~/components/blog/BlogLayout"
+import type { Post } from "~/components/blog/loader"
+
+export const authorMapping: Record<string, string> = {
+  werner: "Sebastian Werner",
+  fastner: "Sebastian Fastner"
+}
 
 /*
+// package vite-env-only
 const usePost = serverOnly$((id: string) => {
   const posts = import.meta.glob<Post>("../blog/*.mdx", {
     eager: true,
@@ -44,8 +51,13 @@ const usePost = (id: string) => {
     eager: true
   })
 
+  const post = posts[id]
+
   return {
-    Component: posts[id].default,
+    Component: post.default,
+    title: post.frontmatter.title,
+    author: authorMapping[post.frontmatter.author] ?? "Unbekannt",
+    date: new Date(post.frontmatter.date),
     error: undefined
   }
 }
@@ -57,8 +69,8 @@ export default function BlogEntry() {
   const post = usePost(id)
 
   return (
-    <div>
+    <BlogLayout title={post.title} author={post.author} date={post.date}>
       <post.Component />
-    </div>
+    </BlogLayout>
   )
 }

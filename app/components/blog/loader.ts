@@ -1,5 +1,3 @@
-import { Link, useLoaderData } from "@remix-run/react"
-
 const SPLIT_DATE_PART = 2
 
 export interface Post {
@@ -8,8 +6,8 @@ export interface Post {
   summary: string
 }
 
-export function loader() {
-  const posts = import.meta.glob<Post>("../blog/*.mdx", {
+export function blogPostLoader() {
+  const posts = import.meta.glob<Post>("../../blog/*.mdx", {
     eager: true
   })
 
@@ -33,25 +31,4 @@ export function loader() {
   })
 
   return data.filter((entry) => entry !== undefined)
-}
-
-export default function BlogIndex() {
-  const data = useLoaderData<typeof loader>()
-
-  return (
-    <div>
-      <h1>Blog</h1>
-      <ul>
-        {data.map((entry) => {
-          return (
-            <li key={entry.frontmatter.title}>
-              <Link to={`/blog/${entry.datePart}/${entry.urlPart}`}>
-                {entry.frontmatter.title}
-              </Link>
-            </li>
-          )
-        })}
-      </ul>
-    </div>
-  )
 }

@@ -20,7 +20,17 @@ export function Layout({ children }: PropsWithChildren) {
         <Meta />
         <Links />
         <Favicon />
-        <script defer data-domain="sebastian-software.de" src="https://t.sebastian-software.de/js/script.js" />
+        <script
+          defer
+          data-domain="sebastian-software.de"
+          src="https://t.sebastian-software.de/js/script.js"
+        />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="RSS"
+          href="https://sebastian-software.de/rss.xml"
+        />
       </head>
       <Body>
         <Header />

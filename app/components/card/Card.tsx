@@ -1,23 +1,28 @@
+import classnames from "classnames"
 import type { PropsWithChildren } from "react"
 
 import { container, content, footer, root, title } from "./Card.css"
 
-export function Card({ children }: PropsWithChildren) {
-  return <div className={root}>{children}</div>
+interface PropsWithStyling extends PropsWithChildren {
+  readonly className?: string
 }
 
-export function CardTitle({ children }: PropsWithChildren) {
-  return <div className={title}>{children}</div>
+export function Card({ children, className }: PropsWithStyling) {
+  return <div className={classnames(root, className)}>{children}</div>
 }
 
-export function CardContent({ children }: PropsWithChildren) {
-  return <div className={content}>{children}</div>
+export function CardTitle({ children, className }: PropsWithStyling) {
+  return <div className={classnames(title, className)}>{children}</div>
 }
 
-export function CardFooter({ children }: PropsWithChildren) {
-  return <div className={footer}>{children}</div>
+export function CardContent({ children, className }: PropsWithStyling) {
+  return <div className={classnames(content, className)}>{children}</div>
 }
 
-export function CardContainer({ children }: PropsWithChildren) {
-  return <div className={container}>{children}</div>
+export function CardFooter({ children, className }: PropsWithStyling) {
+  return <div className={classnames(footer, className)}>{children}</div>
+}
+
+export function CardContainer({ children, className }: PropsWithStyling) {
+  return <div className={classnames(container, className)}>{children}</div>
 }
