@@ -1,8 +1,7 @@
 import { useParams } from "@remix-run/react"
 
 import { BlogLayout } from "~/components/blog/BlogLayout"
-
-import type { Post } from "./blog._index"
+import type { Post } from "~/components/blog/loader"
 
 export const authorMapping: Record<string, string> = {
   werner: "Sebastian Werner",

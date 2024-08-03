@@ -1,6 +1,7 @@
 import { useLoaderData } from "@remix-run/react"
 import { nanoid } from "nanoid"
 
+import { blogPostLoader } from "~/components/blog/loader"
 import { Button } from "~/components/button/Button"
 import {
   Card,
@@ -13,40 +14,10 @@ import {
 import { authorMapping } from "./blog.$datePart.$urlPart"
 import { cardStyle } from "./blog/blog._index.css"
 
-const SPLIT_DATE_PART = 2
 const CARDS_PER_ROW = 3
 
-export interface Post {
-  default: React.ElementType
-  frontmatter: Record<string, string>
-  summary: string
-}
-
 export function loader() {
-  const posts = import.meta.glob<Post>("../blog/*.mdx", {
-    eager: true
-  })
-
-  const data = Object.entries(posts).map(([path, { frontmatter, summary }]) => {
-    const filename = path.replace(".mdx", "").split("/").pop()
-
-    if (!filename) {
-      return
-    }
-
-    const parts = filename.split("-")
-    const datePart = parts.slice(0, SPLIT_DATE_PART).join("-")
-    const urlPart = parts.slice(SPLIT_DATE_PART).join("-")
-
-    return {
-      datePart,
-      urlPart,
-      frontmatter,
-      summary
-    }
-  })
-
-  return data.filter((entry) => entry !== undefined)
+  return blogPostLoader()
 }
 
 const renderPost = (entry: ReturnType<typeof loader>[0] | "empty") => {
