@@ -9,6 +9,7 @@ export const authorMapping: Record<string, string> = {
 }
 
 /*
+// package vite-env-only
 const usePost = serverOnly$((id: string) => {
   const posts = import.meta.glob<Post>("../blog/*.mdx", {
     eager: true,
