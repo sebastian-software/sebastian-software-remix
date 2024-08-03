@@ -8,6 +8,7 @@
  */
 
 import { PassThrough } from "node:stream"
+import zlib from "node:zlib"
 
 import type { AppLoadContext, EntryContext } from "@remix-run/node"
 import { createReadableStreamFromReadable } from "@remix-run/node"
@@ -120,14 +121,24 @@ async function handleBrowserRequest(
             `public, max-age=${DEFAULT_CACHE_TIME_SECS}, s-maxage=${DEFAULT_CACHE_TIME_SECS}`
           )
 
+          if (request.headers.get("Accept-Encoding")?.includes("br")) {
+            responseHeaders.set("Content-Encoding", "br")
+            const brotli = zlib.createBrotliCompress()
+            pipe(brotli).pipe(body)
+          } else if (request.headers.get("Accept-Encoding")?.includes("gzip")) {
+            responseHeaders.set("Content-Encoding", "gzip")
+            const gzip = zlib.createGzip()
+            pipe(gzip).pipe(body)
+          } else {
+            pipe(body)
+          }
+
           resolve(
             new Response(stream, {
               headers: responseHeaders,
               status: responseStatusCode
             })
           )
-
-          pipe(body)
         },
         onShellError(error: unknown) {
           reject(error)
