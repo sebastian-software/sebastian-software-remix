@@ -29,6 +29,10 @@ export default $config({
         dns: sst.cloudflare.dns({
           zone: "1849459b28dd975658208ee4ffdb2257"
         })
+      },
+      server: {
+        architecture: "arm64",
+        memory: "1024 MB"
       }
     })
   }

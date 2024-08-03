@@ -17,6 +17,7 @@ import { renderToPipeableStream } from "react-dom/server"
 
 const ABORT_DELAY = 5000
 const INTERNAL_SERVER_ERROR = 500
+const DEFAULT_CACHE_TIME_SECS = 60
 
 export default async function handleRequest(
   request: Request,
@@ -114,6 +115,10 @@ async function handleBrowserRequest(
           const stream = createReadableStreamFromReadable(body)
 
           responseHeaders.set("Content-Type", "text/html")
+          responseHeaders.set(
+            "Cache-Control",
+            `public, max-age=${DEFAULT_CACHE_TIME_SECS}, s-maxage=${DEFAULT_CACHE_TIME_SECS}`
+          )
 
           resolve(
             new Response(stream, {
