@@ -3,9 +3,11 @@ import type { PropsWithChildren } from "react"
 
 import { contentClass, imageClass, rootClass } from "./Banner.css"
 
-export interface BannerProps extends PropsWithChildren {}
+export interface BannerProps extends PropsWithChildren {
+  readonly alt?: string
+}
 
-export function Banner({ children }: BannerProps) {
+export function Banner({ children, alt }: BannerProps) {
   return (
     <div className={rootClass}>
       <div className={contentClass}>{children}</div>
@@ -27,6 +29,7 @@ export function Banner({ children }: BannerProps) {
         <Image
           unstyled
           priority
+          alt={alt}
           layout="fullWidth"
           src="https://a.storyblok.com/f/299556/10000x3500/a184076908/home-banner-extended.jpg"
         />

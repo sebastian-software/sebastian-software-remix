@@ -124,7 +124,7 @@ export default function Index() {
 
   return (
     <>
-      <Banner>
+      <Banner alt="Gründer der Sebastian Software GmbH">
         Fundiertes technisches Know-How trifft auf Leidenschaft für Innovation
         und herausragende User-Experience.
       </Banner>
