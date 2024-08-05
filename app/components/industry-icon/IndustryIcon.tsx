@@ -47,9 +47,10 @@ const industryMap: Record<string, string> = {
 export interface IndustryIconProps {
   readonly name: string
   readonly filter?: string
+  readonly alt?: string
 }
 
-export function IndustryIcon({ name, filter }: IndustryIconProps) {
+export function IndustryIcon({ name, filter, alt }: IndustryIconProps) {
   const imageSource = industryMap[name]
   if (imageSource) {
     const style: CSSProperties = {}
@@ -58,7 +59,13 @@ export function IndustryIcon({ name, filter }: IndustryIconProps) {
     }
 
     return (
-      <img className={rootClass} src={imageSource} alt={name} style={style} />
+      <img
+        className={rootClass}
+        src={imageSource}
+        // This also allows for passing alt="" which is useful when the icon is part of a labeled parent.
+        alt={alt ?? name}
+        style={style}
+      />
     )
   }
 }

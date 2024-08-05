@@ -16,7 +16,7 @@ export function IndustryList({ data }: IndustryListProps) {
       <TagList>
         {data.map((industry) => (
           <Tag key={industry}>
-            <IndustryIcon name={industry} filter="industry" />
+            <IndustryIcon name={industry} filter="industry" alt="" />
             {industry}
           </Tag>
         ))}
