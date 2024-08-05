@@ -1,24 +1,35 @@
+import { Image, Source } from "@unpic/react"
 import type { PropsWithChildren } from "react"
 
 import { contentClass, imageClass, rootClass } from "./Banner.css"
 
 export interface BannerProps extends PropsWithChildren {}
 
-// 7000 x 3500
-import bannerImageNarrow from "./assets/566ak-narrow.jpg"
-// 10000 x 3500
-import bannerImageOrig from "./assets/566ak-orig.jpg"
-// 4800 x 3500
-import bannerImagePortrait from "./assets/566ak-portrait.jpg"
-
 export function Banner({ children }: BannerProps) {
   return (
     <div className={rootClass}>
       <div className={contentClass}>{children}</div>
-      <picture>
-        <source srcSet={bannerImageOrig} media="(min-width: 1000px)" />
-        <source srcSet={bannerImageNarrow} media="(min-width: 500px)" />
-        <img src={bannerImagePortrait} alt="Banner" className={imageClass} />
+      <picture className={imageClass}>
+        {/* Hero image, displayed on screens 768px or wider */}
+        <Source
+          src="https://a.storyblok.com/f/299556/10000x3500/a184076908/home-banner-extended.jpg"
+          media="(min-width: 768px)"
+          width={10000}
+          height={3500}
+        />
+        {/* Portrait image for screens below that size */}
+        <Source
+          src="https://a.storyblok.com/f/299556/4800x3500/e0a63a0965/home-banner-portrait.jpg"
+          media="(max-width: 767px)"
+          width={4800}
+          height={3500}
+        />
+        <Image
+          unstyled
+          priority
+          layout="fullWidth"
+          src="https://a.storyblok.com/f/299556/10000x3500/a184076908/home-banner-extended.jpg"
+        />
       </picture>
     </div>
   )
