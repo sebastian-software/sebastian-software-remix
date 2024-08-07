@@ -1,1 +1,1 @@
-declare module '@aws-lite/dynamodb';
+declare module "@aws-lite/dynamodb"
