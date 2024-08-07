@@ -9,6 +9,7 @@ import {
 } from "@remix-run/react"
 import type { PropsWithChildren } from "react"
 
+import { useWebVitals } from "./components/hooks/webVitals"
 import { Body, Favicon, Footer, Header, Main } from "./components/page"
 
 export function Layout({ children }: PropsWithChildren) {
@@ -44,5 +45,7 @@ export function Layout({ children }: PropsWithChildren) {
 }
 
 export default function App() {
+  useWebVitals()
+
   return <Outlet />
 }

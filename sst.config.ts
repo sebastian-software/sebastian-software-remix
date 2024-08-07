@@ -2,6 +2,7 @@
 /* eslint-disable @typescript-eslint/require-await */
 /* eslint-disable no-new */
 /// <reference path="./.sst/platform/config.d.ts" />
+
 export default $config({
   app(input) {
     return {
@@ -22,18 +23,35 @@ export default $config({
     }
   },
   async run() {
-    new sst.aws.Remix("Website", {
-      domain: {
+    sst.Linkable.wrap(aws.dynamodb.Table, (table) => ({
+      properties: { tableName: table.name }
+    }))
+
+    const table = new sst.aws.Dynamo("WebVitals", {
+      fields: {
+        id: "string"
+      },
+      primaryIndex: { hashKey: "id" }
+    })
+
+    let domain
+    if ($app.stage === "production") {
+      domain = {
         name: "sebastian-software.de",
         redirects: ["www.sebastian-software.de"],
         dns: sst.cloudflare.dns({
           zone: "1849459b28dd975658208ee4ffdb2257"
         })
-      },
+      }
+    }
+
+    new sst.aws.Remix("Website", {
+      domain,
       server: {
         architecture: "arm64",
         memory: "1024 MB"
-      }
+      },
+      link: [table]
     })
   }
 })
