@@ -1,7 +1,19 @@
 import { useEffect } from "react"
+import type { Metric } from "web-vitals"
 
-async function sendToAnalytics(metric: unknown) {
-  const body = JSON.stringify(metric)
+export interface AnalyticsData {
+  page: string
+  href: string
+  metric: Metric
+}
+
+async function sendToAnalytics(metric: Metric) {
+  const data: AnalyticsData = {
+    page: window.location.pathname,
+    href: window.location.href,
+    metric
+  }
+  const body = JSON.stringify(data)
 
   // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
   if (navigator.sendBeacon) {
