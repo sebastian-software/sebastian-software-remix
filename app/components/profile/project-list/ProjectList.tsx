@@ -58,13 +58,19 @@ function isCompany(name = ""): name is Company {
 }
 
 export function Project({ data }: ProjectProps) {
+  console.log("PROJECT:", data)
+
   return (
     <div className={project}>
       <Neutral as="h2" className={title}>
         <span className={role}>{data.role}</span>
         {data.title}
       </Neutral>
+    </div>
+  )
 
+  return (
+    <div>
       {isCompany(data.customer.logo) && (
         <CompanyLogo name={data.customer.logo} className={logo} />
       )}

@@ -32,6 +32,9 @@ importers:
       '@sanity/client':
         specifier: ^6.21.1
         version: 6.21.1
+      '@sanity/image-url':
+        specifier: ^1.0.2
+        version: 1.0.2
       '@sanity/react-loader':
         specifier: ^1.10.5
         version: 1.10.5(@sanity/client@6.21.1)(react@18.3.1)
@@ -2204,6 +2207,10 @@ packages:
 
   '@sanity/eventsource@5.0.2':
     resolution: {integrity: sha512-/B9PMkUvAlUrpRq0y+NzXgRv5lYCLxZNsBJD2WXVnqZYOfByL9oQBV7KiTaARuObp5hcQYuPfOAVjgXe3hrixA==}
+
+  '@sanity/image-url@1.0.2':
+    resolution: {integrity: sha512-C4+jb2ny3ZbMgEkLd7Z3C75DsxcTEoE+axXQJsQ75ou0AKWGdVsP351hqK6mJUUxn5HCSlu3vznoh7Yljye4cQ==}
+    engines: {node: '>=10.0.0'}
 
   '@sanity/react-loader@1.10.5':
     resolution: {integrity: sha512-VQ2f37aT9kb0MxA2OnO6R7bavvWJpYokj+MRyJgTPhlrrb3abeNnALjV/XwsN1mCEabq30CmQi7WP4PNMc1Cbw==}
@@ -9400,6 +9407,8 @@ snapshots:
       '@types/eventsource': 1.1.15
       event-source-polyfill: 1.0.31
       eventsource: 2.0.2
+
+  '@sanity/image-url@1.0.2': {}
 
   '@sanity/react-loader@1.10.5(@sanity/client@6.21.1)(react@18.3.1)':
     dependencies:

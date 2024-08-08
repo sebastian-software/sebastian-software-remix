@@ -1,15 +1,30 @@
 import "@effective/css-reset"
 
+import { json } from "@remix-run/node"
 import {
   Links,
   Meta,
   Outlet,
   Scripts,
-  ScrollRestoration
+  ScrollRestoration,
+  useLoaderData
 } from "@remix-run/react"
-import type { PropsWithChildren } from "react"
+import { type PropsWithChildren } from "react"
 
 import { Body, Favicon, Footer, Header, Main } from "./components/page"
+
+export const loader = () => {
+  /* eslint-disable @typescript-eslint/naming-convention */
+  return json({
+    ENV: {
+      SANITY_STUDIO_PROJECT_ID: process.env.SANITY_STUDIO_PROJECT_ID,
+      SANITY_STUDIO_DATASET: process.env.SANITY_STUDIO_DATASET,
+      SANITY_STUDIO_URL: process.env.SANITY_STUDIO_URL,
+      SANITY_STUDIO_STEGA_ENABLED: process.env.SANITY_STUDIO_STEGA_ENABLED
+    }
+  })
+  /* eslint-enable @typescript-eslint/naming-convention */
+}
 
 export function Layout({ children }: PropsWithChildren) {
   return (
@@ -44,7 +59,19 @@ export function Layout({ children }: PropsWithChildren) {
 }
 
 export default function App() {
-  // useWebVitals()
+  // eslint-disable-next-line @typescript-eslint/naming-convention
+  const { ENV } = useLoaderData<typeof loader>()
 
-  return <Outlet />
+  return ENV.SANITY_STUDIO_STEGA_ENABLED ? (
+    <>
+      <Outlet />
+      {/* <Suspense>
+        <LiveVisualEditing />
+      </Suspense> */}
+    </>
+  ) : (
+    <Outlet />
+  )
+
+  // useWebVitals()
 }

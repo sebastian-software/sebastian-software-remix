@@ -1,29 +1,24 @@
 import { useLoaderData } from "@remix-run/react"
+import { loadQuery } from "@sanity/react-loader"
+import groq from "groq"
 
 import { ProfileHead, ProjectList } from "~/components/profile"
-import type { ProjectData } from "~/types"
+
+const PROJECT_QUERY = groq`*[_type == "project"]`
 
 export async function loader() {
-  const data = await import("../data/werner.json")
+  const initial = await loadQuery<unknown[]>(PROJECT_QUERY)
 
-  const projects: ProjectData[] = []
-  for (const project of data.projects) {
-    projects.push({
-      ...project,
-      id: `${project.customer.name}-${project.period.start}`
-    })
-  }
-
-  return projects
+  return { initial, query: PROJECT_QUERY, params: {} }
 }
 
 export default function Index() {
-  const data = useLoaderData<typeof loader>()
+  const { initial } = useLoaderData<typeof loader>()
 
   return (
     <>
       <ProfileHead name="Sebastian Werner" />
-      <ProjectList data={data} />
+      <ProjectList data={initial.data} />
     </>
   )
 }
