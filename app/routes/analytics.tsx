@@ -4,6 +4,7 @@ import type { ActionFunctionArgs } from "@remix-run/node"
 import { Resource } from "sst"
 
 import type { AnalyticsData } from "~/components/hooks/webVitals"
+import { getSstRuntime } from "~/utils/sst"
 
 interface DatabaseAnalyticsData extends AnalyticsData {
   id: string
@@ -11,6 +12,13 @@ interface DatabaseAnalyticsData extends AnalyticsData {
 }
 
 export async function action({ request }: ActionFunctionArgs) {
+  const sstRuntime = getSstRuntime()
+
+  if (!sstRuntime || sstRuntime.stage !== "production") {
+    // RUM analytics of Web Core Vitals is only collected in production
+    return new Response("No SST environment", { status: 200 })
+  }
+
   const aws = await awsLite({
     region: "eu-central-1",
     plugins: [awsDynamoDB]

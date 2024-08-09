@@ -16,7 +16,7 @@
     "test:format": "prettier --check .",
     "build": "remix vite:build",
     "dev": "remix vite:dev",
-    "sst:dev": "sst dev remix vite:dev",
+    "sst:dev": "sst dev --stage development remix vite:dev",
     "start": "remix-serve ./build/server/index.js",
     "opt:svg": "svgo --folder app --recursive",
     "update:latest": "ncu --deep  --upgrade --interactive",

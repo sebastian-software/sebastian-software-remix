@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/naming-convention */
 /* eslint-disable @typescript-eslint/triple-slash-reference */
 /* eslint-disable @typescript-eslint/require-await */
 /* eslint-disable no-new */
